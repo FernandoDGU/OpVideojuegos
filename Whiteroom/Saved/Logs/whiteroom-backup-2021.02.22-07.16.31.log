@@ -1,0 +1,788 @@
+﻿Log file open, 02/22/21 00:59:34
+LogInit: Display: Running engine for game: whiteroom
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.313728
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Engine.ini]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Engine.ini]
+[2021.02.22-06.59.35:506][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Engine.ini]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Engine.ini]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.22-06.59.35:506][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Engine.ini]
+[2021.02.22-06.59.35:506][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Engine.ini]
+[2021.02.22-06.59.35:509][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.22-06.59.35:510][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.22-06.59.35:511][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.22-06.59.35:511][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.22-06.59.35:511][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.22-06.59.35:511][  0]LogHAL: Display: Platform has ~ 8 GB [8482693120 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.22-06.59.35:511][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.22-06.59.35:512][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.02.22-06.59.35:512][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.22-06.59.35:513][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.22-06.59.35:514][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.22-06.59.35:514][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.22-06.59.35:514][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.22-06.59.35:514][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Config/Windows/Engine.ini]
+[2021.02.22-06.59.35:514][  0]LogInit: Computer: DESKTOP-ONDETJ2
+[2021.02.22-06.59.35:514][  0]LogInit: User: EDGAR
+[2021.02.22-06.59.35:514][  0]LogInit: CPU Page size=4096, Cores=2
+[2021.02.22-06.59.35:514][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.22-06.59.35:514][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2021.02.22-06.59.35:514][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.22-06.59.35:514][  0]LogMemory: Process Physical Memory: 113.41 MB used, 113.42 MB peak
+[2021.02.22-06.59.35:514][  0]LogMemory: Process Virtual Memory: 95.09 MB used, 95.09 MB peak
+[2021.02.22-06.59.35:515][  0]LogMemory: Physical Memory: 4012.24 MB used,  4077.48 MB free, 8089.73 MB total
+[2021.02.22-06.59.35:515][  0]LogMemory: Virtual Memory: 5124.50 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2021.02.22-06.59.35:524][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.22-06.59.35:580][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.22-06.59.35:581][  0]LogInit: Using OS detected language (en-US).
+[2021.02.22-06.59.35:581][  0]LogInit: Using OS detected locale (es-MX).
+[2021.02.22-06.59.35:588][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.02.22-06.59.35:856][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.22-06.59.35:899][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.22-06.59.35:899][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.22-06.59.36:165][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.22-06.59.36:165][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.22-06.59.36:165][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.22-06.59.36:165][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.22-06.59.36:340][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2021.02.22-06.59.36:340][  0]LogD3D11RHI:       128/0/4044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2021.02.22-06.59.36:344][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.22-06.59.36:344][  0]LogD3D11RHI:       0/0/4044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.22-06.59.36:344][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.22-06.59.36:350][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.22-06.59.36:350][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.22-06.59.36:350][  0]LogWindows: EnumDisplayDevices:
+[2021.02.22-06.59.36:350][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2021.02.22-06.59.36:351][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2021.02.22-06.59.36:351][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2021.02.22-06.59.36:351][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2021.02.22-06.59.36:351][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2021.02.22-06.59.36:351][  0]LogD3D11RHI:   Driver Version: 26.20.100.8142 (internal:26.20.100.8142, unified:26.20.100.8142)
+[2021.02.22-06.59.36:351][  0]LogD3D11RHI:      Driver Date: 4-11-2020
+[2021.02.22-06.59.36:351][  0]LogRHI: Texture pool is 1505 MB (70% of 2150 MB)
+[2021.02.22-06.59.36:529][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.02.22-06.59.36:530][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
+[2021.02.22-06.59.36:530][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.22-06.59.36:530][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.22-06.59.36:540][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2021.02.22-06.59.37:087][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.02.22-06.59.37:117][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.02.22-06.59.37:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.02.22-06.59.37:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.02.22-06.59.37:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.02.22-06.59.37:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.02.22-06.59.37:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.22-06.59.37:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.02.22-06.59.37:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.22-06.59.37:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.02.22-06.59.37:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.02.22-06.59.37:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.02.22-06.59.37:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.02.22-06.59.37:168][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.02.22-06.59.37:182][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.22-06.59.37:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.02.22-06.59.37:211][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.02.22-06.59.37:224][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.02.22-06.59.37:237][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.02.22-06.59.37:251][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.02.22-06.59.37:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.02.22-06.59.37:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.02.22-06.59.37:320][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.02.22-06.59.37:320][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.02.22-06.59.37:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.22-06.59.37:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.02.22-06.59.37:364][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.02.22-06.59.37:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.02.22-06.59.37:377][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.22-06.59.37:390][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.22-06.59.37:493][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Intermediate/Shaders/WorkingDirectory/1332/).
+[2021.02.22-06.59.37:493][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/EDGAR/AppData/Local/Temp/UnrealShaderWorkingDir/70C8FF164E5FEF34A215598C8F3E3CC3/'.
+[2021.02.22-06.59.37:494][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.02.22-06.59.37:494][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.22-06.59.37:494][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.22-06.59.38:587][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.22-06.59.38:667][  0]LogDerivedDataCache: Loaded boot cache 0.08s 75MB C:/Users/EDGAR/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.22-06.59.38:667][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/EDGAR/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.02.22-06.59.38:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.22-06.59.38:667][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.22-06.59.38:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.22-06.59.38:667][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.22-06.59.38:682][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.22-06.59.38:682][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.22-06.59.38:682][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.22-06.59.38:684][  0]LogDerivedDataCache: Using Local data cache path C:/Users/EDGAR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.22-06.59.38:684][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.22-06.59.38:684][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.22-06.59.38:765][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.22-06.59.38:765][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.22-06.59.38:842][  0]LogAssetRegistry: FAssetRegistry took 0.0033 seconds to start up
+[2021.02.22-06.59.39:238][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.22-06.59.39:409][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.22-06.59.39:409][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.22-06.59.39:409][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.22-06.59.39:409][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.22-06.59.39:409][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.22-06.59.39:428][  0]LogNetVersion: whiteroom 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3709002521)
+[2021.02.22-06.59.40:496][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000018F8B622980), frame # 0
+[2021.02.22-06.59.40:496][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018F8B6F2AC0), frame # 0
+[2021.02.22-06.59.40:497][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018F8B61A400), frame # 0
+[2021.02.22-06.59.40:592][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.086754 seconds
+[2021.02.22-06.59.40:598][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.02.22-06.59.40:598][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.02.22-06.59.40:598][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.22-06.59.41:121][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.22-06.59.41:127][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.22-06.59.41:237][  0]SourceControl: Source control is disabled
+[2021.02.22-06.59.41:237][  0]SourceControl: Source control is disabled
+[2021.02.22-06.59.41:242][  0]SourceControl: Source control is disabled
+[2021.02.22-06.59.41:246][  0]SourceControl: Source control is disabled
+[2021.02.22-06.59.41:257][  0]SourceControl: Source control is disabled
+[2021.02.22-06.59.41:613][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.22-06.59.41:641][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.22-06.59.41:641][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.22-06.59.41:710][  0]LogOcInput: OculusInput pre-init called
+[2021.02.22-06.59.41:728][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.02.22-06.59.41:728][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.02.22-06.59.41:812][  0]LogEngine: Initializing Engine...
+[2021.02.22-06.59.41:814][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.22-06.59.41:814][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.22-06.59.41:815][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.22-06.59.41:993][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.22-06.59.42:010][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.22-06.59.42:011][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018F935FBC00), frame # 0
+[2021.02.22-06.59.42:011][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018F93641BC0), frame # 0
+[2021.02.22-06.59.42:029][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-06.59.42:030][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-06.59.42:030][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-06.59.42:030][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-06.59.42:030][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-06.59.42:030][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-06.59.42:030][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-06.59.42:030][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-06.59.42:030][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-06.59.42:030][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-06.59.42:050][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-06.59.42:050][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-06.59.43:198][  0]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2021.02.22-06.59.43:202][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-06.59.43:205][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-06.59.43:205][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-06.59.43:206][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-06.59.43:208][  0]LogInit: FAudioDevice initialized.
+[2021.02.22-06.59.43:208][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.22-06.59.43:568][  0]LogDerivedDataCache: Saved boot cache 0.36s 75MB C:/Users/EDGAR/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.22-06.59.43:575][  0]LogInit: Texture streaming: Enabled
+[2021.02.22-06.59.43:601][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.22-06.59.43:601][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.22-06.59.43:610][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.22-06.59.43:683][  0]LogInit: Transaction tracking system initialized
+[2021.02.22-06.59.43:714][  0]BlueprintLog: New page: Editor Load
+[2021.02.22-06.59.43:812][  0]LocalizationService: Localization service is disabled
+[2021.02.22-06.59.44:349][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.02.22-06.59.44:349][  0]LogCook: Display: Mobile HDR setting 1
+[2021.02.22-06.59.44:389][  0]LogFileCache: Scanning file cache for directory 'C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/' took 0.01s
+[2021.02.22-06.59.45:454][  0]SourceControl: Source control is disabled
+[2021.02.22-06.59.45:454][  0]LogUnrealEdMisc: Loading editor; pre map load, took 12.845
+[2021.02.22-06.59.45:455][  0]Cmd: MAP LOAD FILE="../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.22-06.59.45:455][  0]LightingResults: New page: Lighting Build
+[2021.02.22-06.59.45:456][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-06.59.45:456][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-06.59.45:457][  0]MapCheck: New page: Map Check
+[2021.02.22-06.59.45:457][  0]LightingResults: New page: Lighting Build
+[2021.02.22-06.59.45:470][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018F935FBC00), frame # 0
+[2021.02.22-06.59.45:470][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018F93641BC0), frame # 0
+[2021.02.22-06.59.45:471][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.02.22-06.59.45:816][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.02.22-06.59.45:816][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018F8168BE00), frame # 0
+[2021.02.22-06.59.45:816][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018F8250EE80), frame # 0
+[2021.02.22-06.59.45:828][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.22-06.59.45:865][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.02.22-06.59.45:865][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.22-06.59.45:866][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.256ms to complete.
+[2021.02.22-06.59.45:866][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.410
+[2021.02.22-06.59.45:868][  0]LogUnrealEdMisc: Total Editor Startup Time, took 13.258
+[2021.02.22-06.59.46:027][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-06.59.46:036][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-06.59.46:046][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-06.59.46:055][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-06.59.46:069][  0]LogCollectionManager: Loaded 0 collections in 0.003194 seconds
+[2021.02.22-06.59.46:090][  0]LogFileCache: Scanning file cache for directory 'C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/Collections/' took 0.00s
+[2021.02.22-06.59.46:090][  0]LogFileCache: Scanning file cache for directory 'C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/Developers/EDGAR/Collections/' took 0.00s
+[2021.02.22-06.59.46:090][  0]LogFileCache: Scanning file cache for directory 'C:/Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/Collections/' took 0.00s
+[2021.02.22-06.59.46:090][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 3427 classes and 821 folders.
+[2021.02.22-06.59.46:094][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.22-06.59.46:191][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.22-06.59.46:193][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.02.22-06.59.46:257][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.22-06.59.46:263][  0]LogSlate: Took 0.001294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.22-06.59.46:270][  0]LogSlate: Took 0.000354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.22-06.59.46:368][  0]LogRenderer: Reallocating scene render targets to support 936x432 Format 9 NumSamples 1 (Frame:1).
+[2021.02.22-06.59.46:539][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.22-06.59.46:539][  0]LogLoad: (Engine Initialization) Total time: 13.93 seconds
+[2021.02.22-06.59.46:539][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.22-06.59.46:868][  0]LogAssetRegistry: Asset discovery search completed in 8.0269 seconds
+[2021.02.22-06.59.46:873][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.02.22-06.59.46:874][  0]LogContentStreaming: Texture pool size now 600 MB
+[2021.02.22-06.59.46:889][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.22-07.00.39:685][607]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.22-07.00.39:733][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.02.22-07.00.39:813][607]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMapB5DC0124482B3714E57091AC63D91A84.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.00.40:371][607]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltDataE83E365146FCB91891198893BA2DAFA7.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.00.40:390][607]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.00.40:390][607]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.00.40:390][607]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.01.18:456][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.02.22-07.01.18:508][760]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap8C830B074F2DEA2F2E040191A936EC7D.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.01.18:909][760]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltDataE360E490492D795F501ED090CAD27E2C.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.01.18:922][760]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.01.18:922][760]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.01.18:922][760]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.01.50:093][727]Cmd: TRANSACTION UNDO
+[2021.02.22-07.01.50:093][727]LogEditorTransaction: Undo Move Actors
+[2021.02.22-07.02.00:216][ 17]Cmd: TRANSACTION UNDO
+[2021.02.22-07.02.00:216][ 17]LogEditorTransaction: Undo Scale Actors
+[2021.02.22-07.02.42:733][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.02.22-07.02.42:789][276]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap248CB4924F70CCAF7E01D09C736538FE.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.02.43:189][276]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltData3E8599D24B9B976432DBE681F5ACB873.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.02.43:205][276]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.02.43:205][276]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.02.43:205][276]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.03.04:084][898]Cmd: DELETE
+[2021.02.22-07.03.04:084][898]Cmd: ACTOR DELETE
+[2021.02.22-07.03.04:113][898]LogEditorActor: Deleted Actor: Brush
+[2021.02.22-07.03.04:145][898]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.02.22-07.03.04:339][898]LogEditorActor: Deleted 1 Actors (0.254 secs)
+[2021.02.22-07.03.13:700][173]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.02.22-07.03.13:784][173]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap639D8EA24A5F15F6A5B5919A4137EB17.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.03.14:191][173]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltDataA93561A2430BF26960FFBDB1D555EA5C.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.03.14:209][173]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.03.14:209][173]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.03.14:209][173]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.03.40:394][947]Cmd: DELETE
+[2021.02.22-07.03.40:395][947]Cmd: ACTOR DELETE
+[2021.02.22-07.03.40:415][947]LogEditorActor: Deleted Actor: Brush
+[2021.02.22-07.03.40:447][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.02.22-07.03.40:550][947]LogEditorActor: Deleted 1 Actors (0.155 secs)
+[2021.02.22-07.03.40:965][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.02.22-07.04.03:671][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.02.22-07.04.03:871][603]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMapCB796BC94C1F97B6B1707D8F877295BB.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.04.04:328][603]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltData407E82C44D245C3B7F32AE9B50EAC6DD.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.04.04:348][603]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.04.04:348][603]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.04.04:348][603]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.04.57:929][206]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.02.22-07.04.57:995][206]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMapD3CC0EC24540D35F615F049CFBFEAE53.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.04.58:510][206]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltData0B2417E44165EAC3DCC96888F0AD2D6A.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.04.58:525][206]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.04.58:525][206]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.04.58:525][206]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.05.06:080][428]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2021.02.22-07.05.06:163][428]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap4F98414F47EDFEA2A11DB288D893DE08.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.05.06:640][428]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltDataD700158D4E803890739731BA8986375B.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.05.06:654][428]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.05.06:654][428]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.05.06:654][428]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.05.55:061][844]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.02.22-07.05.56:860][898]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.02.22-07.05.58:241][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.02.22-07.05.58:374][939]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMapF23B1CCE474A5E32095C85971EE57A9B.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.05.58:865][939]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltDataD553F820422A47B0E74977ABF0091664.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.05.58:881][939]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.05.58:881][939]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.05.58:881][939]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.06.21:755][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.02.22-07.06.21:842][612]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMapA8E313FF483968084DC96C98EB054B3D.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.06.22:298][612]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltData7B3582F4471C0D97F11A918D5F067F90.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.06.22:312][612]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.06.22:312][612]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.06.22:313][612]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.06.32:713][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2021.02.22-07.06.32:793][911]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap1D81CB364B637941EF5986890A7B3A5E.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.06.33:268][911]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltData9C7B9B354A83835DCE1B92880C6FD23A.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.06.33:281][911]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.06.33:282][911]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.06.33:282][911]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.06.55:850][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.02.22-07.07.00:960][721]Cmd: TRANSACTION UNDO
+[2021.02.22-07.07.00:960][721]LogEditorTransaction: Undo Scale Actors
+[2021.02.22-07.07.25:023][462]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.02.22-07.07.25:108][462]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMapA85F2F0A40274EA6C469618AC35D3E42.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.07.25:578][462]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltData9B6705BA463DC8613EBBBCB42C68FB8B.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.07.25:597][462]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.07.25:597][462]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.07.25:597][462]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.08.16:405][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.02.22-07.08.16:502][861]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap0CC71D4C43E1C1DBDC042E9CC7B3E486.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.08.16:976][861]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltData089BA1884F21C1A0D9ABAD9C7A370ADE.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.08.16:995][861]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.08.16:995][861]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.08.16:995][861]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.08.57:717][ 29]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2021.02.22-07.08.59:700][ 86]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.02.22-07.09.02:869][169]Cmd: TRANSACTION UNDO
+[2021.02.22-07.09.02:869][169]LogEditorTransaction: Undo Move Actors
+[2021.02.22-07.09.25:225][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.02.22-07.09.25:303][827]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMapD07A923E4BA820A4EDC93E89AFAFA251.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.09.25:829][827]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltData7D78BAA84D8C8BB3FAE92EA7B1374B6E.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.09.25:843][827]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.09.25:843][827]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.09.25:843][827]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.10.12:152][235]Cmd: TRANSACTION UNDO
+[2021.02.22-07.10.12:153][235]LogEditorTransaction: Undo Move Actors
+[2021.02.22-07.10.50:504][356]Cmd: TRANSACTION UNDO
+[2021.02.22-07.10.50:505][356]LogEditorTransaction: Undo Move Actors
+[2021.02.22-07.11.27:080][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.02.22-07.11.27:214][399]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMapFDC1F79A4E0ADC09ACF1D3B546E666EF.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.11.27:733][399]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltDataD5E6BA5545B49907B870E78CE9F2C232.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.11.27:748][399]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.11.27:748][399]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.11.27:748][399]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.11.49:527][ 59]Cmd: DELETE
+[2021.02.22-07.11.49:527][ 59]Cmd: ACTOR DELETE
+[2021.02.22-07.11.49:559][ 59]LogEditorActor: Deleted Actor: Brush
+[2021.02.22-07.11.49:592][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.02.22-07.11.49:618][ 59]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2021.02.22-07.12.22:772][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.02.22-07.12.22:878][ 50]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMapB535CA214BAF250B469017A5DC521790.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.12.23:285][ 50]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltData3D8D3F72428D632EEDDA15819BA6ABD3.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.12.23:300][ 50]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.12.23:300][ 50]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.12.23:300][ 50]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.12.37:522][499]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.22-07.13.10:567][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2021.02.22-07.13.10:639][491]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap4DE7119843362B3CAC6AC3A02162D9B2.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.13.11:045][491]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltDataC3EC1DA348938FB14DB1D48FD054F5FD.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.13.11:062][491]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.13.11:062][491]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.13.11:062][491]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.14.09:450][355]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.02.22-07.15.57:745][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.02.22-07.15.57:833][605]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap5EAF5EFC40A8E16F09081F975BA2A6DB.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.15.58:246][605]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltData3501A62743BA42E7FF12E7BFB4E1B9EA.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.15.58:261][605]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.15.58:261][605]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.15.58:261][605]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.16.20:897][239]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.02.22-07.16.20:978][239]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMapBCE1D3C248C5E010969B1582B6E6D9DC.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.02.22-07.16.21:384][239]LogSavePackage: Moving '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Saved/ThirdPersonExampleMap_BuiltData90AE297349F5539ED51D2CB15589AAB9.tmp' to '../../../../../../Users/EDGAR/Documents/Unreal Projects/whiteroom/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.02.22-07.16.21:400][239]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-07.16.21:400][239]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.02.22-07.16.21:400][239]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.02.22-07.16.23:419][300]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.02.22-07.16.31:980][529]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
