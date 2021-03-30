@@ -1040,3 +1040,313 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.30-05.58.41:734][979]AssetCheck: New page: Asset Save: multiple assets
 [2021.03.30-05.58.41:734][979]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2021.03.30-05.58.41:734][979]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.03.30-06.01.48:227][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Caseta)
+[2021.03.30-06.02.25:487][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TiroAlBlanco)
+[2021.03.30-06.02.31:270][103]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM)
+[2021.03.30-06.02.50:167][  6]Cmd: TRANSACTION UNDO
+[2021.03.30-06.02.50:168][  6]LogEditorTransaction: Undo Move Actors
+[2021.03.30-06.02.50:473][ 14]Cmd: TRANSACTION UNDO
+[2021.03.30-06.02.50:473][ 14]LogEditorTransaction: Undo Move Actors
+[2021.03.30-06.02.50:852][ 30]Cmd: TRANSACTION UNDO
+[2021.03.30-06.02.50:852][ 30]LogEditorTransaction: Undo Move Actors
+[2021.03.30-06.02.59:363][440]Cmd: TRANSACTION UNDO
+[2021.03.30-06.02.59:363][440]LogEditorTransaction: Undo Move Actors
+[2021.03.30-06.03.23:500][538]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.03.24:124][563]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM)
+[2021.03.30-06.03.36:465][118]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.03.37:793][171]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM4)
+[2021.03.30-06.03.39:926][261]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.03.40:351][277]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Caseta)
+[2021.03.30-06.03.52:239][805]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM3)
+[2021.03.30-06.03.58:066][ 54]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM2)
+[2021.03.30-06.03.59:646][118]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.04.00:754][163]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM2)
+[2021.03.30-06.04.04:808][334]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM3)
+[2021.03.30-06.04.07:445][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Caseta)
+[2021.03.30-06.04.15:426][812]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.04.16:446][859]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.04.17:125][889]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.04.17:655][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shotgun_Model)
+[2021.03.30-06.04.26:706][337]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.03.30-06.04.27:712][337]LogSlate: Window 'Save Content' being destroyed
+[2021.03.30-06.04.27:758][337]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.03.30-06.04.29:232][337]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap4906C2DB458EA97AF3249C9ED2851795.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.03.30-06.04.29:271][337]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.524
+[2021.03.30-06.04.29:378][337]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataA53E654F44397B4B2BAEC68CEDBEBE39.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.03.30-06.04.29:414][337]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.30-06.04.29:414][337]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.03.30-06.04.29:414][337]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.03.30-06.08.00:638][946]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM)
+[2021.03.30-06.08.05:048][134]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM2)
+[2021.03.30-06.08.12:929][489]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM)
+[2021.03.30-06.08.13:603][517]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM4)
+[2021.03.30-06.08.15:861][613]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM)
+[2021.03.30-06.08.19:955][791]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM3)
+[2021.03.30-06.08.21:885][862]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.03.30-06.08.22:782][862]LogSlate: Window 'Save Content' being destroyed
+[2021.03.30-06.08.22:827][862]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2021.03.30-06.08.23:446][862]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapC8D800AA44E9DB0CBCD9CE80D978C11E.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.03.30-06.08.23:471][862]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.655
+[2021.03.30-06.08.23:557][862]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataD104909845FB3F06D8764E90BBACCC7E.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.03.30-06.08.23:600][862]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.30-06.08.23:600][862]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.03.30-06.08.23:600][862]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.03.30-06.08.33:885][372]LogEditorViewport: Clicking on Actor (LMB): TrapClose2_C (TrapClose2)
+[2021.03.30-06.08.43:664][798]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.30-06.08.43:679][798]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.03.30-06.08.43:680][798]LogPlayLevel: [PlayLevel] Compiling TrapClose1 before play...
+[2021.03.30-06.08.43:728][798]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (TrapClose1)
+[2021.03.30-06.08.43:751][798]LogPlayLevel: [PlayLevel] Compiling TrapClose2 before play...
+[2021.03.30-06.08.43:759][798]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (TrapClose2)
+[2021.03.30-06.08.43:782][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.03.30-06.08.43:783][798]LogPlayLevel: PlayLevel: Blueprint regeneration took 103 ms (2 blueprints)
+[2021.03.30-06.08.43:784][798]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 29, 2021, 6:08:43 PM)
+[2021.03.30-06.08.43:785][798]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.03.30-06.08.43:787][798]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.03.30-06.08.43:787][798]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.03.30-06.08.43:837][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050052s)
+[2021.03.30-06.08.43:838][798]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.03.30-06.08.43:838][798]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022D248F0600), frame # 29798
+[2021.03.30-06.08.43:838][798]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022D219DA840), frame # 29798
+[2021.03.30-06.08.43:838][798]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2021.03.30-06.08.43:838][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.051608s)
+[2021.03.30-06.08.43:849][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.03.30-06.08.43:850][798]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.30-06.08.43:850][798]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.30-06.08.43:850][798]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.30-06.08.43:850][798]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.30-06.08.43:850][798]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.30-06.08.43:850][798]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.30-06.08.43:850][798]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.30-06.08.43:850][798]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.30-06.08.43:850][798]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.30-06.08.43:850][798]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.30-06.08.43:854][798]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.30-06.08.43:854][798]LogAudioMixer: Display: 1: FrontRight
+[2021.03.30-06.08.43:969][798]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.03.30-06.08.43:969][798]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.30-06.08.43:969][798]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.30-06.08.43:969][798]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.30-06.08.43:970][798]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.30-06.08.43:983][798]LogInit: FAudioDevice initialized.
+[2021.03.30-06.08.43:996][798]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.30-06.08.44:096][798]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.03.30-00.08.44
+[2021.03.30-06.08.44:096][798]LogWorld: Bringing up level for play took: 0.097202
+[2021.03.30-06.08.44:096][798]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.03.30-06.08.44:100][798]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.03.30-06.08.44:136][798]PIE: Server logged in
+[2021.03.30-06.08.44:136][798]PIE: Play in editor total start time 0.458 seconds.
+[2021.03.30-06.09.15:074][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.30-06.09.15:074][635]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.03.30-06.09.15:075][635]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.03.30-06.09.15:076][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.30-06.09.15:084][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.30-06.09.15:086][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.30-06.09.15:097][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.30-06.09.15:121][635]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022D219DA840), frame # 31635
+[2021.03.30-06.09.15:121][635]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022D248F0600), frame # 31635
+[2021.03.30-06.09.15:123][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.03.30-06.09.15:156][636]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.03.30-06.09.16:097][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trap_fbx_Base)
+[2021.03.30-06.09.21:445][902]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Trap_fbx_Base)
+[2021.03.30-06.09.23:087][946]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Trap_fbx_Base)
+[2021.03.30-06.09.25:156][ 54]LogEditorViewport: Clicking on Actor (LMB): TrapClose1_C (TrapClose1)
+[2021.03.30-06.09.25:965][101]Cmd: TRANSACTION UNDO
+[2021.03.30-06.09.25:965][101]LogEditorTransaction: Undo Clicking on Actors
+[2021.03.30-06.09.26:882][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trap_fbx_Base)
+[2021.03.30-06.09.27:769][184]Cmd: TRANSACTION UNDO
+[2021.03.30-06.09.27:769][184]LogEditorTransaction: Undo Clicking on Actors
+[2021.03.30-06.09.28:709][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trap_fbx_Base)
+[2021.03.30-06.09.29:181][259]Cmd: TRANSACTION UNDO
+[2021.03.30-06.09.29:181][259]LogEditorTransaction: Undo Clicking on Actors
+[2021.03.30-06.09.29:573][281]Cmd: TRANSACTION UNDO
+[2021.03.30-06.09.29:574][281]LogEditorTransaction: Undo Regroup Ctrl+G
+[2021.03.30-06.09.30:487][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trap_fbx_Base)
+[2021.03.30-06.09.44:682][ 57]LogEditorViewport: Clicking on Actor (LMB): TrapClose1_C (TrapClose1)
+[2021.03.30-06.09.47:747][221]LogEditorViewport: Clicking on Actor (LMB): TrapClose2_C (TrapClose2)
+[2021.03.30-06.09.55:088][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.03.30-06.09.56:032][615]LogSlate: Window 'Save Content' being destroyed
+[2021.03.30-06.09.56:067][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.03.30-06.09.57:011][615]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap3B365C1B4450CDF1FC9E339C470C9E20.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.03.30-06.09.57:037][615]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.980
+[2021.03.30-06.09.57:125][615]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData71D5F3804464AA415DC7B4BBAC12C1DB.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.03.30-06.09.57:171][615]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.30-06.09.57:171][615]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.03.30-06.09.57:171][615]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.03.30-06.09.58:375][672]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.30-06.09.58:389][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.30-06.09.58:389][672]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 29, 2021, 6:09:58 PM)
+[2021.03.30-06.09.58:389][672]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.03.30-06.09.58:439][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049952s)
+[2021.03.30-06.09.58:440][672]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.03.30-06.09.58:440][672]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022C82BD8A00), frame # 33672
+[2021.03.30-06.09.58:453][672]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022CD3D19A80), frame # 33672
+[2021.03.30-06.09.58:453][672]LogPlayLevel: PIE: World Init took: (0.014599s)
+[2021.03.30-06.09.58:453][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.064681s)
+[2021.03.30-06.09.58:463][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.03.30-06.09.58:464][672]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.30-06.09.58:464][672]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.30-06.09.58:464][672]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.30-06.09.58:464][672]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.30-06.09.58:464][672]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.30-06.09.58:464][672]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.30-06.09.58:464][672]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.30-06.09.58:464][672]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.30-06.09.58:465][672]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.30-06.09.58:465][672]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.30-06.09.58:467][672]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.30-06.09.58:467][672]LogAudioMixer: Display: 1: FrontRight
+[2021.03.30-06.09.58:567][672]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.03.30-06.09.58:567][672]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.30-06.09.58:567][672]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.30-06.09.58:567][672]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.30-06.09.58:568][672]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.30-06.09.58:581][672]LogInit: FAudioDevice initialized.
+[2021.03.30-06.09.58:590][672]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.03.30-06.09.58:598][672]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.03.30-00.09.58
+[2021.03.30-06.09.58:598][672]LogWorld: Bringing up level for play took: 0.007593
+[2021.03.30-06.09.58:598][672]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.03.30-06.09.58:601][672]PIE: Server logged in
+[2021.03.30-06.09.58:603][672]PIE: Play in editor total start time 0.215 seconds.
+[2021.03.30-06.10.33:134][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.30-06.10.33:134][713]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.03.30-06.10.33:134][713]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.03.30-06.10.33:136][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.30-06.10.33:147][713]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.30-06.10.33:149][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.30-06.10.33:178][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.30-06.10.33:179][713]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022CD3D19A80), frame # 35713
+[2021.03.30-06.10.33:179][713]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022C82BD8A00), frame # 35713
+[2021.03.30-06.10.33:181][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.03.30-06.10.33:221][714]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.03.30-06.10.33:909][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PuestoDeCambio)
+[2021.03.30-06.11.06:801][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.03.30-06.11.07:987][276]LogSlate: Window 'Save Content' being destroyed
+[2021.03.30-06.11.08:029][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.03.30-06.11.08:648][276]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapBCC616FD4649D7E4C036D29B69A60ACC.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.03.30-06.11.08:674][276]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.655
+[2021.03.30-06.11.08:759][276]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataAC1524B04621AF30453316946B3F42F9.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.03.30-06.11.08:808][276]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.30-06.11.08:808][276]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.03.30-06.11.08:809][276]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.03.30-06.11.13:630][491]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.11.14:452][525]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.11.15:177][556]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.11.15:853][585]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.11.16:532][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fence_Bar1)
+[2021.03.30-06.11.44:570][820]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.11.48:731][  7]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.11.49:483][ 40]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.11.50:419][ 81]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.11.50:965][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TiroAlBlanco)
+[2021.03.30-06.11.51:370][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TiroAlBlanco)
+[2021.03.30-06.11.54:390][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.03.30-06.11.55:422][257]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap9FFC8C3B4E30010F0BC836933D839F6F.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.03.30-06.11.55:534][257]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataCC0BCF1D42EC0BC5A341B291F0CD319D.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.03.30-06.11.55:556][257]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.30-06.11.55:556][257]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.03.30-06.11.55:556][257]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.03.30-06.12.27:186][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Municion)
+[2021.03.30-06.12.30:657][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LaserGun)
+[2021.03.30-06.12.31:419][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TiroAlBlanco)
+[2021.03.30-06.12.43:414][439]LogDestructible: Warning: MainMesh Tris: 8512
+[2021.03.30-06.12.43:765][439]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
+[2021.03.30-06.12.43:769][439]LogApexDestructibleAssetImport: Warning: Bones digested - 2  Depth of hierarchy - 2
+[2021.03.30-06.12.44:594][439]LogSkeletalMesh: Section 0: 22825 vertices, 1 active bones
+[2021.03.30-06.12.44:618][439]LogSkeletalMesh: Section 0: Material=0, 8512 triangles
+[2021.03.30-06.12.44:619][439]LogSkeletalMesh: Building Skeletal Mesh TiroAlBlanco_DM...
+[2021.03.30-06.12.44:685][439]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/Geometry/Meshes/TiroAlBlanco_DM.TiroAlBlanco_DM
+[2021.03.30-06.12.44:737][439]LogAssetEditorSubsystem: Opening Asset editor for DestructibleMesh /Game/Geometry/Meshes/TiroAlBlanco_DM.TiroAlBlanco_DM
+[2021.03.30-06.12.45:493][439]LogMaterial: Display: Material /Game/Geometry/Meshes/___Default1.___Default1 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.03.30-06.12.45:497][439]LogMaterial: Display: Missing cached shader map for material ___Default1, compiling. 
+[2021.03.30-06.12.45:730][439]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
+[2021.03.30-06.12.45:731][439]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2021.03.30-06.12.45:731][439]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2021.03.30-06.12.45:809][439]LogRenderer: Reallocating scene render targets to support 796x544 Format 9 NumSamples 1 (Frame:1).
+[2021.03.30-06.12.48:128][524]LogDestructible: Warning: MainMesh Tris: 8512
+[2021.03.30-06.13.25:000][524]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2021.03.30-06.13.25:000][524]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2021.03.30-06.13.25:000][524]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2021.03.30-06.13.25:000][524]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2021.03.30-06.13.25:000][524]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
+[2021.03.30-06.13.25:005][524]LogApexDestructibleAssetImport: Warning: Bones digested - 27  Depth of hierarchy - 2
+[2021.03.30-06.13.26:643][524]LogSkeletalMesh: Section 0: 45260 vertices, 26 active bones
+[2021.03.30-06.13.26:658][524]LogSkeletalMesh: Section 0: Material=0, 48618 triangles
+[2021.03.30-06.13.26:660][524]LogSkeletalMesh: Building Skeletal Mesh TiroAlBlanco_DM...
+[2021.03.30-06.13.26:801][524]LogSkeletalMesh: Built Skeletal Mesh [0.14s] /Game/Geometry/Meshes/TiroAlBlanco_DM.TiroAlBlanco_DM
+[2021.03.30-06.13.30:749][644]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/TiroAlBlanco_DM106A84124A1794E653D1C08DD2AE23E2.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Geometry/Meshes/TiroAlBlanco_DM.uasset'
+[2021.03.30-06.13.30:760][644]AssetCheck: New page: Asset Save: TiroAlBlanco_DM
+[2021.03.30-06.13.30:760][644]LogContentValidation: Display: Validating DestructibleMesh /Game/Geometry/Meshes/TiroAlBlanco_DM.TiroAlBlanco_DM
+[2021.03.30-06.13.31:713][681]LogSlate: Window 'TiroAlBlanco_DM' being destroyed
+[2021.03.30-06.13.31:760][681]LogSlate: Window 'TiroAlBlanco_DM' being destroyed
+[2021.03.30-06.13.31:774][681]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.03.30-06.13.31:774][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.30-06.13.36:817][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TiroAlBlanco)
+[2021.03.30-06.13.37:537][900]Cmd: DELETE
+[2021.03.30-06.13.37:537][900]Cmd: ACTOR DELETE
+[2021.03.30-06.13.38:646][900]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.03.30-06.13.38:661][900]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.03.30-06.13.38:664][900]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2021.03.30-06.13.39:328][935]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.13.39:917][959]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (TiroAlBlanco_DM)
+[2021.03.30-06.13.48:488][240]LogTexture: Display: Building textures: 10480_Archery_target_v1_Ambient (AutoDXT, 1024X1024)
+[2021.03.30-06.13.48:488][240]LogTexture: Display: Building textures: 10480_Archery_target_v1_Normal (BC5, 1024X1024)
+[2021.03.30-06.13.48:488][240]LogTexture: Display: Building textures: 10480_Archery_target_v1_Displacement (AutoDXT, 1024X1024)
+[2021.03.30-06.13.48:488][240]LogMaterial: Display: Missing cached shader map for material M_TiroBlanco, compiling. 
+[2021.03.30-06.13.48:544][240]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2021.03.30-06.13.48:544][240]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2021.03.30-06.13.48:544][240]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2021.03.30-06.14.08:829][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.03.30-06.14.09:785][ 53]LogSlate: Window 'Save Content' being destroyed
+[2021.03.30-06.14.09:846][ 53]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/___Default1611DCC1547D5616BD236AD8BB762872B.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Geometry/Meshes/___Default1.uasset'
+[2021.03.30-06.14.09:859][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2021.03.30-06.14.10:489][ 53]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap0022D79142861782B70CABBA98D9C365.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.03.30-06.14.10:513][ 53]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.665
+[2021.03.30-06.14.10:599][ 53]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataEFDF4371413DDA0438F1F4B5B56069D8.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.03.30-06.14.10:640][ 53]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.30-06.14.10:640][ 53]LogContentValidation: Display: Validating Material /Game/Geometry/Meshes/___Default1.___Default1
+[2021.03.30-06.14.10:640][ 53]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.03.30-06.14.10:640][ 53]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.03.30-06.14.20:479][493]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 3
+[2021.03.30-06.14.21:906][562]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 4
+[2021.03.30-06.14.52:141][822]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.14.52:658][840]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (TiroAlBlanco_DM3)
+[2021.03.30-06.15.05:878][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.03.30-06.15.06:796][381]LogSlate: Window 'Save Content' being destroyed
+[2021.03.30-06.15.06:843][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.03.30-06.15.07:476][381]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap494119A94A3F2936B313C18102B2F6F7.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.03.30-06.15.07:501][381]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.668
+[2021.03.30-06.15.07:755][381]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData4389FB454FB4688B07A5D796E64E5D91.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.03.30-06.15.07:786][381]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.30-06.15.07:786][381]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.03.30-06.15.07:786][381]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.03.30-06.15.17:308][749]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.15.17:899][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PistolNormal)
+[2021.03.30-06.15.42:891][760]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.15.47:664][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.03.30-06.15.48:452][946]LogSlate: Window 'Save Content' being destroyed
+[2021.03.30-06.15.48:486][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.03.30-06.15.49:165][946]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap89740FA04EB44DE8C9FFEFA53CA70237.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.03.30-06.15.49:194][946]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.719
+[2021.03.30-06.15.49:284][946]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData6783B0DA4CD41C23A0069BBBDDACD192.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.03.30-06.15.49:308][946]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.30-06.15.49:309][946]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.03.30-06.15.49:309][946]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.03.30-06.15.57:344][246]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.03.30-06.15.58:174][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trap_fbx_Base)
+[2021.03.30-06.16.08:283][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.03.30-06.16.08:910][690]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap6F2E2F794AE91B8E2491CC95500FCD35.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.03.30-06.16.09:020][690]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData04A14B434968616099DDC7B8B8463DE9.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.03.30-06.16.09:056][690]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.30-06.16.09:056][690]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.03.30-06.16.09:056][690]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.03.30-06.16.17:194][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LaserGun)
+[2021.03.30-06.16.26:817][485]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.03.30-06.16.28:026][485]LogSlate: Window 'Save Content' being destroyed
+[2021.03.30-06.16.28:065][485]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.03.30-06.16.28:719][485]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapCA6E787E41ADDDD4D6320F802CD58B54.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.03.30-06.16.28:743][485]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.690
+[2021.03.30-06.16.28:827][485]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData9FD4A86441D0F30B6F7208AA1F68F429.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.03.30-06.16.28:870][485]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.30-06.16.28:870][485]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.03.30-06.16.28:870][485]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
