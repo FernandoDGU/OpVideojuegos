@@ -1,0 +1,1451 @@
+﻿Log file open, 04/03/21 12:17:07
+LogInit: Display: Running engine for game: DeepWoodland2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 7.225055
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.04.03-18.17.16:292][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.03-18.17.16:292][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.03-18.17.16:294][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.03-18.17.16:294][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.03-18.17.16:295][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.03-18.17.16:295][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.03-18.17.16:360][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:360][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.03-18.17.16:360][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.03-18.17.16:360][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:360][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.03-18.17.16:360][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:360][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.03-18.17.16:360][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.03-18.17.16:360][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.03-18.17.16:360][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.03-18.17.16:360][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.03-18.17.16:360][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.03-18.17.16:360][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.03-18.17.16:360][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.03-18.17.16:360][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.03-18.17.16:360][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.03-18.17.16:361][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.03-18.17.16:362][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.03-18.17.16:363][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.03-18.17.16:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.03-18.17.16:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.03-18.17.16:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.03-18.17.16:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.03-18.17.16:365][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:365][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.03-18.17.16:365][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.03-18.17.16:365][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:365][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.03-18.17.16:365][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.03-18.17.16:365][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.03-18.17.16:365][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.03-18.17.16:365][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.03-18.17.16:365][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.03-18.17.16:365][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.03-18.17.16:387][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.03-18.17.16:387][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.03-18.17.16:402][  0]LogHAL: Display: Platform has ~ 16 GB [17058402304 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.03-18.17.16:402][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.03-18.17.16:406][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:406][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2021.04.03-18.17.16:406][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2021.04.03-18.17.16:406][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:406][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2021.04.03-18.17.16:406][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:406][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.03-18.17.16:406][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2021.04.03-18.17.16:406][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.04.03-18.17.16:406][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2021.04.03-18.17.16:406][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2021.04.03-18.17.16:406][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2021.04.03-18.17.16:406][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2021.04.03-18.17.16:408][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.04.03-18.17.16:409][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.03-18.17.16:410][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.03-18.17.16:411][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.03-18.17.16:411][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:411][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2021.04.03-18.17.16:411][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2021.04.03-18.17.16:411][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.03-18.17.16:411][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.03-18.17.16:411][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.03-18.17.16:411][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.03-18.17.16:411][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.03-18.17.16:411][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.03-18.17.16:411][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.03-18.17.16:411][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.03-18.17.16:411][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.03-18.17.16:450][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.03-18.17.16:450][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.03-18.17.16:450][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.03-18.17.16:450][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.03-18.17.16:529][  0]LogInit: Computer: DESKTOP-DV3H2OO
+[2021.04.03-18.17.16:529][  0]LogInit: User: AlexBazaldua
+[2021.04.03-18.17.16:529][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.04.03-18.17.16:529][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.03-18.17.16:530][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.04.03-18.17.16:530][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.03-18.17.16:530][  0]LogMemory: Process Physical Memory: 115.50 MB used, 115.51 MB peak
+[2021.04.03-18.17.16:530][  0]LogMemory: Process Virtual Memory: 103.38 MB used, 103.38 MB peak
+[2021.04.03-18.17.16:530][  0]LogMemory: Physical Memory: 7039.64 MB used,  9228.52 MB free, 16268.16 MB total
+[2021.04.03-18.17.16:530][  0]LogMemory: Virtual Memory: 5136.80 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2021.04.03-18.17.16:640][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.03-18.17.18:617][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.03-18.17.18:623][  0]LogInit: Using OS detected language (en-US).
+[2021.04.03-18.17.18:623][  0]LogInit: Using OS detected locale (en-US).
+[2021.04.03-18.17.19:164][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.03-18.17.23:377][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.03-18.17.25:288][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.03-18.17.25:288][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.03-18.17.42:599][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.03-18.17.42:599][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.03-18.17.42:599][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.03-18.17.42:599][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.03-18.17.43:733][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2021.04.03-18.17.43:734][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2021.04.03-18.17.43:740][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.03-18.17.43:740][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.03-18.17.43:740][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.03-18.17.43:761][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.03-18.17.43:761][  0]LogD3D11RHI:     GPU DeviceId: 0x591b (for the marketing name, search the web for "GPU Device Id")
+[2021.04.03-18.17.43:761][  0]LogWindows: EnumDisplayDevices:
+[2021.04.03-18.17.43:761][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2021.04.03-18.17.43:762][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.04.03-18.17.43:763][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.04.03-18.17.43:764][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2021.04.03-18.17.43:764][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 630
+[2021.04.03-18.17.43:764][  0]LogD3D11RHI:   Driver Version: 23.20.16.4973 (internal:23.20.16.4973, unified:23.20.16.4973)
+[2021.04.03-18.17.43:764][  0]LogD3D11RHI:      Driver Date: 2-28-2018
+[2021.04.03-18.17.43:764][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2021.04.03-18.17.44:056][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.04.03-18.17.44:121][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.03-18.17.44:121][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.03-18.17.46:150][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2021.04.03-18.17.49:454][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.03-18.17.49:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.03-18.17.49:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.03-18.17.49:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.03-18.17.49:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.03-18.17.49:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.03-18.17.49:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.03-18.17.49:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.03-18.17.49:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.03-18.17.49:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.03-18.17.49:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.03-18.17.49:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.03-18.17.49:859][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.03-18.17.50:057][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.03-18.17.50:130][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.03-18.17.50:200][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.03-18.17.50:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.03-18.17.50:335][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.03-18.17.50:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.03-18.17.50:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.03-18.17.50:629][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.03-18.17.50:629][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.03-18.17.50:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.03-18.17.50:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.03-18.17.50:820][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.03-18.17.50:911][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.03-18.17.50:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.03-18.17.51:008][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.03-18.17.51:008][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.03-18.17.51:537][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.03-18.17.52:939][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Intermediate/Shaders/WorkingDirectory/15676/).
+[2021.04.03-18.17.52:939][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealShaderWorkingDir/6E986F4445D51B12AD583F83FBEE49D9/'.
+[2021.04.03-18.17.52:954][  0]LogXGEController: Cleaning working directory: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.03-18.17.52:954][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.03-18.17.52:955][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.03-18.17.52:955][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.03-18.18.15:899][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.03-18.18.17:329][  0]LogDerivedDataCache: Loaded boot cache 1.43s 76MB C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.03-18.18.17:330][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.04.03-18.18.17:330][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.03-18.18.17:330][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.03-18.18.17:330][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.03-18.18.17:330][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.03-18.18.17:550][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.03-18.18.17:550][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.03-18.18.17:550][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.03-18.18.17:577][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.03-18.18.17:577][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.03-18.18.17:577][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.03-18.18.17:777][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.03-18.18.17:987][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.03-18.18.22:408][  0]LogAssetRegistry: FAssetRegistry took 0.0119 seconds to start up
+[2021.04.03-18.18.26:955][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.03-18.18.35:367][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.03-18.18.35:367][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.03-18.18.35:367][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.03-18.18.35:367][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.03-18.18.35:367][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.03-18.18.36:585][  0]LogNetVersion: DeepWoodland2 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1524458531)
+[2021.04.03-18.19.46:764][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002055737E980), frame # 0
+[2021.04.03-18.19.46:764][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002055721EAC0), frame # 0
+[2021.04.03-18.19.46:883][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002055738AA00), frame # 0
+[2021.04.03-18.19.48:787][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.132165 seconds
+[2021.04.03-18.19.48:976][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.04.03-18.19.48:976][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.04.03-18.19.48:976][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.03-18.20.08:113][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.03-18.20.08:656][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.03-18.20.15:608][  0]SourceControl: Source control is disabled
+[2021.04.03-18.20.15:678][  0]SourceControl: Source control is disabled
+[2021.04.03-18.20.15:901][  0]SourceControl: Source control is disabled
+[2021.04.03-18.20.16:123][  0]SourceControl: Source control is disabled
+[2021.04.03-18.20.16:365][  0]SourceControl: Source control is disabled
+[2021.04.03-18.20.24:544][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.03-18.20.24:969][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.03-18.20.24:969][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.03-18.20.26:181][  0]LogOcInput: OculusInput pre-init called
+[2021.04.03-18.20.26:404][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.04.03-18.20.26:404][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.04.03-18.20.28:450][  0]LogEngine: Initializing Engine...
+[2021.04.03-18.20.28:480][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.03-18.20.28:481][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.04.03-18.20.28:577][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.065 s
+[2021.04.03-18.20.28:936][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.03-18.20.30:206][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.03-18.20.30:206][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002055C865600), frame # 0
+[2021.04.03-18.20.30:207][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002055C876FC0), frame # 0
+[2021.04.03-18.20.30:525][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.03-18.20.30:525][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.03-18.20.30:525][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.03-18.20.30:525][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.03-18.20.30:525][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.03-18.20.30:525][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.03-18.20.30:525][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.03-18.20.30:525][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.03-18.20.30:529][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.03-18.20.30:529][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.03-18.20.30:911][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.03-18.20.30:911][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.03-18.20.32:362][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.03-18.20.32:391][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.03-18.20.32:398][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.03-18.20.32:398][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.03-18.20.32:416][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.03-18.20.32:418][  0]LogInit: FAudioDevice initialized.
+[2021.04.03-18.20.32:444][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.03-18.20.33:280][  0]LogDerivedDataCache: Saved boot cache 0.84s 76MB C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.03-18.20.33:294][  0]LogInit: Texture streaming: Enabled
+[2021.04.03-18.20.34:374][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.03-18.20.34:375][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.03-18.20.34:382][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.03-18.20.36:001][  0]LogInit: Transaction tracking system initialized
+[2021.04.03-18.20.37:112][  0]BlueprintLog: New page: Editor Load
+[2021.04.03-18.20.41:589][  0]LocalizationService: Localization service is disabled
+[2021.04.03-18.20.49:670][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/' took 0.04s
+[2021.04.03-18.20.49:670][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.03-18.20.49:670][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.03-18.21.06:066][  0]SourceControl: Source control is disabled
+[2021.04.03-18.21.06:109][  0]LogUnrealEdMisc: Loading editor; pre map load, took 305.639
+[2021.04.03-18.21.06:139][  0]LightingResults: New page: Lighting Build
+[2021.04.03-18.21.06:220][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-18.21.06:391][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.21.06:403][  0]MapCheck: New page: Map Check
+[2021.04.03-18.21.06:404][  0]LightingResults: New page: Lighting Build
+[2021.04.03-18.21.07:011][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002055C865600), frame # 0
+[2021.04.03-18.21.07:011][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002055C876FC0), frame # 0
+[2021.04.03-18.21.07:014][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2021.04.03-18.21.22:663][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.03-18.21.22:664][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.03-18.21.22:665][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.03-18.21.22:665][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.03-18.21.22:666][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.03-18.21.22:667][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.03-18.21.22:669][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.03-18.21.22:670][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.03-18.21.22:671][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.03-18.21.22:671][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.03-18.21.22:672][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.03-18.21.22:673][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.03-18.21.29:526][  0]LogTexture: Display: Building textures: salir_btn (BGRA8, 4121X1287)
+[2021.04.03-18.21.29:526][  0]LogTexture: Display: Building textures: salir_btn_hover (BGRA8, 4121X1287)
+[2021.04.03-18.21.29:526][  0]LogTexture: Display: Building textures: btn_regresar2 (BGRA8, 1814X1604)
+[2021.04.03-18.21.29:526][  0]LogTexture: Display: Building textures: pause_window (BGRA8, 2550X3300)
+[2021.04.03-18.21.29:526][  0]LogTexture: Display: Building textures: btn_regresar1 (BGRA8, 1814X1604)
+[2021.04.03-18.21.29:526][  0]LogTexture: Display: Building textures: boton_save_hover (BGRA8, 4121X1287)
+[2021.04.03-18.21.29:526][  0]LogTexture: Display: Building textures: boton_save (BGRA8, 4121X1287)
+[2021.04.03-18.21.29:528][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.03-18.21.29:528][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Roughness.vbwpdg0o_8K_Roughness Referenced by M_terreno_Inst
+[2021.04.03-18.21.29:529][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.03-18.21.29:529][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Roughness.vbwpdg0o_8K_Roughness Referenced by M_terreno_Inst
+[2021.04.03-18.21.29:529][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.03-18.21.29:529][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Normal.vbwpdg0o_8K_Normal Referenced by M_terreno_Inst
+[2021.04.03-18.21.29:530][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.03-18.21.29:530][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Normal.vbwpdg0o_8K_Normal Referenced by M_terreno_Inst
+[2021.04.03-18.21.29:532][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.03-18.21.29:532][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Albedo.vbwpdg0o_8K_Albedo Referenced by M_terreno_Inst
+[2021.04.03-18.21.29:532][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.03-18.21.29:533][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Albedo.vbwpdg0o_8K_Albedo Referenced by M_terreno_Inst
+[2021.04.03-18.21.41:318][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave btn_select...
+[2021.04.03-18.21.41:412][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Widgets/Sounds/btn_select.btn_select will be modified from 40 to 40.
+[2021.04.03-18.21.41:833][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 290816 while cooking SoundWave /Game/Widgets/Sounds/btn_select.btn_select.
+[2021.04.03-18.21.41:833][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave btn_select2_0...
+[2021.04.03-18.21.41:834][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Widgets/Sounds/btn_select2.btn_select2_0 will be modified from 40 to 40.
+[2021.04.03-18.21.41:881][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 315392 while cooking SoundWave /Game/Widgets/Sounds/btn_select2.btn_select2_0.
+[2021.04.03-18.21.41:938][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave btn_click_0...
+[2021.04.03-18.21.41:938][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Widgets/Sounds/btn_click.btn_click_0 will be modified from 40 to 40.
+[2021.04.03-18.21.41:983][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 163840 while cooking SoundWave /Game/Widgets/Sounds/btn_click.btn_click_0.
+[2021.04.03-18.22.22:174][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.03-18.22.22:174][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020501FDA200), frame # 0
+[2021.04.03-18.22.22:174][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000205020165C0), frame # 0
+[2021.04.03-18.23.02:023][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.03-18.23.02:345][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.04.03-18.23.02:346][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.03-18.23.02:374][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 28.298ms to complete.
+[2021.04.03-18.23.02:374][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 116.243
+[2021.04.03-18.23.02:872][  0]LogUnrealEdMisc: Total Editor Startup Time, took 422.402
+[2021.04.03-18.23.03:528][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.23.03:586][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.23.03:615][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.23.03:637][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.23.03:821][  0]LogCollectionManager: Loaded 0 collections in 0.008216 seconds
+[2021.04.03-18.23.04:113][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/Collections/' took 0.00s
+[2021.04.03-18.23.04:113][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Developers/AlexBazaldua/Collections/' took 0.00s
+[2021.04.03-18.23.04:113][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Collections/' took 0.00s
+[2021.04.03-18.23.04:113][  0]LogContentBrowser: Native class hierarchy populated in 0.0390 seconds. Added 3436 classes and 826 folders.
+[2021.04.03-18.23.04:220][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2021.04.03-18.23.08:976][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2021.04.03-18.23.09:069][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 2 classes and 0 folders.
+[2021.04.03-18.23.09:355][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0011 seconds. Added 2 classes and 3 folders.
+[2021.04.03-18.23.11:142][  0]LogSlate: Took 0.058017 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.03-18.23.11:279][  0]LogSlate: Took 0.103320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.03-18.23.11:344][  0]LogSlate: Took 0.023625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.03-18.23.11:966][  0]LogRenderer: Reallocating scene render targets to support 836x540 Format 9 NumSamples 1 (Frame:1).
+[2021.04.03-18.23.12:706][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2021.04.03-18.23.12:706][  0]LogLoad: (Engine Initialization) Total time: 432.24 seconds
+[2021.04.03-18.23.12:706][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.03-18.23.13:356][  0]LogContentStreaming: Texture pool size now 600 MB
+[2021.04.03-18.23.13:597][  0]LogSlate: Took 0.023847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.04.03-18.23.13:865][  2]LogAssetRegistry: Asset discovery search completed in 291.4600 seconds
+[2021.04.03-18.23.13:881][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2021.04.03-18.23.14:281][  3]LogSlate: Took 0.010715 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.03-18.23.31:367][ 57]LogSlate: Window 'Message Log' being destroyed
+[2021.04.03-18.23.31:377][ 57]LogSlate: Window 'Message Log' being destroyed
+[2021.04.03-18.23.37:764][320]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.03-18.23.40:560][453]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.03-18.23.40:650][453]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.03-18.23.40:754][453]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2021, 6:23:40 AM)
+[2021.04.03-18.23.40:771][453]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.04.03-18.23.40:786][453]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.04.03-18.23.40:786][453]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-18.23.40:951][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.164281s)
+[2021.04.03-18.23.40:970][453]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.03-18.23.40:970][453]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002059936FE00), frame # 453
+[2021.04.03-18.23.40:970][453]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020566228E00), frame # 453
+[2021.04.03-18.23.41:051][453]LogPlayLevel: PIE: World Init took: (0.083529s)
+[2021.04.03-18.23.41:051][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.265305s)
+[2021.04.03-18.23.41:073][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.04.03-18.23.41:078][453]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.03-18.23.41:078][453]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.03-18.23.41:078][453]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.03-18.23.41:078][453]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.03-18.23.41:078][453]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.03-18.23.41:078][453]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.03-18.23.41:078][453]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.03-18.23.41:078][453]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.03-18.23.41:079][453]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.03-18.23.41:079][453]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.03-18.23.41:086][453]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.03-18.23.41:086][453]LogAudioMixer: Display: 1: FrontRight
+[2021.04.03-18.23.41:301][453]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.03-18.23.41:301][453]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.03-18.23.41:301][453]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.03-18.23.41:301][453]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.03-18.23.41:303][453]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.03-18.23.41:344][453]LogInit: FAudioDevice initialized.
+[2021.04.03-18.23.41:606][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.23.41:796][453]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.04.03-18.23.41:999][453]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.04.03-12.23.41
+[2021.04.03-18.23.42:000][453]LogWorld: Bringing up level for play took: 0.098812
+[2021.04.03-18.23.42:001][453]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.04.03-18.23.42:140][453]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2021.04.03-18.23.42:237][453]PIE: Server logged in
+[2021.04.03-18.23.42:239][453]PIE: Play in editor total start time 1.603 seconds.
+[2021.04.03-18.23.42:441][454]LogRenderer: Reallocating scene render targets to support 904x540 Format 9 NumSamples 1 (Frame:1).
+[2021.04.03-18.23.45:286][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.23.45:287][538]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-18.23.45:287][538]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.04.03-18.23.45:314][538]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-18.23.45:320][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.23.45:382][538]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.03-18.23.45:384][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.23.45:518][538]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002059936FE00), frame # 538
+[2021.04.03-18.23.45:518][538]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020566228E00), frame # 538
+[2021.04.03-18.23.45:519][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2021.04.03-18.23.45:560][539]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.04.03-18.23.55:459][928]LogTexture: Display: Building textures: boton_cerrar_hover (BGRA8, 4121X1287)
+[2021.04.03-18.23.55:459][928]LogTexture: Display: Building textures: boton_cerrar (BGRA8, 4121X1287)
+[2021.04.03-18.23.55:459][928]LogTexture: Display: Building textures: epic_btn (BGRA8, 3375X813)
+[2021.04.03-18.23.55:459][928]LogTexture: Display: Building textures: res4_btn (BGRA8, 3375X813)
+[2021.04.03-18.23.55:459][928]LogTexture: Display: Building textures: res3_btn_hover (BGRA8, 3375X813)
+[2021.04.03-18.23.55:459][928]LogTexture: Display: Building textures: res3_btn (BGRA8, 3375X813)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: res2_btn_hover (BGRA8, 3375X813)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: res2_btn (BGRA8, 3375X813)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: res1_btn_hover (BGRA8, 3371X813)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: res1_btn (BGRA8, 3371X813)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: medium_btn_hover (BGRA8, 3375X813)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: medium_btn (BGRA8, 3375X813)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: low_btn_hover (BGRA8, 3375X813)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: high_btn_hover (BGRA8, 3375X813)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: low_btn (BGRA8, 3375X813)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: high_btn (BGRA8, 3375X813)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: graficos_window (AutoDXT, 1920X1080)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: epic_btn_hover (BGRA8, 3375X813)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: level1_btn (BGRA8, 2376X2455)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: Icon_config (BGRA8, 1917X1823)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: boton_inicio_hover (BGRA8, 4121X1287)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: boton_inicio (BGRA8, 4121X1287)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: INICIO_DWL (BGRA8, 6046X3428)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: slider_icon (BGRA8, 1102X1866)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: res4_btn_hover (BGRA8, 3375X813)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: level2_btn_hover (BGRA8, 2376X2455)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: level2_btn (BGRA8, 2376X2455)
+[2021.04.03-18.23.55:460][928]LogTexture: Display: Building textures: level1_btn_hover (BGRA8, 2376X2455)
+[2021.04.03-18.23.55:460][928]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave btn_click2_0...
+[2021.04.03-18.23.55:460][928]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Widgets/Sounds/btn_click2.btn_click2_0 will be modified from 40 to 40.
+[2021.04.03-18.23.55:493][928]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 364544 while cooking SoundWave /Game/Widgets/Sounds/btn_click2.btn_click2_0.
+[2021.04.03-18.23.55:509][928]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Forest_2...
+[2021.04.03-18.23.55:537][928]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Level_sounds/Forest_2.Forest_2 will be modified from 40 to 40.
+[2021.04.03-18.24.00:153][928]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 24895212 while cooking SoundWave /Game/Level_sounds/Forest_2.Forest_2.
+[2021.04.03-18.24.00:183][928]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Menu_Level.Menu_Level
+[2021.04.03-18.24.00:216][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.04.03-18.24.00:265][928]LightingResults: New page: Lighting Build
+[2021.04.03-18.24.00:265][928]LoadErrors: New page: Loading map: Menu_Level.umap
+[2021.04.03-18.24.00:278][928]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-18.24.00:278][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.24.00:316][928]MapCheck: New page: Map Check
+[2021.04.03-18.24.00:316][928]LightingResults: New page: Lighting Build
+[2021.04.03-18.24.00:406][928]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020501FDA200), frame # 928
+[2021.04.03-18.24.00:406][928]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000205020165C0), frame # 928
+[2021.04.03-18.24.00:410][928]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.04.03-18.24.00:638][928]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.03-18.24.00:639][928]LogAIModule: Creating AISystem for world Menu_Level
+[2021.04.03-18.24.00:639][928]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002056A90BA00), frame # 928
+[2021.04.03-18.24.00:639][928]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000205661F5D00), frame # 928
+[2021.04.03-18.24.00:675][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.04.03-18.24.00:722][928]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.03-18.24.00:722][928]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.155ms to complete.
+[2021.04.03-18.24.00:723][928]LogFileHelpers: Loading map 'Menu_Level' took 0.458
+[2021.04.03-18.24.05:851][208]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.03-18.24.05:870][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.03-18.24.05:870][208]PIE: New page: PIE session: Menu_Level (Apr 3, 2021, 6:24:05 AM)
+[2021.04.03-18.24.05:870][208]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Menu_Level
+[2021.04.03-18.24.05:872][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001467s)
+[2021.04.03-18.24.05:873][208]LogAIModule: Creating AISystem for world Menu_Level
+[2021.04.03-18.24.05:873][208]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002059106B000), frame # 1208
+[2021.04.03-18.24.05:873][208]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002054EE32480), frame # 1208
+[2021.04.03-18.24.05:873][208]LogPlayLevel: PIE: World Init took: (0.001303s)
+[2021.04.03-18.24.05:873][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Menu_Level.Menu_Level to /Game/ThirdPersonBP/Maps/UEDPIE_0_Menu_Level.Menu_Level (0.002898s)
+[2021.04.03-18.24.05:885][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.04.03-18.24.05:886][208]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.03-18.24.05:886][208]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.03-18.24.05:886][208]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.03-18.24.05:887][208]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.03-18.24.05:887][208]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.03-18.24.05:887][208]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.03-18.24.05:887][208]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.03-18.24.05:887][208]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.03-18.24.05:887][208]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.03-18.24.05:887][208]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.03-18.24.05:892][208]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.03-18.24.05:892][208]LogAudioMixer: Display: 1: FrontRight
+[2021.04.03-18.24.06:009][208]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.03-18.24.06:009][208]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.03-18.24.06:009][208]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.03-18.24.06:009][208]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.03-18.24.06:010][208]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.03-18.24.06:027][208]LogInit: FAudioDevice initialized.
+[2021.04.03-18.24.06:088][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.24.06:089][208]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.04.03-18.24.06:093][208]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Menu_Level.Menu_Level up for play (max tick rate 60) at 2021.04.03-12.24.06
+[2021.04.03-18.24.06:093][208]LogWorld: Bringing up level for play took: 0.001101
+[2021.04.03-18.24.06:094][208]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.04.03-18.24.06:607][208]PIE: Server logged in
+[2021.04.03-18.24.06:611][208]PIE: Play in editor total start time 0.741 seconds.
+[2021.04.03-18.24.06:615][208]LogAudio: Warning: Detected orphaned looping sound 'Forest_2_Cue'.
+[2021.04.03-18.24.09:086][279]LogRenderer: Reallocating scene render targets to support 912x540 Format 9 NumSamples 1 (Frame:72).
+[2021.04.03-18.24.13:850][493]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2021.04.03-18.24.13:881][493]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2021.04.03-18.24.13:881][493]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Menu_Level
+[2021.04.03-18.24.13:882][493]LogWorld: UWorld::CleanupWorld for Menu_Level, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-18.24.13:882][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.24.13:948][493]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002054EE32480), frame # 1493
+[2021.04.03-18.24.13:948][493]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002059106B000), frame # 1493
+[2021.04.03-18.24.13:951][493]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.04.03-18.24.14:627][493]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.03-18.24.14:628][493]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002059906BE00), frame # 1493
+[2021.04.03-18.24.14:628][493]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020599080180), frame # 1493
+[2021.04.03-18.24.14:628][493]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.04.03-18.24.14:663][493]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.04.03-12.24.14
+[2021.04.03-18.24.14:663][493]LogWorld: Bringing up level for play took: 0.034852
+[2021.04.03-18.24.14:665][493]LogLoad: Took 0.783934 seconds to LoadMap(/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap)
+[2021.04.03-18.24.42:425][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.24.42:425][457]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-18.24.42:501][457]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.04.03-18.24.42:516][457]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-18.24.42:522][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.24.42:544][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.03-18.24.42:550][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.24.42:661][457]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020599080180), frame # 2457
+[2021.04.03-18.24.42:661][457]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002059906BE00), frame # 2457
+[2021.04.03-18.24.42:664][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2021.04.03-18.24.42:695][458]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.04.03-18.24.44:499][541]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.03-18.24.44:509][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.04.03-18.24.44:511][541]LightingResults: New page: Lighting Build
+[2021.04.03-18.24.44:511][541]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2021.04.03-18.24.44:512][541]LogWorld: UWorld::CleanupWorld for Menu_Level, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-18.24.44:512][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.24.44:512][541]MapCheck: New page: Map Check
+[2021.04.03-18.24.44:512][541]LightingResults: New page: Lighting Build
+[2021.04.03-18.24.44:521][541]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000205661F5D00), frame # 2541
+[2021.04.03-18.24.44:521][541]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002056A90BA00), frame # 2541
+[2021.04.03-18.24.44:522][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.04.03-18.24.45:971][541]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.03-18.24.45:971][541]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.03-18.24.45:972][541]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000205C3DF3600), frame # 2541
+[2021.04.03-18.24.45:972][541]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000205BCD37600), frame # 2541
+[2021.04.03-18.24.46:136][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.04.03-18.24.46:161][541]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.03-18.24.46:162][541]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.344ms to complete.
+[2021.04.03-18.24.46:162][541]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.652
+[2021.04.03-18.24.52:486][837]LogRenderer: Reallocating scene render targets to support 932x540 Format 9 NumSamples 1 (Frame:296).
+[2021.04.03-18.24.52:541][839]LogRenderer: Reallocating scene render targets to support 1000x540 Format 9 NumSamples 1 (Frame:298).
+[2021.04.03-18.24.52:602][840]LogRenderer: Reallocating scene render targets to support 1020x540 Format 9 NumSamples 1 (Frame:300).
+[2021.04.03-18.24.52:664][841]LogRenderer: Reallocating scene render targets to support 1060x540 Format 9 NumSamples 1 (Frame:302).
+[2021.04.03-18.24.52:732][842]LogRenderer: Reallocating scene render targets to support 1084x540 Format 9 NumSamples 1 (Frame:304).
+[2021.04.03-18.24.52:796][843]LogRenderer: Reallocating scene render targets to support 1112x540 Format 9 NumSamples 1 (Frame:306).
+[2021.04.03-18.24.52:863][844]LogRenderer: Reallocating scene render targets to support 1116x540 Format 9 NumSamples 1 (Frame:308).
+[2021.04.03-18.24.55:573][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (falc_low)
+[2021.04.03-18.24.58:248][ 17]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.24.58:582][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PuestoDeCambio)
+[2021.04.03-18.25.04:006][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Pickup)
+[2021.04.03-18.25.05:530][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (falc_low)
+[2021.04.03-18.25.07:128][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Pickup)
+[2021.04.03-18.25.12:929][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Caseta)
+[2021.04.03-18.25.43:050][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PuestoDeCambio)
+[2021.04.03-18.25.47:070][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.04.03-18.25.47:897][508]LogSlate: Window 'Save Content' being destroyed
+[2021.04.03-18.25.47:985][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.04.03-18.25.50:241][508]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap78AF52C4438AF2AA3B93D5A3B30719CE.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.03-18.25.50:371][508]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.436
+[2021.04.03-18.25.50:623][508]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataDE57F3CE49F16B78728577B721E093B2.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.03-18.25.50:651][508]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.03-18.25.50:652][508]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.03-18.25.50:652][508]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.03-18.25.53:542][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Spruce_4)
+[2021.04.03-18.25.55:157][654]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.25.57:492][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Spruce_4)
+[2021.04.03-18.26.02:421][877]Cmd: POLY SELECT ALL
+[2021.04.03-18.26.07:814][ 67]Cmd: TRANSACTION UNDO
+[2021.04.03-18.26.07:814][ 67]LogEditorTransaction: Undo Select All
+[2021.04.03-18.26.08:769][ 92]Cmd: TRANSACTION UNDO
+[2021.04.03-18.26.08:770][ 92]LogEditorTransaction: Undo Move Actors
+[2021.04.03-18.26.34:827][ 26]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (796b3b0283794320bc74bbccf8578115_fbx_DM3)
+[2021.04.03-18.27.13:304][372]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM)
+[2021.04.03-18.27.51:868][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush_01)
+[2021.04.03-18.28.26:922][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2021.04.03-18.28.28:258][897]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap98FC2D8F46D7E60ADCBDEE907A0F00CB.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.03-18.28.28:472][897]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataE8BEC3D040848811BCEEE09883BBDF04.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.03-18.28.28:492][897]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.03-18.28.28:492][897]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.03-18.28.28:492][897]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.03-18.28.39:049][278]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (TiroAlBlanco_DM4)
+[2021.04.03-18.28.41:746][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_01)
+[2021.04.03-18.28.42:717][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_30)
+[2021.04.03-18.28.43:813][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_28)
+[2021.04.03-18.28.45:814][487]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_30)
+[2021.04.03-18.28.46:364][503]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_Corner_01)
+[2021.04.03-18.28.46:975][521]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_2)
+[2021.04.03-18.28.47:597][539]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_4)
+[2021.04.03-18.28.48:459][565]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_01)
+[2021.04.03-18.28.49:804][607]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_3)
+[2021.04.03-18.28.50:651][633]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_5)
+[2021.04.03-18.28.51:296][652]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_7)
+[2021.04.03-18.28.52:132][678]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_8)
+[2021.04.03-18.28.52:761][697]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_6)
+[2021.04.03-18.28.53:828][730]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_9)
+[2021.04.03-18.28.54:790][759]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_Corner_2)
+[2021.04.03-18.28.55:477][778]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_18)
+[2021.04.03-18.28.56:090][797]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_17)
+[2021.04.03-18.28.56:742][816]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_16)
+[2021.04.03-18.28.57:371][835]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_15)
+[2021.04.03-18.28.57:875][848]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_14)
+[2021.04.03-18.28.58:432][865]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_13)
+[2021.04.03-18.28.58:976][881]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_12)
+[2021.04.03-18.29.00:143][917]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_25)
+[2021.04.03-18.29.01:171][948]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_23)
+[2021.04.03-18.29.02:051][974]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_22)
+[2021.04.03-18.29.02:647][992]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_24)
+[2021.04.03-18.29.03:458][ 17]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_Corner_3)
+[2021.04.03-18.29.04:585][ 52]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_21)
+[2021.04.03-18.29.05:015][ 62]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_19)
+[2021.04.03-18.29.05:842][ 88]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_11)
+[2021.04.03-18.29.06:398][103]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_10)
+[2021.04.03-18.29.07:302][131]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_26)
+[2021.04.03-18.29.08:722][176]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_27)
+[2021.04.03-18.29.09:567][202]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_20)
+[2021.04.03-18.29.10:635][234]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_Corner_4)
+[2021.04.03-18.29.17:035][437]Cmd: TRANSACTION UNDO
+[2021.04.03-18.29.17:035][437]LogEditorTransaction: Undo Move Actors
+[2021.04.03-18.29.18:533][496]Cmd: TRANSACTION UNDO
+[2021.04.03-18.29.18:533][496]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.03-18.29.19:248][516]Cmd: TRANSACTION UNDO
+[2021.04.03-18.29.19:249][516]LogEditorTransaction: Undo Regroup Ctrl+G
+[2021.04.03-18.30.02:364][921]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.30.03:319][951]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (TiroAlBlanco_DM4)
+[2021.04.03-18.30.26:882][742]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2021.04.03-18.30.29:042][794]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.30.30:248][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_22)
+[2021.04.03-18.30.38:519][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shotgun_Model)
+[2021.04.03-18.31.02:763][848]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.31.03:623][873]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.31.04:497][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PistolNormal)
+[2021.04.03-18.31.33:333][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fence_Fence)
+[2021.04.03-18.31.34:131][985]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.31.35:037][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.04.03-18.31.37:467][ 10]LogSlate: Window 'Save Content' being destroyed
+[2021.04.03-18.31.37:516][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.04.03-18.31.38:808][ 10]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap9DFE750B497A7CCE2815EFBEBAF68172.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.03-18.31.38:908][ 10]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.403
+[2021.04.03-18.31.39:085][ 10]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataAA6EA94A4F792AEE84416290F3CBD5F3.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.03-18.31.39:107][ 10]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.03-18.31.39:107][ 10]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.03-18.31.39:108][ 10]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.03-18.32.06:255][875]LogEditorViewport: Clicking on Actor (LMB): TrapClose1_C (TrapClose6)
+[2021.04.03-18.32.33:154][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Municion)
+[2021.04.03-18.32.37:297][915]LogEditorViewport: Clicking on Actor (LMB): TrapClose1_C (TrapClose1)
+[2021.04.03-18.32.57:807][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.04.03-18.32.58:937][599]LogSlate: Window 'Save Content' being destroyed
+[2021.04.03-18.32.58:985][599]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.04.03-18.33.00:842][599]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapB0C8ED1D421518CED4DD8EBD635EAD86.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.03-18.33.00:937][599]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.963
+[2021.04.03-18.33.01:064][599]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData3DB8E56E40DD817840C9419F59324319.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.03-18.33.01:093][599]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.03-18.33.01:093][599]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.03-18.33.01:093][599]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.03-18.38.39:378][503]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (TiroAlBlanco_DM4)
+[2021.04.03-18.38.41:637][572]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trap_fbx_Base)
+[2021.04.03-18.38.47:793][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shotgun_Model)
+[2021.04.03-18.38.59:845][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PistolNormal)
+[2021.04.03-18.39.08:257][464]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.39.09:043][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Municion)
+[2021.04.03-18.39.47:779][796]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.39.50:413][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.04.03-18.39.51:396][876]LogSlate: Window 'Save Content' being destroyed
+[2021.04.03-18.39.51:444][876]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2021.04.03-18.39.52:420][876]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapA316B8E9498C3CAFE788E48A281F9B63.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.03-18.39.52:498][876]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.066
+[2021.04.03-18.39.52:688][876]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData5EBAF3F74368A12E570E1FAD9C30EB13.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.03-18.39.52:738][876]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.03-18.39.52:738][876]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.03-18.39.52:739][876]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.03-18.40.59:632][652]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.41.03:454][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.04.03-18.41.04:548][791]LogSlate: Window 'Save Content' being destroyed
+[2021.04.03-18.41.04:588][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.04.03-18.41.05:270][791]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapB5F245DA45B1490ED4F9C8B9FA59665C.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.03-18.41.05:304][791]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.728
+[2021.04.03-18.41.05:405][791]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData7FC8285841B5295FAD53FB9D2AF0A0EE.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.03-18.41.05:431][791]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.03-18.41.05:431][791]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.03-18.41.05:431][791]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.03-18.42.46:040][795]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.03-18.42.46:060][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.03-18.42.46:060][795]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2021, 6:42:46 AM)
+[2021.04.03-18.42.46:060][795]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-18.42.46:127][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067624s)
+[2021.04.03-18.42.46:129][795]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.03-18.42.46:129][795]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000205CD4FEC00), frame # 38795
+[2021.04.03-18.42.46:129][795]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020598E1E840), frame # 38795
+[2021.04.03-18.42.46:129][795]LogPlayLevel: PIE: World Init took: (0.002422s)
+[2021.04.03-18.42.46:129][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.070221s)
+[2021.04.03-18.42.46:141][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2021.04.03-18.42.46:145][795]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.03-18.42.46:145][795]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.03-18.42.46:145][795]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.03-18.42.46:145][795]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.03-18.42.46:145][795]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.03-18.42.46:145][795]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.03-18.42.46:145][795]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.03-18.42.46:145][795]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.03-18.42.46:145][795]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.03-18.42.46:145][795]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.03-18.42.46:148][795]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.03-18.42.46:148][795]LogAudioMixer: Display: 1: FrontRight
+[2021.04.03-18.42.46:290][795]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.03-18.42.46:290][795]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.03-18.42.46:290][795]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.03-18.42.46:290][795]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.03-18.42.46:291][795]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.03-18.42.46:330][795]LogInit: FAudioDevice initialized.
+[2021.04.03-18.42.46:400][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.42.46:400][795]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.04.03-18.42.46:434][795]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.04.03-12.42.46
+[2021.04.03-18.42.46:437][795]LogWorld: Bringing up level for play took: 0.034848
+[2021.04.03-18.42.46:437][795]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.04.03-18.42.47:158][795]PIE: Server logged in
+[2021.04.03-18.42.47:159][795]PIE: Play in editor total start time 1.101 seconds.
+[2021.04.03-18.43.17:890][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.43.17:890][ 57]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-18.43.17:890][ 57]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.04.03-18.43.17:909][ 57]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-18.43.17:912][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.43.17:922][ 57]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.03-18.43.17:924][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.43.17:967][ 57]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020598E1E840), frame # 40057
+[2021.04.03-18.43.17:967][ 57]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000205CD4FEC00), frame # 40057
+[2021.04.03-18.43.17:968][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.04.03-18.43.18:012][ 58]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.04.03-18.43.21:942][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trap_fbx_Base)
+[2021.04.03-18.43.28:819][521]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.43.29:405][544]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.43.30:031][569]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.43.30:445][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shotgun_Model)
+[2021.04.03-18.43.33:814][732]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.43.34:741][770]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.43.35:436][798]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.43.35:800][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PistolNormal)
+[2021.04.03-18.43.39:628][981]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.43.40:011][995]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.43.40:658][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Municion)
+[2021.04.03-18.43.45:381][223]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.03-18.43.45:397][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.03-18.43.45:398][223]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2021, 6:43:45 AM)
+[2021.04.03-18.43.45:398][223]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-18.43.45:453][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055271s)
+[2021.04.03-18.43.45:454][223]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.03-18.43.45:454][223]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000206050CD000), frame # 41223
+[2021.04.03-18.43.45:454][223]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020599047EC0), frame # 41223
+[2021.04.03-18.43.45:454][223]LogPlayLevel: PIE: World Init took: (0.001308s)
+[2021.04.03-18.43.45:454][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.056732s)
+[2021.04.03-18.43.45:467][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.04.03-18.43.45:469][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.03-18.43.45:469][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.03-18.43.45:469][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.03-18.43.45:469][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.03-18.43.45:469][223]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.03-18.43.45:469][223]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.03-18.43.45:469][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.03-18.43.45:469][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.03-18.43.45:470][223]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.03-18.43.45:470][223]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.03-18.43.45:472][223]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.03-18.43.45:472][223]LogAudioMixer: Display: 1: FrontRight
+[2021.04.03-18.43.45:591][223]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.03-18.43.45:591][223]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.03-18.43.45:591][223]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.03-18.43.45:591][223]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.03-18.43.45:592][223]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.03-18.43.45:609][223]LogInit: FAudioDevice initialized.
+[2021.04.03-18.43.45:678][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.43.45:679][223]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.04.03-18.43.45:714][223]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.04.03-12.43.45
+[2021.04.03-18.43.45:715][223]LogWorld: Bringing up level for play took: 0.033635
+[2021.04.03-18.43.45:715][223]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.04.03-18.43.45:721][223]PIE: Server logged in
+[2021.04.03-18.43.45:722][223]PIE: Play in editor total start time 0.326 seconds.
+[2021.04.03-18.45.00:692][ 19]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2021.04.03-18.45.19:401][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.45.19:401][813]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-18.45.19:401][813]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.04.03-18.45.19:411][813]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-18.45.19:414][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.45.19:431][813]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.03-18.45.19:435][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.45.19:489][813]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020599047EC0), frame # 44813
+[2021.04.03-18.45.19:489][813]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000206050CD000), frame # 44813
+[2021.04.03-18.45.19:491][813]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.04.03-18.45.19:522][814]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.04.03-18.45.22:283][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.04.03-18.45.25:238][928]LogSlate: Window 'Save Content' being destroyed
+[2021.04.03-18.45.25:281][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.04.03-18.45.26:607][928]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap84BA1BBC458D0BA53FCF1E919EB03E29.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.03-18.45.26:704][928]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.433
+[2021.04.03-18.45.26:871][928]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData234255734680CBDDECEAE7A0C60BE3F5.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.03-18.45.26:904][928]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.03-18.45.26:904][928]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.03-18.45.26:905][928]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.03-18.45.32:092][133]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2021.04.03-18.45.38:262][318]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.45.38:669][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Caseta)
+[2021.04.03-18.45.44:719][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PuestoDeCambio)
+[2021.04.03-18.45.49:511][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Caseta)
+[2021.04.03-18.45.54:505][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.04.03-18.45.55:617][ 11]LogSlate: Window 'Save Content' being destroyed
+[2021.04.03-18.45.55:667][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.04.03-18.45.56:666][ 11]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap0BEFF41948A427E870DA2A95A297B73A.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.03-18.45.56:738][ 11]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.083
+[2021.04.03-18.45.56:883][ 11]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData1B7DD33643517D9564CEBFB27A8FD8D1.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.03-18.45.56:931][ 11]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.03-18.45.56:932][ 11]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.03-18.45.56:932][ 11]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.03-18.49.18:384][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Pickup)
+[2021.04.03-18.49.19:077][433]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (falc_low)
+[2021.04.03-18.49.26:121][716]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Pickup)
+[2021.04.03-18.49.28:334][794]Cmd: TRANSACTION UNDO
+[2021.04.03-18.49.28:334][794]LogEditorTransaction: Undo Scale Actors
+[2021.04.03-18.49.29:460][829]Cmd: TRANSACTION UNDO
+[2021.04.03-18.49.29:460][829]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.03-18.49.30:470][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Pickup)
+[2021.04.03-18.49.32:669][949]Cmd: TRANSACTION UNDO
+[2021.04.03-18.49.32:669][949]LogEditorTransaction: Undo Scale Actors
+[2021.04.03-18.49.35:084][ 36]Cmd: TRANSACTION UNDO
+[2021.04.03-18.49.35:084][ 36]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.03-18.49.35:961][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Pickup)
+[2021.04.03-18.49.37:238][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Pickup)
+[2021.04.03-18.49.54:079][788]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2021.04.03-18.50.02:701][ 32]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.50.05:907][147]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (796b3b0283794320bc74bbccf8578115_fbx_DM3)
+[2021.04.03-18.50.13:110][444]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM)
+[2021.04.03-18.50.16:922][594]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (PigFalse_DM)
+[2021.04.03-18.50.20:922][746]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (TiroAlBlanco_DM4)
+[2021.04.03-18.50.34:873][300]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2021.04.03-18.50.38:739][410]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.50.43:930][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PistolNormal)
+[2021.04.03-18.50.48:327][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shotgun_Model)
+[2021.04.03-18.50.51:546][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LaserGun)
+[2021.04.03-18.51.01:113][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PistolNormal)
+[2021.04.03-18.51.02:606][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LaserGun)
+[2021.04.03-18.51.10:220][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LaserGun)
+[2021.04.03-18.51.45:337][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PistolNormal)
+[2021.04.03-18.51.47:096][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LaserGun)
+[2021.04.03-18.51.59:698][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shotgun_Model)
+[2021.04.03-18.52.22:306][581]Cmd: DUPLICATE
+[2021.04.03-18.52.22:307][581]Cmd: ACTOR DUPLICATE
+[2021.04.03-18.52.23:739][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.04.03-18.52.24:782][625]LogSlate: Window 'Save Content' being destroyed
+[2021.04.03-18.52.24:818][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2021.04.03-18.52.26:126][625]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapCC56FD864F3CB7F816220CA341EE24A6.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.03-18.52.26:156][625]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.350
+[2021.04.03-18.52.26:254][625]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData42A830144D60F6038A0A589FED93E52C.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.03-18.52.26:272][625]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.03-18.52.26:272][625]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.03-18.52.26:272][625]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.03-18.52.29:324][765]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.03-18.52.30:075][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shotgun_Model2)
+[2021.04.03-18.52.30:319][799]Cmd: DELETE
+[2021.04.03-18.52.30:319][799]Cmd: ACTOR DELETE
+[2021.04.03-18.52.31:260][799]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.03-18.52.31:293][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2021.04.03-18.52.31:298][799]LogEditorActor: Deleted 1 Actors (0.979 secs)
+[2021.04.03-18.52.34:548][962]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.03-18.52.34:565][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.03-18.52.34:565][962]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2021, 6:52:34 AM)
+[2021.04.03-18.52.34:566][962]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-18.52.34:621][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055467s)
+[2021.04.03-18.52.34:622][962]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.03-18.52.34:622][962]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002059936DE00), frame # 55962
+[2021.04.03-18.52.34:622][962]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000205B44482C0), frame # 55962
+[2021.04.03-18.52.34:623][962]LogPlayLevel: PIE: World Init took: (0.001377s)
+[2021.04.03-18.52.34:623][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.057001s)
+[2021.04.03-18.52.34:632][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.04.03-18.52.34:634][962]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.03-18.52.34:634][962]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.03-18.52.34:634][962]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.03-18.52.34:634][962]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.03-18.52.34:634][962]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.03-18.52.34:634][962]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.03-18.52.34:634][962]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.03-18.52.34:634][962]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.03-18.52.34:634][962]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.03-18.52.34:634][962]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.03-18.52.34:639][962]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.03-18.52.34:639][962]LogAudioMixer: Display: 1: FrontRight
+[2021.04.03-18.52.34:747][962]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.03-18.52.34:747][962]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.03-18.52.34:747][962]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.03-18.52.34:747][962]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.03-18.52.34:748][962]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.03-18.52.34:766][962]LogInit: FAudioDevice initialized.
+[2021.04.03-18.52.34:828][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.52.34:828][962]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.04.03-18.52.34:845][962]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.04.03-12.52.34
+[2021.04.03-18.52.34:845][962]LogWorld: Bringing up level for play took: 0.016373
+[2021.04.03-18.52.34:845][962]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.04.03-18.52.34:850][962]PIE: Server logged in
+[2021.04.03-18.52.34:851][962]PIE: Play in editor total start time 0.287 seconds.
+[2021.04.03-18.52.46:951][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.52.46:951][388]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-18.52.46:952][388]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.04.03-18.52.46:973][388]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-18.52.46:978][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.52.46:993][388]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.03-18.52.46:997][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.52.47:051][388]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000205B44482C0), frame # 56388
+[2021.04.03-18.52.47:051][388]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002059936DE00), frame # 56388
+[2021.04.03-18.52.47:053][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2021.04.03-18.52.47:082][389]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.04.03-18.52.48:300][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LaserGun)
+[2021.04.03-18.52.51:920][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shotgun_Model)
+[2021.04.03-18.52.55:513][766]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.03-18.52.55:531][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.03-18.52.55:531][766]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2021, 6:52:55 AM)
+[2021.04.03-18.52.55:531][766]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-18.52.55:594][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062930s)
+[2021.04.03-18.52.55:595][766]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.03-18.52.55:595][766]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002054EE40600), frame # 56766
+[2021.04.03-18.52.55:595][766]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000205BCD09F80), frame # 56766
+[2021.04.03-18.52.55:596][766]LogPlayLevel: PIE: World Init took: (0.001252s)
+[2021.04.03-18.52.55:596][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.064380s)
+[2021.04.03-18.52.55:605][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.04.03-18.52.55:608][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.03-18.52.55:608][766]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.03-18.52.55:608][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.03-18.52.55:608][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.03-18.52.55:608][766]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.03-18.52.55:608][766]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.03-18.52.55:608][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.03-18.52.55:608][766]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.03-18.52.55:609][766]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.03-18.52.55:609][766]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.03-18.52.55:611][766]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.03-18.52.55:611][766]LogAudioMixer: Display: 1: FrontRight
+[2021.04.03-18.52.55:719][766]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.03-18.52.55:720][766]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.03-18.52.55:720][766]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.03-18.52.55:720][766]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.03-18.52.55:721][766]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.03-18.52.55:750][766]LogInit: FAudioDevice initialized.
+[2021.04.03-18.52.55:808][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.52.55:808][766]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.04.03-18.52.55:825][766]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.04.03-12.52.55
+[2021.04.03-18.52.55:826][766]LogWorld: Bringing up level for play took: 0.016494
+[2021.04.03-18.52.55:826][766]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.04.03-18.52.55:831][766]PIE: Server logged in
+[2021.04.03-18.52.55:833][766]PIE: Play in editor total start time 0.303 seconds.
+[2021.04.03-18.53.06:040][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.53.06:040][109]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-18.53.06:040][109]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.04.03-18.53.06:068][109]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-18.53.06:071][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.53.06:083][109]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.03-18.53.06:085][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.53.06:121][109]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000205BCD09F80), frame # 57109
+[2021.04.03-18.53.06:121][109]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002054EE40600), frame # 57109
+[2021.04.03-18.53.06:124][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.04.03-18.53.06:150][110]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.04.03-18.53.07:490][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PistolNormal)
+[2021.04.03-18.53.11:607][351]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.04.03-18.53.12:998][351]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap35D4ABD046B566C2B77A92BDC540ADFA.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.03-18.53.13:163][351]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData47ED2EE04AD5B7C4D387C0A46E1F699C.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.03-18.53.13:176][351]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.03-18.53.13:176][351]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.03-18.53.13:176][351]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.03-18.53.14:918][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.04.03-18.56.34:949][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Municion)
+[2021.04.03-18.56.44:878][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Trap_fbx_Base)
+[2021.04.03-18.57.00:170][517]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.03-18.57.00:186][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.03-18.57.00:187][517]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2021, 6:57:00 AM)
+[2021.04.03-18.57.00:187][517]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-18.57.00:252][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064760s)
+[2021.04.03-18.57.00:253][517]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.03-18.57.00:253][517]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000205CD4FFE00), frame # 67517
+[2021.04.03-18.57.00:253][517]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020598E1E480), frame # 67517
+[2021.04.03-18.57.00:253][517]LogPlayLevel: PIE: World Init took: (0.001613s)
+[2021.04.03-18.57.00:253][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.066551s)
+[2021.04.03-18.57.00:266][517]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.04.03-18.57.00:269][517]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.03-18.57.00:269][517]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.03-18.57.00:269][517]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.03-18.57.00:269][517]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.03-18.57.00:269][517]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.03-18.57.00:270][517]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.03-18.57.00:270][517]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.03-18.57.00:270][517]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.03-18.57.00:270][517]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.03-18.57.00:270][517]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.03-18.57.00:275][517]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.03-18.57.00:275][517]LogAudioMixer: Display: 1: FrontRight
+[2021.04.03-18.57.00:459][517]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.03-18.57.00:459][517]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.03-18.57.00:459][517]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.03-18.57.00:459][517]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.03-18.57.00:460][517]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.03-18.57.00:494][517]LogInit: FAudioDevice initialized.
+[2021.04.03-18.57.00:582][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.57.00:582][517]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.04.03-18.57.00:625][517]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.04.03-12.57.00
+[2021.04.03-18.57.00:627][517]LogWorld: Bringing up level for play took: 0.040830
+[2021.04.03-18.57.00:627][517]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.04.03-18.57.00:635][517]PIE: Server logged in
+[2021.04.03-18.57.00:637][517]PIE: Play in editor total start time 0.451 seconds.
+[2021.04.03-18.58.22:839][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-18.58.22:839][605]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-18.58.22:840][605]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.04.03-18.58.22:857][605]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-18.58.22:860][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.58.22:871][605]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.03-18.58.22:873][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.58.22:911][605]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020598E1E480), frame # 70605
+[2021.04.03-18.58.22:911][605]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000205CD4FFE00), frame # 70605
+[2021.04.03-18.58.22:912][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.04.03-18.58.22:941][606]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.04.03-18.58.27:125][784]LogEditorViewport: Clicking on Actor (LMB): TrapClose2_C (TrapClose2)
+[2021.04.03-18.58.32:462][  7]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/TrapClose1.TrapClose1
+[2021.04.03-18.58.33:615][  7]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0026 seconds. Added 125 classes and 0 folders.
+[2021.04.03-18.58.40:183][ 99]LogSlate: Took 0.044433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.04.03-18.58.52:298][437]BlueprintLog: New page: Compile TrapClose1
+[2021.04.03-18.58.52:322][437]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (TrapClose1)
+[2021.04.03-18.58.52:985][437]LogUObjectHash: Compacting FUObjectHashTables data took   7.97ms
+[2021.04.03-18.58.53:819][455]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/TrapClose1ACA1615A49D84FF4868E13B6A9A6434D.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose1.uasset'
+[2021.04.03-18.58.55:006][455]AssetCheck: New page: Asset Save: TrapClose1
+[2021.04.03-18.58.55:006][455]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/TrapClose1.TrapClose1
+[2021.04.03-18.58.55:415][468]LogSlate: Window 'TrapClose1' being destroyed
+[2021.04.03-18.58.55:453][468]LogSlate: Window 'TrapClose1' being destroyed
+[2021.04.03-18.58.55:471][468]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-18.58.55:471][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-18.58.56:668][509]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/TrapClose2.TrapClose2
+[2021.04.03-18.59.08:243][830]BlueprintLog: New page: Compile TrapClose2
+[2021.04.03-18.59.08:262][830]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (TrapClose2)
+[2021.04.03-18.59.08:320][830]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.04.03-18.59.10:254][882]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/TrapClose203B89B6B4F6974833FCDB1AC1E49D2B5.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose2.uasset'
+[2021.04.03-18.59.10:267][882]AssetCheck: New page: Asset Save: TrapClose2
+[2021.04.03-18.59.10:268][882]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/TrapClose2.TrapClose2
+[2021.04.03-18.59.34:346][543]LogSlate: Window 'TrapClose2' being destroyed
+[2021.04.03-18.59.34:385][543]LogSlate: Window 'TrapClose2' being destroyed
+[2021.04.03-18.59.34:399][543]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-18.59.34:399][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-19.04.27:026][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2021.04.03-19.04.28:037][ 79]LogSlate: Window 'Save Content' being destroyed
+[2021.04.03-19.04.28:094][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.04.03-19.04.28:809][ 79]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapC842275344F0F296ECDC60ADD395ADFC.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.03-19.04.28:835][ 79]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.762
+[2021.04.03-19.04.28:938][ 79]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData90D469B0477391495FD1B2BDC8591CF5.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.03-19.04.28:966][ 79]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.03-19.04.28:966][ 79]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.03-19.04.28:966][ 79]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.03-19.04.31:602][206]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.03-19.04.31:619][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.03-19.04.31:619][206]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 3, 2021, 7:04:31 AM)
+[2021.04.03-19.04.31:619][206]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-19.04.31:686][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066599s)
+[2021.04.03-19.04.31:688][206]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.03-19.04.31:688][206]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002062B528C00), frame # 87206
+[2021.04.03-19.04.31:688][206]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002063429BD80), frame # 87206
+[2021.04.03-19.04.31:688][206]LogPlayLevel: PIE: World Init took: (0.001833s)
+[2021.04.03-19.04.31:688][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.068621s)
+[2021.04.03-19.04.31:712][206]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.04.03-19.04.31:713][206]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.03-19.04.31:713][206]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.03-19.04.31:713][206]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.03-19.04.31:713][206]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.03-19.04.31:713][206]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.03-19.04.31:713][206]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.03-19.04.31:713][206]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.03-19.04.31:713][206]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.03-19.04.31:714][206]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.03-19.04.31:714][206]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.03-19.04.31:718][206]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.03-19.04.31:718][206]LogAudioMixer: Display: 1: FrontRight
+[2021.04.03-19.04.31:836][206]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.03-19.04.31:836][206]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.03-19.04.31:837][206]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.03-19.04.31:837][206]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.03-19.04.31:837][206]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.03-19.04.31:854][206]LogInit: FAudioDevice initialized.
+[2021.04.03-19.04.31:903][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-19.04.31:903][206]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.04.03-19.04.31:920][206]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.04.03-13.04.31
+[2021.04.03-19.04.31:921][206]LogWorld: Bringing up level for play took: 0.016808
+[2021.04.03-19.04.31:921][206]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.04.03-19.04.31:926][206]PIE: Server logged in
+[2021.04.03-19.04.31:928][206]PIE: Play in editor total start time 0.31 seconds.
+[2021.04.03-19.06.28:158][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.03-19.06.28:158][747]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.03-19.06.28:159][747]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.04.03-19.06.28:180][747]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-19.06.28:184][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-19.06.28:194][747]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.03-19.06.28:199][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.03-19.06.28:245][747]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002063429BD80), frame # 91747
+[2021.04.03-19.06.28:245][747]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002062B528C00), frame # 91747
+[2021.04.03-19.06.28:250][747]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.04.03-19.06.28:281][748]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.04.03-19.06.29:722][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.04.03-19.06.30:802][846]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.04.03-19.06.31:551][846]LogSlate: Window 'DeepWoodland2 - Unreal Editor' being destroyed
+[2021.04.03-19.06.31:553][846]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.04.03-19.06.31:806][847]Cmd: QUIT_EDITOR
+[2021.04.03-19.06.31:806][847]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.04.03-19.06.31:870][847]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.04.03-19.06.32:415][847]LogExit: Preparing to exit.
+[2021.04.03-19.06.33:595][847]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-19.06.33:599][847]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-19.06.33:603][847]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-19.06.33:606][847]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-19.06.33:774][847]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.04.03-19.06.33:817][847]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.04.03-19.06.33:834][847]LogExit: Editor shut down
+[2021.04.03-19.06.33:838][847]LogExit: Transaction tracking system shut down
+[2021.04.03-19.06.34:378][847]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000002055737E980), frame # 91847
+[2021.04.03-19.06.34:378][847]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002055721EAC0), frame # 91847
+[2021.04.03-19.06.34:388][847]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002055738AA00), frame # 91847
+[2021.04.03-19.06.34:619][847]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000205BCD37600), frame # 91847
+[2021.04.03-19.06.34:619][847]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000205C3DF3600), frame # 91847
+[2021.04.03-19.06.34:778][847]LogExit: Object subsystem successfully closed.
+[2021.04.03-19.06.34:888][847]LogShaderCompilers: Display: Shaders left to compile 0
