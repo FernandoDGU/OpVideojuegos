@@ -1431,3 +1431,151 @@ An asset already exists at the import location: /Game/Texturas/LEtreInstruct
 [2021.04.05-20.28.21:927][337]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/Meshes/LetreroGranVista_polySurface23.LetreroGranVista_polySurface23
 [2021.04.05-20.28.21:927][337]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2021.04.05-20.28.21:927][337]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.05-20.35.31:859][393]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materiales/M_CerdoLEtrero.M_CerdoLEtrero
+[2021.04.05-20.35.32:348][393]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.35.32:532][393]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.35.32:543][393]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.35.32:556][393]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2021.04.05-20.35.32:556][393]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2021.04.05-20.35.32:556][393]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2021.04.05-20.35.32:614][393]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.35.34:443][428]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2021.04.05-20.35.34:878][438]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2021.04.05-20.35.35:355][449]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2021.04.05-20.35.36:180][465]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2021.04.05-20.35.36:760][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LetreroGranVista_polySurface27)
+[2021.04.05-20.35.36:926][482]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
+[2021.04.05-20.35.36:926][482]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 16
+[2021.04.05-20.35.37:409][496]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2021.04.05-20.35.37:993][500]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2021.04.05-20.35.38:156][504]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2021.04.05-20.35.38:207][506]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.04.05-20.35.38:207][506]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.04.05-20.35.38:207][506]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.04.05-20.35.38:207][506]MaterialEditorStats: Texture samplers: 2/16
+[2021.04.05-20.35.40:873][569]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2021.04.05-20.35.42:856][614]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2021.04.05-20.35.52:965][791]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/Escuela/Facultad/8 semestre/Optimizacion de videojuegos/modelos/letrero/ROADWORKS_PREPARE-TO-STOP_OBJ/ROADWORKS_PREPARE-TO-STOP/CerdoLetrero.jpg)
+[2021.04.05-20.35.53:043][791]LogTexture: Display: Building textures: CerdoLetrero (BGRA8, 2056X1427)
+[2021.04.05-20.35.53:160][791]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/Escuela/Facultad/8 semestre/Optimizacion de videojuegos/modelos/letrero/ROADWORKS_PREPARE-TO-STOP_OBJ/ROADWORKS_PREPARE-TO-STOP/CerdoLetreroAmbient.jpg)
+[2021.04.05-20.35.53:209][791]LogTexture: Display: Building textures: CerdoLetreroAmbient (BGRA8, 2056X1427)
+[2021.04.05-20.35.53:339][791]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/Escuela/Facultad/8 semestre/Optimizacion de videojuegos/modelos/letrero/ROADWORKS_PREPARE-TO-STOP_OBJ/ROADWORKS_PREPARE-TO-STOP/CerdoLetreroNormal.jpg)
+[2021.04.05-20.35.53:401][791]LogTexture: Display: Building textures: CerdoLetreroNormal (BGRA8, 2056X1427)
+[2021.04.05-20.35.56:697][871]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.35.56:719][871]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2021.04.05-20.35.56:719][871]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2021.04.05-20.35.56:719][871]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2021.04.05-20.35.56:719][871]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.04.05-20.35.56:737][871]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.04.05-20.35.56:743][871]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.35.57:921][903]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2021.04.05-20.35.58:374][912]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
+[2021.04.05-20.35.58:572][916]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2021.04.05-20.35.59:434][937]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2021.04.05-20.35.59:444][937]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2021.04.05-20.35.59:711][944]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.35.59:733][944]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.04.05-20.35.59:748][944]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.35.59:868][949]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
+[2021.04.05-20.36.00:889][977]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 27
+[2021.04.05-20.36.01:006][980]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2021.04.05-20.36.01:597][996]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2021.04.05-20.36.02:060][  8]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2021.04.05-20.36.02:385][ 15]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.36.02:411][ 15]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.04.05-20.36.02:433][ 15]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.04.05-20.36.02:436][ 15]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.04.05-20.36.02:446][ 15]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.36.02:516][ 17]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 32
+[2021.04.05-20.36.03:782][ 53]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2021.04.05-20.36.04:320][ 68]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2021.04.05-20.36.04:814][ 80]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 29
+[2021.04.05-20.36.05:099][ 88]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
+[2021.04.05-20.36.05:296][ 92]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2021.04.05-20.36.05:714][104]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.36.05:772][104]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.04.05-20.36.05:785][104]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.36.06:407][124]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 32
+[2021.04.05-20.36.06:415][124]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 31
+[2021.04.05-20.36.07:010][124]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 30
+[2021.04.05-20.36.07:010][124]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 29
+[2021.04.05-20.36.07:108][124]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 28
+[2021.04.05-20.36.07:475][124]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
+[2021.04.05-20.36.07:690][131]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2021.04.05-20.36.08:948][167]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
+[2021.04.05-20.36.08:998][167]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.36.09:010][167]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2021.04.05-20.36.09:024][167]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.04.05-20.36.09:027][167]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.04.05-20.36.09:031][167]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2021.04.05-20.36.09:040][167]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.36.09:107][169]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 36
+[2021.04.05-20.36.09:344][177]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 35
+[2021.04.05-20.36.10:710][216]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.36.10:726][216]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2021.04.05-20.36.10:740][216]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.36.10:945][221]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
+[2021.04.05-20.36.11:138][228]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 35
+[2021.04.05-20.36.11:209][230]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 34
+[2021.04.05-20.36.11:451][237]LogMaterialEditor: Saving and Compiling material M_CerdoLEtrero
+[2021.04.05-20.36.12:621][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 33
+[2021.04.05-20.36.12:621][237]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 32
+[2021.04.05-20.36.12:621][237]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2021.04.05-20.36.12:621][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2021.04.05-20.36.12:635][237]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.36.12:695][237]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 29
+[2021.04.05-20.36.12:708][237]LogMaterial: Display: Missing cached shader map for material M_CerdoLEtrero, compiling. 
+[2021.04.05-20.36.13:272][237]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 43
+[2021.04.05-20.36.13:275][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.04.05-20.36.13:284][237]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 42
+[2021.04.05-20.36.13:291][237]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.04.05-20.36.13:854][237]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 43
+[2021.04.05-20.36.13:854][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 42
+[2021.04.05-20.36.13:854][237]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 41
+[2021.04.05-20.36.14:415][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 40
+[2021.04.05-20.36.14:415][237]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 39
+[2021.04.05-20.36.14:415][237]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 38
+[2021.04.05-20.36.14:978][237]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 37
+[2021.04.05-20.36.14:978][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
+[2021.04.05-20.36.15:538][237]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 35
+[2021.04.05-20.36.15:538][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 34
+[2021.04.05-20.36.16:129][237]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 33
+[2021.04.05-20.36.16:685][237]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 32
+[2021.04.05-20.36.16:685][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
+[2021.04.05-20.36.16:685][237]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
+[2021.04.05-20.36.17:132][237]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2021.04.05-20.36.17:132][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2021.04.05-20.36.17:135][237]TextureStreamingBuild: Display: Compiling optional shaders took 3.848 seconds.
+[2021.04.05-20.36.19:735][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.05-20.36.19:757][237]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2021.04.05-20.36.19:757][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2021.04.05-20.36.20:895][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2021.04.05-20.36.21:263][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2021.04.05-20.36.21:307][237]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/M_CerdoLEtreroB954BAE94BB662B765FEB1B65A2C0CB3.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Materiales/M_CerdoLEtrero.uasset'
+[2021.04.05-20.36.21:351][237]AssetCheck: New page: Asset Save: M_CerdoLEtrero
+[2021.04.05-20.36.21:351][237]LogContentValidation: Display: Validating Material /Game/Materiales/M_CerdoLEtrero.M_CerdoLEtrero
+[2021.04.05-20.36.21:358][237]MaterialEditorStats: Base pass shader: 126 instructions
+[2021.04.05-20.36.21:358][237]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 204 instructions
+[2021.04.05-20.36.21:358][237]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.04.05-20.36.21:358][237]MaterialEditorStats: Texture samplers: 6/16
+[2021.04.05-20.36.21:358][237]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2021.04.05-20.36.21:358][237]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.04.05-20.36.25:684][304]LogSlate: Window 'M_CerdoLEtrero' being destroyed
+[2021.04.05-20.36.25:726][304]LogSlate: Window 'M_CerdoLEtrero' being destroyed
+[2021.04.05-20.36.25:755][304]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.04.05-20.36.25:755][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.05-20.36.29:075][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2021.04.05-20.36.30:016][450]LogSlate: Window 'Save Content' being destroyed
+[2021.04.05-20.36.30:201][450]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/CerdoLetrero8564540042F7085AFEE3B1A0B386E58D.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Texturas/CerdoLetrero.uasset'
+[2021.04.05-20.36.30:319][450]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/CerdoLetreroAmbient2814B7EF4E56EA34F14D3CBCA78D574E.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Texturas/CerdoLetreroAmbient.uasset'
+[2021.04.05-20.36.30:473][450]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/CerdoLetreroNormal79BFC570484D675982874CA939BA1C84.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/Texturas/CerdoLetreroNormal.uasset'
+[2021.04.05-20.36.30:486][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.04.05-20.36.32:124][450]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap4965F6A7410FBFC5AD35EB90DDA26CCF.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.05-20.36.32:155][450]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.680
+[2021.04.05-20.36.32:262][450]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataC22B81E5429E27611BD815A8BDCCAA11.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimizaion/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.05-20.36.32:334][450]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.05-20.36.32:334][450]LogContentValidation: Display: Validating Texture2D /Game/Texturas/CerdoLetrero.CerdoLetrero
+[2021.04.05-20.36.32:334][450]LogContentValidation: Display: Validating Texture2D /Game/Texturas/CerdoLetreroAmbient.CerdoLetreroAmbient
+[2021.04.05-20.36.32:334][450]LogContentValidation: Display: Validating Texture2D /Game/Texturas/CerdoLetreroNormal.CerdoLetreroNormal
+[2021.04.05-20.36.32:334][450]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.05-20.36.32:334][450]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
