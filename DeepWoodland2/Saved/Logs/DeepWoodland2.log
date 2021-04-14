@@ -1,8 +1,8 @@
-﻿Log file open, 04/14/21 04:17:20
+﻿Log file open, 04/14/21 06:19:16
 LogInit: Display: Running engine for game: DeepWoodland2
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.220614
+LogStats: Stats thread started at 0.241666
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -177,7 +177,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -195,652 +195,1044 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.04.14-09.17.20:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.04.14-09.17.20:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.04.14-09.17.20:385][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.04.14-09.17.20:388][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.04.14-09.17.20:388][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.04.14-09.17.20:389][  0]LogInit: Selected Device Profile: [Windows]
-[2021.04.14-09.17.20:389][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.04.14-09.17.20:389][  0]LogHAL: Display: Platform has ~ 16 GB [17058402304 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.04.14-09.17.20:389][  0]LogInit: Going up to parent DeviceProfile []
-[2021.04.14-09.17.20:389][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2021.04.14-09.17.20:389][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.04.14-09.17.20:390][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.04.14-09.17.20:391][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:391][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
-[2021.04.14-09.17.20:391][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
-[2021.04.14-09.17.20:391][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.04.14-09.17.20:391][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.04.14-09.17.20:391][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.04.14-09.17.20:391][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.04.14-09.17.20:391][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.04.14-09.17.20:391][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.04.14-09.17.20:391][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.04.14-09.17.20:391][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.04.14-09.17.20:391][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.04.14-09.17.20:391][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.04.14-09.17.20:391][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.04.14-09.17.20:391][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.04.14-09.17.20:391][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.04.14-09.17.20:391][  0]LogInit: Computer: DESKTOP-DV3H2OO
-[2021.04.14-09.17.20:391][  0]LogInit: User: AlexBazaldua
-[2021.04.14-09.17.20:391][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.04.14-09.17.20:391][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.04.14-09.17.20:391][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2021.04.14-09.17.20:391][  0]LogMemory: Platform Memory Stats for Windows
-[2021.04.14-09.17.20:391][  0]LogMemory: Process Physical Memory: 115.40 MB used, 115.41 MB peak
-[2021.04.14-09.17.20:391][  0]LogMemory: Process Virtual Memory: 97.51 MB used, 97.51 MB peak
-[2021.04.14-09.17.20:391][  0]LogMemory: Physical Memory: 5878.06 MB used,  10390.10 MB free, 16268.16 MB total
-[2021.04.14-09.17.20:391][  0]LogMemory: Virtual Memory: 5131.62 MB used,  134212600.00 MB free, 134217728.00 MB total
-[2021.04.14-09.17.20:395][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.04.14-09.17.20:444][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.04.14-09.17.20:446][  0]LogInit: Using OS detected language (en-US).
-[2021.04.14-09.17.20:446][  0]LogInit: Using OS detected locale (en-US).
-[2021.04.14-09.17.20:450][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2021.04.14-09.17.20:642][  0]LogInit: Setting process to per monitor DPI aware
-[2021.04.14-09.17.20:673][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.04.14-09.17.20:673][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.04.14-09.17.20:833][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.04.14-09.17.20:833][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.04.14-09.17.20:833][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.04.14-09.17.20:833][  0]LogD3D11RHI: D3D11 adapters:
-[2021.04.14-09.17.21:010][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2021.04.14-09.17.21:010][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2021.04.14-09.17.21:013][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.04.14-09.17.21:013][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.04.14-09.17.21:013][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.04.14-09.17.21:019][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.04.14-09.17.21:019][  0]LogD3D11RHI:     GPU DeviceId: 0x591b (for the marketing name, search the web for "GPU Device Id")
-[2021.04.14-09.17.21:019][  0]LogWindows: EnumDisplayDevices:
-[2021.04.14-09.17.21:019][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2021.04.14-09.17.21:020][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2021.04.14-09.17.21:020][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2021.04.14-09.17.21:020][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2021.04.14-09.17.21:020][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 630
-[2021.04.14-09.17.21:020][  0]LogD3D11RHI:   Driver Version: 23.20.16.4973 (internal:23.20.16.4973, unified:23.20.16.4973)
-[2021.04.14-09.17.21:020][  0]LogD3D11RHI:      Driver Date: 2-28-2018
-[2021.04.14-09.17.21:020][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
-[2021.04.14-09.17.21:174][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2021.04.14-09.17.21:175][  0]LogD3D11RHI: Async texture creation enabled
-[2021.04.14-09.17.21:175][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.04.14-09.17.21:183][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
-[2021.04.14-09.17.21:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.04.14-09.17.21:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.04.14-09.17.21:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.04.14-09.17.21:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.04.14-09.17.21:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.04.14-09.17.21:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.04.14-09.17.21:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.04.14-09.17.21:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.04.14-09.17.21:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.04.14-09.17.21:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.04.14-09.17.21:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.04.14-09.17.21:629][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.04.14-09.17.21:629][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.04.14-09.17.21:640][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.04.14-09.17.21:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.04.14-09.17.21:659][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.04.14-09.17.21:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.04.14-09.17.21:678][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.04.14-09.17.21:687][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.04.14-09.17.21:697][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.04.14-09.17.21:725][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.04.14-09.17.21:725][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.04.14-09.17.21:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.04.14-09.17.21:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.04.14-09.17.21:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.04.14-09.17.21:762][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.04.14-09.17.21:772][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.04.14-09.17.21:781][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.04.14-09.17.21:782][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.04.14-09.17.21:789][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.04.14-09.17.21:854][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Intermediate/Shaders/WorkingDirectory/13584/).
-[2021.04.14-09.17.21:854][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealShaderWorkingDir/199AB7394B9E3386A31F75BEB74A7AB0/'.
-[2021.04.14-09.17.21:855][  0]LogXGEController: Cleaning working directory: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2021.04.14-09.17.21:855][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.04.14-09.17.21:855][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.04.14-09.17.21:855][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.04.14-09.17.22:732][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.04.14-09.17.22:790][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.04.14-09.17.22:791][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.04.14-09.17.22:791][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.04.14-09.17.22:791][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.04.14-09.17.22:791][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.04.14-09.17.22:791][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.04.14-09.17.22:802][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.04.14-09.17.22:802][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.04.14-09.17.22:802][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.04.14-09.17.22:804][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.04.14-09.17.22:804][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.04.14-09.17.22:804][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.04.14-09.17.22:861][  0]LogSlate: Using FreeType 2.10.0
-[2021.04.14-09.17.22:861][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.04.14-09.17.22:894][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
-[2021.04.14-09.17.23:137][  0]LogInit: Selected Device Profile: [Windows]
-[2021.04.14-09.17.23:255][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.04.14-09.17.23:255][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.04.14-09.17.23:255][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.04.14-09.17.23:255][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.04.14-09.17.23:255][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.04.14-09.17.23:270][  0]LogNetVersion: DeepWoodland2 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1524458531)
-[2021.04.14-09.17.23:745][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000027754CC1380), frame # 0
-[2021.04.14-09.17.23:745][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027754C2C680), frame # 0
-[2021.04.14-09.17.23:746][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027754C59E00), frame # 0
-[2021.04.14-09.17.23:796][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.042255 seconds
-[2021.04.14-09.17.23:801][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.04.14-09.17.23:801][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.04.14-09.17.23:801][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.04.14-09.17.24:150][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.04.14-09.17.24:154][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.04.14-09.17.24:264][  0]SourceControl: Source control is disabled
-[2021.04.14-09.17.24:264][  0]SourceControl: Source control is disabled
-[2021.04.14-09.17.24:268][  0]SourceControl: Source control is disabled
-[2021.04.14-09.17.24:271][  0]SourceControl: Source control is disabled
-[2021.04.14-09.17.24:279][  0]SourceControl: Source control is disabled
-[2021.04.14-09.17.24:535][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.04.14-09.17.24:553][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.04.14-09.17.24:554][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.04.14-09.17.24:605][  0]LogOcInput: OculusInput pre-init called
-[2021.04.14-09.17.24:617][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.04.14-09.17.24:617][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.04.14-09.17.24:679][  0]LogEngine: Initializing Engine...
-[2021.04.14-09.17.24:681][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.04.14-09.17.24:681][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.04.14-09.17.24:681][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.04.14-09.17.24:815][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.04.14-09.17.24:827][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.04.14-09.17.24:827][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027756C5FC00), frame # 0
-[2021.04.14-09.17.24:828][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027756CC96C0), frame # 0
-[2021.04.14-09.17.24:864][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.04.14-09.17.24:864][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.04.14-09.17.24:864][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.04.14-09.17.24:864][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.04.14-09.17.24:864][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.04.14-09.17.24:864][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.04.14-09.17.24:864][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.04.14-09.17.24:864][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.04.14-09.17.24:865][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.04.14-09.17.24:865][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.04.14-09.17.24:879][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.04.14-09.17.24:880][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.04.14-09.17.25:347][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2021.04.14-09.17.25:350][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.04.14-09.17.25:353][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.04.14-09.17.25:353][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.04.14-09.17.25:354][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.04.14-09.17.25:355][  0]LogInit: FAudioDevice initialized.
-[2021.04.14-09.17.25:355][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.04.14-09.17.25:640][  0]LogDerivedDataCache: Saved boot cache 0.28s 76MB C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.04.14-09.17.25:642][  0]LogInit: Texture streaming: Enabled
-[2021.04.14-09.17.25:658][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.04.14-09.17.25:658][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.04.14-09.17.25:674][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.04.14-09.17.25:722][  0]LogInit: Transaction tracking system initialized
-[2021.04.14-09.17.25:746][  0]BlueprintLog: New page: Editor Load
-[2021.04.14-09.17.25:821][  0]LocalizationService: Localization service is disabled
-[2021.04.14-09.17.26:192][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.04.14-09.17.26:192][  0]LogCook: Display: Mobile HDR setting 1
-[2021.04.14-09.17.26:324][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/' took 0.01s
-[2021.04.14-09.17.26:572][  0]SourceControl: Source control is disabled
-[2021.04.14-09.17.26:572][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.309
-[2021.04.14-09.17.26:572][  0]LightingResults: New page: Lighting Build
-[2021.04.14-09.17.26:573][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.04.14-09.17.26:573][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.14-09.17.26:573][  0]MapCheck: New page: Map Check
-[2021.04.14-09.17.26:573][  0]LightingResults: New page: Lighting Build
-[2021.04.14-09.17.26:582][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027756C5FC00), frame # 0
-[2021.04.14-09.17.26:582][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027756CC96C0), frame # 0
-[2021.04.14-09.17.26:582][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
-[2021.04.14-09.17.27:019][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
-[2021.04.14-09.17.27:019][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
-[2021.04.14-09.17.27:019][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
-[2021.04.14-09.17.27:019][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
-[2021.04.14-09.17.27:019][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
-[2021.04.14-09.17.27:020][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
-[2021.04.14-09.17.27:020][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
-[2021.04.14-09.17.27:020][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
-[2021.04.14-09.17.27:020][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
-[2021.04.14-09.17.27:021][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
-[2021.04.14-09.17.27:021][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
-[2021.04.14-09.17.27:021][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
-[2021.04.14-09.17.27:358][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
-[2021.04.14-09.17.27:358][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Roughness.vbwpdg0o_8K_Roughness Referenced by M_terreno_Inst
-[2021.04.14-09.17.27:358][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
-[2021.04.14-09.17.27:358][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Roughness.vbwpdg0o_8K_Roughness Referenced by M_terreno_Inst
-[2021.04.14-09.17.27:358][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
-[2021.04.14-09.17.27:358][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Normal.vbwpdg0o_8K_Normal Referenced by M_terreno_Inst
-[2021.04.14-09.17.27:358][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
-[2021.04.14-09.17.27:358][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Normal.vbwpdg0o_8K_Normal Referenced by M_terreno_Inst
-[2021.04.14-09.17.27:359][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
-[2021.04.14-09.17.27:359][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Albedo.vbwpdg0o_8K_Albedo Referenced by M_terreno_Inst
-[2021.04.14-09.17.27:359][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
-[2021.04.14-09.17.27:359][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Albedo.vbwpdg0o_8K_Albedo Referenced by M_terreno_Inst
-[2021.04.14-09.17.28:674][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2021.04.14-09.17.28:675][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000277095C9800), frame # 0
-[2021.04.14-09.17.28:675][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002774E245F80), frame # 0
-[2021.04.14-09.17.28:858][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.04.14-09.17.29:138][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
-[2021.04.14-09.17.29:148][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.04.14-09.17.29:148][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.259ms to complete.
-[2021.04.14-09.17.29:148][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.577
-[2021.04.14-09.17.29:150][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.888
-[2021.04.14-09.17.29:294][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.14-09.17.29:303][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.14-09.17.29:311][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.14-09.17.29:320][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.14-09.17.29:327][  0]LogCollectionManager: Loaded 0 collections in 0.002533 seconds
-[2021.04.14-09.17.29:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/Collections/' took 0.00s
-[2021.04.14-09.17.29:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Developers/AlexBazaldua/Collections/' took 0.00s
-[2021.04.14-09.17.29:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Collections/' took 0.00s
-[2021.04.14-09.17.29:341][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3436 classes and 826 folders.
-[2021.04.14-09.17.29:346][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.04.14-09.17.29:418][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.04.14-09.17.29:420][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2021.04.14-09.17.29:428][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
-[2021.04.14-09.17.29:688][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.04.14-09.17.29:691][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.04.14-09.17.29:695][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.04.14-09.17.29:844][  0]LogRenderer: Reallocating scene render targets to support 948x368 Format 9 NumSamples 1 (Frame:1).
-[2021.04.14-09.17.29:982][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.04.14-09.17.29:982][  0]LogLoad: (Engine Initialization) Total time: 12.72 seconds
-[2021.04.14-09.17.29:982][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.04.14-09.17.30:042][  0]LogAssetRegistry: Asset discovery search completed in 7.1503 seconds
-[2021.04.14-09.17.30:047][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2021.04.14-09.17.30:066][  0]LogContentStreaming: Texture pool size now 600 MB
-[2021.04.14-09.17.30:355][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.04.14-09.17.30:360][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2021.04.14-09.17.41:381][ 66]LogSlate: Window 'Message Log' being destroyed
-[2021.04.14-09.17.41:413][ 66]LogSlate: Window 'Message Log' being destroyed
-[2021.04.14-09.18.38:900][772]LogTemp: Repeating last play command: Selected Viewport
-[2021.04.14-09.18.38:916][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.04.14-09.18.38:917][772]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 13, 2021, 11:18:38 PM)
-[2021.04.14-09.18.38:918][772]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2021.04.14-09.18.38:919][772]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2021.04.14-09.18.38:919][772]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2021.04.14-09.18.39:007][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087265s)
-[2021.04.14-09.18.39:008][772]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2021.04.14-09.18.39:008][772]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000277095C8200), frame # 772
-[2021.04.14-09.18.39:008][772]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000277A00AA840), frame # 772
-[2021.04.14-09.18.39:009][772]LogPlayLevel: PIE: World Init took: (0.001571s)
-[2021.04.14-09.18.39:009][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.089064s)
-[2021.04.14-09.18.39:021][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
-[2021.04.14-09.18.39:023][772]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.04.14-09.18.39:023][772]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.04.14-09.18.39:023][772]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.04.14-09.18.39:023][772]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.04.14-09.18.39:023][772]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.04.14-09.18.39:023][772]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.04.14-09.18.39:023][772]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.04.14-09.18.39:023][772]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.04.14-09.18.39:024][772]LogAudio: Display: Using built-in audio occlusion.
-[2021.04.14-09.18.39:024][772]LogAudioMixer: Display: Initializing audio mixer.
-[2021.04.14-09.18.39:026][772]LogAudioMixer: Display: 0: FrontLeft
-[2021.04.14-09.18.39:026][772]LogAudioMixer: Display: 1: FrontRight
-[2021.04.14-09.18.39:127][772]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2021.04.14-09.18.39:127][772]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.04.14-09.18.39:127][772]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.04.14-09.18.39:127][772]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.04.14-09.18.39:128][772]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.04.14-09.18.39:143][772]LogInit: FAudioDevice initialized.
-[2021.04.14-09.18.39:156][772]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2021.04.14-09.18.39:190][772]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.04.14-04.18.39
-[2021.04.14-09.18.39:191][772]LogWorld: Bringing up level for play took: 0.034276
-[2021.04.14-09.18.39:192][772]LogOnline: OSS: Creating online subsystem instance for: :Context_1
-[2021.04.14-09.18.39:195][772]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
-[2021.04.14-09.18.39:198][772]PIE: Server logged in
-[2021.04.14-09.18.39:200][772]PIE: Play in editor total start time 0.284 seconds.
-[2021.04.14-09.18.59:028][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.14-09.18.59:028][819]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2021.04.14-09.18.59:029][819]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2021.04.14-09.18.59:031][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.14-09.18.59:045][819]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.04.14-09.18.59:047][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.14-09.18.59:082][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.14-09.18.59:084][819]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000277A00AA840), frame # 1819
-[2021.04.14-09.18.59:084][819]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000277095C8200), frame # 1819
-[2021.04.14-09.18.59:087][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
-[2021.04.14-09.18.59:140][820]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2021.04.14-09.19.00:494][870]LogTemp: Repeating last play command: Selected Viewport
-[2021.04.14-09.19.00:512][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.04.14-09.19.00:512][870]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 13, 2021, 11:19:00 PM)
-[2021.04.14-09.19.00:512][870]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2021.04.14-09.19.00:596][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083717s)
-[2021.04.14-09.19.00:597][870]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2021.04.14-09.19.00:597][870]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000277B8809400), frame # 1870
-[2021.04.14-09.19.00:597][870]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002774D6D0CC0), frame # 1870
-[2021.04.14-09.19.00:597][870]LogPlayLevel: PIE: World Init took: (0.001428s)
-[2021.04.14-09.19.00:597][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.085337s)
-[2021.04.14-09.19.00:608][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
-[2021.04.14-09.19.00:610][870]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.04.14-09.19.00:610][870]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.04.14-09.19.00:610][870]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.04.14-09.19.00:610][870]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.04.14-09.19.00:610][870]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.04.14-09.19.00:610][870]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.04.14-09.19.00:610][870]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.04.14-09.19.00:610][870]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.04.14-09.19.00:610][870]LogAudio: Display: Using built-in audio occlusion.
-[2021.04.14-09.19.00:610][870]LogAudioMixer: Display: Initializing audio mixer.
-[2021.04.14-09.19.00:612][870]LogAudioMixer: Display: 0: FrontLeft
-[2021.04.14-09.19.00:612][870]LogAudioMixer: Display: 1: FrontRight
-[2021.04.14-09.19.00:724][870]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2021.04.14-09.19.00:724][870]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.04.14-09.19.00:724][870]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.04.14-09.19.00:725][870]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.04.14-09.19.00:725][870]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.04.14-09.19.00:743][870]LogInit: FAudioDevice initialized.
-[2021.04.14-09.19.00:753][870]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2021.04.14-09.19.00:787][870]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.04.14-04.19.00
-[2021.04.14-09.19.00:788][870]LogWorld: Bringing up level for play took: 0.034615
-[2021.04.14-09.19.00:788][870]LogOnline: OSS: Creating online subsystem instance for: :Context_2
-[2021.04.14-09.19.00:792][870]PIE: Server logged in
-[2021.04.14-09.19.00:793][870]PIE: Play in editor total start time 0.282 seconds.
-[2021.04.14-09.19.24:487][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.14-09.19.24:487][223]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2021.04.14-09.19.24:488][223]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2021.04.14-09.19.24:492][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.14-09.19.24:505][223]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.04.14-09.19.24:507][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.14-09.19.24:520][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.14-09.19.24:543][223]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002774D6D0CC0), frame # 3223
-[2021.04.14-09.19.24:543][223]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000277B8809400), frame # 3223
-[2021.04.14-09.19.24:546][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
-[2021.04.14-09.19.24:583][224]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2021.04.14-09.19.25:976][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
-[2021.04.14-09.19.53:857][571]LogEditorViewport: Clicking on Actor (LMB): BP_Pistol_C (BP_Pistol)
-[2021.04.14-09.19.59:665][765]LogSlate: Took 0.000387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.04.14-09.19.59:685][765]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Soldado/WeaponBluePrints/WeaponBP.WeaponBP
-[2021.04.14-09.19.59:936][765]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
-[2021.04.14-09.20.00:983][765]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2021.04.14-09.20.01:069][766]LogSlate: Took 0.000425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2021.04.14-09.20.55:269][820]BlueprintLog: New page: Compile WeaponBP
-[2021.04.14-09.20.55:380][820]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
-[2021.04.14-09.20.56:058][832]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/WeaponBP7051241A43C3AD50A6F8239C9293166A.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Soldado/WeaponBluePrints/WeaponBP.uasset'
-[2021.04.14-09.20.56:074][832]AssetCheck: New page: Asset Save: WeaponBP
-[2021.04.14-09.20.56:074][832]LogContentValidation: Display: Validating Blueprint /Game/Soldado/WeaponBluePrints/WeaponBP.WeaponBP
-[2021.04.14-09.21.20:811][220]BlueprintLog: New page: Compile WeaponBP
-[2021.04.14-09.21.20:908][220]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
-[2021.04.14-09.21.21:433][232]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/WeaponBPC072E9074A5DC984D1B5248863E2299B.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Soldado/WeaponBluePrints/WeaponBP.uasset'
-[2021.04.14-09.21.21:448][232]AssetCheck: New page: Asset Save: WeaponBP
-[2021.04.14-09.21.21:448][232]LogContentValidation: Display: Validating Blueprint /Game/Soldado/WeaponBluePrints/WeaponBP.WeaponBP
-[2021.04.14-09.22.14:474][298]BlueprintLog: New page: Compile WeaponBP
-[2021.04.14-09.22.14:573][298]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
-[2021.04.14-09.22.14:989][307]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/WeaponBP630398674072A8994D2FA487ADAA862F.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/Soldado/WeaponBluePrints/WeaponBP.uasset'
-[2021.04.14-09.22.15:004][307]AssetCheck: New page: Asset Save: WeaponBP
-[2021.04.14-09.22.15:004][307]LogContentValidation: Display: Validating Blueprint /Game/Soldado/WeaponBluePrints/WeaponBP.WeaponBP
-[2021.04.14-09.22.16:417][357]LogTemp: Repeating last play command: Selected Viewport
-[2021.04.14-09.22.16:437][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.04.14-09.22.16:437][357]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 13, 2021, 11:22:16 PM)
-[2021.04.14-09.22.16:437][357]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2021.04.14-09.22.16:521][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083925s)
-[2021.04.14-09.22.16:523][357]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2021.04.14-09.22.16:523][357]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027815A06C00), frame # 6357
-[2021.04.14-09.22.16:523][357]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000277C79CE840), frame # 6357
-[2021.04.14-09.22.16:523][357]LogPlayLevel: PIE: World Init took: (0.001578s)
-[2021.04.14-09.22.16:523][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.085690s)
-[2021.04.14-09.22.16:548][357]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
-[2021.04.14-09.22.16:551][357]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.04.14-09.22.16:551][357]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.04.14-09.22.16:551][357]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.04.14-09.22.16:551][357]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.04.14-09.22.16:551][357]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.04.14-09.22.16:551][357]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.04.14-09.22.16:551][357]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.04.14-09.22.16:551][357]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.04.14-09.22.16:551][357]LogAudio: Display: Using built-in audio occlusion.
-[2021.04.14-09.22.16:551][357]LogAudioMixer: Display: Initializing audio mixer.
-[2021.04.14-09.22.16:554][357]LogAudioMixer: Display: 0: FrontLeft
-[2021.04.14-09.22.16:554][357]LogAudioMixer: Display: 1: FrontRight
-[2021.04.14-09.22.16:654][357]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2021.04.14-09.22.16:654][357]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.04.14-09.22.16:654][357]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.04.14-09.22.16:654][357]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.04.14-09.22.16:655][357]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.04.14-09.22.16:669][357]LogInit: FAudioDevice initialized.
-[2021.04.14-09.22.16:681][357]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2021.04.14-09.22.16:714][357]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.04.14-04.22.16
-[2021.04.14-09.22.16:715][357]LogWorld: Bringing up level for play took: 0.033307
-[2021.04.14-09.22.16:715][357]LogOnline: OSS: Creating online subsystem instance for: :Context_12
-[2021.04.14-09.22.16:720][357]PIE: Server logged in
-[2021.04.14-09.22.16:721][357]PIE: Play in editor total start time 0.286 seconds.
-[2021.04.14-09.22.38:486][531]LogPhysics: Warning: Scale for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Vida_BP_CHILD_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2021.04.14-09.22.38:486][531]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Vida_BP_CHILD_C_0.Box' 
-[2021.04.14-09.22.38:487][531]LogPhysics: Warning: Scale for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Vida_BP_CHILD_C_0.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2021.04.14-09.22.38:487][531]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Vida_BP_CHILD_C_0.StaticMesh' 
-[2021.04.14-09.22.41:041][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.14-09.22.41:042][624]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2021.04.14-09.22.41:043][624]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2021.04.14-09.22.41:053][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.14-09.22.41:068][624]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.04.14-09.22.41:074][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.14-09.22.41:100][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.14-09.22.41:128][624]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027815A06C00), frame # 7624
-[2021.04.14-09.22.41:129][624]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000277C79CE840), frame # 7624
-[2021.04.14-09.22.41:131][624]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
-[2021.04.14-09.22.41:168][625]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2021.04.14-09.22.42:593][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
-[2021.04.14-09.22.43:418][689]LogSlate: Window 'Save Content' being destroyed
-[2021.04.14-09.22.43:460][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
-[2021.04.14-09.22.44:501][689]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap19DFCA174C5752C26A40658FAFF15CAF.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2021.04.14-09.22.44:670][689]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.232
-[2021.04.14-09.22.45:760][689]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataAD7E5EBA46F2BC0CA336D989FCB5AE5F.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/resp/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2021.04.14-09.22.45:825][689]AssetCheck: New page: Asset Save: multiple assets
-[2021.04.14-09.22.45:825][689]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
-[2021.04.14-09.22.45:825][689]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.14-11.19.16:373][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.14-11.19.16:373][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.14-11.19.16:373][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.14-11.19.16:373][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.14-11.19.16:373][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.14-11.19.16:374][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.14-11.19.16:374][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.14-11.19.16:374][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.14-11.19.16:376][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.14-11.19.16:376][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.14-11.19.16:377][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:377][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.14-11.19.16:378][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.14-11.19.16:378][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.14-11.19.16:378][  0]LogHAL: Display: Platform has ~ 16 GB [17058402304 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.14-11.19.16:378][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.14-11.19.16:378][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.04.14-11.19.16:378][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.14-11.19.16:379][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.14-11.19.16:380][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.14-11.19.16:380][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.14-11.19.16:380][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.14-11.19.16:380][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.14-11.19.16:380][  0]LogInit: Computer: DESKTOP-DV3H2OO
+[2021.04.14-11.19.16:380][  0]LogInit: User: AlexBazaldua
+[2021.04.14-11.19.16:380][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.04.14-11.19.16:380][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.14-11.19.16:380][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.04.14-11.19.16:380][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.14-11.19.16:380][  0]LogMemory: Process Physical Memory: 115.31 MB used, 115.31 MB peak
+[2021.04.14-11.19.16:380][  0]LogMemory: Process Virtual Memory: 97.49 MB used, 97.49 MB peak
+[2021.04.14-11.19.16:380][  0]LogMemory: Physical Memory: 4649.32 MB used,  11618.84 MB free, 16268.16 MB total
+[2021.04.14-11.19.16:380][  0]LogMemory: Virtual Memory: 5131.62 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2021.04.14-11.19.16:385][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.14-11.19.16:433][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.14-11.19.16:435][  0]LogInit: Using OS detected language (en-US).
+[2021.04.14-11.19.16:435][  0]LogInit: Using OS detected locale (en-US).
+[2021.04.14-11.19.16:442][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.14-11.19.16:630][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.14-11.19.16:664][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.14-11.19.16:664][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.14-11.19.16:843][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.14-11.19.16:843][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.14-11.19.16:843][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.14-11.19.16:843][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.14-11.19.17:313][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2021.04.14-11.19.17:313][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2021.04.14-11.19.17:316][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.14-11.19.17:316][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.14-11.19.17:316][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.14-11.19.17:322][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.14-11.19.17:322][  0]LogD3D11RHI:     GPU DeviceId: 0x591b (for the marketing name, search the web for "GPU Device Id")
+[2021.04.14-11.19.17:322][  0]LogWindows: EnumDisplayDevices:
+[2021.04.14-11.19.17:322][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2021.04.14-11.19.17:322][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.04.14-11.19.17:323][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.04.14-11.19.17:323][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2021.04.14-11.19.17:323][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 630
+[2021.04.14-11.19.17:323][  0]LogD3D11RHI:   Driver Version: 23.20.16.4973 (internal:23.20.16.4973, unified:23.20.16.4973)
+[2021.04.14-11.19.17:323][  0]LogD3D11RHI:      Driver Date: 2-28-2018
+[2021.04.14-11.19.17:323][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2021.04.14-11.19.17:485][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.04.14-11.19.17:485][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.14-11.19.17:485][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.14-11.19.17:493][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2021.04.14-11.19.19:245][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.14-11.19.19:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.14-11.19.19:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.14-11.19.19:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.14-11.19.19:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.14-11.19.19:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.14-11.19.19:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.14-11.19.19:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.14-11.19.19:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.14-11.19.19:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.14-11.19.19:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.14-11.19.19:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.14-11.19.19:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.14-11.19.19:304][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.14-11.19.19:314][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.14-11.19.19:324][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.14-11.19.19:333][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.14-11.19.19:343][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.14-11.19.19:353][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.14-11.19.19:363][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.14-11.19.19:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.14-11.19.19:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.14-11.19.19:408][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.14-11.19.19:408][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.14-11.19.19:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.14-11.19.19:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.14-11.19.19:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.14-11.19.19:446][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.14-11.19.19:446][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.14-11.19.19:454][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.14-11.19.19:517][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Intermediate/Shaders/WorkingDirectory/10080/).
+[2021.04.14-11.19.19:517][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealShaderWorkingDir/5B63E3B64D1354B186144984293C65DA/'.
+[2021.04.14-11.19.19:518][  0]LogXGEController: Cleaning working directory: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.14-11.19.19:518][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.14-11.19.19:518][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.14-11.19.19:518][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.14-11.19.20:348][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.14-11.19.20:404][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.14-11.19.20:404][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.04.14-11.19.20:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.14-11.19.20:404][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.14-11.19.20:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.14-11.19.20:404][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.14-11.19.20:415][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.14-11.19.20:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.14-11.19.20:415][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.14-11.19.20:417][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.14-11.19.20:417][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.14-11.19.20:417][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.14-11.19.20:474][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.14-11.19.20:475][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.14-11.19.20:505][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2021.04.14-11.19.20:747][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.14-11.19.20:868][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.14-11.19.20:868][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.14-11.19.20:868][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.14-11.19.20:868][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.14-11.19.20:868][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.14-11.19.20:883][  0]LogNetVersion: DeepWoodland2 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1524458531)
+[2021.04.14-11.19.21:364][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000013A27D31380), frame # 0
+[2021.04.14-11.19.21:364][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013A27C6E980), frame # 0
+[2021.04.14-11.19.21:365][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013A27CF0800), frame # 0
+[2021.04.14-11.19.21:409][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.036027 seconds
+[2021.04.14-11.19.21:416][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.04.14-11.19.21:416][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.04.14-11.19.21:416][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.14-11.19.21:763][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.14-11.19.21:768][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.14-11.19.21:873][  0]SourceControl: Source control is disabled
+[2021.04.14-11.19.21:874][  0]SourceControl: Source control is disabled
+[2021.04.14-11.19.21:877][  0]SourceControl: Source control is disabled
+[2021.04.14-11.19.21:880][  0]SourceControl: Source control is disabled
+[2021.04.14-11.19.21:887][  0]SourceControl: Source control is disabled
+[2021.04.14-11.19.22:135][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.14-11.19.22:154][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.14-11.19.22:154][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.14-11.19.22:204][  0]LogOcInput: OculusInput pre-init called
+[2021.04.14-11.19.22:216][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.04.14-11.19.22:217][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.04.14-11.19.22:279][  0]LogEngine: Initializing Engine...
+[2021.04.14-11.19.22:280][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.14-11.19.22:280][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.04.14-11.19.22:281][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.04.14-11.19.22:408][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.14-11.19.22:418][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.14-11.19.22:418][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013A29DD1A00), frame # 0
+[2021.04.14-11.19.22:418][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013A29DC7100), frame # 0
+[2021.04.14-11.19.22:446][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.14-11.19.22:446][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.14-11.19.22:446][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.14-11.19.22:446][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.14-11.19.22:446][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.14-11.19.22:446][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.14-11.19.22:446][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.14-11.19.22:446][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.14-11.19.22:446][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.14-11.19.22:447][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.14-11.19.22:461][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.14-11.19.22:461][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.14-11.19.22:927][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.14-11.19.22:929][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.14-11.19.22:932][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.14-11.19.22:932][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.14-11.19.22:933][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.14-11.19.22:934][  0]LogInit: FAudioDevice initialized.
+[2021.04.14-11.19.22:934][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.14-11.19.28:663][  0]LogDerivedDataCache: Saved boot cache 5.73s 76MB C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.14-11.19.28:668][  0]LogInit: Texture streaming: Enabled
+[2021.04.14-11.19.28:702][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.14-11.19.28:702][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.14-11.19.28:741][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.14-11.19.28:829][  0]LogInit: Transaction tracking system initialized
+[2021.04.14-11.19.28:856][  0]BlueprintLog: New page: Editor Load
+[2021.04.14-11.19.28:989][  0]LocalizationService: Localization service is disabled
+[2021.04.14-11.19.29:386][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.14-11.19.29:386][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.14-11.19.29:519][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/' took 0.01s
+[2021.04.14-11.19.29:763][  0]SourceControl: Source control is disabled
+[2021.04.14-11.19.29:763][  0]LogUnrealEdMisc: Loading editor; pre map load, took 17.715
+[2021.04.14-11.19.29:763][  0]LightingResults: New page: Lighting Build
+[2021.04.14-11.19.29:764][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.14-11.19.29:764][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.14-11.19.29:764][  0]MapCheck: New page: Map Check
+[2021.04.14-11.19.29:764][  0]LightingResults: New page: Lighting Build
+[2021.04.14-11.19.29:773][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013A29DD1A00), frame # 0
+[2021.04.14-11.19.29:773][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013A29DC7100), frame # 0
+[2021.04.14-11.19.29:774][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.04.14-11.19.30:215][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.14-11.19.30:215][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.14-11.19.30:215][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.14-11.19.30:215][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.14-11.19.30:216][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.14-11.19.30:216][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.14-11.19.30:217][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.14-11.19.30:217][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.14-11.19.30:217][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.14-11.19.30:217][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.14-11.19.30:217][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.14-11.19.30:217][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.14-11.19.30:642][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.14-11.19.30:642][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Roughness.vbwpdg0o_8K_Roughness Referenced by M_terreno_Inst
+[2021.04.14-11.19.30:642][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.14-11.19.30:642][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Roughness.vbwpdg0o_8K_Roughness Referenced by M_terreno_Inst
+[2021.04.14-11.19.30:642][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.14-11.19.30:642][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Normal.vbwpdg0o_8K_Normal Referenced by M_terreno_Inst
+[2021.04.14-11.19.30:642][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.14-11.19.30:642][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Normal.vbwpdg0o_8K_Normal Referenced by M_terreno_Inst
+[2021.04.14-11.19.30:643][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.14-11.19.30:643][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Albedo.vbwpdg0o_8K_Albedo Referenced by M_terreno_Inst
+[2021.04.14-11.19.30:643][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.14-11.19.30:643][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Albedo.vbwpdg0o_8K_Albedo Referenced by M_terreno_Inst
+[2021.04.14-11.19.31:904][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.14-11.19.31:904][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000013A5C98A600), frame # 0
+[2021.04.14-11.19.31:904][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000013A5C9B3380), frame # 0
+[2021.04.14-11.19.32:075][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.14-11.19.32:364][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.04.14-11.19.32:365][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.14-11.19.32:365][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.289ms to complete.
+[2021.04.14-11.19.32:365][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.603
+[2021.04.14-11.19.32:367][  0]LogUnrealEdMisc: Total Editor Startup Time, took 20.320
+[2021.04.14-11.19.32:521][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.14-11.19.32:530][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.14-11.19.32:539][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.14-11.19.32:549][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.14-11.19.32:556][  0]LogCollectionManager: Loaded 0 collections in 0.002440 seconds
+[2021.04.14-11.19.32:572][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Collections/' took 0.00s
+[2021.04.14-11.19.32:572][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Developers/AlexBazaldua/Collections/' took 0.00s
+[2021.04.14-11.19.32:572][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Collections/' took 0.00s
+[2021.04.14-11.19.32:572][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 3436 classes and 826 folders.
+[2021.04.14-11.19.32:578][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.14-11.19.32:647][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.14-11.19.32:648][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.04.14-11.19.32:658][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2021.04.14-11.19.32:931][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.14-11.19.32:933][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.14-11.19.32:938][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.14-11.19.33:091][  0]LogRenderer: Reallocating scene render targets to support 948x368 Format 9 NumSamples 1 (Frame:1).
+[2021.04.14-11.19.33:247][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.14-11.19.33:247][  0]LogLoad: (Engine Initialization) Total time: 21.20 seconds
+[2021.04.14-11.19.33:247][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.14-11.19.33:639][  0]LogContentStreaming: Texture pool size now 600 MB
+[2021.04.14-11.19.33:765][  0]LogSlate: Took 0.000446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.14-11.19.33:773][  0]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.04.14-11.19.33:832][  1]LogAssetRegistry: Asset discovery search completed in 13.3282 seconds
+[2021.04.14-11.19.33:837][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.04.14-11.19.39:236][152]LogSlate: Window 'Message Log' being destroyed
+[2021.04.14-11.19.39:272][152]LogSlate: Window 'Message Log' being destroyed
+[2021.04.14-11.19.40:970][211]LogRenderer: Reallocating scene render targets to support 948x372 Format 9 NumSamples 1 (Frame:197).
+[2021.04.14-11.19.41:030][212]LogRenderer: Reallocating scene render targets to support 948x384 Format 9 NumSamples 1 (Frame:199).
+[2021.04.14-11.19.41:092][213]LogRenderer: Reallocating scene render targets to support 948x400 Format 9 NumSamples 1 (Frame:201).
+[2021.04.14-11.19.41:137][214]LogRenderer: Reallocating scene render targets to support 948x412 Format 9 NumSamples 1 (Frame:203).
+[2021.04.14-11.19.49:345][486]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_SM_WALL_STONE)
+[2021.04.14-11.19.55:211][650]LogActorFactory: Actor Factory created SM_CF_01_Stone_Wall_Battlements_02_2m_01
+[2021.04.14-11.19.57:874][739]LogActorFactory: Actor Factory created SM_CF_01_Stone_Wall_Battlements_02_2m_01
+[2021.04.14-11.19.59:188][745]LogActorFactory: Actor Factory created SM_CF_01_Stone_Wall_Battlements_02_Corner_01
+[2021.04.14-11.20.00:859][805]LogActorFactory: Actor Factory created SM_CF_01_Stone_Wall_Battlements_02_Corner_01
+[2021.04.14-11.20.18:138][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_01)
+[2021.04.14-11.20.19:120][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_01)
+[2021.04.14-11.21.21:452][876]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.14-11.21.23:022][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_16)
+[2021.04.14-11.21.57:465][153]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.14-11.22.03:578][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_20)
+[2021.04.14-11.22.06:974][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_32)
+[2021.04.14-11.22.07:737][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_31)
+[2021.04.14-11.22.08:456][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_30)
+[2021.04.14-11.22.08:949][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_29)
+[2021.04.14-11.22.09:398][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CF_01_Stone_Wall_Battlements_02_2m_28)
+[2021.04.14-11.22.10:704][641]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.10:704][641]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.10:736][641]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.14-11.22.11:164][653]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.11:164][653]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.11:528][667]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.11:528][667]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.11:926][683]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.11:926][683]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.12:301][698]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.12:301][698]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.12:767][717]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.12:768][717]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.13:181][732]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.13:181][732]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.13:442][742]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.13:442][742]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.22.13:615][747]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.13:615][747]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.22.13:895][749]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.13:895][749]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.13:950][750]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.13:950][750]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.14:149][757]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.14:149][757]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.14:922][784]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.14:922][784]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.15:158][791]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.15:158][791]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.15:349][798]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.15:349][798]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.15:542][805]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.15:542][805]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.15:740][811]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.15:740][811]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.16:011][819]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.16:011][819]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.16:130][823]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.16:130][823]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.16:315][830]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.16:315][830]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.16:507][837]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.16:508][837]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.16:697][844]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.16:697][844]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.16:865][850]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.16:865][850]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.17:053][857]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.17:053][857]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.17:244][864]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.17:244][864]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.17:447][871]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.17:447][871]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.17:625][877]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.17:625][877]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.22.17:840][884]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.17:840][884]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.22.18:064][892]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.18:064][892]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.22.18:255][894]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.18:255][894]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.18:483][902]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.18:484][902]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.18:677][909]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.18:677][909]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.18:893][917]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.18:893][917]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.19:083][924]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.19:083][924]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.22.19:284][930]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.19:284][930]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.22.19:473][935]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.19:473][935]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.19:728][943]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.19:728][943]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.19:944][951]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.19:944][951]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.22.20:165][956]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.20:165][956]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.20:396][963]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.20:396][963]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.22.20:599][968]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.20:599][968]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.22.20:843][977]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.20:843][977]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.21:082][985]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.21:082][985]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.22.21:323][993]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.21:323][993]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.22.21:541][  1]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.21:541][  1]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.22.21:760][  9]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.21:760][  9]LogEditorTransaction: Undo Rotate Actors
+[2021.04.14-11.22.21:966][ 16]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.21:966][ 16]LogEditorTransaction: Undo Create Actors
+[2021.04.14-11.22.22:179][ 22]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.22:179][ 22]LogEditorTransaction: Undo Create Actors
+[2021.04.14-11.22.22:399][ 28]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.22:400][ 28]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.14-11.22.23:939][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_SM_WALL_STONE)
+[2021.04.14-11.22.25:084][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.04.14-11.22.45:902][956]Cmd: TRANSACTION UNDO
+[2021.04.14-11.22.45:902][956]LogEditorTransaction: Undo Scale Actors
+[2021.04.14-11.23.08:728][782]Cmd: TRANSACTION UNDO
+[2021.04.14-11.23.08:728][782]LogEditorTransaction: Undo Move Actors
+[2021.04.14-11.23.12:160][919]Cmd: TRANSACTION UNDO
+[2021.04.14-11.23.12:161][919]LogEditorTransaction: Undo Scale Actors
+[2021.04.14-11.23.16:759][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.04.14-11.23.31:504][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_cable_spool_b)
+[2021.04.14-11.23.41:794][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_wooden_pallet_c3)
+[2021.04.14-11.23.45:966][279]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SM_block_3_DM)
+[2021.04.14-11.24.06:960][ 91]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.14-11.24.07:478][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GroundRevealRock001)
+[2021.04.14-11.24.14:373][381]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.14-11.24.15:478][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GroundRevealRock3)
+[2021.04.14-11.24.17:919][513]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.14-11.24.25:875][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.04.14-11.24.26:836][763]LogSlate: Window 'Save Content' being destroyed
+[2021.04.14-11.24.26:881][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.04.14-11.24.27:634][763]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapA1256A094A5DBF606941D0AEF8860A5F.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.14-11.24.27:665][763]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.797
+[2021.04.14-11.24.27:805][763]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataDC2321E1439496B7D67A329760561DAF.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.14-11.24.27:838][763]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.14-11.24.27:838][763]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.14-11.24.27:838][763]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.14-11.24.28:471][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.04.14-11.24.28:543][786]LogSlate: Window 'DeepWoodland2 - Unreal Editor' being destroyed
+[2021.04.14-11.24.28:544][786]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.04.14-11.24.28:699][787]Cmd: QUIT_EDITOR
+[2021.04.14-11.24.28:699][787]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.04.14-11.24.28:709][787]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.04.14-11.24.28:853][787]LogExit: Preparing to exit.
+[2021.04.14-11.24.29:078][787]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.04.14-11.24.29:078][787]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.04.14-11.24.29:078][787]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.04.14-11.24.29:117][787]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.04.14-11.24.29:124][787]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.04.14-11.24.29:124][787]LogExit: Editor shut down
+[2021.04.14-11.24.29:124][787]LogExit: Transaction tracking system shut down
+[2021.04.14-11.24.29:335][787]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000013A27D31380), frame # 10787
+[2021.04.14-11.24.29:335][787]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013A27C6E980), frame # 10787
+[2021.04.14-11.24.29:335][787]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013A27CF0800), frame # 10787
+[2021.04.14-11.24.29:361][787]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000013A5C98A600), frame # 10787
+[2021.04.14-11.24.29:361][787]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000013A5C9B3380), frame # 10787
+[2021.04.14-11.24.29:395][787]LogExit: Object subsystem successfully closed.
+[2021.04.14-11.24.29:419][787]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.04.14-11.24.29:452][787]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (796)
+[2021.04.14-11.24.29:452][787]LogModuleManager: Shutting down and abandoning module SceneOutliner (792)
+[2021.04.14-11.24.29:452][787]LogModuleManager: Shutting down and abandoning module AddContentDialog (790)
+[2021.04.14-11.24.29:453][787]LogModuleManager: Shutting down and abandoning module WidgetCarousel (789)
+[2021.04.14-11.24.29:453][787]LogModuleManager: Shutting down and abandoning module EditorWidgets (786)
+[2021.04.14-11.24.29:453][787]LogModuleManager: Shutting down and abandoning module CollectionManager (784)
+[2021.04.14-11.24.29:453][787]LogModuleManager: Shutting down and abandoning module StatsViewer (782)
+[2021.04.14-11.24.29:453][787]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (780)
+[2021.04.14-11.24.29:453][787]LogModuleManager: Shutting down and abandoning module FoliageEdit (778)
+[2021.04.14-11.24.29:453][787]LogModuleManager: Shutting down and abandoning module LandscapeEditor (776)
+[2021.04.14-11.24.29:453][787]LogModuleManager: Shutting down and abandoning module MeshPaintMode (774)
+[2021.04.14-11.24.29:453][787]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (772)
+[2021.04.14-11.24.29:453][787]LogModuleManager: Shutting down and abandoning module ActorPickerMode (770)
+[2021.04.14-11.24.29:453][787]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (768)
+[2021.04.14-11.24.29:453][787]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (766)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module AutomationWorker (764)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module SteamVREditor (762)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module OculusMR (760)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module GooglePADEditor (758)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (756)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (754)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (752)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (750)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (748)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (746)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (744)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (742)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (740)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module WebMMedia (738)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (736)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (734)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module SequenceRecorder (733)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (730)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (728)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (726)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (724)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (722)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (720)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (718)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (716)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (714)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (712)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module PlanarCut (710)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module CharacterAI (708)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module TextureAlignMode (706)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module BspMode (704)
+[2021.04.14-11.24.29:454][787]LogModuleManager: Shutting down and abandoning module PlacementMode (703)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module GeometryMode (700)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (698)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module SmartSnapping (696)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module SessionServices (694)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module MeshPaint (692)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module ViewportSnapping (690)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module ViewportInteraction (688)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module ClothPainter (686)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (685)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module LogVisualizer (682)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module IntroTutorials (680)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (679)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (676)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (674)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (672)
+[2021.04.14-11.24.29:455][787]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (671)
+[2021.04.14-11.24.30:243][787]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (668)
+[2021.04.14-11.24.30:243][787]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (666)
+[2021.04.14-11.24.30:243][787]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (664)
+[2021.04.14-11.24.30:243][787]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (662)
+[2021.04.14-11.24.30:243][787]LogModuleManager: Shutting down and abandoning module TraceInsights (660)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module TraceServices (659)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (656)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (654)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module InputBindingEditor (652)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module MergeActors (650)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (648)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module LocalizationService (647)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module HardwareTargeting (644)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (642)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module UndoHistory (640)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module XmlParser (638)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module Blutility (636)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (634)
+[2021.04.14-11.24.30:244][787]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (633)
+[2021.04.14-11.24.30:245][787]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (630)
+[2021.04.14-11.24.30:245][787]LogModuleManager: Shutting down and abandoning module SettingsEditor (628)
+[2021.04.14-11.24.30:245][787]LogModuleManager: Shutting down and abandoning module ProjectLauncher (626)
+[2021.04.14-11.24.30:245][787]LogModuleManager: Shutting down and abandoning module SessionFrontend (624)
+[2021.04.14-11.24.30:245][787]LogModuleManager: Shutting down and abandoning module ProfilerClient (622)
+[2021.04.14-11.24.30:245][787]LogModuleManager: Shutting down and abandoning module DeviceManager (620)
+[2021.04.14-11.24.30:245][787]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (619)
+[2021.04.14-11.24.30:278][787]LogModuleManager: Shutting down and abandoning module AutomationController (616)
+[2021.04.14-11.24.30:278][787]LogModuleManager: Shutting down and abandoning module AutomationWindow (614)
+[2021.04.14-11.24.30:278][787]LogModuleManager: Shutting down and abandoning module Layers (612)
+[2021.04.14-11.24.30:278][787]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (610)
+[2021.04.14-11.24.30:278][787]LogModuleManager: Shutting down and abandoning module DetailCustomizations (608)
+[2021.04.14-11.24.30:278][787]LogModuleManager: Shutting down and abandoning module PackagesDialog (606)
+[2021.04.14-11.24.30:279][787]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (604)
+[2021.04.14-11.24.30:279][787]LogModuleManager: Shutting down and abandoning module Persona (602)
+[2021.04.14-11.24.30:279][787]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (601)
+[2021.04.14-11.24.30:279][787]LogModuleManager: Shutting down and abandoning module AnimGraph (599)
+[2021.04.14-11.24.30:279][787]LogModuleManager: Shutting down and abandoning module Kismet (596)
+[2021.04.14-11.24.30:281][787]LogModuleManager: Shutting down and abandoning module KismetWidgets (595)
+[2021.04.14-11.24.30:281][787]LogModuleManager: Shutting down and abandoning module GraphEditor (592)
+[2021.04.14-11.24.30:281][787]LogModuleManager: Shutting down and abandoning module StructViewer (590)
+[2021.04.14-11.24.30:281][787]LogModuleManager: Shutting down and abandoning module ClassViewer (588)
+[2021.04.14-11.24.30:281][787]LogModuleManager: Shutting down and abandoning module Toolbox (586)
+[2021.04.14-11.24.30:281][787]LogModuleManager: Shutting down and abandoning module ModuleUI (584)
+[2021.04.14-11.24.30:281][787]LogModuleManager: Shutting down and abandoning module OutputLog (582)
+[2021.04.14-11.24.30:282][787]LogModuleManager: Shutting down and abandoning module GammaUI (580)
+[2021.04.14-11.24.30:282][787]LogModuleManager: Shutting down and abandoning module Documentation (578)
+[2021.04.14-11.24.30:282][787]LogModuleManager: Shutting down and abandoning module LiveCoding (576)
+[2021.04.14-11.24.30:282][787]LogModuleManager: Shutting down and abandoning module LevelSequence (574)
+[2021.04.14-11.24.30:282][787]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (572)
+[2021.04.14-11.24.30:282][787]LogModuleManager: Shutting down and abandoning module MovieScene (570)
+[2021.04.14-11.24.30:282][787]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (568)
+[2021.04.14-11.24.30:282][787]LogModuleManager: Shutting down and abandoning module LauncherPlatform (566)
+[2021.04.14-11.24.30:282][787]LogModuleManager: Shutting down and abandoning module AnalyticsET (564)
+[2021.04.14-11.24.30:283][787]LogModuleManager: Shutting down and abandoning module PortalServices (562)
+[2021.04.14-11.24.30:283][787]LogModuleManager: Shutting down and abandoning module PortalRpc (560)
+[2021.04.14-11.24.30:283][787]LogModuleManager: Shutting down and abandoning module MessagingRpc (558)
+[2021.04.14-11.24.30:283][787]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (556)
+[2021.04.14-11.24.30:283][787]LogModuleManager: Shutting down and abandoning module AudioMixerCore (555)
+[2021.04.14-11.24.30:283][787]LogModuleManager: Shutting down and abandoning module AIModule (552)
+[2021.04.14-11.24.30:283][787]LogModuleManager: Shutting down and abandoning module GameplayDebugger (551)
+[2021.04.14-11.24.30:283][787]LogModuleManager: Shutting down and abandoning module AITestSuite (549)
+[2021.04.14-11.24.30:283][787]LogModuleManager: Shutting down and abandoning module NavigationSystem (547)
+[2021.04.14-11.24.30:283][787]LogModuleManager: Shutting down and abandoning module ProfilerService (544)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module TaskGraph (542)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module ScreenshotTools (540)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module SynthesisEditor (538)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module Synthesis (536)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (534)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (532)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module OculusEditor (530)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module OculusInput (528)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (526)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module GooglePAD (524)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module EditableMesh (522)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (520)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module CableComponent (518)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module AudioCapture (516)
+[2021.04.14-11.24.30:371][787]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (515)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module AssetTags (512)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (510)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (508)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module AppleImageUtils (506)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module AndroidPermission (504)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (502)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (500)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module TemplateSequence (498)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (496)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (494)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (492)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (490)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (489)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (486)
+[2021.04.14-11.24.30:372][787]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (484)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module MediaCompositing (482)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module ImgMedia (480)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (478)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (476)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (474)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (472)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (470)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (468)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (466)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module MeshConversion (464)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module DynamicMesh (462)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (460)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module GeometricObjects (458)
+[2021.04.14-11.24.30:373][787]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (456)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (455)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (452)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (450)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (448)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (446)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module ChaosNiagara (444)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module FractureEditor (442)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (440)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module ChaosCloth (438)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module BackChannel (436)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (434)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module AutomationUtils (432)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module AlembicImporter (430)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module AlembicLibrary (429)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module GeometryCache (428)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (427)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (422)
+[2021.04.14-11.24.30:374][787]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (420)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (418)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module PluginBrowser (416)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (414)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (412)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (410)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module CurveEditorTools (408)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (406)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module CryptoKeys (404)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (402)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (400)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module UObjectPlugin (398)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (396)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (394)
+[2021.04.14-11.24.30:375][787]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (392)
+[2021.04.14-11.24.30:376][787]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (390)
+[2021.04.14-11.24.30:376][787]LogModuleManager: Shutting down and abandoning module GitSourceControl (388)
+[2021.04.14-11.24.30:376][787]LogModuleManager: Shutting down and abandoning module SourceControl (387)
+[2021.04.14-11.24.30:376][787]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (384)
+[2021.04.14-11.24.30:376][787]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (382)
+[2021.04.14-11.24.30:376][787]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (380)
+[2021.04.14-11.24.30:376][787]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (378)
+[2021.04.14-11.24.30:376][787]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (376)
+[2021.04.14-11.24.30:376][787]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (374)
+[2021.04.14-11.24.30:376][787]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (372)
+[2021.04.14-11.24.30:376][787]LogModuleManager: Shutting down and abandoning module Paper2DEditor (370)
+[2021.04.14-11.24.30:376][787]LogModuleManager: Shutting down and abandoning module SoundFields (368)
+[2021.04.14-11.24.30:376][787]LogModuleManager: Shutting down and abandoning module SignificanceManager (366)
+[2021.04.14-11.24.30:377][787]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (364)
+[2021.04.14-11.24.30:377][787]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (362)
+[2021.04.14-11.24.30:377][787]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (358)
+[2021.04.14-11.24.30:377][787]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (356)
+[2021.04.14-11.24.30:377][787]LogModuleManager: Shutting down and abandoning module ApexDestruction (354)
+[2021.04.14-11.24.30:377][787]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2021.04.14-11.24.30:377][787]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2021.04.14-11.24.30:478][787]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2021.04.14-11.24.30:579][787]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2021.04.14-11.24.30:579][787]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2021.04.14-11.24.30:579][787]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2021.04.14-11.24.30:579][787]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2021.04.14-11.24.30:579][787]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2021.04.14-11.24.30:579][787]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.04.14-11.24.30:579][787]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2021.04.14-11.24.30:579][787]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2021.04.14-11.24.30:579][787]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2021.04.14-11.24.30:579][787]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2021.04.14-11.24.30:579][787]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2021.04.14-11.24.30:580][787]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.04.14-11.24.30:580][787]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2021.04.14-11.24.30:580][787]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2021.04.14-11.24.30:580][787]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2021.04.14-11.24.30:580][787]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2021.04.14-11.24.30:580][787]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2021.04.14-11.24.30:580][787]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2021.04.14-11.24.30:580][787]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2021.04.14-11.24.30:581][787]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2021.04.14-11.24.30:581][787]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2021.04.14-11.24.30:581][787]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2021.04.14-11.24.30:581][787]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2021.04.14-11.24.30:581][787]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2021.04.14-11.24.30:581][787]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2021.04.14-11.24.30:582][787]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2021.04.14-11.24.30:583][787]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2021.04.14-11.24.30:583][787]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2021.04.14-11.24.30:583][787]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2021.04.14-11.24.30:584][787]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2021.04.14-11.24.30:585][787]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2021.04.14-11.24.30:585][787]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2021.04.14-11.24.30:585][787]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2021.04.14-11.24.30:585][787]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2021.04.14-11.24.30:585][787]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2021.04.14-11.24.30:585][787]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2021.04.14-11.24.30:591][787]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2021.04.14-11.24.30:591][787]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2021.04.14-11.24.30:591][787]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2021.04.14-11.24.30:591][787]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2021.04.14-11.24.30:591][787]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2021.04.14-11.24.30:591][787]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2021.04.14-11.24.30:591][787]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2021.04.14-11.24.30:591][787]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2021.04.14-11.24.30:591][787]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2021.04.14-11.24.30:591][787]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2021.04.14-11.24.30:591][787]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2021.04.14-11.24.30:591][787]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2021.04.14-11.24.30:592][787]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2021.04.14-11.24.30:592][787]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2021.04.14-11.24.30:592][787]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2021.04.14-11.24.30:592][787]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2021.04.14-11.24.30:592][787]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2021.04.14-11.24.30:592][787]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2021.04.14-11.24.30:592][787]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2021.04.14-11.24.30:595][787]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2021.04.14-11.24.30:595][787]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2021.04.14-11.24.30:595][787]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2021.04.14-11.24.30:595][787]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2021.04.14-11.24.30:595][787]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2021.04.14-11.24.30:595][787]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2021.04.14-11.24.30:595][787]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2021.04.14-11.24.30:595][787]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2021.04.14-11.24.30:595][787]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2021.04.14-11.24.30:595][787]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2021.04.14-11.24.30:595][787]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2021.04.14-11.24.30:595][787]LogModuleManager: Shutting down and abandoning module Core (216)
+[2021.04.14-11.24.30:595][787]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2021.04.14-11.24.30:596][787]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2021.04.14-11.24.30:596][787]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2021.04.14-11.24.30:596][787]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2021.04.14-11.24.30:599][787]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2021.04.14-11.24.30:599][787]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2021.04.14-11.24.30:599][787]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2021.04.14-11.24.30:599][787]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2021.04.14-11.24.30:599][787]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2021.04.14-11.24.30:599][787]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2021.04.14-11.24.30:599][787]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2021.04.14-11.24.30:600][787]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2021.04.14-11.24.30:600][787]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2021.04.14-11.24.30:600][787]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2021.04.14-11.24.30:600][787]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2021.04.14-11.24.30:600][787]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2021.04.14-11.24.30:600][787]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2021.04.14-11.24.30:600][787]LogXGEController: Cleaning working directory: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.14-11.24.30:601][787]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2021.04.14-11.24.30:601][787]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2021.04.14-11.24.30:601][787]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2021.04.14-11.24.30:601][787]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2021.04.14-11.24.30:601][787]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2021.04.14-11.24.30:601][787]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2021.04.14-11.24.30:601][787]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2021.04.14-11.24.30:601][787]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2021.04.14-11.24.30:601][787]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2021.04.14-11.24.30:601][787]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2021.04.14-11.24.30:601][787]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2021.04.14-11.24.30:602][787]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2021.04.14-11.24.30:602][787]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2021.04.14-11.24.30:602][787]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2021.04.14-11.24.30:602][787]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2021.04.14-11.24.30:602][787]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2021.04.14-11.24.30:602][787]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2021.04.14-11.24.30:602][787]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2021.04.14-11.24.30:602][787]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2021.04.14-11.24.30:602][787]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2021.04.14-11.24.30:602][787]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2021.04.14-11.24.30:605][787]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.04.14-11.24.30:606][787]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.04.14-11.24.30:607][787]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.04.14-11.24.30:607][787]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.04.14-11.24.30:607][787]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.04.14-11.24.30:607][787]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.04.14-11.24.30:607][787]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.04.14-11.24.30:607][787]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.04.14-11.24.30:607][787]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.04.14-11.24.30:607][787]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.04.14-11.24.30:609][787]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.04.14-11.24.30:617][787]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.04.14-11.24.30:617][787]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.04.14-11.24.30:617][787]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.04.14-11.24.30:617][787]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.04.14-11.24.30:619][787]LogHMD: Freeing OpenVRDLLHandle.
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.04.14-11.24.30:619][787]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.04.14-11.24.30:621][787]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.04.14-11.24.30:621][787]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.04.14-11.24.30:632][787]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.04.14-11.24.30:632][787]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.04.14-11.24.30:632][787]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2F4A3FB8-4FD9-3AC5-FC73-8AA8D0C11ED2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=c5d0b274478d9ab3bedac89f0c53462d%7Ca9f3595f1f9a43ee9a657e1d4e7d61ea%7Cd7df89a8-7e04-48f2-8fba-96b552423cfb&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.04.14-11.24.30:647][787]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.04.14-11.24.30:649][787]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.04.14-11.24.30:655][787]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.04.14-11.24.30:657][787]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.04.14-11.24.30:658][787]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.04.14-11.24.30:658][787]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.04.14-11.24.30:658][787]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.04.14-11.24.30:658][787]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.04.14-11.24.30:659][787]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.04.14-11.24.30:659][787]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.04.14-11.24.30:659][787]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.04.14-11.24.30:659][787]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.04.14-11.24.30:659][787]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.04.14-11.24.30:660][787]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.04.14-11.24.30:660][787]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.04.14-11.24.30:660][787]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.04.14-11.24.30:660][787]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.04.14-11.24.30:660][787]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.04.14-11.24.30:660][787]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.04.14-11.24.30:661][787]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.04.14-11.24.30:661][787]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.04.14-11.24.30:662][787]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.04.14-11.24.30:662][787]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.04.14-11.24.30:662][787]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.04.14-11.24.30:662][787]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.04.14-11.24.30:662][787]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.04.14-11.24.30:662][787]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.04.14-11.24.30:662][787]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.04.14-11.24.30:662][787]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.04.14-11.24.30:662][787]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.04.14-11.24.30:662][787]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.04.14-11.24.30:662][787]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.04.14-11.24.30:662][787]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.04.14-11.24.30:679][787]LogD3D11RHI: Shutdown
+[2021.04.14-11.24.30:679][787]LogD3D11RHI: CleanupD3DDevice
+[2021.04.14-11.24.30:757][787]LogExit: Exiting.
+[2021.04.14-11.24.30:769][787]Log file closed, 04/14/21 06:24:30
