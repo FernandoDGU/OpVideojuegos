@@ -5343,3 +5343,175 @@ Make sure 'ThirdPersonExampleMap_C' has been compiled for  Set HUDPantalla
 [2021.04.19-22.19.44:546][244]AssetCheck: New page: Asset Save: multiple assets
 [2021.04.19-22.19.44:546][244]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2021.04.19-22.19.44:546][244]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.19-22.21.45:611][852]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.19-22.21.54:533][719]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.19-22.21.54:549][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.19-22.21.54:549][719]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 19, 2021, 12:21:54 PM)
+[2021.04.19-22.21.54:549][719]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.19-22.21.54:644][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094273s)
+[2021.04.19-22.21.54:646][719]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.19-22.21.54:646][719]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000218B1C74E00), frame # 382719
+[2021.04.19-22.21.54:646][719]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000216C6A73EC0), frame # 382719
+[2021.04.19-22.21.54:647][719]LogPlayLevel: PIE: World Init took: (0.002489s)
+[2021.04.19-22.21.54:647][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.097171s)
+[2021.04.19-22.21.54:671][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.04.19-22.21.54:680][719]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.19-22.21.54:680][719]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.19-22.21.54:680][719]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.19-22.21.54:680][719]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.19-22.21.54:680][719]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.19-22.21.54:680][719]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.19-22.21.54:680][719]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.19-22.21.54:680][719]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.19-22.21.54:681][719]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.19-22.21.54:681][719]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.19-22.21.54:683][719]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.19-22.21.54:683][719]LogAudioMixer: Display: 1: FrontRight
+[2021.04.19-22.21.54:683][719]LogAudioMixer: Display: 2: FrontCenter
+[2021.04.19-22.21.54:683][719]LogAudioMixer: Display: 3: LowFrequency
+[2021.04.19-22.21.54:683][719]LogAudioMixer: Display: 4: BackLeft
+[2021.04.19-22.21.54:683][719]LogAudioMixer: Display: 5: BackRight
+[2021.04.19-22.21.54:683][719]LogAudioMixer: Display: 6: SideLeft
+[2021.04.19-22.21.54:683][719]LogAudioMixer: Display: 7: SideRight
+[2021.04.19-22.21.54:721][719]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.04.19-22.21.54:722][719]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.19-22.21.54:722][719]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.19-22.21.54:722][719]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.19-22.21.54:722][719]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.19-22.21.54:737][719]LogInit: FAudioDevice initialized.
+[2021.04.19-22.21.54:781][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.19-22.21.54:782][719]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.04.19-22.21.54:836][719]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.04.19-17.21.54
+[2021.04.19-22.21.54:838][719]LogWorld: Bringing up level for play took: 0.056068
+[2021.04.19-22.21.54:838][719]LogOnline: OSS: Creating online subsystem instance for: :Context_103
+[2021.04.19-22.21.54:847][719]PIE: Server logged in
+[2021.04.19-22.21.54:848][719]PIE: Play in editor total start time 0.299 seconds.
+[2021.04.19-22.21.55:827][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.19-22.21.55:828][750]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.19-22.21.55:828][750]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.04.19-22.21.55:830][750]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.19-22.21.55:835][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.19-22.21.55:849][750]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.19-22.21.55:863][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.19-22.21.55:932][750]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000216C6A73EC0), frame # 382750
+[2021.04.19-22.21.55:933][750]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000218B1C74E00), frame # 382750
+[2021.04.19-22.21.55:940][750]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.04.19-22.21.56:000][751]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2021.04.19-22.25.13:998][328]LogSlate: Window 'Plugins' being destroyed
+[2021.04.19-22.25.14:005][328]LogSlate: Window 'Plugins' being destroyed
+[2021.04.19-22.25.14:007][328]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2021.04.19-22.36.51:646][325]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.19-22.36.52:714][429]LogEditorViewport: Clicking on Actor (LMB): BP_Agua_C (BP_Agua)
+[2021.04.19-22.37.02:158][348]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/BP_Agua.BP_Agua
+[2021.04.19-22.37.23:875][621]LogSlate: Window 'BP_Agua' being destroyed
+[2021.04.19-22.37.23:882][621]LogSlate: Window 'BP_Agua' being destroyed
+[2021.04.19-22.37.23:884][621]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2021.04.19-22.37.23:884][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.19-22.37.33:462][429]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_awua.M_awua
+[2021.04.19-22.37.33:479][429]LogMaterial: Display: Missing cached shader map for material M_awua, compiling. 
+[2021.04.19-22.37.33:731][429]LogMaterial: Display: Missing cached shader map for material M_awua, compiling. 
+[2021.04.19-22.37.33:748][429]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.04.19-22.37.33:748][429]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2021.04.19-22.37.33:748][429]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2021.04.19-22.37.33:748][429]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2021.04.19-22.37.33:750][429]LogMaterial: Display: Missing cached shader map for material M_awua, compiling. 
+[2021.04.19-22.37.33:786][429]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.04.19-22.37.33:791][429]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2021.04.19-22.37.33:800][429]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.04.19-22.37.34:742][448]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 36
+[2021.04.19-22.37.35:820][481]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 35
+[2021.04.19-22.37.37:344][527]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 34
+[2021.04.19-22.37.37:842][542]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 33
+[2021.04.19-22.37.40:805][629]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2021.04.19-22.37.41:327][644]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 31
+[2021.04.19-22.37.41:611][653]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2021.04.19-22.37.41:829][659]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2021.04.19-22.37.41:894][661]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+[2021.04.19-22.37.42:447][676]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+[2021.04.19-22.37.43:313][701]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2021.04.19-22.37.43:811][716]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2021.04.19-22.37.43:902][719]LogSlate: Window 'M_awua' being destroyed
+[2021.04.19-22.37.43:916][719]LogSlate: Window 'M_awua' being destroyed
+[2021.04.19-22.37.43:990][719]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2021.04.19-22.37.43:990][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.19-22.37.44:306][730]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2021.04.19-22.37.44:633][747]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.04.19-22.37.49:060][974]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.04.19-22.37.49:390][991]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.04.19-22.37.49:665][  4]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.04.19-22.37.51:071][ 74]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2021.04.19-22.37.51:382][ 90]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.04.19-22.37.51:862][113]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.04.19-22.37.52:038][121]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.04.19-22.37.52:790][158]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.04.19-22.37.59:007][467]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.04.19-22.37.59:307][482]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.04.19-22.38.26:219][948]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.04.19-22.39.04:473][350]LogTexture: Display: Building textures: you_lose (BGRA8, 4566X2572)
+[2021.04.19-22.39.04:554][350]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Widgets/Images/you_lose.you_lose
+[2021.04.19-22.39.04:775][350]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0035 seconds. Added 1 classes and 2 folders.
+[2021.04.19-22.39.10:262][660]LogSlate: Window 'you_lose' being destroyed
+[2021.04.19-22.39.44:012][972]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/Lose.Lose
+[2021.04.19-22.40.01:602][ 31]BlueprintLog: New page: Compile Lose
+[2021.04.19-22.40.01:921][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2021.04.19-22.40.02:415][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Lose" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Lose.uasset" SILENT=true
+[2021.04.19-22.40.02:430][ 53]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/LoseE44207B24EC56AC46611BDB6270C665C.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Lose.uasset'
+[2021.04.19-22.40.02:448][ 53]AssetCheck: New page: Asset Save: Lose
+[2021.04.19-22.40.02:448][ 53]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/Lose.Lose
+[2021.04.19-22.40.33:033][943]BlueprintLog: New page: Compile Lose
+[2021.04.19-22.40.33:154][943]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.04.19-22.40.33:686][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Lose" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Lose.uasset" SILENT=true
+[2021.04.19-22.40.33:692][968]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Lose1CFF227F49BE01EAAF5FDD982A4CB4AA.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Lose.uasset'
+[2021.04.19-22.40.33:706][968]AssetCheck: New page: Asset Save: Lose
+[2021.04.19-22.40.33:707][968]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/Lose.Lose
+[2021.04.19-22.40.37:355][223]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/Inventario_Ventana.Inventario_Ventana
+[2021.04.19-22.40.41:222][462]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2021.04.19-22.40.41:223][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.19-22.40.41:226][462]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2021.04.19-22.40.41:226][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.19-22.40.44:805][706]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/Main_Menu_Widget.Main_Menu_Widget
+[2021.04.19-22.41.46:025][144]BlueprintLog: New page: Compile Lose
+[2021.04.19-22.41.46:061][144]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.04.19-22.42.02:902][118]BlueprintLog: New page: Compile Lose
+[2021.04.19-22.42.02:933][118]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.04.19-22.42.03:432][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Lose" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Lose.uasset" SILENT=true
+[2021.04.19-22.42.03:438][140]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Lose27A782A7486F977B6A1F56BC26DB9E2F.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Lose.uasset'
+[2021.04.19-22.42.03:452][140]AssetCheck: New page: Asset Save: Lose
+[2021.04.19-22.42.03:452][140]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/Lose.Lose
+[2021.04.19-22.42.27:149][532]BlueprintLog: New page: Compile Lose
+[2021.04.19-22.42.27:180][532]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2021.04.19-22.42.27:553][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Lose" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Lose.uasset" SILENT=true
+[2021.04.19-22.42.27:559][550]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Lose6F81F5BA4041682469A80A8DDF970385.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Lose.uasset'
+[2021.04.19-22.42.27:572][550]AssetCheck: New page: Asset Save: Lose
+[2021.04.19-22.42.27:572][550]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/Lose.Lose
+[2021.04.19-22.42.44:857][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Lose" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Lose.uasset" SILENT=true
+[2021.04.19-22.42.44:862][518]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Lose5B87128749FBB567C7730AA95018E33F.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Lose.uasset'
+[2021.04.19-22.42.44:875][518]AssetCheck: New page: Asset Save: Lose
+[2021.04.19-22.42.44:875][518]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/Lose.Lose
+[2021.04.19-22.42.45:527][555]BlueprintLog: New page: Compile Lose
+[2021.04.19-22.42.45:562][555]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.04.19-22.42.46:489][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Main_Menu_Widget" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Main_Menu_Widget.uasset" SILENT=true
+[2021.04.19-22.42.46:505][597]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Main_Menu_Widget3F409C8548DB84B299AFA8A6603B63AA.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Main_Menu_Widget.uasset'
+[2021.04.19-22.42.46:519][597]AssetCheck: New page: Asset Save: Main_Menu_Widget
+[2021.04.19-22.42.46:519][597]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/Main_Menu_Widget.Main_Menu_Widget
+[2021.04.19-22.42.50:837][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Lose" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Lose.uasset" SILENT=true
+[2021.04.19-22.42.50:842][846]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Lose16FF4DB349983661F0A0DBAE88959177.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Lose.uasset'
+[2021.04.19-22.42.50:855][846]AssetCheck: New page: Asset Save: Lose
+[2021.04.19-22.42.50:855][846]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/Lose.Lose
+[2021.04.19-22.42.51:734][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Main_Menu_Widget" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Main_Menu_Widget.uasset" SILENT=true
+[2021.04.19-22.42.51:751][896]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Main_Menu_Widget413D7F654479C171A20966A72E93E872.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Main_Menu_Widget.uasset'
+[2021.04.19-22.42.51:765][896]AssetCheck: New page: Asset Save: Main_Menu_Widget
+[2021.04.19-22.42.51:765][896]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/Main_Menu_Widget.Main_Menu_Widget
+[2021.04.19-22.43.07:069][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Medium_Boulder_LowPoly20)
+[2021.04.19-22.43.24:857][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Medium_Boulder_LowPoly21)
+[2021.04.19-22.43.35:089][705]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.04.19-22.43.35:787][705]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap7BD7017742C3E370B0E6F29C67135F86.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.19-22.43.35:912][705]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataA3C861D34CB65FBBF8EC99A06E4DBF83.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.19-22.43.35:930][705]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.19-22.43.35:930][705]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.19-22.43.35:930][705]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.19-22.43.36:613][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.04.19-22.43.38:074][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2021.04.19-22.43.38:238][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.04.19-22.43.38:405][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.04.19-22.43.38:572][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
