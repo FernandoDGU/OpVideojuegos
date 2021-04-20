@@ -1,0 +1,1223 @@
+﻿Log file open, 04/19/21 19:34:26
+LogInit: Display: Running engine for game: DeepWoodland2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.091768
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.20-00.34.26:872][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.20-00.34.26:872][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.20-00.34.26:873][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.20-00.34.26:873][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.20-00.34.26:873][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.20-00.34.26:873][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.20-00.34.26:873][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.20-00.34.26:873][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.20-00.34.26:873][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.20-00.34.26:873][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.20-00.34.26:873][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.20-00.34.26:873][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.20-00.34.26:875][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.20-00.34.26:875][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.20-00.34.26:876][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.20-00.34.26:877][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.20-00.34.26:877][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.20-00.34.26:877][  0]LogHAL: Display: Platform has ~ 16 GB [17058402304 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.20-00.34.26:877][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.20-00.34.26:877][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2021.04.20-00.34.26:877][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:877][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2021.04.20-00.34.26:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.20-00.34.26:879][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.04.20-00.34.26:879][  0]LogInit: Computer: DESKTOP-DV3H2OO
+[2021.04.20-00.34.26:879][  0]LogInit: User: AlexBazaldua
+[2021.04.20-00.34.26:879][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.04.20-00.34.26:879][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.20-00.34.26:880][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.04.20-00.34.26:880][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.20-00.34.26:880][  0]LogMemory: Process Physical Memory: 116.02 MB used, 116.02 MB peak
+[2021.04.20-00.34.26:880][  0]LogMemory: Process Virtual Memory: 97.45 MB used, 97.45 MB peak
+[2021.04.20-00.34.26:880][  0]LogMemory: Physical Memory: 8319.30 MB used,  7948.86 MB free, 16268.16 MB total
+[2021.04.20-00.34.26:880][  0]LogMemory: Virtual Memory: 5131.55 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2021.04.20-00.34.26:885][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.20-00.34.26:943][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.20-00.34.26:946][  0]LogInit: Using OS detected language (en-US).
+[2021.04.20-00.34.26:946][  0]LogInit: Using OS detected locale (en-US).
+[2021.04.20-00.34.26:953][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.20-00.34.27:183][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.20-00.34.27:215][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.20-00.34.27:215][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.20-00.34.27:419][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.20-00.34.27:419][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.20-00.34.27:420][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.20-00.34.27:420][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.20-00.34.27:611][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2021.04.20-00.34.27:611][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2021.04.20-00.34.27:614][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.20-00.34.27:614][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.20-00.34.27:614][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.20-00.34.27:621][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.20-00.34.27:621][  0]LogD3D11RHI:     GPU DeviceId: 0x591b (for the marketing name, search the web for "GPU Device Id")
+[2021.04.20-00.34.27:621][  0]LogWindows: EnumDisplayDevices:
+[2021.04.20-00.34.27:621][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2021.04.20-00.34.27:622][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.04.20-00.34.27:622][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.04.20-00.34.27:622][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2021.04.20-00.34.27:622][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 630
+[2021.04.20-00.34.27:622][  0]LogD3D11RHI:   Driver Version: 23.20.16.4973 (internal:23.20.16.4973, unified:23.20.16.4973)
+[2021.04.20-00.34.27:622][  0]LogD3D11RHI:      Driver Date: 2-28-2018
+[2021.04.20-00.34.27:622][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2021.04.20-00.34.27:804][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.04.20-00.34.27:804][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.20-00.34.27:804][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.20-00.34.27:812][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2021.04.20-00.34.29:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.20-00.34.29:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.20-00.34.29:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.20-00.34.29:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.20-00.34.29:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.20-00.34.29:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.20-00.34.29:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.20-00.34.29:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.20-00.34.29:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.20-00.34.29:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.20-00.34.29:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.20-00.34.29:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.20-00.34.29:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.20-00.34.29:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.20-00.34.29:251][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.20-00.34.29:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.20-00.34.29:272][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.20-00.34.29:282][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.20-00.34.29:293][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.20-00.34.29:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.20-00.34.29:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.20-00.34.29:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.20-00.34.29:351][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.20-00.34.29:351][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.20-00.34.29:362][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.20-00.34.29:372][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.20-00.34.29:383][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.20-00.34.29:394][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.20-00.34.29:394][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.20-00.34.29:402][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.20-00.34.29:473][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Intermediate/Shaders/WorkingDirectory/13928/).
+[2021.04.20-00.34.29:473][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealShaderWorkingDir/13262B2548AB420B2869BCB7B14B92CC/'.
+[2021.04.20-00.34.29:473][  0]LogXGEController: Cleaning working directory: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.20-00.34.29:474][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.20-00.34.29:474][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.20-00.34.29:474][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.20-00.34.30:351][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.20-00.34.30:414][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.20-00.34.30:414][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.04.20-00.34.30:414][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.20-00.34.30:414][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.20-00.34.30:414][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.20-00.34.30:414][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.20-00.34.30:429][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.20-00.34.30:429][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.20-00.34.30:429][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.20-00.34.30:430][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.20-00.34.30:430][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.20-00.34.30:430][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.20-00.34.30:494][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.20-00.34.30:495][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.20-00.34.30:532][  0]LogAssetRegistry: FAssetRegistry took 0.0028 seconds to start up
+[2021.04.20-00.34.30:800][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.20-00.34.30:935][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.20-00.34.30:935][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.20-00.34.30:935][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.20-00.34.30:935][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.20-00.34.30:935][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.20-00.34.30:951][  0]LogNetVersion: DeepWoodland2 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1524458531)
+[2021.04.20-00.34.31:499][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002995A211BC0), frame # 0
+[2021.04.20-00.34.31:499][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002995A162980), frame # 0
+[2021.04.20-00.34.31:500][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002995A1D4800), frame # 0
+[2021.04.20-00.34.31:545][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.038696 seconds
+[2021.04.20-00.34.31:551][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.04.20-00.34.31:551][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.04.20-00.34.31:551][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.20-00.34.32:020][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.20-00.34.32:025][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.20-00.34.32:157][  0]SourceControl: Source control is disabled
+[2021.04.20-00.34.32:157][  0]SourceControl: Source control is disabled
+[2021.04.20-00.34.32:161][  0]SourceControl: Source control is disabled
+[2021.04.20-00.34.32:164][  0]SourceControl: Source control is disabled
+[2021.04.20-00.34.32:172][  0]SourceControl: Source control is disabled
+[2021.04.20-00.34.32:508][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.20-00.34.32:530][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.20-00.34.32:530][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.20-00.34.32:586][  0]LogOcInput: OculusInput pre-init called
+[2021.04.20-00.34.32:600][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.04.20-00.34.32:600][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.04.20-00.34.32:666][  0]LogEngine: Initializing Engine...
+[2021.04.20-00.34.32:668][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.20-00.34.32:668][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.04.20-00.34.32:669][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.04.20-00.34.32:831][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.20-00.34.32:842][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.20-00.34.32:842][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002995E2FDA00), frame # 0
+[2021.04.20-00.34.32:842][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002995E2F7100), frame # 0
+[2021.04.20-00.34.32:872][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.20-00.34.32:872][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.20-00.34.32:872][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.20-00.34.32:872][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.20-00.34.32:872][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.20-00.34.32:872][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.20-00.34.32:872][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.20-00.34.32:872][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.20-00.34.32:873][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.20-00.34.32:873][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.20-00.34.32:888][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-00.34.32:888][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-00.34.33:091][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.20-00.34.33:094][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.20-00.34.33:097][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.20-00.34.33:097][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.20-00.34.33:098][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.20-00.34.33:099][  0]LogInit: FAudioDevice initialized.
+[2021.04.20-00.34.33:100][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.20-00.34.33:771][  0]LogDerivedDataCache: Saved boot cache 0.67s 76MB C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.20-00.34.33:774][  0]LogInit: Texture streaming: Enabled
+[2021.04.20-00.34.33:855][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.20-00.34.33:855][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.20-00.34.33:857][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.20-00.34.33:919][  0]LogInit: Transaction tracking system initialized
+[2021.04.20-00.34.33:943][  0]BlueprintLog: New page: Editor Load
+[2021.04.20-00.34.34:017][  0]LocalizationService: Localization service is disabled
+[2021.04.20-00.34.34:416][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.20-00.34.34:416][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.20-00.34.34:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/' took 0.02s
+[2021.04.20-00.34.34:839][  0]SourceControl: Source control is disabled
+[2021.04.20-00.34.34:839][  0]LogUnrealEdMisc: Loading editor; pre map load, took 12.848
+[2021.04.20-00.34.34:840][  0]LightingResults: New page: Lighting Build
+[2021.04.20-00.34.34:840][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-00.34.34:841][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-00.34.34:841][  0]MapCheck: New page: Map Check
+[2021.04.20-00.34.34:841][  0]LightingResults: New page: Lighting Build
+[2021.04.20-00.34.34:850][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002995E2FDA00), frame # 0
+[2021.04.20-00.34.34:850][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002995E2F7100), frame # 0
+[2021.04.20-00.34.34:851][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.04.20-00.34.35:752][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.20-00.34.35:752][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.20-00.34.35:752][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.20-00.34.35:753][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.20-00.34.35:753][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.20-00.34.35:753][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.20-00.34.35:754][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.20-00.34.35:754][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.20-00.34.35:754][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.20-00.34.35:754][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.20-00.34.35:754][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.20-00.34.35:754][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.20-00.34.42:802][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.20-00.34.42:802][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Roughness.vbwpdg0o_8K_Roughness Referenced by M_terreno_Inst
+[2021.04.20-00.34.42:802][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.04.20-00.34.42:802][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Roughness.vbwpdg0o_8K_Roughness Referenced by M_terreno_Inst
+[2021.04.20-00.34.42:802][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.20-00.34.42:802][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Normal.vbwpdg0o_8K_Normal Referenced by M_terreno_Inst
+[2021.04.20-00.34.42:802][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.04.20-00.34.42:802][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Normal.vbwpdg0o_8K_Normal Referenced by M_terreno_Inst
+[2021.04.20-00.34.42:802][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.20-00.34.42:802][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Albedo.vbwpdg0o_8K_Albedo Referenced by M_terreno_Inst
+[2021.04.20-00.34.42:803][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.04.20-00.34.42:803][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Albedo.vbwpdg0o_8K_Albedo Referenced by M_terreno_Inst
+[2021.04.20-00.34.53:439][  0]LogTexture: Display: Building textures: sratches (BGRA8, 626X443)
+[2021.04.20-00.34.53:439][  0]LogMaterial: Display: Missing cached shader map for material M_terreno, compiling. 
+[2021.04.20-00.34.53:579][  0]LogMaterial: Display: Missing cached shader map for material M_terreno, compiling. 
+[2021.04.20-00.34.53:680][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2021.04.20-00.34.53:680][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2021.04.20-00.34.53:680][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2021.04.20-00.34.53:680][  0]LogMaterial: Display: Missing cached shader map for material M_terreno, compiling. 
+[2021.04.20-00.34.53:711][  0]LogMaterial: Display: Missing cached shader map for material M_terreno, compiling. 
+[2021.04.20-00.34.53:760][  0]LogMaterial: Display: Missing cached shader map for material M_terreno, compiling. 
+[2021.04.20-00.34.53:797][  0]LogMaterial: Display: Missing cached shader map for material M_terreno, compiling. 
+[2021.04.20-00.34.54:297][  0]LogStaticMesh: Building static mesh SM_CF_01_Wood_Door_01_Right_01...
+[2021.04.20-00.34.54:430][  0]LogStaticMesh: Built static mesh [0.13s] /Game/ObjetosMigrados/Meshes/SM_CF_01_Wood_Door_01_Right_01.SM_CF_01_Wood_Door_01_Right_01
+[2021.04.20-00.34.56:472][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 220
+[2021.04.20-00.34.56:472][  0]LogStaticMesh: Building static mesh SM_Lamp_Cylinder...
+[2021.04.20-00.34.56:474][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Modelos/SM_Lamp_Cylinder.SM_Lamp_Cylinder
+[2021.04.20-00.34.56:500][  0]LogStaticMesh: Building static mesh SM_Lamp_Sphere...
+[2021.04.20-00.34.57:478][  0]LogStaticMesh: Built static mesh [1.00s] /Game/Modelos/SM_Lamp_Sphere.SM_Lamp_Sphere
+[2021.04.20-00.35.01:450][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 210
+[2021.04.20-00.35.01:450][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 200
+[2021.04.20-00.35.01:450][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 190
+[2021.04.20-00.35.01:450][  0]LogMaterial: Display: Missing cached shader map for material M_Luz, compiling. 
+[2021.04.20-00.35.01:480][  0]LogMaterial: Display: Missing cached shader map for material M_Lamp, compiling. 
+[2021.04.20-00.35.01:735][  0]LogMaterial: Display: Missing cached shader map for material M_fence, compiling. 
+[2021.04.20-00.35.04:296][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 345
+[2021.04.20-00.35.04:296][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 335
+[2021.04.20-00.35.04:296][  0]LogMaterial: Display: Missing cached shader map for material M_Trap, compiling. 
+[2021.04.20-00.35.04:706][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.20-00.35.04:706][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002998E797E00), frame # 0
+[2021.04.20-00.35.04:706][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002997FEEDA80), frame # 0
+[2021.04.20-00.35.16:067][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 373
+[2021.04.20-00.35.16:067][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 363
+[2021.04.20-00.35.16:067][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 353
+[2021.04.20-00.35.16:067][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 343
+[2021.04.20-00.35.16:067][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 333
+[2021.04.20-00.35.16:067][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 323
+[2021.04.20-00.35.16:067][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 313
+[2021.04.20-00.35.16:067][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 303
+[2021.04.20-00.35.16:068][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 293
+[2021.04.20-00.35.16:224][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.20-00.35.17:299][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 283
+[2021.04.20-00.35.17:299][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2021.04.20-00.35.17:300][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.20-00.35.17:301][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.306ms to complete.
+[2021.04.20-00.35.17:301][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 42.461
+[2021.04.20-00.35.17:355][  0]LogUnrealEdMisc: Total Editor Startup Time, took 55.364
+[2021.04.20-00.35.17:689][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-00.35.17:701][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-00.35.17:711][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-00.35.17:722][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-00.35.17:731][  0]LogCollectionManager: Loaded 0 collections in 0.002718 seconds
+[2021.04.20-00.35.17:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Collections/' took 0.00s
+[2021.04.20-00.35.17:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Developers/AlexBazaldua/Collections/' took 0.00s
+[2021.04.20-00.35.17:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Collections/' took 0.00s
+[2021.04.20-00.35.17:750][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 3436 classes and 826 folders.
+[2021.04.20-00.35.17:756][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.20-00.35.17:872][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.20-00.35.17:873][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.04.20-00.35.17:897][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2021.04.20-00.35.18:194][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.20-00.35.18:197][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.20-00.35.18:202][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.20-00.35.18:285][  0]LogRenderer: Reallocating scene render targets to support 1024x584 Format 9 NumSamples 1 (Frame:1).
+[2021.04.20-00.35.18:546][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.20-00.35.18:546][  0]LogLoad: (Engine Initialization) Total time: 56.55 seconds
+[2021.04.20-00.35.18:546][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.20-00.35.18:587][  0]LogContentStreaming: Texture pool size now 400 MB
+[2021.04.20-00.35.18:919][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.20-00.35.18:935][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.04.20-00.35.20:879][ 28]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 273
+[2021.04.20-00.35.21:398][ 40]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 263
+[2021.04.20-00.35.26:295][121]LogSlate: Window 'Message Log' being destroyed
+[2021.04.20-00.35.26:360][121]LogSlate: Window 'Message Log' being destroyed
+[2021.04.20-00.35.29:505][195]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 253
+[2021.04.20-00.35.29:564][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.04.20-00.35.31:559][250]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 243
+[2021.04.20-00.35.31:697][253]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 233
+[2021.04.20-00.35.33:076][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Cylinder)
+[2021.04.20-00.35.41:343][526]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 223
+[2021.04.20-00.35.44:029][603]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 213
+[2021.04.20-00.35.44:965][626]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 203
+[2021.04.20-00.35.50:879][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Sphere)
+[2021.04.20-00.35.50:934][792]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 193
+[2021.04.20-00.35.54:822][894]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 183
+[2021.04.20-00.35.57:767][981]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 173
+[2021.04.20-00.36.00:913][ 84]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 163
+[2021.04.20-00.36.06:051][185]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 153
+[2021.04.20-00.36.06:062][185]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 143
+[2021.04.20-00.36.08:149][199]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 133
+[2021.04.20-00.36.08:920][211]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/BluePrints/BP_LuzCabaña.uasset' failed to load '/Game/Models/Specimen_Editions_Sarn_A_mat_1_': Can't find file.
+[2021.04.20-00.36.08:920][211]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/BluePrints/BP_LuzCabaña.uasset' failed to load '/Game/Models/Specimen_Editions_Sarn_A_mat_1_': Can't find file.
+[2021.04.20-00.36.08:921][211]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/BluePrints/BP_LuzCabaña.uasset' failed to load '/Game/Models/Specimen_Editions_Sarn_A_mat_1_': Can't find file.
+[2021.04.20-00.36.08:921][211]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/BluePrints/BP_LuzCabaña.uasset' failed to load '/Game/Models/Specimen_Editions_Sarn_A_mat_1_': Can't find file.
+[2021.04.20-00.36.08:921][211]LogLinker: Warning: Failed to load '/Game/Models/Specimen_Editions_Sarn_A_mat_1_': Can't find file.
+[2021.04.20-00.36.08:922][211]LogLinker: Warning: Failed to load '/Game/Models/Specimen_Editions_Sarn_A_mat_1_': Can't find file.
+[2021.04.20-00.36.08:922][211]LogLinker: Warning: Failed to load '/Game/Models/Specimen_Editions_Sarn_A_mat_1_': Can't find file.
+[2021.04.20-00.36.08:922][211]LogLinker: Warning: Failed to load '/Game/Models/Specimen_Editions_Sarn_A_mat_1_': Can't find file.
+[2021.04.20-00.36.08:924][211]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/BluePrints/BP_LuzCabaña.uasset' failed to load '/Game/Models/Specimen_Editions_Sarn_A_mat_1_': Can't find file.
+[2021.04.20-00.36.08:924][211]LoadErrors: Failed to load /Game/Models/Specimen_Editions_Sarn_A_mat_1_.Specimen_Editions_Sarn_A_mat_1_ Referenced by StaticMesh_GEN_VARIABLE
+[2021.04.20-00.36.08:924][211]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/BluePrints/BP_LuzCabaña.uasset' failed to load '/Game/Models/Specimen_Editions_Sarn_A_mat_1_': Can't find file.
+[2021.04.20-00.36.09:349][211]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 123
+[2021.04.20-00.36.09:622][211]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 113
+[2021.04.20-00.36.11:359][233]LogAssetRegistry: Asset discovery search completed in 100.8276 seconds
+[2021.04.20-00.36.11:366][233]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2021.04.20-00.36.12:024][236]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 103
+[2021.04.20-00.36.13:882][291]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 93
+[2021.04.20-00.36.14:432][308]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 83
+[2021.04.20-00.36.19:861][428]LogEditorViewport: Clicking on Actor (LMB): BP_LuzCabaña_C (BP_LuzCabaña)
+[2021.04.20-00.36.20:231][438]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 73
+[2021.04.20-00.36.20:640][451]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 63
+[2021.04.20-00.36.20:651][451]Cmd: DELETE
+[2021.04.20-00.36.20:651][451]Cmd: ACTOR DELETE
+[2021.04.20-00.36.20:774][451]LogEditorActor: Deleted Actor: BP_LuzCabaña_C
+[2021.04.20-00.36.22:153][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2021.04.20-00.36.22:159][451]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 53
+[2021.04.20-00.36.22:159][451]LogEditorActor: Deleted 1 Actors (1.466 secs)
+[2021.04.20-00.36.25:386][541]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 43
+[2021.04.20-00.36.26:066][560]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 33
+[2021.04.20-00.36.31:929][718]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2021.04.20-00.36.34:431][785]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2021.04.20-00.36.35:901][826]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2021.04.20-00.36.40:187][940]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2021.04.20-00.36.41:736][982]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2021.04.20-00.36.41:739][982]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2021.04.20-00.36.51:188][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.04.20-00.36.52:038][239]LogSlate: Window 'Save Content' being destroyed
+[2021.04.20-00.36.52:050][239]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.20-00.36.52:094][239]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.04.20-00.36.53:047][239]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapFC27C2A04B8C55EB21A47DAC65B09533.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.20-00.36.53:085][239]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.006
+[2021.04.20-00.36.53:223][239]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataE17D8EA1447B8C1BCC884BB0DDD49CE9.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.20-00.36.53:250][239]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.20-00.36.53:250][239]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.20-00.36.53:250][239]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.20-00.36.54:002][264]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.20-00.36.54:026][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.20-00.36.54:026][264]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 19, 2021, 2:36:54 PM)
+[2021.04.20-00.36.54:028][264]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.04.20-00.36.54:029][264]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.04.20-00.36.54:029][264]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.20-00.36.54:145][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115233s)
+[2021.04.20-00.36.54:146][264]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.20-00.36.54:146][264]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000029919291E00), frame # 2264
+[2021.04.20-00.36.54:146][264]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002997FCCD580), frame # 2264
+[2021.04.20-00.36.54:147][264]LogPlayLevel: PIE: World Init took: (0.001536s)
+[2021.04.20-00.36.54:147][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.117095s)
+[2021.04.20-00.36.54:159][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.04.20-00.36.54:161][264]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.20-00.36.54:161][264]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.20-00.36.54:161][264]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.20-00.36.54:161][264]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.20-00.36.54:161][264]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.20-00.36.54:161][264]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.20-00.36.54:161][264]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.20-00.36.54:161][264]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.20-00.36.54:162][264]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.20-00.36.54:162][264]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.20-00.36.54:164][264]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-00.36.54:164][264]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-00.36.54:277][264]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.20-00.36.54:277][264]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.20-00.36.54:277][264]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.20-00.36.54:277][264]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.20-00.36.54:277][264]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.20-00.36.54:293][264]LogInit: FAudioDevice initialized.
+[2021.04.20-00.36.54:306][264]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.04.20-00.36.54:385][264]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.04.19-19.36.54
+[2021.04.20-00.36.54:389][264]LogWorld: Bringing up level for play took: 0.081451
+[2021.04.20-00.36.54:389][264]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.04.20-00.36.54:457][264]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2021.04.20-00.36.54:461][264]PIE: Server logged in
+[2021.04.20-00.36.54:463][264]PIE: Play in editor total start time 0.438 seconds.
+[2021.04.20-00.37.10:489][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-00.37.10:489][ 69]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.20-00.37.10:490][ 69]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-00.37.10:497][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-00.37.10:504][ 69]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.20-00.37.10:509][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-00.37.10:551][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-00.37.10:577][ 69]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000029919291E00), frame # 3069
+[2021.04.20-00.37.10:577][ 69]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002997FCCD580), frame # 3069
+[2021.04.20-00.37.10:578][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.04.20-00.37.10:646][ 70]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.04.20-00.37.11:266][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Sphere)
+[2021.04.20-00.38.28:928][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Sphere)
+[2021.04.20-00.38.33:369][442]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.20-00.38.33:393][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.20-00.38.33:393][442]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 19, 2021, 2:38:33 PM)
+[2021.04.20-00.38.33:394][442]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.20-00.38.33:513][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118629s)
+[2021.04.20-00.38.33:514][442]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.04.20-00.38.33:514][442]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000299DB71D200), frame # 5442
+[2021.04.20-00.38.33:514][442]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000029995A09E40), frame # 5442
+[2021.04.20-00.38.33:514][442]LogPlayLevel: PIE: World Init took: (0.001783s)
+[2021.04.20-00.38.33:515][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.120654s)
+[2021.04.20-00.38.33:527][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.04.20-00.38.33:529][442]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.20-00.38.33:529][442]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.20-00.38.33:529][442]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.20-00.38.33:529][442]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.20-00.38.33:529][442]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.20-00.38.33:529][442]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.20-00.38.33:529][442]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.20-00.38.33:529][442]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.20-00.38.33:530][442]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.20-00.38.33:530][442]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.20-00.38.33:532][442]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-00.38.33:532][442]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-00.38.33:645][442]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.04.20-00.38.33:645][442]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.20-00.38.33:645][442]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.20-00.38.33:645][442]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.20-00.38.33:646][442]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.20-00.38.33:660][442]LogInit: FAudioDevice initialized.
+[2021.04.20-00.38.33:671][442]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.04.20-00.38.33:731][442]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.04.19-19.38.33
+[2021.04.20-00.38.33:734][442]LogWorld: Bringing up level for play took: 0.061754
+[2021.04.20-00.38.33:734][442]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.04.20-00.38.33:741][442]PIE: Server logged in
+[2021.04.20-00.38.33:742][442]PIE: Play in editor total start time 0.349 seconds.
+[2021.04.20-00.38.55:039][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-00.38.55:039][553]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.04.20-00.38.55:040][553]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-00.38.55:045][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-00.38.55:056][553]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.20-00.38.55:061][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-00.38.55:071][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-00.38.55:100][553]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000029995A09E40), frame # 6553
+[2021.04.20-00.38.55:100][553]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000299DB71D200), frame # 6553
+[2021.04.20-00.38.55:104][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.04.20-00.38.55:164][554]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.04.20-00.39.25:033][694]LogEditorViewport: Clicking on Actor (LMB): BP_Agua_C (BP_Agua)
+[2021.04.20-00.39.31:464][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2021.04.20-00.39.32:368][911]LogSlate: Window 'Save Content' being destroyed
+[2021.04.20-00.39.32:417][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.20-00.39.33:334][911]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap88531CD94BEA08785B6D90AC4227AB02.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.04.20-00.39.33:370][911]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.965
+[2021.04.20-00.39.33:461][911]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData51943EF349E772D94661318D137450A3.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.04.20-00.39.33:494][911]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.20-00.39.33:494][911]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.04.20-00.39.33:494][911]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.04.20-00.39.57:616][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.04.20-00.40.27:878][207]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_TierraNEBCC92A047D879ABFD688D976E2A69CC.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texture/Normales/M_TierraN.uasset'
+[2021.04.20-00.40.27:892][207]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_TierraN3FEF677144A0DDF6EFD25DB0CE0CDC81.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texture/M_TierraN.uasset'
+[2021.04.20-00.40.27:922][207]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_GrassN335C9320434E30DAD260769397B9F6FC.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texture/Normales/M_GrassN.uasset'
+[2021.04.20-00.40.27:923][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/M_GrassN" FILE="../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texture/M_GrassN.uasset" SILENT=true
+[2021.04.20-00.40.27:931][207]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_GrassN434573914B450C5A8B49DD8900737FC9.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texture/M_GrassN.uasset'
+[2021.04.20-00.40.27:963][207]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_RocasN_91C5460D4A6E34B17031E69DAADACE0D.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texture/Normales/M_RocasN_.uasset'
+[2021.04.20-00.40.27:973][207]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_RocasN_BDA0912A49F7E6D318DD05B861FA058A.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texture/M_RocasN_.uasset'
+[2021.04.20-00.40.28:309][207]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.20-00.40.28:309][207]LogContentValidation: Display: Validating Texture2D /Game/Texture/Normales/M_TierraN.M_TierraN
+[2021.04.20-00.40.28:309][207]LogContentValidation: Display: Validating ObjectRedirector /Game/Texture/M_TierraN.M_TierraN
+[2021.04.20-00.40.28:309][207]LogContentValidation: Display: Validating Texture2D /Game/Texture/Normales/M_GrassN.M_GrassN
+[2021.04.20-00.40.28:309][207]LogContentValidation: Display: Validating ObjectRedirector /Game/Texture/M_GrassN.M_GrassN
+[2021.04.20-00.40.28:309][207]LogContentValidation: Display: Validating Texture2D /Game/Texture/Normales/M_RocasN_.M_RocasN_
+[2021.04.20-00.40.28:309][207]LogContentValidation: Display: Validating ObjectRedirector /Game/Texture/M_RocasN_.M_RocasN_
+[2021.04.20-00.40.35:015][447]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_RocasN_35BB965F456C8DC5CA6F9A9D59ECA9A5.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/Normales/M_RocasN_.uasset'
+[2021.04.20-00.40.35:049][447]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_GrassNBA91D75546B40CE74EDF2FA900CAF325.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/Normales/M_GrassN.uasset'
+[2021.04.20-00.40.35:141][447]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_TierraN578F9F57494A4959C1695086450814E0.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/Normales/M_TierraN.uasset'
+[2021.04.20-00.40.35:172][447]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Banca2713613B49ABDB0843E3E9A08723E3AB.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/Normales/Banca.uasset'
+[2021.04.20-00.40.35:195][447]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/MesaCabaña2F0D28F4487017110EDD04BD924FFB89.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/Normales/MesaCabaña.uasset'
+[2021.04.20-00.40.35:750][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2021.04.20-00.40.35:765][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.04.20-00.40.35:778][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.04.20-00.40.35:790][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.04.20-00.40.35:802][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.20-00.40.35:822][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.04.20-00.40.35:836][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.04.20-00.40.35:862][447]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_RocasN_9541594B43113871C4752AABC753E894.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texture/M_RocasN_.uasset'
+[2021.04.20-00.40.35:862][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/M_GrassN" FILE="../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texture/M_GrassN.uasset" SILENT=true
+[2021.04.20-00.40.35:870][447]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_GrassNA3393DC449E8D03BFAF251A784264DE1.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texture/M_GrassN.uasset'
+[2021.04.20-00.40.35:877][447]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_TierraN35C9DA9A4091314119E02A86026C8CEE.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texture/M_TierraN.uasset'
+[2021.04.20-00.40.35:940][447]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Bancas5779E0D84C3124C7BD53BFB841877B75.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materials/M_Bancas.uasset'
+[2021.04.20-00.40.35:953][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Mesa" FILE="../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materials/M_Mesa.uasset" SILENT=true
+[2021.04.20-00.40.35:969][447]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Mesa4A4625E64BC62A2FFC9882A880771023.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materials/M_Mesa.uasset'
+[2021.04.20-00.40.36:267][447]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.20-00.40.36:267][447]LogContentValidation: Display: Validating Texture2D /Game/Texturas/Normales/M_RocasN_.M_RocasN_
+[2021.04.20-00.40.36:267][447]LogContentValidation: Display: Validating Texture2D /Game/Texturas/Normales/M_GrassN.M_GrassN
+[2021.04.20-00.40.36:267][447]LogContentValidation: Display: Validating Texture2D /Game/Texturas/Normales/M_TierraN.M_TierraN
+[2021.04.20-00.40.36:267][447]LogContentValidation: Display: Validating Texture2D /Game/Texturas/Normales/Banca.Banca
+[2021.04.20-00.40.36:267][447]LogContentValidation: Display: Validating Texture2D /Game/Texturas/Normales/MesaCabaña.MesaCabaña
+[2021.04.20-00.40.36:267][447]LogContentValidation: Display: Validating ObjectRedirector /Game/Texture/M_RocasN_.M_RocasN_
+[2021.04.20-00.40.36:267][447]LogContentValidation: Display: Validating ObjectRedirector /Game/Texture/M_GrassN.M_GrassN
+[2021.04.20-00.40.36:267][447]LogContentValidation: Display: Validating ObjectRedirector /Game/Texture/M_TierraN.M_TierraN
+[2021.04.20-00.40.36:267][447]LogContentValidation: Display: Validating Material /Game/Materials/M_Bancas.M_Bancas
+[2021.04.20-00.40.36:267][447]LogContentValidation: Display: Validating Material /Game/Materials/M_Mesa.M_Mesa
+[2021.04.20-00.40.42:189][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.04.20-00.40.44:809][686]LogSlate: Window 'Delete Assets' being destroyed
+[2021.04.20-00.40.57:880][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.04.20-00.41.03:811][275]LogSlate: Window 'Delete Assets' being destroyed
+[2021.04.20-00.41.20:754][830]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Bucket_Albedo_tgaDE0B6DB74586756F835BB5B57F58F8D3.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/Bucket_Albedo_tga.uasset'
+[2021.04.20-00.41.20:971][830]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/cabin_BaseColorA244BA4142606B3D48CD5086EC3A48D6.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/cabin_BaseColor.uasset'
+[2021.04.20-00.41.20:981][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texturas/Grass_2" FILE="../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/Grass_2.uasset" SILENT=true
+[2021.04.20-00.41.20:996][830]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Grass_2276EFF264AB12F2862498896FB107935.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/Grass_2.uasset'
+[2021.04.20-00.41.21:006][830]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Grass_201496F714E9B4E84E962C59CBD36A737.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materials/Grass_2.uasset'
+[2021.04.20-00.41.21:042][830]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Park_bench_natural_dif29E1D0CC4ED7400C5C193EB6AA6A8784.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/Park_bench_natural_dif.uasset'
+[2021.04.20-00.41.21:336][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.04.20-00.41.21:351][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.20-00.41.21:362][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.41.21:381][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.04.20-00.41.21:392][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.04.20-00.41.21:492][830]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_pozo_cubeta9A2B476E4F8F9791A689F7AEA7B32018.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_cubeta.uasset'
+[2021.04.20-00.41.21:520][830]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_CabañaAA815088409860157927C4B0D4ECF592.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materials/M_Cabaña.uasset'
+[2021.04.20-00.41.21:529][830]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Bancas2D8DBB59493576057D4137A2A0BF2B47.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materials/M_Bancas.uasset'
+[2021.04.20-00.41.21:805][830]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.20-00.41.21:805][830]LogContentValidation: Display: Validating Texture2D /Game/Texturas/Bucket_Albedo_tga.Bucket_Albedo_tga
+[2021.04.20-00.41.21:805][830]LogContentValidation: Display: Validating Texture2D /Game/Texturas/cabin_BaseColor.cabin_BaseColor
+[2021.04.20-00.41.21:805][830]LogContentValidation: Display: Validating Texture2D /Game/Texturas/Grass_2.Grass_2
+[2021.04.20-00.41.21:805][830]LogContentValidation: Display: Validating ObjectRedirector /Game/Materials/Grass_2.Grass_2
+[2021.04.20-00.41.21:805][830]LogContentValidation: Display: Validating Texture2D /Game/Texturas/Park_bench_natural_dif.Park_bench_natural_dif
+[2021.04.20-00.41.21:805][830]LogContentValidation: Display: Validating Material /Game/Materials/M_pozo_cubeta.M_pozo_cubeta
+[2021.04.20-00.41.21:805][830]LogContentValidation: Display: Validating Material /Game/Materials/M_Cabaña.M_Cabaña
+[2021.04.20-00.41.21:805][830]LogContentValidation: Display: Validating Material /Game/Materials/M_Bancas.M_Bancas
+[2021.04.20-00.41.32:688][255]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_noise129D394074388D1558779F1824CC92ADB.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/M_noise1.uasset'
+[2021.04.20-00.41.32:845][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.04.20-00.41.32:869][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.04.20-00.41.32:881][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.04.20-00.41.32:911][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_awua" FILE="../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materials/M_awua.uasset" SILENT=true
+[2021.04.20-00.41.32:929][255]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_awua02D0E5774863D49957577EA1545803B9.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materials/M_awua.uasset'
+[2021.04.20-00.41.33:211][255]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.20-00.41.33:211][255]LogContentValidation: Display: Validating Texture2D /Game/Texturas/M_noise1.M_noise1
+[2021.04.20-00.41.33:211][255]LogContentValidation: Display: Validating Material /Game/Materials/M_awua.M_awua
+[2021.04.20-00.43.10:151][334]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_TroncoTexture7672B13E42604E48D45E34BB14F415A6.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_TroncoTexture.uasset'
+[2021.04.20-00.43.10:177][334]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Pino155C3A64141014C90C4467788AFE71A94.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_Pino1.uasset'
+[2021.04.20-00.43.10:199][334]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Pino26ED6206F434EBD65B1FCFE9390AB5F9D.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_Pino2.uasset'
+[2021.04.20-00.43.10:546][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.04.20-00.43.10:582][334]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.20-00.43.10:595][334]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.04.20-00.43.10:617][334]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.04.20-00.43.10:631][334]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.04.20-00.43.10:811][334]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/SM_FINALE_PARK_AREA176ED46E4AA5287FDE709D824CFBCD9D.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/ObjetosOptimizados/SM_FINALE_PARK_AREA.uasset'
+[2021.04.20-00.43.13:096][334]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/SM_MERGED_PINOS132EE22394D289DB47B8095B1324734B5.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS1.uasset'
+[2021.04.20-00.43.14:843][334]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/SM_MERGED_PINOS215E3DCFC4930C5CE5CD73BAD9D7F7BBF.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS2.uasset'
+[2021.04.20-00.43.16:342][334]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/SM_MERGED_PINOS3A8BD2CFC49201833534C0380627CDE4A.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS3.uasset'
+[2021.04.20-00.43.21:637][334]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/SM_MERGED_PINOS4DC388FC442AB40D96F315A9C1E0C7C86.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS4.uasset'
+[2021.04.20-00.43.22:885][334]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/SM_MERGED_PINOS5719F56F8404EEB6283DF1EA3BCCF4097.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS5.uasset'
+[2021.04.20-00.43.24:932][334]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/SM_MERGED_PINOS60AABC1D14DB0643D31CD6A8707F5BFCF.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS6.uasset'
+[2021.04.20-00.43.29:307][334]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.20-00.43.29:307][334]LogContentValidation: Display: Validating Material /Game/Materiales/M_TroncoTexture.M_TroncoTexture
+[2021.04.20-00.43.29:307][334]LogContentValidation: Display: Validating Material /Game/Materiales/M_Pino1.M_Pino1
+[2021.04.20-00.43.29:307][334]LogContentValidation: Display: Validating Material /Game/Materiales/M_Pino2.M_Pino2
+[2021.04.20-00.43.29:307][334]LogContentValidation: Display: Validating StaticMesh /Game/ObjetosMigrados/ObjetosOptimizados/SM_FINALE_PARK_AREA.SM_FINALE_PARK_AREA
+[2021.04.20-00.43.29:307][334]LogContentValidation: Display: Validating StaticMesh /Game/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS1.SM_MERGED_PINOS1
+[2021.04.20-00.43.29:307][334]LogContentValidation: Display: Validating StaticMesh /Game/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS2.SM_MERGED_PINOS2
+[2021.04.20-00.43.29:307][334]LogContentValidation: Display: Validating StaticMesh /Game/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS3.SM_MERGED_PINOS3
+[2021.04.20-00.43.29:307][334]LogContentValidation: Display: Validating StaticMesh /Game/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS4.SM_MERGED_PINOS4
+[2021.04.20-00.43.29:307][334]LogContentValidation: Display: Validating StaticMesh /Game/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS5.SM_MERGED_PINOS5
+[2021.04.20-00.43.29:307][334]LogContentValidation: Display: Validating StaticMesh /Game/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS6.SM_MERGED_PINOS6
+[2021.04.20-00.43.41:856][658]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/madera_pinoFC91B1384F55544A9AC49FA8189F8C0D.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/madera_pino.uasset'
+[2021.04.20-00.43.41:864][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texturas/bark1" FILE="../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/bark1.uasset" SILENT=true
+[2021.04.20-00.43.41:878][658]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/bark1163D684942A023FC328628A6F76DEE9E.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/bark1.uasset'
+[2021.04.20-00.43.41:889][658]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/hoja_pinoE448FCDF40D2EC3D8F7EAA855444DF7A.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Texturas/hoja_pino.uasset'
+[2021.04.20-00.43.42:216][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.04.20-00.43.42:230][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.04.20-00.43.42:241][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.04.20-00.43.42:261][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.04.20-00.43.42:272][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.04.20-00.43.42:296][658]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Pino1A416CAED4657E694ABAC649A8D94A8F1.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_Pino1.uasset'
+[2021.04.20-00.43.42:306][658]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_TroncoTexture4589009048E8A47700E800B30F1B31E8.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_TroncoTexture.uasset'
+[2021.04.20-00.43.42:316][658]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Pino2B5B697DE42740431E41C4BA53971618B.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Materiales/M_Pino2.uasset'
+[2021.04.20-00.43.42:640][658]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.20-00.43.42:640][658]LogContentValidation: Display: Validating Texture2D /Game/Texturas/madera_pino.madera_pino
+[2021.04.20-00.43.42:640][658]LogContentValidation: Display: Validating Texture2D /Game/Texturas/bark1.bark1
+[2021.04.20-00.43.42:640][658]LogContentValidation: Display: Validating Texture2D /Game/Texturas/hoja_pino.hoja_pino
+[2021.04.20-00.43.42:640][658]LogContentValidation: Display: Validating Material /Game/Materiales/M_Pino1.M_Pino1
+[2021.04.20-00.43.42:640][658]LogContentValidation: Display: Validating Material /Game/Materiales/M_TroncoTexture.M_TroncoTexture
+[2021.04.20-00.43.42:640][658]LogContentValidation: Display: Validating Material /Game/Materiales/M_Pino2.M_Pino2
+[2021.04.20-00.43.46:473][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.04.20-00.43.47:673][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.04.20-00.44.06:832][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.04.20-00.44.08:806][705]LogSlate: Window 'Delete Assets' being destroyed
+[2021.04.20-00.44.12:978][896]LogSlate: Last resort fallback font was requested. Font: '/Game/Fuentes/GAMERIA.GAMERIA', Character: '_ (U+005f)'
+[2021.04.20-00.44.13:223][896]LogSlate: Took 0.238812 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2021.04.20-00.44.18:837][152]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.04.20-00.44.18:872][153]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2021.04.20-00.44.18:872][153]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2021.04.20-00.44.46:249][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:249][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:249][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:249][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:249][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:249][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_57' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:249][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_58' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:249][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_59' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:249][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_60' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:249][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_61' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:250][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_62' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:250][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_63' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:250][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_64' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:250][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_65' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:250][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_66' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:250][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_67' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:250][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_68' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:250][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:250][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_Root_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:817][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadEject_Cue.Pistol_ReloadEject_Cue:SoundCueGraph_41.SoundCueGraphNode_83' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:818][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadEject_Cue.Pistol_ReloadEject_Cue:SoundCueGraph_41.SoundCueGraphNode_84' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:818][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadEject_Cue.Pistol_ReloadEject_Cue:SoundCueGraph_41.SoundCueGraphNode_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:818][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadEject_Cue.Pistol_ReloadEject_Cue:SoundCueGraph_41.SoundCueGraphNode_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:818][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadEject_Cue.Pistol_ReloadEject_Cue:SoundCueGraph_41.SoundCueGraphNode_Root_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:998][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.Pistol_ReloadInsert_Cue:SoundCueGraph_41.SoundCueGraphNode_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:998][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.Pistol_ReloadInsert_Cue:SoundCueGraph_41.SoundCueGraphNode_32' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:998][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.Pistol_ReloadInsert_Cue:SoundCueGraph_41.SoundCueGraphNode_75' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:998][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.Pistol_ReloadInsert_Cue:SoundCueGraph_41.SoundCueGraphNode_76' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:998][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.Pistol_ReloadInsert_Cue:SoundCueGraph_41.SoundCueGraphNode_77' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:999][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.Pistol_ReloadInsert_Cue:SoundCueGraph_41.SoundCueGraphNode_78' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:999][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.Pistol_ReloadInsert_Cue:SoundCueGraph_41.SoundCueGraphNode_79' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:999][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.Pistol_ReloadInsert_Cue:SoundCueGraph_41.SoundCueGraphNode_80' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:999][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.Pistol_ReloadInsert_Cue:SoundCueGraph_41.SoundCueGraphNode_81' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:999][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.Pistol_ReloadInsert_Cue:SoundCueGraph_41.SoundCueGraphNode_82' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.46:999][111]LogBlueprint: Warning: Node '/Game/SciFiWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.Pistol_ReloadInsert_Cue:SoundCueGraph_41.SoundCueGraphNode_Root_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.04.20-00.44.48:465][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_Darkness_AssaultRifle_D966E896E46676CAE0D35DF9B088B85B2.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Weapons/Textures/T_Darkness_AssaultRifle_D.uasset'
+[2021.04.20-00.44.48:513][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_Darkness_AssaultRifle_Masks2A395F174712A7FA2B8FCF82ED504680.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Weapons/Textures/T_Darkness_AssaultRifle_Masks.uasset'
+[2021.04.20-00.44.48:632][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_Darkness_AssaultRifle_N6A8ED73A42AAC2809B8006B34D3021CC.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Weapons/Textures/T_Darkness_AssaultRifle_N.uasset'
+[2021.04.20-00.44.48:646][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_Darkness_AssaultRifleColor_MAF462A974AD12A76A94280AFCEAB3586.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Weapons/Textures/T_Darkness_AssaultRifleColor_M.uasset'
+[2021.04.20-00.44.48:675][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_WeaponMaster_Em754A29CF4EA4EE62181BAAB4814956BF.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Weapons/Materials/M_WeaponMaster_Em.uasset'
+[2021.04.20-00.44.48:700][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Pistol_MuzzleFlash_4x1_A9459F5554E49C952CB6CD4947D4B8ACA.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Materials/M_Pistol_MuzzleFlash_4x1_A.uasset'
+[2021.04.20-00.44.48:724][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Pistol_Streaks_01B8FB0B724E177CAF9D44F799455EDB41.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Materials/M_Pistol_Streaks_01.uasset'
+[2021.04.20-00.44.48:777][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Plasma_01AE0782BB45BD6BB63227AE9DA152CC79.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Materials/M_Plasma_01.uasset'
+[2021.04.20-00.44.48:798][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Plasma_Inst_A_Dark596FDB294A0702BF0929C59F37B96D05.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Materials/M_Plasma_Inst_A_Dark.uasset'
+[2021.04.20-00.44.48:838][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Pop_01C79D8CF342F22DC5464447BAB6D65154.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Materials/M_Pop_01.uasset'
+[2021.04.20-00.44.48:860][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Sparks_0253A30AAD43712122CB1E2A9CAD631BDA.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Materials/M_Sparks_02.uasset'
+[2021.04.20-00.44.48:942][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/P_Pistol_MuzzleFlash_Dark6935AB6944CE4AD3E4D732A644A4CF66.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Particles/P_Pistol_MuzzleFlash_Dark.uasset'
+[2021.04.20-00.44.48:958][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_FrameClamp3B3C8F074BEED939ABF624AFB8381643.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_FrameClamp.uasset'
+[2021.04.20-00.44.48:976][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_GlowSphere_019AB1E0EC4D9F24FF7ED3639532A42777.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_GlowSphere_01.uasset'
+[2021.04.20-00.44.49:005][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_NoiseMask_01EA0C7C8F41F037412C8B748C87D45A35.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_NoiseMask_01.uasset'
+[2021.04.20-00.44.49:021][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_Pistol_MuzzleFlashes_4x1_A9CEAE00E4DB6B4C69FC07FB87539E5E8.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_Pistol_MuzzleFlashes_4x1_A.uasset'
+[2021.04.20-00.44.49:027][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_Pistol_Streaks_011EB23C1344EE597CFE5B2394E73F0259.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_Pistol_Streaks_01.uasset'
+[2021.04.20-00.44.49:044][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_PlasmaMask_011567294E4513E4CB09EF4191A817DE80.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_PlasmaMask_01.uasset'
+[2021.04.20-00.44.49:090][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_Plasma_A_01AFC3FB8F4DBA702A089E81BDC0D89379.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_Plasma_A_01.uasset'
+[2021.04.20-00.44.49:418][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_Plasma_B_01C0E9FB654993FB264D6E19B913E79156.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_Plasma_B_01.uasset'
+[2021.04.20-00.44.49:452][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_Plasma_Detail_01B24DFE274969D6477D8BB2A2F04E16B5.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_Plasma_Detail_01.uasset'
+[2021.04.20-00.44.49:459][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/T_Sparks_02CFB8AF934929550AEAD23494793203B1.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_Sparks_02.uasset'
+[2021.04.20-00.44.49:463][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/FGA_Turbulent_01F204B5B347E8105085D78EB6BB8CC891.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/FX/Vector_Fields/FGA_Turbulent_01.uasset'
+[2021.04.20-00.44.49:466][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/WeaponHandling_att50E887DB4752113F02C0E292148155F3.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Attenuation/WeaponHandling_att.uasset'
+[2021.04.20-00.44.49:469][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/WeaponShot_att89D4A9F546E160B3C9EF768B5763E506.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Attenuation/WeaponShot_att.uasset'
+[2021.04.20-00.44.49:478][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/PistolA_Fire_Cue93BC6FC748FB748968A5A085027F264E.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.uasset'
+[2021.04.20-00.44.49:483][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Pistol_ReloadEject_Cue9DF9C8A5419F97BC05267B92DF8CF543.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Pistol_ReloadEject_Cue.uasset'
+[2021.04.20-00.44.49:536][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Pistol_ReloadInsert_Cue73A4E41346F79DA40CA7598283A11D34.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.uasset'
+[2021.04.20-00.44.49:548][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/PistolA_Fire01E00AE6864F3B31BAF32A3EA8E2F7EDC3.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire01.uasset'
+[2021.04.20-00.44.49:559][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/PistolA_Fire02C0B168A14B485BD0D1F13E9A4EC3EC4B.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire02.uasset'
+[2021.04.20-00.44.49:571][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/PistolA_Fire0355FF2F914D60AF6665C915BC595727F2.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire03.uasset'
+[2021.04.20-00.44.49:582][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/PistolA_Fire04CE61202647BCAC2DA15588A0DDFB73D0.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire04.uasset'
+[2021.04.20-00.44.49:593][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/PistolA_Fire05550C7C4C4621C34F904079A679AF0B3C.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire05.uasset'
+[2021.04.20-00.44.49:604][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/PistolA_Fire065CEB2F944269E0D0795B8488D41ADD10.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire06.uasset'
+[2021.04.20-00.44.49:614][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/PistolA_Fire_Dist012EEEF7CD4EB8BEF62BAE5D8B504A2585.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire_Dist01.uasset'
+[2021.04.20-00.44.49:628][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/PistolA_Fire_Dist02C3F2E9664A8912A199D757860306CC5F.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire_Dist02.uasset'
+[2021.04.20-00.44.49:638][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/PistolA_Fire_Dist0339D76C654FF73BC099F65194BA4A2AB5.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire_Dist03.uasset'
+[2021.04.20-00.44.49:694][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/PistolA_Fire_Dist041F33258C4CF02AF5F376118C432F67C7.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire_Dist04.uasset'
+[2021.04.20-00.44.49:707][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/PistolA_Fire_Dist05FEB18CA7473D12E74E1033AC29B82F5F.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire_Dist05.uasset'
+[2021.04.20-00.44.49:731][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/PistolA_Fire_Dist06851B8C0943AE801284F8A8BCD5A370B4.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire_Dist06.uasset'
+[2021.04.20-00.44.49:742][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Pistol_ReloadMagEject0117AA879A462EC7C7CEAF45BF36FF9C24.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadMagEject01.uasset'
+[2021.04.20-00.44.49:751][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Pistol_ReloadMagEject0244D988C8403E0F28588737842207E1B9.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadMagEject02.uasset'
+[2021.04.20-00.44.49:760][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Pistol_ReloadMagEject038E5F040240E611A659A4B49A18690C70.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadMagEject03.uasset'
+[2021.04.20-00.44.49:770][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Pistol_ReloadMagInsert012C4DFBC349AB541C2AD19DA99811FBE6.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadMagInsert01.uasset'
+[2021.04.20-00.44.49:806][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Pistol_ReloadMagInsert0219FF75E3457C5F47DE2F26883DB7D494.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadMagInsert02.uasset'
+[2021.04.20-00.44.49:817][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Pistol_ReloadMagInsert035E96A36B4B866068907ED88ABDE7E882.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadMagInsert03.uasset'
+[2021.04.20-00.44.49:859][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Pistol_ReloadSlideRack013D3CC5984178DA3491FE338CCF7F04C5.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadSlideRack01.uasset'
+[2021.04.20-00.44.49:874][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Pistol_ReloadSlideRack02A3875ABE4894ADF9885C2392F01072C6.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadSlideRack02.uasset'
+[2021.04.20-00.44.49:918][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Pistol_ReloadSlideRack03235A654B4ACE31E8EFBBBCBAD3A99DE3.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadSlideRack03.uasset'
+[2021.04.20-00.44.55:041][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2021.04.20-00.44.55:056][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.20-00.44.55:069][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2021.04.20-00.44.55:081][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.20-00.44.55:092][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2021.04.20-00.44.55:104][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2021.04.20-00.44.55:120][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.04.20-00.44.55:133][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.04.20-00.44.55:146][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.04.20-00.44.55:157][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.04.20-00.44.55:169][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.04.20-00.44.55:180][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.44.55:192][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.04.20-00.44.55:204][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.04.20-00.44.55:215][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.04.20-00.44.55:229][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.20-00.44.55:245][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.04.20-00.44.55:257][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.04.20-00.44.55:269][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.04.20-00.44.55:281][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.04.20-00.44.55:293][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.04.20-00.44.55:304][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.44.55:315][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.44.55:327][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.04.20-00.44.55:339][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.44.55:351][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.44.55:364][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.04.20-00.44.55:375][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.04.20-00.44.55:387][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.20-00.44.55:398][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2021.04.20-00.44.55:409][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.20-00.44.55:420][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.04.20-00.44.55:431][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.04.20-00.44.55:447][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.44.55:460][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.04.20-00.44.55:471][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.04.20-00.44.55:483][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.04.20-00.44.55:495][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.44.55:506][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.04.20-00.44.55:519][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.44.55:530][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.44.55:542][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.04.20-00.44.55:555][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.44.55:567][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.04.20-00.44.55:579][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.04.20-00.44.55:591][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.44.55:602][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.44.55:614][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.04.20-00.44.55:625][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.04.20-00.44.55:647][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2021.04.20-00.44.55:659][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.04.20-00.44.55:723][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_PistolVer2_Inst12761D734ABD5CFE022804AEEDFA11DA.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Soldado/PistolDark/M_PistolVer2_Inst.uasset'
+[2021.04.20-00.44.55:751][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/M_Pistol_Inst1CA7514547C48060BEA7CABAAAF379E8.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Soldado/PistolDark/M_Pistol_Inst.uasset'
+[2021.04.20-00.44.55:999][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Fire_Pistol_WA5AFAFA04635D0E6D25FFDA3BEEFEAF7.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Soldado/PistolDark/Fire_Pistol_W.uasset'
+[2021.04.20-00.44.56:024][111]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/Reload_Pistol_W10BC42CB4AEEED662AEE38BF0D2AFBBD.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Soldado/PistolDark/Reload_Pistol_W.uasset'
+[2021.04.20-00.44.56:422][111]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.20-00.44.56:422][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/Weapons/Textures/T_Darkness_AssaultRifle_D.T_Darkness_AssaultRifle_D
+[2021.04.20-00.44.56:422][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/Weapons/Textures/T_Darkness_AssaultRifle_Masks.T_Darkness_AssaultRifle_Masks
+[2021.04.20-00.44.56:422][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/Weapons/Textures/T_Darkness_AssaultRifle_N.T_Darkness_AssaultRifle_N
+[2021.04.20-00.44.56:422][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/Weapons/Textures/T_Darkness_AssaultRifleColor_M.T_Darkness_AssaultRifleColor_M
+[2021.04.20-00.44.56:422][111]LogContentValidation: Display: Validating Material /Game/ObjetosMigrados/SciFiWeapDark/Weapons/Materials/M_WeaponMaster_Em.M_WeaponMaster_Em
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Material /Game/ObjetosMigrados/SciFiWeapDark/FX/Materials/M_Pistol_MuzzleFlash_4x1_A.M_Pistol_MuzzleFlash_4x1_A
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Material /Game/ObjetosMigrados/SciFiWeapDark/FX/Materials/M_Pistol_Streaks_01.M_Pistol_Streaks_01
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Material /Game/ObjetosMigrados/SciFiWeapDark/FX/Materials/M_Plasma_01.M_Plasma_01
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/ObjetosMigrados/SciFiWeapDark/FX/Materials/M_Plasma_Inst_A_Dark.M_Plasma_Inst_A_Dark
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Material /Game/ObjetosMigrados/SciFiWeapDark/FX/Materials/M_Pop_01.M_Pop_01
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/ObjetosMigrados/SciFiWeapDark/FX/Materials/M_Sparks_02.M_Sparks_02
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating ParticleSystem /Game/ObjetosMigrados/SciFiWeapDark/FX/Particles/P_Pistol_MuzzleFlash_Dark.P_Pistol_MuzzleFlash_Dark
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_FrameClamp.T_FrameClamp
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_GlowSphere_01.T_GlowSphere_01
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_NoiseMask_01.T_NoiseMask_01
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_Pistol_MuzzleFlashes_4x1_A.T_Pistol_MuzzleFlashes_4x1_A
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_Pistol_Streaks_01.T_Pistol_Streaks_01
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_PlasmaMask_01.T_PlasmaMask_01
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_Plasma_A_01.T_Plasma_A_01
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_Plasma_B_01.T_Plasma_B_01
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_Plasma_Detail_01.T_Plasma_Detail_01
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating Texture2D /Game/ObjetosMigrados/SciFiWeapDark/FX/Textures/T_Sparks_02.T_Sparks_02
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating VectorFieldStatic /Game/ObjetosMigrados/SciFiWeapDark/FX/Vector_Fields/FGA_Turbulent_01.FGA_Turbulent_01
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating SoundAttenuation /Game/ObjetosMigrados/SciFiWeapDark/Sound/Attenuation/WeaponHandling_att.WeaponHandling_att
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating SoundAttenuation /Game/ObjetosMigrados/SciFiWeapDark/Sound/Attenuation/WeaponShot_att.WeaponShot_att
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating SoundCue /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating SoundCue /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Pistol_ReloadEject_Cue.Pistol_ReloadEject_Cue
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating SoundCue /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.Pistol_ReloadInsert_Cue
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire01.PistolA_Fire01
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire02.PistolA_Fire02
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire03.PistolA_Fire03
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire04.PistolA_Fire04
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire05.PistolA_Fire05
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire06.PistolA_Fire06
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire_Dist01.PistolA_Fire_Dist01
+[2021.04.20-00.44.56:423][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire_Dist02.PistolA_Fire_Dist02
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire_Dist03.PistolA_Fire_Dist03
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire_Dist04.PistolA_Fire_Dist04
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire_Dist05.PistolA_Fire_Dist05
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/PistolA_Fire_Dist06.PistolA_Fire_Dist06
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadMagEject01.Pistol_ReloadMagEject01
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadMagEject02.Pistol_ReloadMagEject02
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadMagEject03.Pistol_ReloadMagEject03
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadMagInsert01.Pistol_ReloadMagInsert01
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadMagInsert02.Pistol_ReloadMagInsert02
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadMagInsert03.Pistol_ReloadMagInsert03
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadSlideRack01.Pistol_ReloadSlideRack01
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadSlideRack02.Pistol_ReloadSlideRack02
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating SoundWave /Game/ObjetosMigrados/SciFiWeapDark/Sound/Pistol/Wavs/Pistol_ReloadSlideRack03.Pistol_ReloadSlideRack03
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Soldado/PistolDark/M_PistolVer2_Inst.M_PistolVer2_Inst
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Soldado/PistolDark/M_Pistol_Inst.M_Pistol_Inst
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating AnimSequence /Game/Soldado/PistolDark/Fire_Pistol_W.Fire_Pistol_W
+[2021.04.20-00.44.56:424][111]LogContentValidation: Display: Validating AnimSequence /Game/Soldado/PistolDark/Reload_Pistol_W.Reload_Pistol_W
+[2021.04.20-00.45.06:820][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.04.20-00.45.15:890][489]LogSlate: Window 'Delete Assets' being destroyed
+[2021.04.20-00.45.54:041][295]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/Escuela/Facultad/8 semestre/Optimizacion de videojuegos/modelos/puente/Bridge.fbx)
+[2021.04.20-00.45.54:495][295]LogFbx: Loading FBX Scene from ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/Escuela/Facultad/8 semestre/Optimizacion de videojuegos/modelos/puente/Bridge.fbx
+[2021.04.20-00.45.54:544][295]LogFbx: FBX Scene Loaded Succesfully
+[2021.04.20-00.45.58:797][295]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.04.20-00.46.01:751][295]LogFbx: Display: Triangulating static mesh Bridge
+[2021.04.20-00.46.02:000][295]LogStaticMesh: Building static mesh Bridge...
+[2021.04.20-00.46.02:070][295]LogStaticMesh: Built static mesh [0.07s] /Game/Geometry/Meshes/Bridge.Bridge
+[2021.04.20-00.46.02:277][295]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.04.20-00.46.04:423][347]LogSlate: Window 'Message Log' being destroyed
+[2021.04.20-00.46.04:450][347]LogSlate: Window 'Message Log' being destroyed
+[2021.04.20-00.46.14:296][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.04.20-00.46.15:026][696]LogSlate: Window 'Save Content' being destroyed
+[2021.04.20-00.46.15:097][696]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Saved/BridgeA3A1F937463B71373BEE2395230CD899.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/Optimiza/OpVideojuegos/DeepWoodland2/Content/Geometry/Meshes/Bridge.uasset'
+[2021.04.20-00.46.15:118][696]AssetCheck: New page: Asset Save: Bridge
+[2021.04.20-00.46.15:118][696]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/Meshes/Bridge.Bridge
+[2021.04.20-00.46.16:155][727]LogActorFactory: Actor Factory created Bridge
+[2021.04.20-00.46.18:292][806]LogActorFactory: Actor Factory created Bridge
+[2021.04.20-00.46.41:930][734]Cmd: TRANSACTION UNDO
+[2021.04.20-00.46.41:930][734]LogEditorTransaction: Undo Scale Actors
+[2021.04.20-00.46.45:042][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bridge)
+[2021.04.20-00.46.46:234][854]Cmd: DELETE
+[2021.04.20-00.46.46:234][854]Cmd: ACTOR DELETE
+[2021.04.20-00.46.46:293][854]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.20-00.46.46:308][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2021.04.20-00.46.46:313][854]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2021.04.20-00.46.48:723][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2021.04.20-00.46.50:385][932]LogSlate: Window 'Delete Assets' being destroyed
+[2021.04.20-00.46.51:771][932]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Geometry/Meshes/Bridge.Bridge
