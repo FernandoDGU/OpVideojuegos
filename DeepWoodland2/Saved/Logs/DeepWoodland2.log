@@ -840,3 +840,167 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.02-07.58.25:513][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
 [2021.05.02-07.58.25:568][ 48]LogPlayLevel: Display: Destroying online subsystem :Context_17
 [2021.05.02-07.58.25:597][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.05.02-07.59.36:693][830]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/TrapClose1.TrapClose1
+[2021.05.02-08.00.12:117][112]BlueprintLog: New page: Compile TrapClose1
+[2021.05.02-08.00.12:196][112]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.05.02-08.00.12:687][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/TrapClose1" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose1.uasset" SILENT=true
+[2021.05.02-08.00.12:701][146]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/TrapClose1E4100615470C8D0E6B1D529300E1DB48.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose1.uasset'
+[2021.05.02-08.00.12:717][146]AssetCheck: New page: Asset Save: TrapClose1
+[2021.05.02-08.00.12:717][146]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/TrapClose1.TrapClose1
+[2021.05.02-08.01.14:232][540]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.05.02-08.01.15:124][540]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_Auto10A901B3740FD406EC79B8FA0E145D189.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2021.05.02-08.01.15:141][540]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/StreamingLevel1_Auto13590C9E64679170730EF8E926DFDF12B.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Autosaves/Game/StremingLevels/StreamingLevel1_Auto1.umap'
+[2021.05.02-08.01.15:152][540]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/StreamingLevel4_Auto1FEBD130F4DAC429A2874BDA527F854AC.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Autosaves/Game/StremingLevels/StreamingLevel4_Auto1.umap'
+[2021.05.02-08.01.15:152][540]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.953
+[2021.05.02-08.01.15:153][540]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.953
+[2021.05.02-08.01.15:153][540]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/TrapClose1] ([1] browsable assets)...
+[2021.05.02-08.01.15:164][540]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/TrapClose1.TrapClose1]
+[2021.05.02-08.01.15:164][540]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/TrapClose1]
+[2021.05.02-08.01.15:164][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/TrapClose1" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Autosaves/Game/BluePrints/TrapClose1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.05.02-08.01.15:177][540]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/TrapClose1_Auto1980484E14379705D93D918820BF51E55.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Autosaves/Game/BluePrints/TrapClose1_Auto1.uasset'
+[2021.05.02-08.01.15:178][540]LogFileHelpers: Auto-saving content packages took 0.025
+[2021.05.02-08.03.45:462][106]BlueprintLog: New page: Compile TrapClose1
+[2021.05.02-08.03.45:539][106]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.05.02-08.03.53:798][811]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.02-08.03.58:247][ 95]BlueprintLog: New page: Compile TrapClose1
+[2021.05.02-08.03.58:324][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2021.05.02-08.03.58:749][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/TrapClose1" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose1.uasset" SILENT=true
+[2021.05.02-08.03.58:777][124]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/TrapClose1FBEF011F405226650DCAD0B4EC03D7D7.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose1.uasset'
+[2021.05.02-08.03.58:791][124]AssetCheck: New page: Asset Save: TrapClose1
+[2021.05.02-08.03.58:791][124]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/TrapClose1.TrapClose1
+[2021.05.02-08.04.13:344][113]BlueprintLog: New page: Compile TrapClose1
+[2021.05.02-08.04.13:418][113]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2021.05.02-08.04.13:885][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/TrapClose1" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose1.uasset" SILENT=true
+[2021.05.02-08.04.13:912][148]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/TrapClose1C95BF9CF47E4948AB7461590A306820D.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose1.uasset'
+[2021.05.02-08.04.13:925][148]AssetCheck: New page: Asset Save: TrapClose1
+[2021.05.02-08.04.13:925][148]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/TrapClose1.TrapClose1
+[2021.05.02-08.04.16:629][393]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.02-08.04.16:643][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.02-08.04.16:644][393]PIE: New page: PIE session: ThirdPersonExampleMap (May 1, 2021, 10:04:16 PM)
+[2021.05.02-08.04.16:668][393]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.02-08.04.16:743][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074966s)
+[2021.05.02-08.04.16:744][393]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.02-08.04.16:744][393]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E46661400), frame # 50393
+[2021.05.02-08.04.16:744][393]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018DE69E5300), frame # 50393
+[2021.05.02-08.04.16:744][393]LogPlayLevel: PIE: World Init took: (0.001487s)
+[2021.05.02-08.04.16:745][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.076748s)
+[2021.05.02-08.04.16:780][393]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2021.05.02-08.04.16:782][393]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.02-08.04.16:782][393]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.02-08.04.16:782][393]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.02-08.04.16:782][393]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.02-08.04.16:782][393]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.02-08.04.16:782][393]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.02-08.04.16:782][393]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.02-08.04.16:782][393]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.02-08.04.16:783][393]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.02-08.04.16:783][393]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.02-08.04.16:785][393]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.02-08.04.16:785][393]LogAudioMixer: Display: 1: FrontRight
+[2021.05.02-08.04.16:785][393]LogAudioMixer: Display: 2: FrontCenter
+[2021.05.02-08.04.16:785][393]LogAudioMixer: Display: 3: LowFrequency
+[2021.05.02-08.04.16:785][393]LogAudioMixer: Display: 4: BackLeft
+[2021.05.02-08.04.16:785][393]LogAudioMixer: Display: 5: BackRight
+[2021.05.02-08.04.16:785][393]LogAudioMixer: Display: 6: SideLeft
+[2021.05.02-08.04.16:785][393]LogAudioMixer: Display: 7: SideRight
+[2021.05.02-08.04.16:832][393]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.05.02-08.04.16:833][393]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.02-08.04.16:833][393]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.02-08.04.16:833][393]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.02-08.04.16:833][393]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.02-08.04.16:846][393]LogInit: FAudioDevice initialized.
+[2021.05.02-08.04.16:852][393]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.02-08.04.16:878][393]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.05.02-03.04.16
+[2021.05.02-08.04.16:880][393]LogWorld: Bringing up level for play took: 0.027187
+[2021.05.02-08.04.16:881][393]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.05.02-08.04.16:909][393]PIE: Server logged in
+[2021.05.02-08.04.16:910][393]PIE: Play in editor total start time 0.267 seconds.
+[2021.05.02-08.04.24:956][299]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.05.02-08.04.32:105][127]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.05.02-08.04.44:298][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-08.04.44:298][534]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.02-08.04.44:299][534]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.02-08.04.44:303][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-08.04.44:308][534]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.02-08.04.44:313][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-08.04.44:400][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-08.04.44:401][534]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018DE69E5300), frame # 53534
+[2021.05.02-08.04.44:401][534]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018E46661400), frame # 53534
+[2021.05.02-08.04.44:406][534]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.05.02-08.04.44:475][535]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.05.02-08.05.27:740][ 89]BlueprintLog: New page: Compile TrapClose1
+[2021.05.02-08.05.27:744][ 89]LogBlueprint: Error: [Compiler TrapClose1] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2021.05.02-08.05.27:744][ 89]LogBlueprint: Error: [Compiler TrapClose1] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2021.05.02-08.05.27:809][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.05.02-08.05.34:967][615]BlueprintLog: New page: Compile TrapClose1
+[2021.05.02-08.05.34:970][615]LogBlueprint: Error: [Compiler TrapClose1] This blueprint (self) is not a PlayerCameraManager, therefore ' Target ' must have a connection.
+[2021.05.02-08.05.35:034][615]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2021.05.02-08.05.35:428][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/TrapClose1" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose1.uasset" SILENT=true
+[2021.05.02-08.05.35:455][642]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/TrapClose18FD6FEA640EA43E543326593A48B0BF8.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose1.uasset'
+[2021.05.02-08.05.35:468][642]AssetCheck: New page: Asset Save: TrapClose1
+[2021.05.02-08.05.35:468][642]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/TrapClose1.TrapClose1
+[2021.05.02-08.05.49:273][759]BlueprintLog: New page: Compile TrapClose1
+[2021.05.02-08.05.49:348][759]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2021.05.02-08.05.49:696][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/TrapClose1" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose1.uasset" SILENT=true
+[2021.05.02-08.05.49:719][781]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/TrapClose1FF8458CE4278382F85298EA2546A810A.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose1.uasset'
+[2021.05.02-08.05.49:732][781]AssetCheck: New page: Asset Save: TrapClose1
+[2021.05.02-08.05.49:732][781]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/TrapClose1.TrapClose1
+[2021.05.02-08.05.54:527][181]BlueprintLog: New page: Compile TrapClose1
+[2021.05.02-08.05.54:607][181]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2021.05.02-08.05.54:964][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/TrapClose1" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose1.uasset" SILENT=true
+[2021.05.02-08.05.54:984][204]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/TrapClose118575B724327946BEDBCB796C45FFA1C.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/BluePrints/TrapClose1.uasset'
+[2021.05.02-08.05.54:997][204]AssetCheck: New page: Asset Save: TrapClose1
+[2021.05.02-08.05.54:997][204]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/TrapClose1.TrapClose1
+[2021.05.02-08.05.57:133][397]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.02-08.05.57:148][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.02-08.05.57:149][397]PIE: New page: PIE session: ThirdPersonExampleMap (May 1, 2021, 10:05:57 PM)
+[2021.05.02-08.05.57:188][397]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.02-08.05.57:263][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074567s)
+[2021.05.02-08.05.57:264][397]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.02-08.05.57:264][397]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E5B163E00), frame # 59397
+[2021.05.02-08.05.57:264][397]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E5F284540), frame # 59397
+[2021.05.02-08.05.57:264][397]LogPlayLevel: PIE: World Init took: (0.001498s)
+[2021.05.02-08.05.57:264][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.076336s)
+[2021.05.02-08.05.57:300][397]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2021.05.02-08.05.57:301][397]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.02-08.05.57:301][397]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.02-08.05.57:301][397]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.02-08.05.57:301][397]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.02-08.05.57:301][397]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.02-08.05.57:301][397]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.02-08.05.57:301][397]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.02-08.05.57:301][397]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.02-08.05.57:302][397]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.02-08.05.57:302][397]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.02-08.05.57:304][397]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.02-08.05.57:304][397]LogAudioMixer: Display: 1: FrontRight
+[2021.05.02-08.05.57:304][397]LogAudioMixer: Display: 2: FrontCenter
+[2021.05.02-08.05.57:304][397]LogAudioMixer: Display: 3: LowFrequency
+[2021.05.02-08.05.57:304][397]LogAudioMixer: Display: 4: BackLeft
+[2021.05.02-08.05.57:304][397]LogAudioMixer: Display: 5: BackRight
+[2021.05.02-08.05.57:304][397]LogAudioMixer: Display: 6: SideLeft
+[2021.05.02-08.05.57:304][397]LogAudioMixer: Display: 7: SideRight
+[2021.05.02-08.05.57:355][397]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.05.02-08.05.57:356][397]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.02-08.05.57:356][397]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.02-08.05.57:356][397]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.02-08.05.57:356][397]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.02-08.05.57:368][397]LogInit: FAudioDevice initialized.
+[2021.05.02-08.05.57:376][397]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.02-08.05.57:401][397]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.05.02-03.05.57
+[2021.05.02-08.05.57:402][397]LogWorld: Bringing up level for play took: 0.025464
+[2021.05.02-08.05.57:402][397]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.05.02-08.05.57:430][397]PIE: Server logged in
+[2021.05.02-08.05.57:431][397]PIE: Play in editor total start time 0.284 seconds.
+[2021.05.02-08.06.08:889][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-08.06.08:889][705]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.02-08.06.08:890][705]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.02-08.06.08:893][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-08.06.08:901][705]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.02-08.06.08:906][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.02-08.06.08:997][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.02-08.06.08:999][705]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E5F284540), frame # 60705
+[2021.05.02-08.06.08:999][705]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018E5B163E00), frame # 60705
+[2021.05.02-08.06.09:004][705]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.05.02-08.06.09:042][706]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.05.02-08.06.09:076][706]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
