@@ -1557,3 +1557,821 @@ Script Stack (0 frames):
 [2021.05.03-23.03.02:768][607]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
 [2021.05.03-23.03.02:768][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2021.05.03-23.03.07:274][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.05.03-23.04.23:483][995]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/Health/Healthy.
+[2021.05.03-23.04.25:152][ 44]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/AI/Health/Healthy.Healthy
+[2021.05.03-23.04.51:197][404]LogEditorTransaction: Undo Add Widget
+[2021.05.03-23.05.55:726][946]LogSlate: Window 'Color Picker' being destroyed
+[2021.05.03-23.06.27:048][339]BlueprintLog: New page: Compile Healthy
+[2021.05.03-23.06.27:250][339]LogUObjectHash: Compacting FUObjectHashTables data took   6.30ms
+[2021.05.03-23.06.27:629][347]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Healthy57A7CC0B470D758220A34A877EFB3FE6.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/Health/Healthy.uasset'
+[2021.05.03-23.06.27:641][347]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/Health/Healthy.
+[2021.05.03-23.06.27:655][347]AssetCheck: New page: Asset Save: Healthy
+[2021.05.03-23.06.27:656][347]LogContentValidation: Display: Validating WidgetBlueprint /Game/AI/Health/Healthy.Healthy
+[2021.05.03-23.06.31:936][458]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/AI_BaseCharacter.AI_BaseCharacter
+[2021.05.03-23.07.12:828][ 33]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.07.12:921][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2021.05.03-23.07.48:227][727]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.07.48:311][727]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2021.05.03-23.07.51:217][800]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/AI_Controller.AI_Controller
+[2021.05.03-23.07.59:619][997]BlueprintLog: New page: Compile AI_Controller
+[2021.05.03-23.07.59:684][997]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2021.05.03-23.08.03:399][ 87]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/AI_BaseCharacter055F9F8B4C21C8B4CA86BDB51197BCEC.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset'
+[2021.05.03-23.08.03:415][ 87]AssetCheck: New page: Asset Save: AI_BaseCharacter
+[2021.05.03-23.08.03:415][ 87]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_BaseCharacter.AI_BaseCharacter
+[2021.05.03-23.08.03:836][ 99]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.08.03:916][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2021.05.03-23.09.07:303][203]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.03-23.09.58:657][823]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.09.58:781][823]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2021.05.03-23.09.59:417][832]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/AI_BaseCharacterC32344D54E6BCEF6B2E94CABD20DD1E4.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset'
+[2021.05.03-23.09.59:433][832]AssetCheck: New page: Asset Save: AI_BaseCharacter
+[2021.05.03-23.09.59:433][832]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_BaseCharacter.AI_BaseCharacter
+[2021.05.03-23.10.01:514][878]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.03-23.10.01:544][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.03-23.10.01:544][878]PIE: New page: PIE session: ThirdPersonExampleMap (May 3, 2021, 1:10:01 PM)
+[2021.05.03-23.10.01:544][878]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.03-23.10.01:637][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093001s)
+[2021.05.03-23.10.01:639][878]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.03-23.10.01:639][878]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021DBD510800), frame # 84878
+[2021.05.03-23.10.01:639][878]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021DCC671580), frame # 84878
+[2021.05.03-23.10.01:639][878]LogPlayLevel: PIE: World Init took: (0.001501s)
+[2021.05.03-23.10.01:639][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.094718s)
+[2021.05.03-23.10.01:676][878]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2021.05.03-23.10.01:679][878]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.03-23.10.01:679][878]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.03-23.10.01:679][878]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.03-23.10.01:679][878]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.03-23.10.01:679][878]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.03-23.10.01:679][878]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.03-23.10.01:679][878]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.03-23.10.01:679][878]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.03-23.10.01:679][878]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.03-23.10.01:680][878]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.03-23.10.01:681][878]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.03-23.10.01:681][878]LogAudioMixer: Display: 1: FrontRight
+[2021.05.03-23.10.01:785][878]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.03-23.10.01:785][878]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.03-23.10.01:785][878]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.03-23.10.01:785][878]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.03-23.10.01:786][878]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.03-23.10.01:801][878]LogInit: FAudioDevice initialized.
+[2021.05.03-23.10.01:860][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.03-23.10.01:860][878]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.03-23.10.01:899][878]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.05.03-18.10.01
+[2021.05.03-23.10.01:901][878]LogWorld: Bringing up level for play took: 0.039626
+[2021.05.03-23.10.01:902][878]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.05.03-23.10.01:912][878]PIE: Server logged in
+[2021.05.03-23.10.01:914][878]PIE: Play in editor total start time 0.372 seconds.
+[2021.05.03-23.10.04:880][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.03-23.10.04:880][987]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.03-23.10.04:882][987]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.03-23.10.04:893][987]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.10.04:900][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.10.04:911][987]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.03-23.10.04:918][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.10.05:000][987]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021DCC671580), frame # 84987
+[2021.05.03-23.10.05:001][987]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021DBD510800), frame # 84987
+[2021.05.03-23.10.05:006][987]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2021.05.03-23.10.05:046][988]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.05.03-23.10.35:339][384]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Healthy3EC00690417323F7F8E632B4363B5987.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/Health/Healthy.uasset'
+[2021.05.03-23.10.35:356][384]AssetCheck: New page: Asset Save: Healthy
+[2021.05.03-23.10.35:356][384]LogContentValidation: Display: Validating WidgetBlueprint /Game/AI/Health/Healthy.Healthy
+[2021.05.03-23.10.56:882][671]BlueprintLog: New page: Compile Healthy
+[2021.05.03-23.10.57:200][671]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2021.05.03-23.10.57:402][674]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Healthy07C9BBFD4957C290E0FBC9BFFE739C63.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/Health/Healthy.uasset'
+[2021.05.03-23.10.57:419][674]AssetCheck: New page: Asset Save: Healthy
+[2021.05.03-23.10.57:419][674]LogContentValidation: Display: Validating WidgetBlueprint /Game/AI/Health/Healthy.Healthy
+[2021.05.03-23.11.05:054][842]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.03-23.11.05:889][887]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.03-23.11.08:089][912]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.03-23.11.14:277][192]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.11.14:385][192]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2021.05.03-23.11.14:991][200]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/AI_BaseCharacter0F8C8F9248486B1D0426BBB3E050CD9D.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset'
+[2021.05.03-23.11.15:009][200]AssetCheck: New page: Asset Save: AI_BaseCharacter
+[2021.05.03-23.11.15:009][200]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_BaseCharacter.AI_BaseCharacter
+[2021.05.03-23.11.21:706][307]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.11.21:814][307]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2021.05.03-23.11.22:315][314]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/AI_BaseCharacter351CA40F478DCE7D38D78A9B04BB7D61.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset'
+[2021.05.03-23.11.22:334][314]AssetCheck: New page: Asset Save: AI_BaseCharacter
+[2021.05.03-23.11.22:334][314]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_BaseCharacter.AI_BaseCharacter
+[2021.05.03-23.13.07:330][411]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.13.07:460][411]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2021.05.03-23.13.07:960][418]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/AI_BaseCharacter7526909545A72BEC4EFDC0900A8BE395.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset'
+[2021.05.03-23.13.07:977][418]AssetCheck: New page: Asset Save: AI_BaseCharacter
+[2021.05.03-23.13.07:977][418]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_BaseCharacter.AI_BaseCharacter
+[2021.05.03-23.13.15:517][555]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.13.15:622][555]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2021.05.03-23.14.25:415][528]Cmd: TRANSACTION UNDO
+[2021.05.03-23.14.25:416][528]LogEditorTransaction: Undo Edit Collision Profile Name
+[2021.05.03-23.14.27:185][579]Cmd: TRANSACTION UNDO
+[2021.05.03-23.14.27:185][579]LogEditorTransaction: Undo Edit Can Character Step Up On
+[2021.05.03-23.15.51:837][272]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.15.51:993][272]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2021.05.03-23.15.52:788][283]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/AI_BaseCharacterD86F72A44EA77B8569F2A197DC4619C5.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset'
+[2021.05.03-23.15.52:809][283]AssetCheck: New page: Asset Save: AI_BaseCharacter
+[2021.05.03-23.15.52:809][283]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_BaseCharacter.AI_BaseCharacter
+[2021.05.03-23.19.27:211][980]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.19.27:337][980]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2021.05.03-23.19.40:848][261]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.19.40:979][261]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2021.05.03-23.19.41:512][271]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/AI_BaseCharacter5723F114456E41D3486E69BE59303D72.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset'
+[2021.05.03-23.19.41:531][271]AssetCheck: New page: Asset Save: AI_BaseCharacter
+[2021.05.03-23.19.41:531][271]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_BaseCharacter.AI_BaseCharacter
+[2021.05.03-23.19.42:904][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_Controller" FILE="../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_Controller.uasset" SILENT=true
+[2021.05.03-23.19.42:919][301]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/AI_Controller1037E276407397B068CB8BB9BFD3E763.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_Controller.uasset'
+[2021.05.03-23.19.42:939][301]AssetCheck: New page: Asset Save: AI_Controller
+[2021.05.03-23.19.42:939][301]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_Controller.AI_Controller
+[2021.05.03-23.22.09:383][707]LogEditorTransaction: Undo Move Nodes
+[2021.05.03-23.22.10:604][749]LogEditorTransaction: Undo Add Node
+[2021.05.03-23.22.46:184][472]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2021.05.03-23.22.47:012][472]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_Auto3EACDB9AC45FC16BE2A28138EA56ED050.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2021.05.03-23.22.47:014][472]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.877
+[2021.05.03-23.22.47:015][472]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.877
+[2021.05.03-23.22.47:015][472]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/AI_BaseCharacter] ([1] browsable assets)...
+[2021.05.03-23.22.47:030][472]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/AI_BaseCharacter.AI_BaseCharacter]
+[2021.05.03-23.22.47:030][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AI_BaseCharacter]
+[2021.05.03-23.22.47:059][472]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/AI_BaseCharacter_Auto3E3799B8940C560F5E6EACE894FD82F0E.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Autosaves/Game/AI/AI_BaseCharacter_Auto3.uasset'
+[2021.05.03-23.22.47:061][472]LogFileHelpers: Auto-saving content packages took 0.046
+[2021.05.03-23.22.59:823][885]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.22.59:940][885]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2021.05.03-23.23.00:550][896]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/AI_BaseCharacter37BF08DF42465F3938F929A03797A3A2.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset'
+[2021.05.03-23.23.00:569][896]AssetCheck: New page: Asset Save: AI_BaseCharacter
+[2021.05.03-23.23.00:569][896]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_BaseCharacter.AI_BaseCharacter
+[2021.05.03-23.23.11:828][353]LogEditorTransaction: Undo Add Node
+[2021.05.03-23.23.17:891][629]LogEditorTransaction: Undo Add Node
+[2021.05.03-23.25.19:324][981]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.25.19:453][981]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
+[2021.05.03-23.25.19:897][988]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/AI_BaseCharacter05DF83A4450AF46B4E3EEFA4B2DE8735.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset'
+[2021.05.03-23.25.19:914][988]AssetCheck: New page: Asset Save: AI_BaseCharacter
+[2021.05.03-23.25.19:914][988]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_BaseCharacter.AI_BaseCharacter
+[2021.05.03-23.25.45:003][488]BlueprintLog: New page: Compile AI_BaseCharacter
+[2021.05.03-23.25.45:127][488]LogUObjectHash: Compacting FUObjectHashTables data took   5.27ms
+[2021.05.03-23.25.45:422][493]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/AI_BaseCharacter6A6E53BB4F5FF48F5B8E68B0041228DD.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset'
+[2021.05.03-23.25.45:439][493]AssetCheck: New page: Asset Save: AI_BaseCharacter
+[2021.05.03-23.25.45:440][493]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_BaseCharacter.AI_BaseCharacter
+[2021.05.03-23.25.51:283][594]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.03-23.25.51:307][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.03-23.25.51:307][594]PIE: New page: PIE session: ThirdPersonExampleMap (May 3, 2021, 1:25:51 PM)
+[2021.05.03-23.25.51:308][594]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.03-23.25.51:411][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.103056s)
+[2021.05.03-23.25.51:412][594]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.03-23.25.51:412][594]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021E01EDE000), frame # 103594
+[2021.05.03-23.25.51:412][594]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021DCBBF6980), frame # 103594
+[2021.05.03-23.25.51:413][594]LogPlayLevel: PIE: World Init took: (0.001641s)
+[2021.05.03-23.25.51:413][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.104900s)
+[2021.05.03-23.25.51:452][594]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2021.05.03-23.25.51:455][594]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.03-23.25.51:455][594]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.03-23.25.51:455][594]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.03-23.25.51:455][594]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.03-23.25.51:455][594]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.03-23.25.51:455][594]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.03-23.25.51:455][594]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.03-23.25.51:455][594]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.03-23.25.51:455][594]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.03-23.25.51:455][594]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.03-23.25.51:458][594]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.03-23.25.51:458][594]LogAudioMixer: Display: 1: FrontRight
+[2021.05.03-23.25.51:558][594]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.03-23.25.51:559][594]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.03-23.25.51:559][594]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.03-23.25.51:559][594]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.03-23.25.51:559][594]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.03-23.25.51:573][594]LogInit: FAudioDevice initialized.
+[2021.05.03-23.25.51:619][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.03-23.25.51:619][594]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.03-23.25.51:659][594]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.05.03-18.25.51
+[2021.05.03-23.25.51:662][594]LogWorld: Bringing up level for play took: 0.041466
+[2021.05.03-23.25.51:662][594]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.05.03-23.25.51:672][594]PIE: Server logged in
+[2021.05.03-23.25.51:675][594]PIE: Play in editor total start time 0.369 seconds.
+[2021.05.03-23.26.11:941][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.05.03-23.27.04:643][573]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.05.03-23.27.08:093][723]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.05.03-23.27.18:691][132]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.05.03-23.27.26:464][379]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.05.03-23.27.32:127][537]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.05.03-23.28.00:808][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.03-23.28.00:808][505]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.03-23.28.00:808][505]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.03-23.28.00:884][505]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.28.00:893][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.28.00:905][505]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.03-23.28.00:916][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.28.01:008][505]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021DCBBF6980), frame # 108505
+[2021.05.03-23.28.01:008][505]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021E01EDE000), frame # 108505
+[2021.05.03-23.28.01:014][505]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.05.03-23.28.01:075][506]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.05.03-23.28.23:765][621]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.05.03-23.28.26:226][666]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2021.05.03-23.28.27:729][687]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.03-23.29.39:258][719]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Engine/EditorBlueprintResources/StandardMacros.StandardMacros
+[2021.05.03-23.29.43:399][766]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.29.43:399][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.30.50:862][818]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.05.03-23.30.51:131][818]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2021.05.03-23.30.52:120][828]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonCharacter6D31936A4E9892B6BD623095A78C6B42.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.05.03-23.30.52:142][828]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.05.03-23.30.52:142][828]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.03-23.31.22:047][695]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.05.03-23.31.22:280][695]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2021.05.03-23.31.22:630][696]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonCharacterB5EDC4554CBD7AF080ECBCA43459A0EC.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.05.03-23.31.22:646][696]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.05.03-23.31.22:646][696]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.03-23.31.22:961][701]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonCharacter2F54867A4FB7FA1F8CD14CBBF478A318.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.05.03-23.31.22:982][701]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.05.03-23.31.22:982][701]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.03-23.31.54:709][597]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.05.03-23.31.54:948][597]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2021.05.03-23.31.55:688][606]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonCharacter3BE26E4A4120B8D4820DF9AF0C320DD5.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.05.03-23.31.55:709][606]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.05.03-23.31.55:709][606]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.03-23.32.19:113][280]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.05.03-23.32.19:360][280]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2021.05.03-23.32.19:694][281]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonCharacter593778DB4F475E3174BD00B0585DF5FD.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.05.03-23.32.19:713][281]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.05.03-23.32.19:713][281]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.03-23.32.29:663][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MERGED_PINOSDELFINAL)
+[2021.05.03-23.32.30:419][368]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.03-23.32.30:440][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.03-23.32.30:440][368]PIE: New page: PIE session: ThirdPersonExampleMap (May 3, 2021, 1:32:30 PM)
+[2021.05.03-23.32.30:440][368]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.03-23.32.30:544][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.103705s)
+[2021.05.03-23.32.30:546][368]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.03-23.32.30:546][368]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021E23868C00), frame # 113368
+[2021.05.03-23.32.30:546][368]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021E23BC4A40), frame # 113368
+[2021.05.03-23.32.30:546][368]LogPlayLevel: PIE: World Init took: (0.001749s)
+[2021.05.03-23.32.30:546][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.105736s)
+[2021.05.03-23.32.30:596][368]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2021.05.03-23.32.30:599][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.03-23.32.30:599][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.03-23.32.30:600][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.03-23.32.30:600][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.03-23.32.30:600][368]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.03-23.32.30:600][368]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.03-23.32.30:600][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.03-23.32.30:600][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.03-23.32.30:600][368]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.03-23.32.30:600][368]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.03-23.32.30:603][368]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.03-23.32.30:603][368]LogAudioMixer: Display: 1: FrontRight
+[2021.05.03-23.32.30:716][368]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.03-23.32.30:717][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.03-23.32.30:717][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.03-23.32.30:717][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.03-23.32.30:717][368]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.03-23.32.30:731][368]LogInit: FAudioDevice initialized.
+[2021.05.03-23.32.30:792][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.03-23.32.30:792][368]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.03-23.32.30:829][368]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.05.03-18.32.30
+[2021.05.03-23.32.30:831][368]LogWorld: Bringing up level for play took: 0.037794
+[2021.05.03-23.32.30:831][368]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.05.03-23.32.30:843][368]PIE: Server logged in
+[2021.05.03-23.32.30:848][368]PIE: Play in editor total start time 0.409 seconds.
+[2021.05.03-23.32.32:327][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.03-23.32.32:327][408]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.03-23.32.32:327][408]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.03-23.32.32:361][408]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.32.32:367][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.32.32:419][408]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.03-23.32.32:427][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.32.32:537][408]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021E23BC4A40), frame # 113408
+[2021.05.03-23.32.32:537][408]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021E23868C00), frame # 113408
+[2021.05.03-23.32.32:543][408]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2021.05.03-23.32.32:580][409]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.05.03-23.32.33:887][437]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2021.05.03-23.32.40:441][531]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.05.03-23.32.41:108][542]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.03-23.32.41:132][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.03-23.32.41:132][542]PIE: New page: PIE session: ThirdPersonExampleMap (May 3, 2021, 1:32:41 PM)
+[2021.05.03-23.32.41:133][542]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.03-23.32.41:237][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104326s)
+[2021.05.03-23.32.41:238][542]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.03-23.32.41:238][542]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021E230BE200), frame # 113542
+[2021.05.03-23.32.41:238][542]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021E04139800), frame # 113542
+[2021.05.03-23.32.41:239][542]LogPlayLevel: PIE: World Init took: (0.001321s)
+[2021.05.03-23.32.41:239][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.105907s)
+[2021.05.03-23.32.41:285][542]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2021.05.03-23.32.41:288][542]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.03-23.32.41:288][542]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.03-23.32.41:288][542]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.03-23.32.41:288][542]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.03-23.32.41:288][542]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.03-23.32.41:288][542]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.03-23.32.41:288][542]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.03-23.32.41:288][542]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.03-23.32.41:288][542]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.03-23.32.41:288][542]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.03-23.32.41:290][542]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.03-23.32.41:290][542]LogAudioMixer: Display: 1: FrontRight
+[2021.05.03-23.32.41:392][542]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.03-23.32.41:392][542]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.03-23.32.41:393][542]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.03-23.32.41:393][542]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.03-23.32.41:393][542]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.03-23.32.41:409][542]LogInit: FAudioDevice initialized.
+[2021.05.03-23.32.41:464][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.03-23.32.41:464][542]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.03-23.32.41:501][542]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.05.03-18.32.41
+[2021.05.03-23.32.41:503][542]LogWorld: Bringing up level for play took: 0.037875
+[2021.05.03-23.32.41:504][542]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.05.03-23.32.41:568][542]PIE: Server logged in
+[2021.05.03-23.32.41:570][542]PIE: Play in editor total start time 0.438 seconds.
+[2021.05.03-23.32.59:957][375]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2021.05.03-23.33.01:988][443]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2021.05.03-23.33.06:607][605]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.05.03-23.33.15:914][908]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.05.03-23.33.17:946][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.05.03-23.34.02:906][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.03-23.34.02:906][817]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.03-23.34.02:907][817]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.03-23.34.02:945][817]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.02:953][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.34.02:968][817]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.03-23.34.02:978][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.34.03:082][817]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021E04139800), frame # 116817
+[2021.05.03-23.34.03:082][817]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021E230BE200), frame # 116817
+[2021.05.03-23.34.03:086][817]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.05.03-23.34.03:124][818]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.05.03-23.34.04:305][842]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2021.05.03-23.34.05:183][842]LogSlate: Window 'Save Content' being destroyed
+[2021.05.03-23.34.05:263][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2021.05.03-23.34.06:119][842]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap6FA1FCB344BA6F4AA97D25A302A11D9B.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.03-23.34.06:217][842]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.999
+[2021.05.03-23.34.06:320][842]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataFD074A1D4B77068393E149AF0EA6E35A.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.03-23.34.06:367][842]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.03-23.34.06:367][842]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.05.03-23.34.06:367][842]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.05.03-23.34.07:120][858]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.05.03-23.34.07:167][858]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.07:167][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.34.07:887][858]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.07:887][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.34.07:892][858]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.07:892][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.34.08:233][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.03-23.34.08:233][858]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.08:233][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.34.08:308][858]LogSlate: Window 'AI_BaseCharacter' being destroyed
+[2021.05.03-23.34.08:369][858]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.03-23.34.08:369][858]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.08:369][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.03-23.34.08:792][858]LogSlate: Window 'DeepWoodland2 - Unreal Editor' being destroyed
+[2021.05.03-23.34.08:793][858]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.05.03-23.34.09:881][859]Cmd: QUIT_EDITOR
+[2021.05.03-23.34.09:881][859]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.05.03-23.34.09:908][859]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.05.03-23.34.10:913][859]LogExit: Preparing to exit.
+[2021.05.03-23.34.12:196][859]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:197][859]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.03-23.34.12:198][859]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.12:535][859]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.05.03-23.34.12:559][859]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.12:579][859]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.12:579][859]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.12:579][859]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.03-23.34.12:579][859]LogExit: Editor shut down
+[2021.05.03-23.34.12:583][859]LogExit: Transaction tracking system shut down
+[2021.05.03-23.34.14:070][859]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000021C73B7E980), frame # 116859
+[2021.05.03-23.34.14:070][859]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021C77793B00), frame # 116859
+[2021.05.03-23.34.14:070][859]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021C73B86A00), frame # 116859
+[2021.05.03-23.34.14:231][859]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021CAFB77E00), frame # 116859
+[2021.05.03-23.34.14:231][859]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021CAFC54F40), frame # 116859
+[2021.05.03-23.34.14:317][859]LogExit: Object subsystem successfully closed.
+[2021.05.03-23.34.14:359][859]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.05.03-23.34.14:420][859]LogModuleManager: Shutting down and abandoning module SequencerWidgets (804)
+[2021.05.03-23.34.14:420][859]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (802)
+[2021.05.03-23.34.14:420][859]LogModuleManager: Shutting down and abandoning module Voice (800)
+[2021.05.03-23.34.14:420][859]LogModuleManager: Shutting down and abandoning module BlueprintGraph (798)
+[2021.05.03-23.34.14:420][859]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (796)
+[2021.05.03-23.34.14:420][859]LogModuleManager: Shutting down and abandoning module SceneOutliner (792)
+[2021.05.03-23.34.14:420][859]LogModuleManager: Shutting down and abandoning module AddContentDialog (790)
+[2021.05.03-23.34.14:422][859]LogModuleManager: Shutting down and abandoning module WidgetCarousel (789)
+[2021.05.03-23.34.14:422][859]LogModuleManager: Shutting down and abandoning module EditorWidgets (786)
+[2021.05.03-23.34.14:422][859]LogModuleManager: Shutting down and abandoning module CollectionManager (784)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module StatsViewer (782)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (780)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module FoliageEdit (778)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module LandscapeEditor (776)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module MeshPaintMode (774)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (772)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module ActorPickerMode (770)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (768)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (766)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module AutomationWorker (764)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module SteamVREditor (762)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module OculusMR (760)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module GooglePADEditor (758)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (756)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (754)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (752)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (750)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (748)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (746)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (744)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (742)
+[2021.05.03-23.34.14:423][859]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (740)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module WebMMedia (738)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (736)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (734)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module SequenceRecorder (733)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (730)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (728)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (726)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (724)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (722)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (720)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (718)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (716)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (714)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (712)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module PlanarCut (710)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module CharacterAI (708)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module TextureAlignMode (706)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module BspMode (704)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module PlacementMode (703)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module GeometryMode (700)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (698)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module SmartSnapping (696)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module SessionServices (694)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module MeshPaint (692)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module ViewportSnapping (690)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module ViewportInteraction (688)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module ClothPainter (686)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (685)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module LogVisualizer (682)
+[2021.05.03-23.34.14:424][859]LogModuleManager: Shutting down and abandoning module IntroTutorials (680)
+[2021.05.03-23.34.14:425][859]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (679)
+[2021.05.03-23.34.14:425][859]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (676)
+[2021.05.03-23.34.14:425][859]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (674)
+[2021.05.03-23.34.14:425][859]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (672)
+[2021.05.03-23.34.14:425][859]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (671)
+[2021.05.03-23.34.16:000][859]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (668)
+[2021.05.03-23.34.16:000][859]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (666)
+[2021.05.03-23.34.16:000][859]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (664)
+[2021.05.03-23.34.16:000][859]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (662)
+[2021.05.03-23.34.16:000][859]LogModuleManager: Shutting down and abandoning module TraceInsights (660)
+[2021.05.03-23.34.16:000][859]LogModuleManager: Shutting down and abandoning module TraceServices (659)
+[2021.05.03-23.34.16:000][859]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (656)
+[2021.05.03-23.34.16:000][859]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (654)
+[2021.05.03-23.34.16:000][859]LogModuleManager: Shutting down and abandoning module InputBindingEditor (652)
+[2021.05.03-23.34.16:000][859]LogModuleManager: Shutting down and abandoning module MergeActors (650)
+[2021.05.03-23.34.16:000][859]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (648)
+[2021.05.03-23.34.16:001][859]LogModuleManager: Shutting down and abandoning module LocalizationService (647)
+[2021.05.03-23.34.16:001][859]LogModuleManager: Shutting down and abandoning module HardwareTargeting (644)
+[2021.05.03-23.34.16:001][859]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (642)
+[2021.05.03-23.34.16:001][859]LogModuleManager: Shutting down and abandoning module UndoHistory (640)
+[2021.05.03-23.34.16:001][859]LogModuleManager: Shutting down and abandoning module XmlParser (638)
+[2021.05.03-23.34.16:001][859]LogModuleManager: Shutting down and abandoning module Blutility (636)
+[2021.05.03-23.34.16:001][859]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (634)
+[2021.05.03-23.34.16:001][859]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (633)
+[2021.05.03-23.34.16:003][859]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (630)
+[2021.05.03-23.34.16:003][859]LogModuleManager: Shutting down and abandoning module SettingsEditor (628)
+[2021.05.03-23.34.16:003][859]LogModuleManager: Shutting down and abandoning module ProjectLauncher (626)
+[2021.05.03-23.34.16:003][859]LogModuleManager: Shutting down and abandoning module SessionFrontend (624)
+[2021.05.03-23.34.16:004][859]LogModuleManager: Shutting down and abandoning module ProfilerClient (622)
+[2021.05.03-23.34.16:004][859]LogModuleManager: Shutting down and abandoning module DeviceManager (620)
+[2021.05.03-23.34.16:004][859]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (619)
+[2021.05.03-23.34.16:036][859]LogModuleManager: Shutting down and abandoning module AutomationController (616)
+[2021.05.03-23.34.16:036][859]LogModuleManager: Shutting down and abandoning module AutomationWindow (614)
+[2021.05.03-23.34.16:036][859]LogModuleManager: Shutting down and abandoning module Layers (612)
+[2021.05.03-23.34.16:036][859]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (610)
+[2021.05.03-23.34.16:036][859]LogModuleManager: Shutting down and abandoning module DetailCustomizations (608)
+[2021.05.03-23.34.16:036][859]LogModuleManager: Shutting down and abandoning module PackagesDialog (606)
+[2021.05.03-23.34.16:037][859]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (604)
+[2021.05.03-23.34.16:037][859]LogModuleManager: Shutting down and abandoning module Persona (602)
+[2021.05.03-23.34.16:037][859]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (601)
+[2021.05.03-23.34.16:037][859]LogModuleManager: Shutting down and abandoning module AnimGraph (599)
+[2021.05.03-23.34.16:037][859]LogModuleManager: Shutting down and abandoning module Kismet (596)
+[2021.05.03-23.34.16:226][859]LogModuleManager: Shutting down and abandoning module KismetWidgets (595)
+[2021.05.03-23.34.16:226][859]LogModuleManager: Shutting down and abandoning module GraphEditor (592)
+[2021.05.03-23.34.16:226][859]LogModuleManager: Shutting down and abandoning module StructViewer (590)
+[2021.05.03-23.34.16:226][859]LogModuleManager: Shutting down and abandoning module ClassViewer (588)
+[2021.05.03-23.34.16:229][859]LogModuleManager: Shutting down and abandoning module Toolbox (586)
+[2021.05.03-23.34.16:230][859]LogModuleManager: Shutting down and abandoning module ModuleUI (584)
+[2021.05.03-23.34.16:230][859]LogModuleManager: Shutting down and abandoning module OutputLog (582)
+[2021.05.03-23.34.16:240][859]LogModuleManager: Shutting down and abandoning module GammaUI (580)
+[2021.05.03-23.34.16:240][859]LogModuleManager: Shutting down and abandoning module Documentation (578)
+[2021.05.03-23.34.16:245][859]LogModuleManager: Shutting down and abandoning module LiveCoding (576)
+[2021.05.03-23.34.16:245][859]LogModuleManager: Shutting down and abandoning module LevelSequence (574)
+[2021.05.03-23.34.16:245][859]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (572)
+[2021.05.03-23.34.16:245][859]LogModuleManager: Shutting down and abandoning module MovieScene (570)
+[2021.05.03-23.34.16:245][859]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (568)
+[2021.05.03-23.34.16:245][859]LogModuleManager: Shutting down and abandoning module LauncherPlatform (566)
+[2021.05.03-23.34.16:245][859]LogModuleManager: Shutting down and abandoning module AnalyticsET (564)
+[2021.05.03-23.34.16:245][859]LogModuleManager: Shutting down and abandoning module PortalServices (562)
+[2021.05.03-23.34.16:245][859]LogModuleManager: Shutting down and abandoning module PortalRpc (560)
+[2021.05.03-23.34.16:245][859]LogModuleManager: Shutting down and abandoning module MessagingRpc (558)
+[2021.05.03-23.34.16:246][859]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (556)
+[2021.05.03-23.34.16:246][859]LogModuleManager: Shutting down and abandoning module AudioMixerCore (555)
+[2021.05.03-23.34.16:246][859]LogModuleManager: Shutting down and abandoning module AIModule (552)
+[2021.05.03-23.34.16:246][859]LogModuleManager: Shutting down and abandoning module GameplayDebugger (551)
+[2021.05.03-23.34.16:246][859]LogModuleManager: Shutting down and abandoning module AITestSuite (549)
+[2021.05.03-23.34.16:246][859]LogModuleManager: Shutting down and abandoning module NavigationSystem (547)
+[2021.05.03-23.34.16:246][859]LogModuleManager: Shutting down and abandoning module ProfilerService (544)
+[2021.05.03-23.34.16:486][859]LogModuleManager: Shutting down and abandoning module TaskGraph (542)
+[2021.05.03-23.34.16:486][859]LogModuleManager: Shutting down and abandoning module ScreenshotTools (540)
+[2021.05.03-23.34.16:487][859]LogModuleManager: Shutting down and abandoning module SynthesisEditor (538)
+[2021.05.03-23.34.16:487][859]LogModuleManager: Shutting down and abandoning module Synthesis (536)
+[2021.05.03-23.34.16:487][859]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (534)
+[2021.05.03-23.34.16:487][859]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (532)
+[2021.05.03-23.34.16:487][859]LogModuleManager: Shutting down and abandoning module OculusEditor (530)
+[2021.05.03-23.34.16:487][859]LogModuleManager: Shutting down and abandoning module OculusInput (528)
+[2021.05.03-23.34.16:487][859]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (526)
+[2021.05.03-23.34.16:487][859]LogModuleManager: Shutting down and abandoning module GooglePAD (524)
+[2021.05.03-23.34.16:487][859]LogModuleManager: Shutting down and abandoning module EditableMesh (522)
+[2021.05.03-23.34.16:487][859]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (520)
+[2021.05.03-23.34.16:487][859]LogModuleManager: Shutting down and abandoning module CableComponent (518)
+[2021.05.03-23.34.16:487][859]LogModuleManager: Shutting down and abandoning module AudioCapture (516)
+[2021.05.03-23.34.16:488][859]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (515)
+[2021.05.03-23.34.16:488][859]LogModuleManager: Shutting down and abandoning module AssetTags (512)
+[2021.05.03-23.34.16:488][859]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (510)
+[2021.05.03-23.34.16:488][859]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (508)
+[2021.05.03-23.34.16:488][859]LogModuleManager: Shutting down and abandoning module AppleImageUtils (506)
+[2021.05.03-23.34.16:488][859]LogModuleManager: Shutting down and abandoning module AndroidPermission (504)
+[2021.05.03-23.34.16:488][859]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (502)
+[2021.05.03-23.34.16:488][859]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (500)
+[2021.05.03-23.34.16:489][859]LogModuleManager: Shutting down and abandoning module TemplateSequence (498)
+[2021.05.03-23.34.16:489][859]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (496)
+[2021.05.03-23.34.16:489][859]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (494)
+[2021.05.03-23.34.16:489][859]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (492)
+[2021.05.03-23.34.16:489][859]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (490)
+[2021.05.03-23.34.16:489][859]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (489)
+[2021.05.03-23.34.16:489][859]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (486)
+[2021.05.03-23.34.16:489][859]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (484)
+[2021.05.03-23.34.16:489][859]LogModuleManager: Shutting down and abandoning module MediaCompositing (482)
+[2021.05.03-23.34.16:489][859]LogModuleManager: Shutting down and abandoning module ImgMedia (480)
+[2021.05.03-23.34.16:490][859]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (478)
+[2021.05.03-23.34.16:490][859]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (476)
+[2021.05.03-23.34.16:490][859]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (474)
+[2021.05.03-23.34.16:490][859]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (472)
+[2021.05.03-23.34.16:490][859]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (470)
+[2021.05.03-23.34.16:490][859]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (468)
+[2021.05.03-23.34.16:490][859]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (466)
+[2021.05.03-23.34.16:490][859]LogModuleManager: Shutting down and abandoning module MeshConversion (464)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module DynamicMesh (462)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (460)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module GeometricObjects (458)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (456)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (455)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (452)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (450)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (448)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (446)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module ChaosNiagara (444)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module FractureEditor (442)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (440)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module ChaosCloth (438)
+[2021.05.03-23.34.16:491][859]LogModuleManager: Shutting down and abandoning module BackChannel (436)
+[2021.05.03-23.34.16:492][859]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (434)
+[2021.05.03-23.34.16:492][859]LogModuleManager: Shutting down and abandoning module AutomationUtils (432)
+[2021.05.03-23.34.16:492][859]LogModuleManager: Shutting down and abandoning module AlembicImporter (430)
+[2021.05.03-23.34.16:492][859]LogModuleManager: Shutting down and abandoning module AlembicLibrary (429)
+[2021.05.03-23.34.16:492][859]LogModuleManager: Shutting down and abandoning module GeometryCache (428)
+[2021.05.03-23.34.16:492][859]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (427)
+[2021.05.03-23.34.16:492][859]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (422)
+[2021.05.03-23.34.16:492][859]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (420)
+[2021.05.03-23.34.16:492][859]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (418)
+[2021.05.03-23.34.16:492][859]LogModuleManager: Shutting down and abandoning module PluginBrowser (416)
+[2021.05.03-23.34.16:492][859]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (414)
+[2021.05.03-23.34.16:493][859]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (412)
+[2021.05.03-23.34.16:493][859]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (410)
+[2021.05.03-23.34.16:493][859]LogModuleManager: Shutting down and abandoning module CurveEditorTools (408)
+[2021.05.03-23.34.16:493][859]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (406)
+[2021.05.03-23.34.16:493][859]LogModuleManager: Shutting down and abandoning module CryptoKeys (404)
+[2021.05.03-23.34.16:493][859]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (402)
+[2021.05.03-23.34.16:493][859]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (400)
+[2021.05.03-23.34.16:493][859]LogModuleManager: Shutting down and abandoning module UObjectPlugin (398)
+[2021.05.03-23.34.16:493][859]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (396)
+[2021.05.03-23.34.16:493][859]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (394)
+[2021.05.03-23.34.16:494][859]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (392)
+[2021.05.03-23.34.16:494][859]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (390)
+[2021.05.03-23.34.16:494][859]LogModuleManager: Shutting down and abandoning module GitSourceControl (388)
+[2021.05.03-23.34.16:494][859]LogModuleManager: Shutting down and abandoning module SourceControl (387)
+[2021.05.03-23.34.16:494][859]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (384)
+[2021.05.03-23.34.16:494][859]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (382)
+[2021.05.03-23.34.16:494][859]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (380)
+[2021.05.03-23.34.16:494][859]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (378)
+[2021.05.03-23.34.16:494][859]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (376)
+[2021.05.03-23.34.16:494][859]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (374)
+[2021.05.03-23.34.16:495][859]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (372)
+[2021.05.03-23.34.16:495][859]LogModuleManager: Shutting down and abandoning module Paper2DEditor (370)
+[2021.05.03-23.34.16:495][859]LogModuleManager: Shutting down and abandoning module SoundFields (368)
+[2021.05.03-23.34.16:495][859]LogModuleManager: Shutting down and abandoning module SignificanceManager (366)
+[2021.05.03-23.34.16:495][859]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (364)
+[2021.05.03-23.34.16:495][859]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (362)
+[2021.05.03-23.34.16:495][859]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (358)
+[2021.05.03-23.34.16:495][859]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (356)
+[2021.05.03-23.34.16:495][859]LogModuleManager: Shutting down and abandoning module ApexDestruction (354)
+[2021.05.03-23.34.16:496][859]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2021.05.03-23.34.16:496][859]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2021.05.03-23.34.16:596][859]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2021.05.03-23.34.16:697][859]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2021.05.03-23.34.16:697][859]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2021.05.03-23.34.16:697][859]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2021.05.03-23.34.16:697][859]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2021.05.03-23.34.16:697][859]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2021.05.03-23.34.16:697][859]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.05.03-23.34.16:697][859]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2021.05.03-23.34.16:697][859]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2021.05.03-23.34.16:697][859]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2021.05.03-23.34.16:698][859]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2021.05.03-23.34.16:698][859]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2021.05.03-23.34.16:699][859]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.05.03-23.34.16:700][859]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2021.05.03-23.34.16:700][859]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2021.05.03-23.34.16:700][859]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2021.05.03-23.34.16:700][859]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2021.05.03-23.34.16:700][859]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2021.05.03-23.34.16:701][859]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2021.05.03-23.34.16:701][859]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2021.05.03-23.34.16:702][859]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2021.05.03-23.34.16:702][859]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2021.05.03-23.34.16:702][859]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2021.05.03-23.34.16:702][859]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2021.05.03-23.34.16:702][859]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2021.05.03-23.34.16:702][859]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2021.05.03-23.34.16:702][859]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2021.05.03-23.34.16:707][859]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2021.05.03-23.34.16:707][859]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2021.05.03-23.34.16:708][859]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2021.05.03-23.34.16:708][859]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2021.05.03-23.34.16:709][859]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2021.05.03-23.34.16:709][859]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2021.05.03-23.34.16:710][859]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2021.05.03-23.34.16:710][859]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2021.05.03-23.34.16:710][859]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2021.05.03-23.34.16:710][859]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2021.05.03-23.34.16:759][859]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2021.05.03-23.34.16:759][859]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2021.05.03-23.34.16:760][859]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module Core (216)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2021.05.03-23.34.16:766][859]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2021.05.03-23.34.16:769][859]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2021.05.03-23.34.16:769][859]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2021.05.03-23.34.16:769][859]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2021.05.03-23.34.16:769][859]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2021.05.03-23.34.16:769][859]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2021.05.03-23.34.16:769][859]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2021.05.03-23.34.16:769][859]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2021.05.03-23.34.16:769][859]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2021.05.03-23.34.16:769][859]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2021.05.03-23.34.16:769][859]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2021.05.03-23.34.16:769][859]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2021.05.03-23.34.16:769][859]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2021.05.03-23.34.16:769][859]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2021.05.03-23.34.16:769][859]LogXGEController: Cleaning working directory: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2021.05.03-23.34.16:770][859]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2021.05.03-23.34.16:783][859]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.05.03-23.34.16:789][859]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.05.03-23.34.16:789][859]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.05.03-23.34.16:789][859]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.05.03-23.34.16:789][859]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.05.03-23.34.16:789][859]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.05.03-23.34.16:789][859]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.05.03-23.34.16:789][859]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.05.03-23.34.16:789][859]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.05.03-23.34.16:789][859]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.05.03-23.34.16:793][859]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.05.03-23.34.16:810][859]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.05.03-23.34.16:810][859]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.05.03-23.34.16:810][859]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.05.03-23.34.16:810][859]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.05.03-23.34.16:810][859]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.05.03-23.34.16:810][859]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.05.03-23.34.16:811][859]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.05.03-23.34.16:811][859]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.05.03-23.34.16:811][859]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.05.03-23.34.16:811][859]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.05.03-23.34.16:811][859]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.05.03-23.34.16:811][859]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.05.03-23.34.16:811][859]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.05.03-23.34.16:811][859]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.05.03-23.34.16:811][859]LogHMD: Freeing OpenVRDLLHandle.
+[2021.05.03-23.34.16:811][859]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.05.03-23.34.16:811][859]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.05.03-23.34.16:811][859]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.05.03-23.34.16:811][859]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.05.03-23.34.16:811][859]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.05.03-23.34.16:812][859]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.05.03-23.34.16:812][859]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.05.03-23.34.16:815][859]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.05.03-23.34.16:815][859]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.05.03-23.34.16:815][859]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B09DF9BAF-4D13-8903-0B20-65BC37F6206A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=c5d0b274478d9ab3bedac89f0c53462d%7Ca9f3595f1f9a43ee9a657e1d4e7d61ea%7Cd7df89a8-7e04-48f2-8fba-96b552423cfb&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.05.03-23.34.16:820][859]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.05.03-23.34.16:822][859]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.05.03-23.34.16:824][859]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.05.03-23.34.16:825][859]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.05.03-23.34.16:825][859]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.05.03-23.34.16:825][859]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.05.03-23.34.16:825][859]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.05.03-23.34.16:825][859]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.05.03-23.34.16:826][859]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.05.03-23.34.16:826][859]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.05.03-23.34.16:826][859]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.05.03-23.34.16:826][859]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.05.03-23.34.16:826][859]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.05.03-23.34.16:826][859]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.05.03-23.34.16:826][859]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.05.03-23.34.16:826][859]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.05.03-23.34.16:826][859]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.05.03-23.34.16:826][859]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.05.03-23.34.16:826][859]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.05.03-23.34.16:826][859]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.05.03-23.34.16:830][859]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.05.03-23.34.16:830][859]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.05.03-23.34.16:830][859]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.05.03-23.34.16:830][859]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.05.03-23.34.16:830][859]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.05.03-23.34.16:830][859]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.05.03-23.34.16:830][859]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.05.03-23.34.16:830][859]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.05.03-23.34.16:830][859]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.05.03-23.34.16:830][859]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.05.03-23.34.16:830][859]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.05.03-23.34.16:830][859]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.05.03-23.34.16:831][859]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.05.03-23.34.16:895][859]LogD3D11RHI: Shutdown
+[2021.05.03-23.34.16:895][859]LogD3D11RHI: CleanupD3DDevice
+[2021.05.03-23.34.17:207][859]LogExit: Exiting.
+[2021.05.03-23.34.17:239][859]Log file closed, 05/03/21 18:34:17
