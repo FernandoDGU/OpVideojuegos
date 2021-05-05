@@ -1379,3 +1379,129 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.05-21.50.56:914][320]AssetCheck: New page: Asset Save: P_Lasser
 [2021.05.05-21.50.56:914][320]LogContentValidation: Display: Validating ParticleSystem /Game/Particles/Lasser/barra/P_Lasser.P_Lasser
 [2021.05.05-21.51.04:638][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.05.05-21.53.04:957][798]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/Particles/Lasser/barra/P_Lasser.P_Lasser
+[2021.05.05-21.53.06:486][798]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2021.05.05-21.53.41:832][294]LogCascade: Non-seeded module ParticleModuleTypeDataBeam2
+[2021.05.05-21.54.17:718][356]LogMaterial: Display: Material /Game/Materiales/M_Lasser.M_Lasser needed to have new flag set bUsedWithBeamTrails !
+[2021.05.05-21.54.17:745][356]LogMaterial: Display: Missing cached shader map for material M_Lasser, compiling. 
+[2021.05.05-21.54.17:814][357]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2021.05.05-21.54.17:814][357]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2021.05.05-21.54.17:814][357]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2021.05.05-21.54.31:791][853]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/M_LasserShotD757858F4CB5D33DB90AC08A02118E7A.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Particles/Lasser/barra/M_LasserShot.uasset'
+[2021.05.05-21.54.32:146][853]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2021.05.05-21.54.32:205][853]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.05.05-21.54.32:226][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.05.05-21.54.32:474][853]AssetCheck: New page: Asset Save: M_LasserShot
+[2021.05.05-21.54.32:474][853]LogContentValidation: Display: Validating Material /Game/Particles/Lasser/barra/M_LasserShot.M_LasserShot
+[2021.05.05-21.54.37:217][999]LogMaterial: Display: Material /Game/Particles/Lasser/barra/M_LasserShot.M_LasserShot needed to have new flag set bUsedWithBeamTrails !
+[2021.05.05-21.54.37:218][999]LogMaterial: Display: Missing cached shader map for material M_LasserShot, compiling. 
+[2021.05.05-21.54.37:253][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2021.05.05-21.54.37:253][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2021.05.05-21.54.37:253][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2021.05.05-21.54.40:843][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.05.05-21.54.41:913][ 98]LogSlate: Window 'Save Content' being destroyed
+[2021.05.05-21.54.41:982][ 98]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/M_Lasser5ECF8D8243021F58C11790B99745FD54.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_Lasser.uasset'
+[2021.05.05-21.54.41:997][ 98]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/M_LasserShot7DAA9A34477BAFCECBDEC7AD8010022D.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Particles/Lasser/barra/M_LasserShot.uasset'
+[2021.05.05-21.54.42:017][ 98]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/P_Lasser42606FF941D8E218C600D3BEF1F5B0A2.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Particles/Lasser/barra/P_Lasser.uasset'
+[2021.05.05-21.54.42:042][ 98]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.05-21.54.42:042][ 98]LogContentValidation: Display: Validating Material /Game/Materiales/M_Lasser.M_Lasser
+[2021.05.05-21.54.42:042][ 98]LogContentValidation: Display: Validating Material /Game/Particles/Lasser/barra/M_LasserShot.M_LasserShot
+[2021.05.05-21.54.42:042][ 98]LogContentValidation: Display: Validating ParticleSystem /Game/Particles/Lasser/barra/P_Lasser.P_Lasser
+[2021.05.05-21.55.31:951][ 79]LogCascade: Non-seeded module ParticleModuleVelocity
+[2021.05.05-21.55.33:656][142]LogCascade: Non-seeded module ParticleModuleColorOverLife
+[2021.05.05-21.56.01:781][763]LogSlate: Window 'Color Picker' being destroyed
+[2021.05.05-21.56.44:053][206]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.05.05-21.56.44:060][206]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.038
+[2021.05.05-21.56.44:061][206]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/Lasser/barra/P_Lasser] ([1] browsable assets)...
+[2021.05.05-21.56.44:066][206]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/Lasser/barra/P_Lasser.P_Lasser]
+[2021.05.05-21.56.44:066][206]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/Lasser/barra/P_Lasser]
+[2021.05.05-21.56.44:080][206]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/P_Lasser_Auto31865B5B448139A65ED59F88874A1B75C.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Autosaves/Game/Particles/Lasser/barra/P_Lasser_Auto3.uasset'
+[2021.05.05-21.56.44:085][206]LogFileHelpers: Auto-saving content packages took 0.025
+[2021.05.05-21.58.04:362][615]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/P_LasserAD1444A74A9E7483EB0FE19DAD338264.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Particles/Lasser/barra/P_Lasser.uasset'
+[2021.05.05-21.58.04:381][615]AssetCheck: New page: Asset Save: P_Lasser
+[2021.05.05-21.58.04:381][615]LogContentValidation: Display: Validating ParticleSystem /Game/Particles/Lasser/barra/P_Lasser.P_Lasser
+[2021.05.05-22.00.13:080][ 45]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/P_Lasser14417A0E44DFD0F1B2E22CB39D7CE519.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Particles/Lasser/barra/P_Lasser.uasset'
+[2021.05.05-22.00.13:096][ 45]AssetCheck: New page: Asset Save: P_Lasser
+[2021.05.05-22.00.13:096][ 45]LogContentValidation: Display: Validating ParticleSystem /Game/Particles/Lasser/barra/P_Lasser.P_Lasser
+[2021.05.05-22.00.14:058][ 72]LogSlate: Window 'P_Lasser' being destroyed
+[2021.05.05-22.00.14:086][ 72]LogSlate: Window 'P_Lasser' being destroyed
+[2021.05.05-22.00.14:086][ 72]LogCascade: Quitting Cascade. FXSystem=0x000002BBD6DD59C0
+[2021.05.05-22.00.14:127][ 72]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-22.00.14:127][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-22.00.15:236][107]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.05.05-22.00.20:584][283]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.05-22.00.20:605][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.05-22.00.20:605][283]PIE: New page: PIE session: ThirdPersonExampleMap (May 5, 2021, 12:00:20 PM)
+[2021.05.05-22.00.20:605][283]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.05-22.00.20:699][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093094s)
+[2021.05.05-22.00.20:700][283]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.05-22.00.20:700][283]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002BC02C89E00), frame # 42283
+[2021.05.05-22.00.20:700][283]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002BC09E1F740), frame # 42283
+[2021.05.05-22.00.20:700][283]LogPlayLevel: PIE: World Init took: (0.001556s)
+[2021.05.05-22.00.20:700][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.094850s)
+[2021.05.05-22.00.20:724][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.05.05-22.00.20:726][283]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.05-22.00.20:726][283]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.05-22.00.20:726][283]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.05-22.00.20:726][283]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.05-22.00.20:726][283]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.05-22.00.20:726][283]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.05-22.00.20:726][283]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.05-22.00.20:726][283]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.05-22.00.20:727][283]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.05-22.00.20:727][283]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.05-22.00.20:729][283]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.05-22.00.20:729][283]LogAudioMixer: Display: 1: FrontRight
+[2021.05.05-22.00.20:836][283]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.05-22.00.20:837][283]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.05-22.00.20:837][283]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.05-22.00.20:837][283]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.05-22.00.20:837][283]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.05-22.00.20:854][283]LogInit: FAudioDevice initialized.
+[2021.05.05-22.00.20:891][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.05-22.00.20:891][283]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.05-22.00.20:929][283]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.05.05-17.00.20
+[2021.05.05-22.00.20:932][283]LogWorld: Bringing up level for play took: 0.040048
+[2021.05.05-22.00.20:932][283]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.05.05-22.00.20:938][283]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] 3
+[2021.05.05-22.00.20:943][283]PIE: Server logged in
+[2021.05.05-22.00.20:944][283]PIE: Play in editor total start time 0.34 seconds.
+[2021.05.05-22.01.43:048][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.05-22.01.43:048][471]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.05-22.01.43:049][471]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.05-22.01.43:063][471]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-22.01.43:070][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-22.01.43:079][471]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.05-22.01.43:085][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-22.01.43:154][471]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002BC09E1F740), frame # 45471
+[2021.05.05-22.01.43:154][471]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002BC02C89E00), frame # 45471
+[2021.05.05-22.01.43:159][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.05.05-22.01.43:196][472]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.05.05-22.01.44:157][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.05.05-22.01.45:178][501]LogSlate: Window 'Save Content' being destroyed
+[2021.05.05-22.01.45:234][501]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.05.05-22.01.46:325][501]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap434203B049F3BF86C1C4389D52D58E5C.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.05-22.01.46:366][501]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.154
+[2021.05.05-22.01.46:463][501]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData7FD057C3478A721CA9FBA4A0F511306C.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.05-22.01.46:504][501]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.05-22.01.46:504][501]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.05.05-22.01.46:504][501]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.05.05-22.01.59:175][580]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.05.05-22.01.59:913][599]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.05.05-22.02.00:455][614]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.05.05-22.02.01:537][641]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Lasser)
+[2021.05.05-22.02.01:899][650]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Lasser)
+[2021.05.05-22.02.02:917][684]Cmd: DELETE
+[2021.05.05-22.02.02:917][684]Cmd: ACTOR DELETE
+[2021.05.05-22.02.02:950][684]LogEditorActor: Deleted Actor: Emitter
+[2021.05.05-22.02.02:979][684]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.05.05-22.02.02:982][684]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2021.05.05-22.02.04:030][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.05.05-22.02.04:888][719]LogSlate: Window 'Save Content' being destroyed
+[2021.05.05-22.02.04:935][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.05.05-22.02.07:233][719]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap8BD5CD0E47DCA4F94DD8AF87AD52BBE1.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.05-22.02.07:292][719]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.386
+[2021.05.05-22.02.07:444][719]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData9F99C200459C339183A6A3A1E15A2AA1.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.05-22.02.07:510][719]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.05-22.02.07:511][719]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.05.05-22.02.07:511][719]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
