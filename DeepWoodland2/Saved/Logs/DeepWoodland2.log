@@ -1445,3 +1445,325 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.05-22.50.33:312][395]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2021.05.05-22.50.33:312][395]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
 [2021.05.05-22.50.33:312][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-22.52.01:333][725]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.05.05-22.52.08:965][794]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.05-22.54.05:240][827]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2021.05.05-22.54.05:274][827]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2021.05.05-22.54.05:299][827]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-22.54.05:299][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-22.54.08:311][879]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.05.05-22.55.53:730][291]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Soldado/WeaponBluePrints/WeaponBP.WeaponBP
+[2021.05.05-22.56.58:748][604]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Soldado/SoldierMasked.SoldierMasked
+[2021.05.05-22.56.58:753][604]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.05-22.56.58:820][604]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.05.05-22.57.00:546][622]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Soldado/Animations/IdleRunAim_MaskedSoldier.IdleRunAim_MaskedSoldier
+[2021.05.05-22.57.00:549][622]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_50:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.05-22.57.00:582][622]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_50:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.05.05-22.57.00:990][622]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.05.05-22.57.02:653][643]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Soldado/Animations/ThirdPerson_AnimBP_MaskedSoldier.ThirdPerson_AnimBP_MaskedSoldier
+[2021.05.05-22.57.02:659][643]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_53:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.05-22.57.02:986][643]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_53:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.05.05-22.57.04:312][656]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-22.57.04:312][656]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-22.57.04:418][656]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-22.57.04:419][656]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-22.57.40:010][722]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.05-23.01.25:340][968]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.05.05-23.01.25:347][968]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.050
+[2021.05.05-23.01.25:347][968]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Soldado/Animations/ThirdPerson_AnimBP_MaskedSoldier] ([1] browsable assets)...
+[2021.05.05-23.01.25:361][968]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Soldado/Animations/ThirdPerson_AnimBP_MaskedSoldier.ThirdPerson_AnimBP_MaskedSoldier]
+[2021.05.05-23.01.25:361][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/Soldado/Animations/ThirdPerson_AnimBP_MaskedSoldier]
+[2021.05.05-23.01.25:473][968]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPerson_AnimBP_MaskedSoldierC19A964F4A6522DAC4DA8AA5A5B70D00.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Autosaves/Game/Soldado/Animations/ThirdPerson_AnimBP_MaskedSoldier_Auto2.uasset'
+[2021.05.05-23.01.25:476][968]LogFileHelpers: Auto-saving content packages took 0.129
+[2021.05.05-23.01.29:592][ 29]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.01.29:592][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.01.35:941][136]BlueprintLog: New page: Compile ThirdPerson_AnimBP_MaskedSoldier
+[2021.05.05-23.01.36:062][136]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.05.05-23.01.37:728][159]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPerson_AnimBP_MaskedSoldier977D44FB4D428DA8A834C3ABE23EE117.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/Animations/ThirdPerson_AnimBP_MaskedSoldier.uasset'
+[2021.05.05-23.01.37:770][159]AssetCheck: New page: Asset Save: ThirdPerson_AnimBP_MaskedSoldier
+[2021.05.05-23.01.37:770][159]LogContentValidation: Display: Validating AnimBlueprint /Game/Soldado/Animations/ThirdPerson_AnimBP_MaskedSoldier.ThirdPerson_AnimBP_MaskedSoldier
+[2021.05.05-23.01.39:412][184]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.01.39:412][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.01.40:467][198]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.01.40:467][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.01.40:472][198]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.01.40:472][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.01.40:620][198]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.01.40:620][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.02.35:354][524]BlueprintLog: New page: Compile WeaponBP
+[2021.05.05-23.02.35:488][524]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.05.05-23.02.36:605][530]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/WeaponBPD9B4C2E44D593F78DEB2AC87F9141C2D.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/WeaponBluePrints/WeaponBP.uasset'
+[2021.05.05-23.02.36:654][530]AssetCheck: New page: Asset Save: WeaponBP
+[2021.05.05-23.02.36:654][530]LogContentValidation: Display: Validating Blueprint /Game/Soldado/WeaponBluePrints/WeaponBP.WeaponBP
+[2021.05.05-23.02.41:692][578]LogSlate: Took 0.001287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.05.05-23.03.01:660][233]LogEditorTransaction: Undo Change Parameter Type
+[2021.05.05-23.04.17:168][419]BlueprintLog: New page: Compile WeaponBP
+[2021.05.05-23.04.17:201][419]LogClass: Warning: Type mismatch in Bullet_Type of WeaponBP_C - Previous (BoolProperty) Current(ObjectProperty) for package:  FObjectReader
+[2021.05.05-23.04.17:201][419]LogClass: Warning: Type mismatch in Bullet_Type of BP_Lasser_C - Previous (BoolProperty) Current(ObjectProperty) for package:  FObjectReader
+[2021.05.05-23.04.17:201][419]LogClass: Warning: Type mismatch in Bullet_Type of BP_Pistol_C - Previous (BoolProperty) Current(ObjectProperty) for package:  FObjectReader
+[2021.05.05-23.04.17:202][419]LogClass: Warning: Type mismatch in Bullet_Type of BP_Shotgun_C - Previous (BoolProperty) Current(ObjectProperty) for package:  FObjectReader
+[2021.05.05-23.04.17:277][419]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2021.05.05-23.04.17:776][425]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/WeaponBPEFB3BEA34EC34A29680C60BF5B844A8A.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/WeaponBluePrints/WeaponBP.uasset'
+[2021.05.05-23.04.17:792][425]AssetCheck: New page: Asset Save: WeaponBP
+[2021.05.05-23.04.17:792][425]LogContentValidation: Display: Validating Blueprint /Game/Soldado/WeaponBluePrints/WeaponBP.WeaponBP
+[2021.05.05-23.05.57:301][867]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Soldado/Shotgun/Shotgun_Model_S_UCX_Shotgun_Model.Shotgun_Model_S_UCX_Shotgun_Model
+[2021.05.05-23.05.57:306][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_56:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.05-23.05.57:373][867]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_56:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.05.05-23.06.05:272][973]LogSlate: Window 'Shotgun_Model_S_UCX_Shotgun_Model' being destroyed
+[2021.05.05-23.06.05:286][973]LogSlate: Window 'Shotgun_Model_S_UCX_Shotgun_Model' being destroyed
+[2021.05.05-23.06.05:309][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.05-23.06.05:309][973]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.06.05:309][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.06.05:385][973]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.06.05:385][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.06.06:607][990]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Soldado/Shotgun/Shotgun_Model_S_Shotgun_Model.Shotgun_Model_S_Shotgun_Model
+[2021.05.05-23.06.06:612][990]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_57:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.05-23.06.06:732][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_57:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.05.05-23.07.07:016][880]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Shotgun_Model_S_Shotgun_Model74F8ED894806BF78EFFDC083ADA2655A.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/Shotgun/Shotgun_Model_S_Shotgun_Model.uasset'
+[2021.05.05-23.07.07:036][880]AssetCheck: New page: Asset Save: Shotgun_Model_S_Shotgun_Model
+[2021.05.05-23.07.07:036][880]LogContentValidation: Display: Validating SkeletalMesh /Game/Soldado/Shotgun/Shotgun_Model_S_Shotgun_Model.Shotgun_Model_S_Shotgun_Model
+[2021.05.05-23.07.08:208][897]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Soldado/Shotgun/Shotgun_Model_S_Shotgun_Model_Skeleton.Shotgun_Model_S_Shotgun_Model_Skeleton
+[2021.05.05-23.07.08:211][897]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_58:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.05-23.07.08:247][897]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_58:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.05.05-23.07.11:567][941]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Shotgun_Model_S_Shotgun_Model_Sk98BFF5FE4932AD12D10B77A393AC4280.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/Shotgun/Shotgun_Model_S_Shotgun_Model_Skeleton.uasset'
+[2021.05.05-23.07.11:583][941]AssetCheck: New page: Asset Save: Shotgun_Model_S_Shotgun_Model_Skeleton
+[2021.05.05-23.07.11:583][941]LogContentValidation: Display: Validating Skeleton /Game/Soldado/Shotgun/Shotgun_Model_S_Shotgun_Model_Skeleton.Shotgun_Model_S_Shotgun_Model_Skeleton
+[2021.05.05-23.07.13:500][969]LogSlate: Window 'Shotgun_Model_S_Shotgun_Model_Skeleton' being destroyed
+[2021.05.05-23.07.13:560][969]LogSlate: Window 'Shotgun_Model_S_Shotgun_Model_Skeleton' being destroyed
+[2021.05.05-23.07.13:561][969]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.07.13:561][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.07.13:691][969]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.07.13:691][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.07.14:999][988]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.05.05-23.07.16:059][988]LogSlate: Window 'Save Content' being destroyed
+[2021.05.05-23.07.16:117][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.05.05-23.07.16:979][988]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap379624424A8FDAEFE3AD7C923AA0F9E2.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.05-23.07.17:019][988]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.930
+[2021.05.05-23.07.17:113][988]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData226BEAF94C05927D94DA7D80C7E08750.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.05-23.07.17:147][988]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.05-23.07.17:147][988]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.05.05-23.07.17:147][988]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.05.05-23.07.20:650][ 55]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Soldado/PistolDark/Darkness_Pistol.Darkness_Pistol
+[2021.05.05-23.07.20:655][ 55]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_59:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.05-23.07.20:760][ 55]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_59:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.05.05-23.07.32:088][217]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Soldado/LasserGun/LaserGun_S_LaserGun.LaserGun_S_LaserGun
+[2021.05.05-23.07.32:094][217]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_60:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.05-23.07.32:162][217]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_60:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.05.05-23.08.01:420][696]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/LaserGun_S_LaserGun905270A9466EB576FD36BAB42DDFBAA3.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/LasserGun/LaserGun_S_LaserGun.uasset'
+[2021.05.05-23.08.01:450][696]AssetCheck: New page: Asset Save: LaserGun_S_LaserGun
+[2021.05.05-23.08.01:450][696]LogContentValidation: Display: Validating SkeletalMesh /Game/Soldado/LasserGun/LaserGun_S_LaserGun.LaserGun_S_LaserGun
+[2021.05.05-23.08.01:744][701]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Soldado/LasserGun/LaserGun_S_LaserGun_Skeleton.LaserGun_S_LaserGun_Skeleton
+[2021.05.05-23.08.01:748][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_61:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.05-23.08.01:786][701]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_61:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.05.05-23.08.03:419][722]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/LaserGun_S_LaserGun_SkeletonFBC42DC14EB3D8A0E5F6FCA732AD4D76.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/LasserGun/LaserGun_S_LaserGun_Skeleton.uasset'
+[2021.05.05-23.08.03:434][722]AssetCheck: New page: Asset Save: LaserGun_S_LaserGun_Skeleton
+[2021.05.05-23.08.03:434][722]LogContentValidation: Display: Validating Skeleton /Game/Soldado/LasserGun/LaserGun_S_LaserGun_Skeleton.LaserGun_S_LaserGun_Skeleton
+[2021.05.05-23.08.04:330][736]LogSlate: Window 'LaserGun_S_LaserGun_Skeleton' being destroyed
+[2021.05.05-23.08.04:380][736]LogSlate: Window 'LaserGun_S_LaserGun_Skeleton' being destroyed
+[2021.05.05-23.08.04:381][736]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.08.04:381][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.08.04:501][736]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.08.04:501][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.08.04:612][736]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.08.04:612][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.08.07:499][777]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.05.05-23.08.27:034][948]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Soldado/WeaponBluePrints/WeaponBP.WeaponBP
+[2021.05.05-23.08.59:830][199]LogSlate: Window 'WeaponBP' being destroyed
+[2021.05.05-23.08.59:872][199]LogSlate: Window 'WeaponBP' being destroyed
+[2021.05.05-23.08.59:872][199]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.08.59:873][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.09.01:584][223]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Soldado/WeaponBluePrints/BP_Pistol.BP_Pistol
+[2021.05.05-23.09.20:900][439]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Soldado/WeaponBluePrints/BP_Lasser.BP_Lasser
+[2021.05.05-23.09.28:988][573]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.05-23.09.36:541][889]BlueprintLog: New page: Compile BP_Lasser
+[2021.05.05-23.09.36:618][889]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2021.05.05-23.09.47:142][ 21]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Soldado/LasserGun/LaserGun_S_LaserGun.LaserGun_S_LaserGun
+[2021.05.05-23.09.47:152][ 21]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_65:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.05-23.09.47:222][ 21]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_65:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.05.05-23.10.15:169][703]BlueprintLog: New page: Compile BP_Lasser
+[2021.05.05-23.10.15:235][703]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2021.05.05-23.10.17:002][731]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Engine/VREditor/Sounds/UI/Laser_Pull.Laser_Pull
+[2021.05.05-23.10.18:852][760]LogAssetEditorSubsystem: Opening Asset editor for SoundClass /Engine/EngineSounds/Master.Master
+[2021.05.05-23.10.26:464][871]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.10.26:464][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.10.42:900][987]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/BP_LasserE5EC1F7A40FDB3418ECF8CA08041DDE2.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/WeaponBluePrints/BP_Lasser.uasset'
+[2021.05.05-23.10.42:916][987]AssetCheck: New page: Asset Save: BP_Lasser
+[2021.05.05-23.10.42:916][987]LogContentValidation: Display: Validating Blueprint /Game/Soldado/WeaponBluePrints/BP_Lasser.BP_Lasser
+[2021.05.05-23.10.44:163][  8]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.10.44:163][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.11.08:625][692]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.05.05-23.11.35:600][880]BlueprintLog: New page: Compile BP_Pistol
+[2021.05.05-23.11.35:665][880]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.05.05-23.11.36:482][892]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/BP_PistolD879DC424445092C8FCAEC9B25C7043B.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/WeaponBluePrints/BP_Pistol.uasset'
+[2021.05.05-23.11.36:498][892]AssetCheck: New page: Asset Save: BP_Pistol
+[2021.05.05-23.11.36:498][892]LogContentValidation: Display: Validating Blueprint /Game/Soldado/WeaponBluePrints/BP_Pistol.BP_Pistol
+[2021.05.05-23.11.44:556][944]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/BP_Pistol15201EB54EB2ACC51A8D43BF2C828DB5.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/WeaponBluePrints/BP_Pistol.uasset'
+[2021.05.05-23.11.44:571][944]AssetCheck: New page: Asset Save: BP_Pistol
+[2021.05.05-23.11.44:571][944]LogContentValidation: Display: Validating Blueprint /Game/Soldado/WeaponBluePrints/BP_Pistol.BP_Pistol
+[2021.05.05-23.11.47:941][  0]LogSlate: Window 'BP_Pistol' being destroyed
+[2021.05.05-23.11.48:007][  0]LogSlate: Window 'BP_Pistol' being destroyed
+[2021.05.05-23.11.48:007][  0]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.05-23.11.48:008][  0]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.11.48:008][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.11.51:983][ 65]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Soldado/WeaponBluePrints/BP_Shotgun.BP_Shotgun
+[2021.05.05-23.12.02:365][238]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Soldado/Shotgun/Shotgun_Model_S_Shotgun_Model.Shotgun_Model_S_Shotgun_Model
+[2021.05.05-23.12.02:370][238]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_67:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.05-23.12.02:429][238]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_67:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.05.05-23.12.11:040][380]BlueprintLog: New page: Compile BP_Shotgun
+[2021.05.05-23.12.11:116][380]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2021.05.05-23.12.11:799][390]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/BP_Shotgun007D89264F7138D6396568B479476B39.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/WeaponBluePrints/BP_Shotgun.uasset'
+[2021.05.05-23.12.11:816][390]AssetCheck: New page: Asset Save: BP_Shotgun
+[2021.05.05-23.12.11:816][390]LogContentValidation: Display: Validating Blueprint /Game/Soldado/WeaponBluePrints/BP_Shotgun.BP_Shotgun
+[2021.05.05-23.12.12:476][402]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.12.12:476][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.12.42:862][529]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.05-23.12.42:886][529]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.05-23.12.42:894][529]LogPlayLevel: [PlayLevel] Compiling WeaponBP before play...
+[2021.05.05-23.12.42:894][529]LogPlayLevel: [PlayLevel]   Compiling BP_Lasser as a dependent...
+[2021.05.05-23.12.42:894][529]LogPlayLevel: [PlayLevel]   Compiling BP_Pistol as a dependent...
+[2021.05.05-23.12.42:894][529]LogPlayLevel: [PlayLevel]   Compiling BP_Shotgun as a dependent...
+[2021.05.05-23.12.43:015][529]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.05.05-23.12.43:018][529]LogPlayLevel: PlayLevel: Blueprint regeneration took 131 ms (4 blueprints)
+[2021.05.05-23.12.43:018][529]PIE: New page: PIE session: ThirdPersonExampleMap (May 5, 2021, 1:12:43 PM)
+[2021.05.05-23.12.43:018][529]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.05-23.12.43:112][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094665s)
+[2021.05.05-23.12.43:114][529]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.05-23.12.43:114][529]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D61ECC1E00), frame # 65529
+[2021.05.05-23.12.43:114][529]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D66E7D5940), frame # 65529
+[2021.05.05-23.12.43:115][529]LogPlayLevel: PIE: World Init took: (0.002282s)
+[2021.05.05-23.12.43:115][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.097188s)
+[2021.05.05-23.12.43:144][529]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.05.05-23.12.43:146][529]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.05-23.12.43:146][529]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.05-23.12.43:146][529]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.05-23.12.43:146][529]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.05-23.12.43:146][529]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.05-23.12.43:146][529]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.05-23.12.43:146][529]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.05-23.12.43:146][529]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.05-23.12.43:146][529]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.05-23.12.43:146][529]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.05-23.12.43:148][529]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.05-23.12.43:148][529]LogAudioMixer: Display: 1: FrontRight
+[2021.05.05-23.12.43:259][529]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.05-23.12.43:259][529]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.05-23.12.43:259][529]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.05-23.12.43:259][529]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.05-23.12.43:260][529]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.05-23.12.43:275][529]LogInit: FAudioDevice initialized.
+[2021.05.05-23.12.43:330][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.05-23.12.43:330][529]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.05-23.12.43:368][529]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.05.05-18.12.43
+[2021.05.05-23.12.43:371][529]LogWorld: Bringing up level for play took: 0.040570
+[2021.05.05-23.12.43:371][529]LogOnline: OSS: Creating online subsystem instance for: :Context_78
+[2021.05.05-23.12.43:376][529]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] 3
+[2021.05.05-23.12.43:380][529]PIE: Server logged in
+[2021.05.05-23.12.43:382][529]PIE: Play in editor total start time 0.497 seconds.
+[2021.05.05-23.13.13:896][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.05-23.13.13:896][601]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.05-23.13.13:897][601]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.05-23.13.13:955][601]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.13.13:961][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.13.13:971][601]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.05-23.13.13:978][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.13.14:040][601]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D66E7D5940), frame # 66601
+[2021.05.05-23.13.14:041][601]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D61ECC1E00), frame # 66601
+[2021.05.05-23.13.14:047][601]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.05.05-23.13.14:079][602]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2021.05.05-23.13.16:033][636]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.05.05-23.13.16:944][636]LogSlate: Window 'Save Content' being destroyed
+[2021.05.05-23.13.17:607][636]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/LaserGun_S_LaserGun_Skeleton72DE02774E1BD061700BB68CE0B4A864.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/LasserGun/LaserGun_S_LaserGun_Skeleton.uasset'
+[2021.05.05-23.13.17:625][636]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Shotgun_Model_S_Shotgun_Model_Sk082E92154677D0BC44B2B6A44AD243FF.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/Shotgun/Shotgun_Model_S_Shotgun_Model_Skeleton.uasset'
+[2021.05.05-23.13.17:720][636]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/WeaponBPBF48238344426F6106421F95C8597FD1.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Soldado/WeaponBluePrints/WeaponBP.uasset'
+[2021.05.05-23.13.17:751][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.05.05-23.13.18:577][636]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap82132A704DAC030B2DC90F9A98E9009F.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.05-23.13.18:617][636]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.895
+[2021.05.05-23.13.18:759][636]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData33AC59104F7291BE6A29A3B8942D6F6A.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.05-23.13.18:807][636]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.05-23.13.18:807][636]LogContentValidation: Display: Validating Skeleton /Game/Soldado/LasserGun/LaserGun_S_LaserGun_Skeleton.LaserGun_S_LaserGun_Skeleton
+[2021.05.05-23.13.18:807][636]LogContentValidation: Display: Validating Skeleton /Game/Soldado/Shotgun/Shotgun_Model_S_Shotgun_Model_Skeleton.Shotgun_Model_S_Shotgun_Model_Skeleton
+[2021.05.05-23.13.18:807][636]LogContentValidation: Display: Validating Blueprint /Game/Soldado/WeaponBluePrints/WeaponBP.WeaponBP
+[2021.05.05-23.13.18:807][636]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.05.05-23.13.18:807][636]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.05.05-23.13.31:282][782]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.05-23.15.14:634][584]LogEditorTransaction: Undo Move Node
+[2021.05.05-23.15.15:656][621]LogEditorTransaction: Undo Move Node
+[2021.05.05-23.15.16:405][633]LogEditorTransaction: Undo Create Pin Link
+[2021.05.05-23.15.50:971][806]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.05.05-23.15.51:102][806]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2021.05.05-23.15.52:178][818]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonCharacter613FA49C4646BE75C8D692A54ED70903.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.05.05-23.15.52:196][818]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.05.05-23.15.52:196][818]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.05-23.16.23:821][ 74]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.05.05-23.16.23:977][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.05.05-23.16.24:505][ 80]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonCharacter5A95993B402C105348ED50850EF31CC9.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.05.05-23.16.24:524][ 80]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.05.05-23.16.24:524][ 80]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.05-23.16.48:304][335]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.05.05-23.16.48:420][335]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.05.05-23.16.49:066][342]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonCharacter5631AA0E4D0328EFD8B2D384253F4031.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.05.05-23.16.49:083][342]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.05.05-23.16.49:083][342]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.05-23.17.25:280][800]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.05.05-23.17.26:117][800]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2021.05.05-23.17.26:879][809]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonCharacter95FF631748DB120CF007C197ECD85381.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.05.05-23.17.26:897][809]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.05.05-23.17.26:898][809]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.05-23.17.56:057][955]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.05-23.17.56:079][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.05-23.17.56:079][955]PIE: New page: PIE session: ThirdPersonExampleMap (May 5, 2021, 1:17:56 PM)
+[2021.05.05-23.17.56:079][955]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.05-23.17.56:175][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096561s)
+[2021.05.05-23.17.56:176][955]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.05-23.17.56:176][955]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D6BFE11C00), frame # 70955
+[2021.05.05-23.17.56:176][955]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D666A07600), frame # 70955
+[2021.05.05-23.17.56:177][955]LogPlayLevel: PIE: World Init took: (0.001443s)
+[2021.05.05-23.17.56:177][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.098221s)
+[2021.05.05-23.17.56:212][955]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.05.05-23.17.56:216][955]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.05-23.17.56:216][955]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.05-23.17.56:216][955]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.05-23.17.56:216][955]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.05-23.17.56:216][955]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.05-23.17.56:216][955]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.05-23.17.56:216][955]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.05-23.17.56:216][955]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.05-23.17.56:217][955]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.05-23.17.56:217][955]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.05-23.17.56:219][955]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.05-23.17.56:219][955]LogAudioMixer: Display: 1: FrontRight
+[2021.05.05-23.17.56:324][955]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.05-23.17.56:324][955]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.05-23.17.56:324][955]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.05-23.17.56:325][955]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.05-23.17.56:325][955]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.05-23.17.56:339][955]LogInit: FAudioDevice initialized.
+[2021.05.05-23.17.56:387][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.05-23.17.56:387][955]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.05-23.17.56:426][955]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.05.05-18.17.56
+[2021.05.05-23.17.56:428][955]LogWorld: Bringing up level for play took: 0.040271
+[2021.05.05-23.17.56:429][955]LogOnline: OSS: Creating online subsystem instance for: :Context_80
+[2021.05.05-23.17.56:433][955]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] 3
+[2021.05.05-23.17.56:440][955]PIE: Server logged in
+[2021.05.05-23.17.56:445][955]PIE: Play in editor total start time 0.368 seconds.
+[2021.05.05-23.17.57:132][968]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.088393 > MaxSimulationTimeStep (0.050) for 'AI_BaseCharacter2', movement 'Walking'
+[2021.05.05-23.18.24:586][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.05-23.18.24:586][980]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.05-23.18.24:587][980]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.05-23.18.24:628][980]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.05-23.18.24:634][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.18.24:677][980]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.05-23.18.24:683][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.05-23.18.24:761][980]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D666A07600), frame # 71980
+[2021.05.05-23.18.24:761][980]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D6BFE11C00), frame # 71980
+[2021.05.05-23.18.24:767][980]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.05.05-23.18.24:801][981]LogPlayLevel: Display: Destroying online subsystem :Context_80
+[2021.05.05-23.18.26:369][  9]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.05.05-23.18.27:356][  9]LogSlate: Window 'Save Content' being destroyed
+[2021.05.05-23.18.27:420][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.05.05-23.18.28:277][  9]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapEE32625C4DA666C5A74C7E8A0D0147FD.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.05-23.18.28:341][  9]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.950
+[2021.05.05-23.18.28:444][  9]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData461E2E7944A2AD8E6B8CF688A2044003.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.05-23.18.29:375][  9]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.05-23.18.29:375][  9]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.05.05-23.18.29:375][  9]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
