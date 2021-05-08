@@ -1,8 +1,8 @@
-﻿Log file open, 05/08/21 17:35:44
+﻿Log file open, 05/08/21 18:03:01
 LogInit: Display: Running engine for game: DeepWoodland2
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.221527
+LogStats: Stats thread started at 0.558526
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -176,6 +176,9 @@ LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 1
 LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogFileManager: Warning: Error deleting file: ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Logs/DeepWoodland2-backup-2021.05.05-23.27.19.log (Error Code 5)
+LogFileManager: Warning: Error deleting file: ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Logs/DeepWoodland2_3-backup-2021.05.02-08.28.30.log (Error Code 2)
+LogFileManager: Warning: Error deleting file: ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Logs/DeepWoodland2_4-backup-2021.05.02-08.28.30.log (Error Code 5)
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
@@ -195,1082 +198,315 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.05.08-22.35.44:783][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.05.08-22.35.44:783][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.05.08-22.35.44:783][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.05.08-22.35.44:786][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.05.08-22.35.44:786][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.05.08-22.35.44:787][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.05.08-22.35.44:788][  0]LogInit: Selected Device Profile: [Windows]
-[2021.05.08-22.35.44:788][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.05.08-22.35.44:788][  0]LogHAL: Display: Platform has ~ 16 GB [17058402304 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.05.08-22.35.44:788][  0]LogInit: Going up to parent DeviceProfile []
-[2021.05.08-22.35.44:788][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2021.05.08-22.35.44:788][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.05.08-22.35.44:789][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.05.08-22.35.44:790][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.05.08-22.35.44:790][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.05.08-22.35.44:790][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.05.08-22.35.44:790][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
-[2021.05.08-22.35.44:790][  0]LogInit: Computer: DESKTOP-DV3H2OO
-[2021.05.08-22.35.44:790][  0]LogInit: User: AlexBazaldua
-[2021.05.08-22.35.44:790][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.05.08-22.35.44:790][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.05.08-22.35.44:790][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2021.05.08-22.35.44:790][  0]LogMemory: Platform Memory Stats for Windows
-[2021.05.08-22.35.44:790][  0]LogMemory: Process Physical Memory: 115.93 MB used, 115.93 MB peak
-[2021.05.08-22.35.44:790][  0]LogMemory: Process Virtual Memory: 103.32 MB used, 103.32 MB peak
-[2021.05.08-22.35.44:790][  0]LogMemory: Physical Memory: 5034.00 MB used,  11234.16 MB free, 16268.16 MB total
-[2021.05.08-22.35.44:790][  0]LogMemory: Virtual Memory: 5137.56 MB used,  134212592.00 MB free, 134217728.00 MB total
-[2021.05.08-22.35.44:796][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.05.08-22.35.44:850][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.05.08-22.35.44:851][  0]LogInit: Using OS detected language (en-US).
-[2021.05.08-22.35.44:851][  0]LogInit: Using OS detected locale (en-US).
-[2021.05.08-22.35.44:855][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2021.05.08-22.35.45:070][  0]LogInit: Setting process to per monitor DPI aware
-[2021.05.08-22.35.45:099][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.05.08-22.35.45:099][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.05.08-22.35.45:273][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.05.08-22.35.45:273][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.05.08-22.35.45:273][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.05.08-22.35.45:273][  0]LogD3D11RHI: D3D11 adapters:
-[2021.05.08-22.35.45:497][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2021.05.08-22.35.45:497][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2021.05.08-22.35.45:499][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.05.08-22.35.45:499][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.05.08-22.35.45:499][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.05.08-22.35.45:505][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.05.08-22.35.45:505][  0]LogD3D11RHI:     GPU DeviceId: 0x591b (for the marketing name, search the web for "GPU Device Id")
-[2021.05.08-22.35.45:505][  0]LogWindows: EnumDisplayDevices:
-[2021.05.08-22.35.45:505][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2021.05.08-22.35.45:506][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2021.05.08-22.35.45:506][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2021.05.08-22.35.45:506][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2021.05.08-22.35.45:506][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 630
-[2021.05.08-22.35.45:506][  0]LogD3D11RHI:   Driver Version: 23.20.16.4973 (internal:23.20.16.4973, unified:23.20.16.4973)
-[2021.05.08-22.35.45:506][  0]LogD3D11RHI:      Driver Date: 2-28-2018
-[2021.05.08-22.35.45:506][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
-[2021.05.08-22.35.45:706][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2021.05.08-22.35.45:706][  0]LogD3D11RHI: Async texture creation enabled
-[2021.05.08-22.35.45:706][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.05.08-22.35.45:714][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
-[2021.05.08-22.35.46:090][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.05.08-22.35.46:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.05.08-22.35.46:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.05.08-22.35.46:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.05.08-22.35.46:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.05.08-22.35.46:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.05.08-22.35.46:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.05.08-22.35.46:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.05.08-22.35.46:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.05.08-22.35.46:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.05.08-22.35.46:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.05.08-22.35.46:148][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.05.08-22.35.46:148][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.05.08-22.35.46:162][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.05.08-22.35.46:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.05.08-22.35.46:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.05.08-22.35.46:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.05.08-22.35.46:209][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.05.08-22.35.46:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.05.08-22.35.46:233][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.05.08-22.35.46:270][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.05.08-22.35.46:270][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.05.08-22.35.46:291][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.05.08-22.35.46:291][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.05.08-22.35.46:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.05.08-22.35.46:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.05.08-22.35.46:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.05.08-22.35.46:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.05.08-22.35.46:340][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.05.08-22.35.46:349][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.05.08-22.35.46:416][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Intermediate/Shaders/WorkingDirectory/14780/).
-[2021.05.08-22.35.46:417][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealShaderWorkingDir/ED18C6FA4297E69B9D9F1A944AF9A10E/'.
-[2021.05.08-22.35.46:417][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.05.08-22.35.46:417][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.05.08-22.35.46:417][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.05.08-22.35.47:283][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.05.08-22.35.47:344][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.05.08-22.35.47:344][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.05.08-22.35.47:344][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.05.08-22.35.47:344][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.05.08-22.35.47:344][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.05.08-22.35.47:344][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.05.08-22.35.47:356][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.05.08-22.35.47:356][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.05.08-22.35.47:356][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.05.08-22.35.47:358][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.05.08-22.35.47:358][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.05.08-22.35.47:358][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.05.08-22.35.47:417][  0]LogSlate: Using FreeType 2.10.0
-[2021.05.08-22.35.47:418][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.05.08-22.35.47:448][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
-[2021.05.08-22.35.47:701][  0]LogInit: Selected Device Profile: [Windows]
-[2021.05.08-22.35.47:828][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.05.08-22.35.47:828][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.05.08-22.35.47:828][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.05.08-22.35.47:828][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.05.08-22.35.47:828][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.05.08-22.35.47:843][  0]LogNetVersion: DeepWoodland2 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1524458531)
-[2021.05.08-22.35.48:353][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001EFFDCADBC0), frame # 0
-[2021.05.08-22.35.48:353][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EFFEBFEAC0), frame # 0
-[2021.05.08-22.35.48:354][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EFFDC51E00), frame # 0
-[2021.05.08-22.35.48:481][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.066462 seconds
-[2021.05.08-22.35.48:489][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.05.08-22.35.48:489][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.05.08-22.35.48:489][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.05.08-22.35.48:878][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.05.08-22.35.48:883][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.05.08-22.35.48:997][  0]SourceControl: Source control is disabled
-[2021.05.08-22.35.48:997][  0]SourceControl: Source control is disabled
-[2021.05.08-22.35.49:001][  0]SourceControl: Source control is disabled
-[2021.05.08-22.35.49:004][  0]SourceControl: Source control is disabled
-[2021.05.08-22.35.49:012][  0]SourceControl: Source control is disabled
-[2021.05.08-22.35.49:281][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.05.08-22.35.49:303][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.05.08-22.35.49:303][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.05.08-22.35.49:360][  0]LogOcInput: OculusInput pre-init called
-[2021.05.08-22.35.49:374][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.05.08-22.35.49:374][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.05.08-22.35.49:441][  0]LogEngine: Initializing Engine...
-[2021.05.08-22.35.49:443][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.05.08-22.35.49:443][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.05.08-22.35.49:444][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.05.08-22.35.49:623][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.05.08-22.35.49:632][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.05.08-22.35.49:632][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EF836F3C00), frame # 0
-[2021.05.08-22.35.49:632][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EF8373AFC0), frame # 0
-[2021.05.08-22.35.49:637][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.05.08-22.35.49:637][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.05.08-22.35.49:637][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.05.08-22.35.49:637][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.05.08-22.35.49:637][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.05.08-22.35.49:637][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.05.08-22.35.49:637][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.05.08-22.35.49:637][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.05.08-22.35.49:637][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.05.08-22.35.49:637][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.05.08-22.35.49:652][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.05.08-22.35.49:652][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.05.08-22.35.50:188][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2021.05.08-22.35.50:188][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.05.08-22.35.50:191][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.05.08-22.35.50:191][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.05.08-22.35.50:192][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.05.08-22.35.50:193][  0]LogInit: FAudioDevice initialized.
-[2021.05.08-22.35.50:193][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.05.08-22.35.50:697][  0]LogDerivedDataCache: Saved boot cache 0.50s 76MB C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.05.08-22.35.50:697][  0]LogInit: Texture streaming: Enabled
-[2021.05.08-22.35.50:716][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.05.08-22.35.50:716][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.05.08-22.35.50:719][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.05.08-22.35.50:779][  0]LogInit: Transaction tracking system initialized
-[2021.05.08-22.35.50:803][  0]BlueprintLog: New page: Editor Load
-[2021.05.08-22.35.50:877][  0]LocalizationService: Localization service is disabled
-[2021.05.08-22.35.51:256][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.05.08-22.35.51:256][  0]LogCook: Display: Mobile HDR setting 1
-[2021.05.08-22.35.51:390][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/' took 0.02s
-[2021.05.08-22.35.51:641][  0]SourceControl: Source control is disabled
-[2021.05.08-22.35.51:641][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.162
-[2021.05.08-22.35.51:642][  0]LightingResults: New page: Lighting Build
-[2021.05.08-22.35.51:643][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.05.08-22.35.51:643][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.08-22.35.51:643][  0]MapCheck: New page: Map Check
-[2021.05.08-22.35.51:643][  0]LightingResults: New page: Lighting Build
-[2021.05.08-22.35.51:651][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EF836F3C00), frame # 0
-[2021.05.08-22.35.51:651][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EF8373AFC0), frame # 0
-[2021.05.08-22.35.51:652][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
-[2021.05.08-22.35.51:678][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AnimalVarietyPack/Wolf/Animations/WolfAttack.uasset' failed to load '/Game/AnimalVarietyPack/Wolf/Animations/WolfWalkRun': Can't find file.
-[2021.05.08-22.35.51:679][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AnimalVarietyPack/Wolf/Animations/WolfAttack.uasset' failed to load '/Game/AnimalVarietyPack/Wolf/Animations/WolfWalkRun': Can't find file.
-[2021.05.08-22.35.51:698][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AnimalVarietyPack/Wolf/Animations/WolfAttack.uasset' failed to load '/Game/AnimalVarietyPack/Wolf/Animations/WolfWalkRun': Can't find file.
-[2021.05.08-22.35.51:698][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AnimalVarietyPack/Wolf/Animations/WolfAttack.uasset' failed to load '/Game/AnimalVarietyPack/Wolf/Animations/WolfWalkRun': Can't find file.
-[2021.05.08-22.35.51:699][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset' failed to load '/Game/AnimalVarietyPack/Wolf/Animations/WolfWalkRun': Can't find file.
-[2021.05.08-22.35.51:699][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset' failed to load '/Game/AnimalVarietyPack/Wolf/Animations/WolfWalkRun': Can't find file.
-[2021.05.08-22.35.51:699][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset' failed to load '/Game/AnimalVarietyPack/Wolf/Animations/WolfWalkRun': Can't find file.
-[2021.05.08-22.35.51:699][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset' failed to load '/Game/AnimalVarietyPack/Wolf/Animations/WolfWalkRun': Can't find file.
-[2021.05.08-22.35.51:699][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset' failed to load '/Game/AnimalVarietyPack/Wolf/Animations/WolfWalkRun': Can't find file.
-[2021.05.08-22.35.51:700][  0]LoadErrors: Failed to load /Game/AnimalVarietyPack/Wolf/Animations/WolfWalkRun.WolfWalkRun Referenced by Default__WolfAttack_C
-[2021.05.08-22.35.51:700][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/AI/AI_BaseCharacter.uasset' failed to load '/Game/AnimalVarietyPack/Wolf/Animations/WolfWalkRun': Can't find file.
-[2021.05.08-22.35.51:700][  0]LoadErrors: Failed to load /Game/AnimalVarietyPack/Wolf/Animations/WolfWalkRun.WolfWalkRun Referenced by Default__WolfAttack_C
-[2021.05.08-22.35.52:417][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
-[2021.05.08-22.35.52:418][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
-[2021.05.08-22.35.52:418][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
-[2021.05.08-22.35.52:418][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
-[2021.05.08-22.35.52:418][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
-[2021.05.08-22.35.52:418][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
-[2021.05.08-22.35.52:419][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
-[2021.05.08-22.35.52:419][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
-[2021.05.08-22.35.52:419][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
-[2021.05.08-22.35.52:420][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
-[2021.05.08-22.35.52:420][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
-[2021.05.08-22.35.52:420][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
-[2021.05.08-22.35.53:241][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
-[2021.05.08-22.35.53:242][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Roughness.vbwpdg0o_8K_Roughness Referenced by M_terreno_Inst
-[2021.05.08-22.35.53:242][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
-[2021.05.08-22.35.53:242][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Roughness.vbwpdg0o_8K_Roughness Referenced by M_terreno_Inst
-[2021.05.08-22.35.53:242][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
-[2021.05.08-22.35.53:242][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Normal.vbwpdg0o_8K_Normal Referenced by M_terreno_Inst
-[2021.05.08-22.35.53:243][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
-[2021.05.08-22.35.53:243][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Normal.vbwpdg0o_8K_Normal Referenced by M_terreno_Inst
-[2021.05.08-22.35.53:243][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
-[2021.05.08-22.35.53:243][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Albedo.vbwpdg0o_8K_Albedo Referenced by M_terreno_Inst
-[2021.05.08-22.35.53:243][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
-[2021.05.08-22.35.53:243][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Albedo.vbwpdg0o_8K_Albedo Referenced by M_terreno_Inst
-[2021.05.08-22.35.54:731][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2021.05.08-22.35.54:731][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F043897E00), frame # 0
-[2021.05.08-22.35.54:731][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F0438EAC00), frame # 0
-[2021.05.08-22.35.54:924][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/StremingLevels/StreamingLevel1) is flushing async loading
-[2021.05.08-22.35.54:924][  0]LogStreaming: Display: Flushing async loaders.
-[2021.05.08-22.35.55:209][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/StremingLevels/StreamingLevel3) is flushing async loading
-[2021.05.08-22.35.55:282][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/StremingLevels/StreamingLevel4) is flushing async loading
-[2021.05.08-22.35.55:314][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.05.08-22.35.55:582][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
-[2021.05.08-22.35.55:586][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.05.08-22.35.55:587][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.619ms to complete.
-[2021.05.08-22.35.55:587][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.946
-[2021.05.08-22.35.55:589][  0]LogUnrealEdMisc: Total Editor Startup Time, took 13.110
-[2021.05.08-22.35.55:740][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.35.55:751][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.35.55:764][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.35.55:774][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.35.55:782][  0]LogCollectionManager: Loaded 0 collections in 0.002543 seconds
-[2021.05.08-22.35.55:798][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Collections/' took 0.00s
-[2021.05.08-22.35.55:798][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Developers/AlexBazaldua/Collections/' took 0.00s
-[2021.05.08-22.35.55:798][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Collections/' took 0.00s
-[2021.05.08-22.35.55:798][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 3436 classes and 826 folders.
-[2021.05.08-22.35.55:803][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.05.08-22.35.55:876][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.05.08-22.35.55:878][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2021.05.08-22.35.55:888][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
-[2021.05.08-22.35.56:158][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.05.08-22.35.56:163][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.05.08-22.35.56:166][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.05.08-22.35.56:352][  0]LogRenderer: Reallocating scene render targets to support 1144x256 Format 9 NumSamples 1 (Frame:1).
-[2021.05.08-22.35.56:494][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.05.08-22.35.56:494][  0]LogLoad: (Engine Initialization) Total time: 14.01 seconds
-[2021.05.08-22.35.56:494][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.05.08-22.35.56:544][  0]LogAssetRegistry: Asset discovery search completed in 9.0966 seconds
-[2021.05.08-22.35.56:549][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2021.05.08-22.35.56:550][  0]LogContentStreaming: Texture pool size now 400 MB
-[2021.05.08-22.35.56:860][  0]LogRenderer: Reallocating scene render targets to support 1144x260 Format 9 NumSamples 1 (Frame:2).
-[2021.05.08-22.35.56:860][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.05.08-22.35.56:880][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2021.05.08-22.35.58:816][ 48]LogSlate: Window 'Message Log' being destroyed
-[2021.05.08-22.35.58:853][ 48]LogSlate: Window 'Message Log' being destroyed
-[2021.05.08-22.36.02:108][185]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor1)
-[2021.05.08-22.36.11:192][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
-[2021.05.08-22.36.12:466][580]LogSlate: Window 'Save Content' being destroyed
-[2021.05.08-22.36.12:476][580]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.05.08-22.36.12:514][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
-[2021.05.08-22.36.13:497][580]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapF1794287402CFB62D115F9BB055CD536.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2021.05.08-22.36.13:541][580]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.041
-[2021.05.08-22.36.13:662][580]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData44A8320B457EC01C518877B2DF81EC02.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2021.05.08-22.36.13:699][580]AssetCheck: New page: Asset Save: multiple assets
-[2021.05.08-22.36.13:699][580]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
-[2021.05.08-22.36.13:699][580]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
-[2021.05.08-22.36.28:882][328]LogSlate: Window 'Color Picker' being destroyed
-[2021.05.08-22.36.29:673][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
-[2021.05.08-22.36.44:418][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Torre.uasset' failed to load '/Game/Texture/Torre': Can't find file.
-[2021.05.08-22.36.44:418][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Torre.uasset' failed to load '/Game/Texture/Torre': Can't find file.
-[2021.05.08-22.36.44:418][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Torre.uasset' failed to load '/Game/Texture/Torre': Can't find file.
-[2021.05.08-22.36.44:419][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Torre.uasset' failed to load '/Game/Texture/Torre': Can't find file.
-[2021.05.08-22.36.44:419][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Torre.uasset' failed to load '/Game/Texture/Torre': Can't find file.
-[2021.05.08-22.36.44:419][110]LoadErrors: Failed to load /Game/Texture/Torre.Torre Referenced by M_Torre
-[2021.05.08-22.36.44:419][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Torre.uasset' failed to load '/Game/Texture/Torre': Can't find file.
-[2021.05.08-22.36.44:419][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Torre.uasset' failed to load '/Game/Texture/Torre': Can't find file.
-[2021.05.08-22.36.44:419][110]LoadErrors: Failed to load /Game/Texture/Torre.Torre Referenced by MaterialExpressionTextureSample_0
-[2021.05.08-22.36.44:420][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Torre.uasset' failed to load '/Game/Texture/Torre': Can't find file.
-[2021.05.08-22.36.44:421][110]LogMaterial: Display: Missing cached shader map for material M_Torre, compiling. 
-[2021.05.08-22.36.45:351][110]LogMaterial: Warning: C:\Users\TEMP.DESKTOP-DV3H2OO\Documents\GitHub\OptiVideo\OpVideojuegos\DeepWoodland2\Content\Materials\M_Torre.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2021.05.08-22.36.45:351][110]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2021.05.08-22.36.45:352][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas': Can't find file.
-[2021.05.08-22.36.45:352][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas': Can't find file.
-[2021.05.08-22.36.45:352][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Alpha': Can't find file.
-[2021.05.08-22.36.45:352][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Alpha': Can't find file.
-[2021.05.08-22.36.45:353][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Normal': Can't find file.
-[2021.05.08-22.36.45:353][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Normal': Can't find file.
-[2021.05.08-22.36.45:353][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas': Can't find file.
-[2021.05.08-22.36.45:353][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas': Can't find file.
-[2021.05.08-22.36.45:353][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Alpha': Can't find file.
-[2021.05.08-22.36.45:354][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Alpha': Can't find file.
-[2021.05.08-22.36.45:354][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Normal': Can't find file.
-[2021.05.08-22.36.45:354][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Normal': Can't find file.
-[2021.05.08-22.36.45:354][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas': Can't find file.
-[2021.05.08-22.36.45:354][110]LoadErrors: Failed to load /Game/Texture/Buisson_02_Atlas.Buisson_02_Atlas Referenced by M_Arbusto
-[2021.05.08-22.36.45:355][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas': Can't find file.
-[2021.05.08-22.36.45:355][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Alpha': Can't find file.
-[2021.05.08-22.36.45:355][110]LoadErrors: Failed to load /Game/Texture/Buisson_02_Atlas_Alpha.Buisson_02_Atlas_Alpha Referenced by M_Arbusto
-[2021.05.08-22.36.45:355][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Alpha': Can't find file.
-[2021.05.08-22.36.45:355][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Normal': Can't find file.
-[2021.05.08-22.36.45:355][110]LoadErrors: Failed to load /Game/Texture/Buisson_02_Atlas_Normal.Buisson_02_Atlas_Normal Referenced by M_Arbusto
-[2021.05.08-22.36.45:355][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Normal': Can't find file.
-[2021.05.08-22.36.45:356][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas': Can't find file.
-[2021.05.08-22.36.45:356][110]LoadErrors: Failed to load /Game/Texture/Buisson_02_Atlas.Buisson_02_Atlas Referenced by MaterialExpressionTextureSample_0
-[2021.05.08-22.36.45:356][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas': Can't find file.
-[2021.05.08-22.36.45:356][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Alpha': Can't find file.
-[2021.05.08-22.36.45:356][110]LoadErrors: Failed to load /Game/Texture/Buisson_02_Atlas_Alpha.Buisson_02_Atlas_Alpha Referenced by MaterialExpressionTextureSample_1
-[2021.05.08-22.36.45:356][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Alpha': Can't find file.
-[2021.05.08-22.36.45:356][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Normal': Can't find file.
-[2021.05.08-22.36.45:356][110]LoadErrors: Failed to load /Game/Texture/Buisson_02_Atlas_Normal.Buisson_02_Atlas_Normal Referenced by MaterialExpressionTextureSample_2
-[2021.05.08-22.36.45:357][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Arbusto.uasset' failed to load '/Game/Texture/Buisson_02_Atlas_Normal': Can't find file.
-[2021.05.08-22.36.45:395][110]LogMaterial: Display: Missing cached shader map for material M_Arbusto, compiling. 
-[2021.05.08-22.36.45:395][110]LogMaterial: Warning: C:\Users\TEMP.DESKTOP-DV3H2OO\Documents\GitHub\OptiVideo\OpVideojuegos\DeepWoodland2\Content\Materials\M_Arbusto.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2021.05.08-22.36.45:395][110]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2021.05.08-22.36.45:889][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Diffuse_T': Can't find file.
-[2021.05.08-22.36.45:889][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Diffuse_T': Can't find file.
-[2021.05.08-22.36.45:889][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Normal_T': Can't find file.
-[2021.05.08-22.36.45:890][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Normal_T': Can't find file.
-[2021.05.08-22.36.45:890][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Diffuse_T': Can't find file.
-[2021.05.08-22.36.45:890][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Diffuse_T': Can't find file.
-[2021.05.08-22.36.45:890][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Normal_T': Can't find file.
-[2021.05.08-22.36.45:890][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Normal_T': Can't find file.
-[2021.05.08-22.36.45:891][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Normal_T': Can't find file.
-[2021.05.08-22.36.45:891][110]LoadErrors: Failed to load /Game/Texture/Leaf_Normal_T.Leaf_Normal_T Referenced by M_Hoja
-[2021.05.08-22.36.45:891][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Normal_T': Can't find file.
-[2021.05.08-22.36.45:891][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Diffuse_T': Can't find file.
-[2021.05.08-22.36.45:891][110]LoadErrors: Failed to load /Game/Texture/Leaf_Diffuse_T.Leaf_Diffuse_T Referenced by M_Hoja
-[2021.05.08-22.36.45:891][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Diffuse_T': Can't find file.
-[2021.05.08-22.36.45:892][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Normal_T': Can't find file.
-[2021.05.08-22.36.45:892][110]LoadErrors: Failed to load /Game/Texture/Leaf_Normal_T.Leaf_Normal_T Referenced by MaterialExpressionTextureSample_0
-[2021.05.08-22.36.45:892][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Normal_T': Can't find file.
-[2021.05.08-22.36.45:892][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Diffuse_T': Can't find file.
-[2021.05.08-22.36.45:892][110]LoadErrors: Failed to load /Game/Texture/Leaf_Diffuse_T.Leaf_Diffuse_T Referenced by MaterialExpressionTextureSample_1
-[2021.05.08-22.36.45:892][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_Hoja.uasset' failed to load '/Game/Texture/Leaf_Diffuse_T': Can't find file.
-[2021.05.08-22.36.45:894][110]LogMaterial: Display: Missing cached shader map for material M_Hoja, compiling. 
-[2021.05.08-22.36.45:895][110]LogMaterial: Warning: C:\Users\TEMP.DESKTOP-DV3H2OO\Documents\GitHub\OptiVideo\OpVideojuegos\DeepWoodland2\Content\Materials\M_Hoja.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2021.05.08-22.36.45:895][110]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2021.05.08-22.36.46:164][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches': Can't find file.
-[2021.05.08-22.36.46:164][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches': Can't find file.
-[2021.05.08-22.36.46:164][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches3': Can't find file.
-[2021.05.08-22.36.46:164][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches3': Can't find file.
-[2021.05.08-22.36.46:164][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches': Can't find file.
-[2021.05.08-22.36.46:165][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches': Can't find file.
-[2021.05.08-22.36.46:165][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches3': Can't find file.
-[2021.05.08-22.36.46:165][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches3': Can't find file.
-[2021.05.08-22.36.46:165][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches': Can't find file.
-[2021.05.08-22.36.46:165][110]LoadErrors: Failed to load /Game/Texture/scratches.scratches Referenced by M_NuevaBala
-[2021.05.08-22.36.46:166][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches': Can't find file.
-[2021.05.08-22.36.46:166][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches3': Can't find file.
-[2021.05.08-22.36.46:166][110]LoadErrors: Failed to load /Game/Texture/scratches3.scratches3 Referenced by M_NuevaBala
-[2021.05.08-22.36.46:166][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches3': Can't find file.
-[2021.05.08-22.36.46:167][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches': Can't find file.
-[2021.05.08-22.36.46:167][110]LoadErrors: Failed to load /Game/Texture/scratches.scratches Referenced by MaterialExpressionTextureSample_1
-[2021.05.08-22.36.46:167][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches': Can't find file.
-[2021.05.08-22.36.46:167][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches3': Can't find file.
-[2021.05.08-22.36.46:167][110]LoadErrors: Failed to load /Game/Texture/scratches3.scratches3 Referenced by MaterialExpressionTextureSample_2
-[2021.05.08-22.36.46:167][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_NuevaBala.uasset' failed to load '/Game/Texture/scratches3': Can't find file.
-[2021.05.08-22.36.46:168][110]LogMaterial: Display: Missing cached shader map for material M_NuevaBala, compiling. 
-[2021.05.08-22.36.46:169][110]LogMaterial: Warning: C:\Users\TEMP.DESKTOP-DV3H2OO\Documents\GitHub\OptiVideo\OpVideojuegos\DeepWoodland2\Content\Materials\M_NuevaBala.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2021.05.08-22.36.46:169][110]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2021.05.08-22.36.46:170][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo.uasset' failed to load '/Game/Materials/Well_Albedo_tga': Can't find file.
-[2021.05.08-22.36.46:170][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo.uasset' failed to load '/Game/Materials/Well_Albedo_tga': Can't find file.
-[2021.05.08-22.36.46:170][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo.uasset' failed to load '/Game/Materials/Well_Albedo_tga': Can't find file.
-[2021.05.08-22.36.46:171][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo.uasset' failed to load '/Game/Materials/Well_Albedo_tga': Can't find file.
-[2021.05.08-22.36.46:171][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo.uasset' failed to load '/Game/Materials/Well_Albedo_tga': Can't find file.
-[2021.05.08-22.36.46:171][110]LoadErrors: Failed to load /Game/Materials/Well_Albedo_tga.Well_Albedo_tga Referenced by M_pozo
-[2021.05.08-22.36.46:171][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo.uasset' failed to load '/Game/Materials/Well_Albedo_tga': Can't find file.
-[2021.05.08-22.36.46:171][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo.uasset' failed to load '/Game/Materials/Well_Albedo_tga': Can't find file.
-[2021.05.08-22.36.46:172][110]LoadErrors: Failed to load /Game/Materials/Well_Albedo_tga.Well_Albedo_tga Referenced by MaterialExpressionTextureSample_4
-[2021.05.08-22.36.46:172][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo.uasset' failed to load '/Game/Materials/Well_Albedo_tga': Can't find file.
-[2021.05.08-22.36.46:173][110]LogMaterial: Display: Missing cached shader map for material M_pozo, compiling. 
-[2021.05.08-22.36.46:173][110]LogMaterial: Warning: C:\Users\TEMP.DESKTOP-DV3H2OO\Documents\GitHub\OptiVideo\OpVideojuegos\DeepWoodland2\Content\Materials\M_pozo.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2021.05.08-22.36.46:173][110]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2021.05.08-22.36.46:345][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_cuerda.uasset' failed to load '/Game/Materials/Rope_A_tga': Can't find file.
-[2021.05.08-22.36.46:345][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_cuerda.uasset' failed to load '/Game/Materials/Rope_A_tga': Can't find file.
-[2021.05.08-22.36.46:345][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_cuerda.uasset' failed to load '/Game/Materials/Rope_A_tga': Can't find file.
-[2021.05.08-22.36.46:345][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_cuerda.uasset' failed to load '/Game/Materials/Rope_A_tga': Can't find file.
-[2021.05.08-22.36.46:346][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_cuerda.uasset' failed to load '/Game/Materials/Rope_A_tga': Can't find file.
-[2021.05.08-22.36.46:346][110]LoadErrors: Failed to load /Game/Materials/Rope_A_tga.Rope_A_tga Referenced by M_pozo_cuerda
-[2021.05.08-22.36.46:346][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_cuerda.uasset' failed to load '/Game/Materials/Rope_A_tga': Can't find file.
-[2021.05.08-22.36.46:346][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_cuerda.uasset' failed to load '/Game/Materials/Rope_A_tga': Can't find file.
-[2021.05.08-22.36.46:346][110]LoadErrors: Failed to load /Game/Materials/Rope_A_tga.Rope_A_tga Referenced by MaterialExpressionTextureSample_0
-[2021.05.08-22.36.46:346][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_cuerda.uasset' failed to load '/Game/Materials/Rope_A_tga': Can't find file.
-[2021.05.08-22.36.46:347][110]LogMaterial: Display: Missing cached shader map for material M_pozo_cuerda, compiling. 
-[2021.05.08-22.36.46:348][110]LogMaterial: Warning: C:\Users\TEMP.DESKTOP-DV3H2OO\Documents\GitHub\OptiVideo\OpVideojuegos\DeepWoodland2\Content\Materials\M_pozo_cuerda.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2021.05.08-22.36.46:348][110]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2021.05.08-22.36.46:349][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_techo.uasset' failed to load '/Game/Materials/Wood_varA_A_tga': Can't find file.
-[2021.05.08-22.36.46:349][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_techo.uasset' failed to load '/Game/Materials/Wood_varA_A_tga': Can't find file.
-[2021.05.08-22.36.46:350][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_techo.uasset' failed to load '/Game/Materials/Wood_varA_A_tga': Can't find file.
-[2021.05.08-22.36.46:350][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_techo.uasset' failed to load '/Game/Materials/Wood_varA_A_tga': Can't find file.
-[2021.05.08-22.36.46:350][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_techo.uasset' failed to load '/Game/Materials/Wood_varA_A_tga': Can't find file.
-[2021.05.08-22.36.46:350][110]LoadErrors: Failed to load /Game/Materials/Wood_varA_A_tga.Wood_varA_A_tga Referenced by M_pozo_techo
-[2021.05.08-22.36.46:350][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_techo.uasset' failed to load '/Game/Materials/Wood_varA_A_tga': Can't find file.
-[2021.05.08-22.36.46:351][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_techo.uasset' failed to load '/Game/Materials/Wood_varA_A_tga': Can't find file.
-[2021.05.08-22.36.46:351][110]LoadErrors: Failed to load /Game/Materials/Wood_varA_A_tga.Wood_varA_A_tga Referenced by MaterialExpressionTextureSample_0
-[2021.05.08-22.36.46:351][110]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materials/M_pozo_techo.uasset' failed to load '/Game/Materials/Wood_varA_A_tga': Can't find file.
-[2021.05.08-22.36.46:352][110]LogMaterial: Display: Missing cached shader map for material M_pozo_techo, compiling. 
-[2021.05.08-22.36.46:352][110]LogMaterial: Warning: C:\Users\TEMP.DESKTOP-DV3H2OO\Documents\GitHub\OptiVideo\OpVideojuegos\DeepWoodland2\Content\Materials\M_pozo_techo.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2021.05.08-22.36.46:352][110]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2021.05.08-22.37.00:679][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
-[2021.05.08-22.37.03:265][795]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_Hoja.M_Hoja
-[2021.05.08-22.37.03:890][795]LogMaterial: Display: Missing cached shader map for material M_Hoja, compiling. 
-[2021.05.08-22.37.03:891][795]LogMaterial: Warning: /Engine/Transient.M_Hoja (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2021.05.08-22.37.03:891][795]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2021.05.08-22.37.04:826][795]LogMaterial: Display: Missing cached shader map for material M_Hoja, compiling. 
-[2021.05.08-22.37.04:827][795]LogMaterial: Warning: /Engine/Transient.M_Hoja (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2021.05.08-22.37.04:827][795]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2021.05.08-22.37.04:877][795]LogMaterial: Display: Missing cached shader map for material M_Hoja, compiling. 
-[2021.05.08-22.37.04:878][795]LogMaterial: Warning: /Engine/Transient.M_Hoja (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2021.05.08-22.37.04:878][795]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
-[2021.05.08-22.37.04:887][795]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2021.05.08-22.37.04:888][795]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2021.05.08-22.37.04:954][795]LogMaterial: Display: Missing cached shader map for material M_Hoja, compiling. 
-[2021.05.08-22.37.04:955][795]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
-[2021.05.08-22.37.04:965][795]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2021.05.08-22.37.07:046][835]LogSlate: Window 'M_Hoja' being destroyed
-[2021.05.08-22.37.07:082][835]LogSlate: Window 'M_Hoja' being destroyed
-[2021.05.08-22.37.07:164][835]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2021.05.08-22.37.07:164][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.08-22.37.29:074][301]LogStaticMesh: Building static mesh SM_FINALE_PARK_AREA...
-[2021.05.08-22.37.29:300][301]LogStaticMesh: Built static mesh [0.23s] /Game/Geometry/ObjetosMigrados/ObjetosOptimizados/SM_FINALE_PARK_AREA.SM_FINALE_PARK_AREA
-[2021.05.08-22.37.30:017][301]LogStaticMesh: Building static mesh SM_MERGED_PINOS1...
-[2021.05.08-22.37.37:595][301]LogStaticMesh: Built static mesh [7.58s] /Game/Geometry/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS1.SM_MERGED_PINOS1
-[2021.05.08-22.37.42:917][301]LogStaticMesh: Building static mesh SM_MERGED_PINOS2...
-[2021.05.08-22.37.54:145][301]LogStaticMesh: Built static mesh [11.23s] /Game/Geometry/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS2.SM_MERGED_PINOS2
-[2021.05.08-22.37.58:594][301]LogStaticMesh: Building static mesh SM_MERGED_PINOS3...
-[2021.05.08-22.38.11:924][301]LogStaticMesh: Built static mesh [13.52s] /Game/Geometry/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS3.SM_MERGED_PINOS3
-[2021.05.08-22.38.14:796][301]LogStaticMesh: Building static mesh SM_MERGED_PINOS5...
-[2021.05.08-22.38.22:089][301]LogStaticMesh: Built static mesh [7.29s] /Game/Geometry/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS5.SM_MERGED_PINOS5
-[2021.05.08-22.38.23:698][301]LogStaticMesh: Building static mesh SM_MERGED_PINOS6...
-[2021.05.08-22.38.28:528][301]LogStaticMesh: Built static mesh [4.83s] /Game/Geometry/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_PINOS6.SM_MERGED_PINOS6
-[2021.05.08-22.38.33:974][301]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/SM_MERGED_SM_PinosInicialesEA88BC0A46DD5CAEC9275CB725365A06.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Modelos/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_SM_PinosIniciales.uasset'
-[2021.05.08-22.38.34:105][301]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/SM_MERGED_SM_PinosIniciales878297E64A2D8709669569B049089BED.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_SM_PinosIniciales.uasset'
-[2021.05.08-22.38.34:579][301]AssetCheck: New page: Asset Save: multiple assets
-[2021.05.08-22.38.34:579][301]LogContentValidation: Display: Validating StaticMesh /Game/Modelos/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_SM_PinosIniciales.SM_MERGED_SM_PinosIniciales
-[2021.05.08-22.38.34:579][301]LogContentValidation: Display: Validating ObjectRedirector /Game/ObjetosMigrados/ObjetosOptimizados/SM_MERGED_SM_PinosIniciales.SM_MERGED_SM_PinosIniciales
-[2021.05.08-22.39.24:282][363]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Modelos/BandeReco.BandeReco
-[2021.05.08-22.39.24:936][363]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2021.05.08-22.39.24:936][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.08-22.39.25:340][364]LogRenderer: Reallocating scene render targets to support 1144x280 Format 9 NumSamples 1 (Frame:1).
-[2021.05.08-22.39.26:590][386]LogSlate: Window 'BandeReco' being destroyed
-[2021.05.08-22.39.26:629][386]LogSlate: Window 'BandeReco' being destroyed
-[2021.05.08-22.39.26:650][386]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
-[2021.05.08-22.39.26:650][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.08-22.39.30:188][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
-[2021.05.08-22.39.31:010][446]LogSlate: Window 'Save Content' being destroyed
-[2021.05.08-22.39.31:084][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
-[2021.05.08-22.39.32:046][446]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapCA71F1854B35ACD9716577823ED38E0F.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2021.05.08-22.39.32:088][446]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.017
-[2021.05.08-22.39.32:177][446]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataFCC8E1964E1D30E4FB48DC8938A36D80.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2021.05.08-22.39.32:209][446]AssetCheck: New page: Asset Save: multiple assets
-[2021.05.08-22.39.32:209][446]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
-[2021.05.08-22.39.32:209][446]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
-[2021.05.08-22.39.33:049][467]LogRenderer: Reallocating scene render targets to support 1144x332 Format 9 NumSamples 1 (Frame:5827).
-[2021.05.08-22.39.33:147][468]LogRenderer: Reallocating scene render targets to support 1144x364 Format 9 NumSamples 1 (Frame:5831).
-[2021.05.08-22.39.46:292][934]MapCheck: New page: Map Check
-[2021.05.08-22.39.46:441][934]LightingResults: New page: Lighting Build - May 8, 2021, 12:39:46 PM
-[2021.05.08-22.39.46:497][934]LightingResults: Warning: InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD. Lighting on LOD 1+ may be incorrect unless lightmap UVs are the same for all LODs.
-[2021.05.08-22.39.46:497][934]LightingResults: Warning: InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD. Lighting on LOD 1+ may be incorrect unless lightmap UVs are the same for all LODs.
-[2021.05.08-22.39.46:497][934]LightingResults: Warning: InstancedFoliageActor_0 The total lightmap size for this InstancedStaticMeshComponent is large, consider reducing the component's lightmap resolution or number of mesh instances in this component
-[2021.05.08-22.39.49:480][934]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2021.05.08-22.39.51:471][934]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2021.05.08-22.39.51:637][934]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2021.05.08-22.39.56:158][934]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
-[2021.05.08-22.39.56:548][934]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
-
-Server stack trace: 
-   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
-   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
-   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
-   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
-   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
-   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
-
-Exception rethrown at [0]: 
-   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
-   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
-   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
-   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Editor\SwarmInterface\DotNET\SwarmInterface.cs:line 2811
-[2021.05.08-22.40.03:785][934]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2021.05.08-22.40.03:785][934]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14780
-[2021.05.08-22.40.22:918][934]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
-[2021.05.08-22.40.23:586][934]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2021.05.08-22.40.23:586][934]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2021.05.08-22.40.23:586][934]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2021.05.08-22.40.23:586][934]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2021.05.08-22.40.23:586][934]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2021.05.08-22.40.36:442][934]LogEditorBuildUtils: Build time 0:50
-[2021.05.08-22.40.36:482][934]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_8, compiling. 
-[2021.05.08-22.40.36:742][934]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_8, compiling. 
-[2021.05.08-22.40.36:802][934]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
-[2021.05.08-22.40.36:802][934]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2021.05.08-22.40.37:332][936]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
-[2021.05.08-22.40.37:332][936]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_284, compiling. 
-[2021.05.08-22.40.37:633][936]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_284, compiling. 
-[2021.05.08-22.40.37:867][942]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_322, compiling. 
-[2021.05.08-22.40.37:872][942]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_322, compiling. 
-[2021.05.08-22.40.38:004][944]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_329, compiling. 
-[2021.05.08-22.40.38:008][944]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_329, compiling. 
-[2021.05.08-22.40.38:094][946]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_355, compiling. 
-[2021.05.08-22.40.38:116][946]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_355, compiling. 
-[2021.05.08-22.40.38:510][956]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_pistolita, compiling. 
-[2021.05.08-22.40.38:548][956]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_pistolita, compiling. 
-[2021.05.08-22.40.38:694][957]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Trap, compiling. 
-[2021.05.08-22.40.38:731][957]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Trap, compiling. 
-[2021.05.08-22.40.38:751][958]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Caseta, compiling. 
-[2021.05.08-22.40.38:754][958]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Caseta, compiling. 
-[2021.05.08-22.40.38:790][959]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Spruce_Leaves_01, compiling. 
-[2021.05.08-22.40.38:819][959]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Spruce_Leaves_01, compiling. 
-[2021.05.08-22.40.38:845][959]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Spruce_Leaves_01, compiling. 
-[2021.05.08-22.40.38:860][960]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Spruce_Bark_01, compiling. 
-[2021.05.08-22.40.38:975][960]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Spruce_Bark_01, compiling. 
-[2021.05.08-22.40.39:015][961]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Spruce_Billboard_01, compiling. 
-[2021.05.08-22.40.39:031][961]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Spruce_Billboard_01, compiling. 
-[2021.05.08-22.40.39:092][961]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Spruce_Billboard_01, compiling. 
-[2021.05.08-22.40.39:110][962]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete, compiling. 
-[2021.05.08-22.40.39:120][962]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete, compiling. 
-[2021.05.08-22.40.39:191][963]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wood, compiling. 
-[2021.05.08-22.40.39:261][963]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wood, compiling. 
-[2021.05.08-22.40.39:278][964]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_fence, compiling. 
-[2021.05.08-22.40.39:285][964]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_fence, compiling. 
-[2021.05.08-22.40.39:354][964]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_fence, compiling. 
-[2021.05.08-22.40.39:369][965]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_SignalWood, compiling. 
-[2021.05.08-22.40.39:407][965]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_SignalWood, compiling. 
-[2021.05.08-22.40.39:498][966]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_SignalWolf, compiling. 
-[2021.05.08-22.40.39:501][966]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_SignalWolf, compiling. 
-[2021.05.08-22.40.39:517][967]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Metallic, compiling. 
-[2021.05.08-22.40.39:607][967]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Metallic, compiling. 
-[2021.05.08-22.40.39:680][968]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_AvisoLetrero, compiling. 
-[2021.05.08-22.40.39:719][968]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_AvisoLetrero, compiling. 
-[2021.05.08-22.40.39:780][969]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_TiroLetrero, compiling. 
-[2021.05.08-22.40.39:782][969]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_TiroLetrero, compiling. 
-[2021.05.08-22.40.39:821][970]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Bush_Leaves_01, compiling. 
-[2021.05.08-22.40.39:826][970]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Bush_Leaves_01, compiling. 
-[2021.05.08-22.40.39:867][970]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Bush_Leaves_01, compiling. 
-[2021.05.08-22.40.39:915][971]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Fern_01, compiling. 
-[2021.05.08-22.40.39:919][971]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Fern_01, compiling. 
-[2021.05.08-22.40.39:960][971]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Fern_01, compiling. 
-[2021.05.08-22.40.39:983][972]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BogMyrtle_01_Fronds_Mat, compiling. 
-[2021.05.08-22.40.40:064][972]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BogMyrtle_01_Fronds_Mat, compiling. 
-[2021.05.08-22.40.40:068][972]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BogMyrtle_01_Fronds_Mat, compiling. 
-[2021.05.08-22.40.40:085][973]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BogMyrtle_01_Billboard_Mat, compiling. 
-[2021.05.08-22.40.40:090][973]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BogMyrtle_01_Billboard_Mat, compiling. 
-[2021.05.08-22.40.40:097][973]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BogMyrtle_01_Billboard_Mat, compiling. 
-[2021.05.08-22.40.40:130][974]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_MediumBoulder_002, compiling. 
-[2021.05.08-22.40.40:284][974]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_MediumBoulder_002, compiling. 
-[2021.05.08-22.40.40:472][975]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_cable_spool, compiling. 
-[2021.05.08-22.40.40:672][975]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_cable_spool, compiling. 
-[2021.05.08-22.40.40:697][976]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Tex_0081_1_dds, compiling. 
-[2021.05.08-22.40.40:746][976]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Tex_0081_1_dds, compiling. 
-[2021.05.08-22.40.40:763][977]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 01_-_Default, compiling. 
-[2021.05.08-22.40.40:794][977]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 01_-_Default, compiling. 
-[2021.05.08-22.40.40:831][978]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material__0, compiling. 
-[2021.05.08-22.40.40:864][978]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material__0, compiling. 
-[2021.05.08-22.40.41:090][981]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Luz, compiling. 
-[2021.05.08-22.40.41:115][981]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Luz, compiling. 
-[2021.05.08-22.40.41:181][982]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Lamp, compiling. 
-[2021.05.08-22.40.41:258][982]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Lamp, compiling. 
-[2021.05.08-22.40.41:350][983]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Bridge, compiling. 
-[2021.05.08-22.40.41:353][983]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Bridge, compiling. 
-[2021.05.08-22.40.41:539][984]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_OldCar, compiling. 
-[2021.05.08-22.40.41:543][984]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_OldCar, compiling. 
-[2021.05.08-22.40.41:739][985]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_casetaCambio, compiling. 
-[2021.05.08-22.40.41:743][985]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_casetaCambio, compiling. 
-[2021.05.08-22.40.41:758][986]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Pickup_Body, compiling. 
-[2021.05.08-22.40.41:806][986]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Pickup_Body, compiling. 
-[2021.05.08-22.40.41:846][987]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_InstructLetrero, compiling. 
-[2021.05.08-22.40.41:850][987]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_InstructLetrero, compiling. 
-[2021.05.08-22.40.42:300][988]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_BigLetrero, compiling. 
-[2021.05.08-22.40.42:368][988]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_BigLetrero, compiling. 
-[2021.05.08-22.40.42:414][989]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Train_BoxCar_rad, compiling. 
-[2021.05.08-22.40.42:462][989]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Train_BoxCar_rad, compiling. 
-[2021.05.08-22.40.42:507][990]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_CerdoLEtrero, compiling. 
-[2021.05.08-22.40.42:511][990]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_CerdoLEtrero, compiling. 
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 163
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 153
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 143
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 133
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 123
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 113
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 103
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 93
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 83
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 73
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 63
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 53
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 43
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 33
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
-[2021.05.08-22.41.10:312][992]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
-[2021.05.08-22.41.15:256][  6]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2021.05.08-22.41.20:627][ 79]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor1)
-[2021.05.08-22.41.49:580][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
-[2021.05.08-22.42.24:436][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
-[2021.05.08-22.42.25:519][160]LogSlate: Window 'Save Content' being destroyed
-[2021.05.08-22.42.25:582][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
-[2021.05.08-22.42.26:805][160]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapD026031C4837C7F432E6A580CE30FB29.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2021.05.08-22.42.26:847][160]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.302
-[2021.05.08-22.42.26:930][160]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData5A162FAA4F71FE19F7F87DA23431113D.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2021.05.08-22.42.26:950][160]AssetCheck: New page: Asset Save: multiple assets
-[2021.05.08-22.42.26:950][160]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
-[2021.05.08-22.42.26:950][160]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
-[2021.05.08-22.44.13:580][315]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
-[2021.05.08-22.44.14:380][315]LogSlate: Window 'Save Content' being destroyed
-[2021.05.08-22.44.14:625][315]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/1-DrivingCar5BB01D16410CC65F884397851E0534B8.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/1-DrivingCar.uasset'
-[2021.05.08-22.44.15:030][315]AssetCheck: New page: Asset Save: 1-DrivingCar
-[2021.05.08-22.44.15:030][315]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/1-DrivingCar.1-DrivingCar
-[2021.05.08-22.44.23:362][494]LogStaticLightingSystem: Warning: Failed to build lighting!!! Lighting build canceled.
-[2021.05.08-22.44.24:097][494]Job has failed! Job is closed while Tasks are still PENDING
-[2021.05.08-22.44.24:099][494]DumpUnbuiltLightIteractions
-[2021.05.08-22.44.24:099][494]Lights with unbuilt interactions: 1
-[2021.05.08-22.44.24:099][494]    Light PointLight_1
-[2021.05.08-22.44.24:099][494]
-[2021.05.08-22.44.24:099][494]Primitives with unbuilt interactions: 4
-[2021.05.08-22.44.24:099][494]    Primitive FoliageInstancedStaticMeshComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_8
-[2021.05.08-22.44.24:099][494]    Primitive StaticMeshComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.RuinHouseNoBox_Cylinder8.StaticMeshComponent0
-[2021.05.08-22.44.24:099][494]    Primitive StaticMeshComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.RuinHouseNoBox_Cylinder7.StaticMeshComponent0
-[2021.05.08-22.44.24:099][494]    Primitive LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_18
-[2021.05.08-22.44.24:704][495]Cmd: MAP CHECK NOTIFYRESULTS
-[2021.05.08-22.44.24:705][495]MapCheck: New page: ThirdPersonExampleMap - May 8, 2021, 12:44:24 PM
-[2021.05.08-22.44.24:775][495]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
-[2021.05.08-22.44.25:256][495]MapCheck: Warning: BogMyrtleBush_01_11 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
-[2021.05.08-22.44.25:256][495]MapCheck: Warning: BogMyrtleBush_14 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
-[2021.05.08-22.44.25:257][495]MapCheck: Warning: BogMyrtleBush_17 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
-[2021.05.08-22.44.25:277][495]MapCheck: Warning: BogMyrtleBush_40 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
-[2021.05.08-22.44.25:347][495]MapCheck: Warning: BogMyrtleBush_5 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
-[2021.05.08-22.44.25:348][495]MapCheck: Warning: BogMyrtleBush_6 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
-[2021.05.08-22.44.25:348][495]MapCheck: Warning: BogMyrtleBush_7 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
-[2021.05.08-22.44.25:349][495]MapCheck: Warning: BogMyrtleBush_8 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
-[2021.05.08-22.44.25:399][495]MapCheck: Warning: SM_Lamp_Cylinder_PhysicsAsset_13 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
-[2021.05.08-22.44.25:399][495]MapCheck: Warning: SM_Lamp_Cylinder_PhysicsAsset_13 Skeletal mesh actor has NULL SkeletalMesh property 
-[2021.05.08-22.44.25:399][495]MapCheck: Warning: SM_Lamp_Sphere_PhysicsAsset_21 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
-[2021.05.08-22.44.25:399][495]MapCheck: Warning: SM_Lamp_Sphere_PhysicsAsset_21 Skeletal mesh actor has NULL SkeletalMesh property 
-[2021.05.08-22.44.25:399][495]MapCheck: Warning: SM_Lamp_Sphere_PhysicsAsset2_25 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
-[2021.05.08-22.44.25:400][495]MapCheck: Warning: SM_Lamp_Sphere_PhysicsAsset2_25 Skeletal mesh actor has NULL SkeletalMesh property 
-[2021.05.08-22.44.25:400][495]MapCheck: Warning: SM_Lamp_Cylinder_PhysicsAsset2_27 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
-[2021.05.08-22.44.25:400][495]MapCheck: Warning: SM_Lamp_Cylinder_PhysicsAsset2_27 Skeletal mesh actor has NULL SkeletalMesh property 
-[2021.05.08-22.44.25:402][495]MapCheck: Warning: BP_Agua_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
-[2021.05.08-22.44.25:402][495]MapCheck: Map check complete: 1 Error(s), 17 Warning(s), took 698.194ms to complete.
-[2021.05.08-22.44.32:730][623]LogSlate: Window 'Message Log' being destroyed
-[2021.05.08-22.44.32:756][623]LogSlate: Window 'Message Log' being destroyed
-[2021.05.08-22.44.48:814][956]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2021.05.08-22.44.49:598][956]BlueprintLog: New page: Pre-Play auto-recompile
-[2021.05.08-22.44.49:687][956]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
-[2021.05.08-22.44.50:208][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
-[2021.05.08-22.44.50:214][956]LogPlayLevel: PlayLevel: Blueprint regeneration took 617 ms (1 blueprints)
-[2021.05.08-22.44.50:225][956]PIE: New page: PIE session: ThirdPersonExampleMap (May 8, 2021, 12:44:50 PM)
-[2021.05.08-22.44.50:456][956]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2021.05.08-22.44.50:464][956]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2021.05.08-22.44.50:467][956]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2021.05.08-22.44.51:046][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.578553s)
-[2021.05.08-22.44.51:059][956]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2021.05.08-22.44.51:068][956]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F0A850FA00), frame # 7956
-[2021.05.08-22.44.51:068][956]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F08ACE1580), frame # 7956
-[2021.05.08-22.44.51:077][956]LogPlayLevel: PIE: World Init took: (0.030251s)
-[2021.05.08-22.44.51:078][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.610936s)
-[2021.05.08-22.44.51:101][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
-[2021.05.08-22.44.51:112][956]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.05.08-22.44.51:112][956]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.05.08-22.44.51:112][956]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.05.08-22.44.51:112][956]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.05.08-22.44.51:112][956]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.05.08-22.44.51:112][956]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.05.08-22.44.51:112][956]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.05.08-22.44.51:113][956]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.05.08-22.44.51:113][956]LogAudio: Display: Using built-in audio occlusion.
-[2021.05.08-22.44.51:113][956]LogAudioMixer: Display: Initializing audio mixer.
-[2021.05.08-22.44.51:129][956]LogAudioMixer: Display: 0: FrontLeft
-[2021.05.08-22.44.51:129][956]LogAudioMixer: Display: 1: FrontRight
-[2021.05.08-22.44.51:424][956]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2021.05.08-22.44.51:424][956]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.05.08-22.44.51:424][956]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.05.08-22.44.51:442][956]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.05.08-22.44.51:488][956]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.05.08-22.44.51:490][956]LogInit: FAudioDevice initialized.
-[2021.05.08-22.44.51:557][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.44.51:561][956]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2021.05.08-22.44.51:886][956]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.05.08-17.44.51
-[2021.05.08-22.44.52:148][956]LogWorld: Bringing up level for play took: 0.399057
-[2021.05.08-22.44.52:151][956]LogOnline: OSS: Creating online subsystem instance for: :Context_9
-[2021.05.08-22.44.52:295][956]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0202 seconds. Added 20 classes and 0 folders.
-[2021.05.08-22.44.52:384][956]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] 3
-[2021.05.08-22.44.52:478][956]PIE: Server logged in
-[2021.05.08-22.44.52:480][956]PIE: Play in editor total start time 3.257 seconds.
-[2021.05.08-22.44.53:392][962]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.061012 > MaxSimulationTimeStep (0.050) for 'AI_BaseCharacter2', movement 'Walking'
-[2021.05.08-22.44.53:451][963]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.058640 > MaxSimulationTimeStep (0.050) for 'AI_BaseCharacter2', movement 'Walking'
-[2021.05.08-22.44.53:507][964]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.056014 > MaxSimulationTimeStep (0.050) for 'AI_BaseCharacter2', movement 'Walking'
-[2021.05.08-22.44.53:567][965]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.059056 > MaxSimulationTimeStep (0.050) for 'AI_BaseCharacter2', movement 'Walking'
-[2021.05.08-22.44.54:781][988]LogRenderer: Reallocating scene render targets to support 1144x400 Format 9 NumSamples 1 (Frame:33).
-[2021.05.08-22.44.56:676][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
-[2021.05.08-22.45.13:463][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.45.13:463][783]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2021.05.08-22.45.13:707][783]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
-[2021.05.08-22.45.14:416][783]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2021.05.08-22.45.14:470][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.08-22.45.14:483][783]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.05.08-22.45.14:507][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.08-22.45.14:724][783]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F08ACE1580), frame # 8783
-[2021.05.08-22.45.14:724][783]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F0A850FA00), frame # 8783
-[2021.05.08-22.45.14:787][783]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
-[2021.05.08-22.45.14:848][784]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2021.05.08-22.45.14:863][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
-[2021.05.08-22.45.15:225][794]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
-[2021.05.08-22.45.16:389][815]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Spruce_50)
-[2021.05.08-22.45.32:356][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush_33)
-[2021.05.08-22.45.43:096][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
-[2021.05.08-22.45.44:007][891]LogSlate: Window 'Save Content' being destroyed
-[2021.05.08-22.45.44:048][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
-[2021.05.08-22.45.45:031][891]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapFE9EC85C41A89F067F62818C15E04F1B.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2021.05.08-22.45.45:074][891]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.040
-[2021.05.08-22.45.45:170][891]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltDataB45A913341B5592B3B7332BCA09682D7.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2021.05.08-22.45.45:194][891]AssetCheck: New page: Asset Save: multiple assets
-[2021.05.08-22.45.45:194][891]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
-[2021.05.08-22.45.45:194][891]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
-[2021.05.08-22.45.48:098][  8]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2021.05.08-22.45.48:124][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.05.08-22.45.48:124][  8]PIE: New page: PIE session: ThirdPersonExampleMap (May 8, 2021, 12:45:48 PM)
-[2021.05.08-22.45.48:124][  8]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2021.05.08-22.45.48:224][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100705s)
-[2021.05.08-22.45.48:226][  8]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2021.05.08-22.45.48:226][  8]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F043895600), frame # 10008
-[2021.05.08-22.45.48:226][  8]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F047494A40), frame # 10008
-[2021.05.08-22.45.48:226][  8]LogPlayLevel: PIE: World Init took: (0.001674s)
-[2021.05.08-22.45.48:226][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.102592s)
-[2021.05.08-22.45.48:239][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
-[2021.05.08-22.45.48:241][  8]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.05.08-22.45.48:241][  8]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.05.08-22.45.48:241][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.05.08-22.45.48:241][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.05.08-22.45.48:241][  8]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.05.08-22.45.48:241][  8]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.05.08-22.45.48:241][  8]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.05.08-22.45.48:241][  8]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.05.08-22.45.48:241][  8]LogAudio: Display: Using built-in audio occlusion.
-[2021.05.08-22.45.48:241][  8]LogAudioMixer: Display: Initializing audio mixer.
-[2021.05.08-22.45.48:243][  8]LogAudioMixer: Display: 0: FrontLeft
-[2021.05.08-22.45.48:244][  8]LogAudioMixer: Display: 1: FrontRight
-[2021.05.08-22.45.48:351][  8]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2021.05.08-22.45.48:351][  8]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.05.08-22.45.48:351][  8]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.05.08-22.45.48:351][  8]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.05.08-22.45.48:351][  8]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.05.08-22.45.48:367][  8]LogInit: FAudioDevice initialized.
-[2021.05.08-22.45.48:413][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.45.48:413][  8]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2021.05.08-22.45.48:451][  8]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.05.08-17.45.48
-[2021.05.08-22.45.48:453][  8]LogWorld: Bringing up level for play took: 0.039175
-[2021.05.08-22.45.48:453][  8]LogOnline: OSS: Creating online subsystem instance for: :Context_10
-[2021.05.08-22.45.48:591][  8]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] 3
-[2021.05.08-22.45.48:595][  8]PIE: Server logged in
-[2021.05.08-22.45.48:596][  8]PIE: Play in editor total start time 0.473 seconds.
-[2021.05.08-22.45.48:979][ 12]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.057162 > MaxSimulationTimeStep (0.050) for 'AI_BaseCharacter2', movement 'Walking'
-[2021.05.08-22.45.49:035][ 13]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.056392 > MaxSimulationTimeStep (0.050) for 'AI_BaseCharacter2', movement 'Walking'
-[2021.05.08-22.45.49:099][ 14]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062597 > MaxSimulationTimeStep (0.050) for 'AI_BaseCharacter2', movement 'Walking'
-[2021.05.08-22.45.51:251][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
-[2021.05.08-22.46.58:877][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.46.58:877][823]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2021.05.08-22.46.58:878][823]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
-[2021.05.08-22.46.58:928][823]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2021.05.08-22.46.58:934][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.08-22.46.58:945][823]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.05.08-22.46.58:948][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.08-22.46.58:997][823]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F047494A40), frame # 12823
-[2021.05.08-22.46.58:997][823]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F043895600), frame # 12823
-[2021.05.08-22.46.59:001][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
-[2021.05.08-22.46.59:038][824]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2021.05.08-22.46.59:055][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
-[2021.05.08-22.47.02:013][891]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Cinematics/1-DrivingCar.1-DrivingCar
-[2021.05.08-22.47.13:055][193]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Cinematics/Inicio/DriveCut1.DriveCut1
-[2021.05.08-22.47.14:775][220]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/DriveCut19E801A3F464251972741828C83A9E1DB.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/Inicio/DriveCut1.uasset'
-[2021.05.08-22.47.14:792][220]AssetCheck: New page: Asset Save: DriveCut1
-[2021.05.08-22.47.14:792][220]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/Inicio/DriveCut1.DriveCut1
-[2021.05.08-22.47.20:022][369]Cmd: TRANSACTION UNDO
-[2021.05.08-22.47.20:022][369]LogEditorTransaction: Undo Create Camera Here
-[2021.05.08-22.47.54:522][811]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor1)
-[2021.05.08-22.48.25:011][945]LogSlate: Took 0.049671 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2021.05.08-22.48.35:632][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
-[2021.05.08-22.48.36:504][175]LogSlate: Window 'Save Content' being destroyed
-[2021.05.08-22.48.36:542][175]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/DriveCut156282DFE461D9ED1DC45F5B1CCA189C1.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/Inicio/DriveCut1.uasset'
-[2021.05.08-22.48.36:557][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
-[2021.05.08-22.48.37:491][175]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapA86F7E564E532E989A31C68B91157E95.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2021.05.08-22.48.37:534][175]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.991
-[2021.05.08-22.48.37:622][175]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData05D087F240729112231E54943BBC36A3.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2021.05.08-22.48.37:651][175]AssetCheck: New page: Asset Save: multiple assets
-[2021.05.08-22.48.37:651][175]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/Inicio/DriveCut1.DriveCut1
-[2021.05.08-22.48.37:652][175]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
-[2021.05.08-22.48.37:652][175]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
-[2021.05.08-22.48.47:954][569]Cmd: TRANSACTION UNDO
-[2021.05.08-22.48.47:954][569]LogEditorTransaction: Undo Set Key Value
-[2021.05.08-22.48.49:397][617]Cmd: TRANSACTION UNDO
-[2021.05.08-22.48.49:398][617]LogEditorTransaction: Undo Set Key Value
-[2021.05.08-22.48.57:193][910]Cmd: TRANSACTION UNDO
-[2021.05.08-22.48.57:193][910]LogEditorTransaction: Undo Set Key Value
-[2021.05.08-22.49.16:550][660]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
-[2021.05.08-22.49.17:405][660]LogSlate: Window 'Save Content' being destroyed
-[2021.05.08-22.49.17:448][660]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/DriveCut1E63F9B0C44527A19F03EAB84619F27D3.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/Inicio/DriveCut1.uasset'
-[2021.05.08-22.49.17:463][660]AssetCheck: New page: Asset Save: DriveCut1
-[2021.05.08-22.49.17:463][660]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/Inicio/DriveCut1.DriveCut1
-[2021.05.08-22.49.58:566][270]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/DriveCut19DF4F0DA4E15E17D3D67E08375B1C131.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/Inicio/DriveCut1.uasset'
-[2021.05.08-22.49.58:584][270]AssetCheck: New page: Asset Save: DriveCut1
-[2021.05.08-22.49.58:585][270]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/Inicio/DriveCut1.DriveCut1
-[2021.05.08-22.49.59:694][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
-[2021.05.08-22.50.42:848][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
-[2021.05.08-22.50.43:732][170]LogSlate: Window 'Save Content' being destroyed
-[2021.05.08-22.50.43:781][170]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/DriveCut11D9DBD3145534F33C6A22EB8D2A8E35D.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/Inicio/DriveCut1.uasset'
-[2021.05.08-22.50.43:793][170]AssetCheck: New page: Asset Save: DriveCut1
-[2021.05.08-22.50.43:793][170]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/Inicio/DriveCut1.DriveCut1
-[2021.05.08-22.50.49:500][451]LogRenderer: Reallocating scene render targets to support 1144x412 Format 9 NumSamples 1 (Frame:25826).
-[2021.05.08-22.50.49:548][452]LogRenderer: Reallocating scene render targets to support 1144x416 Format 9 NumSamples 1 (Frame:25828).
-[2021.05.08-22.50.49:595][453]LogRenderer: Reallocating scene render targets to support 1144x424 Format 9 NumSamples 1 (Frame:25830).
-[2021.05.08-22.50.49:639][454]LogRenderer: Reallocating scene render targets to support 1144x432 Format 9 NumSamples 1 (Frame:25832).
-[2021.05.08-22.50.49:691][455]LogRenderer: Reallocating scene render targets to support 1144x440 Format 9 NumSamples 1 (Frame:25834).
-[2021.05.08-22.50.49:751][457]LogRenderer: Reallocating scene render targets to support 1144x444 Format 9 NumSamples 1 (Frame:25836).
-[2021.05.08-22.50.59:606][911]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Cinematics/1-DrivingCar.1-DrivingCar
-[2021.05.08-22.51.51:373][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
-[2021.05.08-22.51.52:351][304]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap4BC3674D4E3EC0AC4F6F1C93B6A4BFCE.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2021.05.08-22.51.52:501][304]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData32AE8A9E464B29CF8034279BA454465F.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2021.05.08-22.51.52:522][304]AssetCheck: New page: Asset Save: multiple assets
-[2021.05.08-22.51.52:522][304]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
-[2021.05.08-22.51.52:522][304]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
-[2021.05.08-22.51.54:178][379]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
-[2021.05.08-22.52.17:498][844]LogSlate: Window 'Movie Render Queue' being destroyed
-[2021.05.08-22.52.17:518][844]LogSlate: Window 'Movie Render Queue' being destroyed
-[2021.05.08-22.52.38:213][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.52.38:221][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.53.03:666][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.53.03:672][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.53.05:246][368]LogEditorViewport: Clicking Background
-[2021.05.08-22.53.12:008][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.53.15:261][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.08-22.53.51:301][760]LogSlate: Window 'Render Movie Settings' being destroyed
-[2021.05.08-22.53.56:628][ 73]LogHttp: Warning: 000001F11F694100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9B8C3733-4202-500D-EA8C-6683ECC79779%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=c5d0b274478d9ab3bedac89f0c53462d%7Ca9f3595f1f9a43ee9a657e1d4e7d61ea%7Cd7df89a8-7e04-48f2-8fba-96b552423cfb&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
-[2021.05.08-22.53.56:628][ 73]LogHttp: Warning: 000001F11F694100: request failed, libcurl error: 0 (No error)
-[2021.05.08-22.53.56:628][ 73]LogHttp: Warning: 000001F11F694100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1efdc807f70 [can pipeline])
-[2021.05.08-22.53.56:628][ 73]LogHttp: Warning: 000001F11F694100: libcurl info message cache 1 (Re-using existing connection! (#9) with host datarouter.ol.epicgames.com)
-[2021.05.08-22.53.56:628][ 73]LogHttp: Warning: 000001F11F694100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.85.34.183) port 443 (#9))
-[2021.05.08-22.53.56:628][ 73]LogHttp: Warning: 000001F11F694100: libcurl info message cache 3 (We are completely uploaded and fine)
-[2021.05.08-22.53.56:628][ 73]LogHttp: Warning: 000001F11F694100: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
-[2021.05.08-22.53.56:628][ 73]LogHttp: Warning: 000001F11F694100: libcurl info message cache 5 (Connection died, retrying a fresh connect)
-[2021.05.08-22.53.56:628][ 73]LogHttp: Warning: 000001F11F694100: libcurl info message cache 6 (necessary data rewind wasn't possible)
-[2021.05.08-22.53.56:629][ 73]LogHttp: Warning: 000001F11F694100: libcurl info message cache 7 (Closing connection 9)
-[2021.05.08-22.53.56:629][ 73]LogHttp: Warning: 000001F11F694100: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
-[2021.05.08-22.53.56:647][ 74]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9B8C3733-4202-500D-EA8C-6683ECC79779%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=c5d0b274478d9ab3bedac89f0c53462d%7Ca9f3595f1f9a43ee9a657e1d4e7d61ea%7Cd7df89a8-7e04-48f2-8fba-96b552423cfb&AppEnvironment=datacollector-source&UploadType=eteventstream
-[2021.05.08-22.53.58:543][188]Cmd: TRANSACTION UNDO
-[2021.05.08-22.53.58:544][188]LogEditorTransaction: Undo Create Camera Here
-[2021.05.08-22.54.29:092][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
-[2021.05.08-22.54.30:368][919]LogSlate: Window 'Save Content' being destroyed
-[2021.05.08-22.54.30:405][919]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/1-DrivingCar83BC8C6A4A62A6EA48B44BB86C601FB8.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/1-DrivingCar.uasset'
-[2021.05.08-22.54.30:418][919]AssetCheck: New page: Asset Save: 1-DrivingCar
-[2021.05.08-22.54.30:418][919]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/1-DrivingCar.1-DrivingCar
+[2021.05.08-23.03.02:220][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.05.08-23.03.02:220][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.05.08-23.03.02:220][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.08-23.03.02:221][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.05.08-23.03.02:221][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.08-23.03.02:221][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.08-23.03.02:224][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:224][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.08-23.03.02:224][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.08-23.03.02:224][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:224][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.08-23.03.02:224][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:224][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.08-23.03.02:224][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.08-23.03.02:225][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.08-23.03.02:226][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.08-23.03.02:226][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.08-23.03.02:226][  0]LogHAL: Display: Platform has ~ 16 GB [17058402304 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.05.08-23.03.02:226][  0]LogInit: Going up to parent DeviceProfile []
+[2021.05.08-23.03.02:226][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2021.05.08-23.03.02:226][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2021.05.08-23.03.02:227][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.08-23.03.02:228][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.05.08-23.03.02:255][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.05.08-23.03.02:255][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.05.08-23.03.02:255][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.05.08-23.03.02:255][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.08-23.03.02:255][  0]LogInit: Computer: DESKTOP-DV3H2OO
+[2021.05.08-23.03.02:255][  0]LogInit: User: AlexBazaldua
+[2021.05.08-23.03.02:255][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.05.08-23.03.02:255][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.08-23.03.02:255][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.05.08-23.03.02:255][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.08-23.03.02:255][  0]LogMemory: Process Physical Memory: 116.02 MB used, 116.03 MB peak
+[2021.05.08-23.03.02:255][  0]LogMemory: Process Virtual Memory: 112.68 MB used, 112.68 MB peak
+[2021.05.08-23.03.02:255][  0]LogMemory: Physical Memory: 4318.77 MB used,  11949.39 MB free, 16268.16 MB total
+[2021.05.08-23.03.02:255][  0]LogMemory: Virtual Memory: 5146.75 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2021.05.08-23.03.02:262][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.05.08-23.03.02:385][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.05.08-23.03.02:388][  0]LogInit: Using OS detected language (en-US).
+[2021.05.08-23.03.02:388][  0]LogInit: Using OS detected locale (en-US).
+[2021.05.08-23.03.02:404][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.05.08-23.03.04:535][  0]LogInit: Setting process to per monitor DPI aware
+[2021.05.08-23.03.04:974][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.05.08-23.03.04:974][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.05.08-23.03.14:321][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.08-23.03.14:321][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.05.08-23.03.14:321][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.05.08-23.03.14:321][  0]LogD3D11RHI: D3D11 adapters:
+[2021.05.08-23.03.14:779][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2021.05.08-23.03.14:780][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2021.05.08-23.03.14:782][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.05.08-23.03.14:782][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.05.08-23.03.14:782][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.05.08-23.03.14:788][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.05.08-23.03.14:789][  0]LogD3D11RHI:     GPU DeviceId: 0x591b (for the marketing name, search the web for "GPU Device Id")
+[2021.05.08-23.03.14:789][  0]LogWindows: EnumDisplayDevices:
+[2021.05.08-23.03.14:789][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2021.05.08-23.03.14:789][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.05.08-23.03.14:790][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.05.08-23.03.14:790][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2021.05.08-23.03.14:790][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 630
+[2021.05.08-23.03.14:790][  0]LogD3D11RHI:   Driver Version: 23.20.16.4973 (internal:23.20.16.4973, unified:23.20.16.4973)
+[2021.05.08-23.03.14:790][  0]LogD3D11RHI:      Driver Date: 2-28-2018
+[2021.05.08-23.03.14:790][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2021.05.08-23.03.14:992][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.05.08-23.03.14:992][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.08-23.03.14:992][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.05.08-23.03.15:001][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2021.05.08-23.03.17:357][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.05.08-23.03.17:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.05.08-23.03.17:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.05.08-23.03.17:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.05.08-23.03.17:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.05.08-23.03.17:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.05.08-23.03.17:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.05.08-23.03.17:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.05.08-23.03.17:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.05.08-23.03.17:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.05.08-23.03.17:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.05.08-23.03.17:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.05.08-23.03.17:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.05.08-23.03.17:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.05.08-23.03.17:438][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.05.08-23.03.17:454][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.05.08-23.03.17:464][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.05.08-23.03.17:476][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.05.08-23.03.17:486][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.05.08-23.03.17:496][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.05.08-23.03.17:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.05.08-23.03.17:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.05.08-23.03.17:552][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.05.08-23.03.17:552][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.05.08-23.03.17:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.05.08-23.03.17:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.05.08-23.03.17:585][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.05.08-23.03.17:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.05.08-23.03.17:596][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.05.08-23.03.17:600][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.05.08-23.03.17:633][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Intermediate/Shaders/WorkingDirectory/8552/).
+[2021.05.08-23.03.17:634][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealShaderWorkingDir/6E21D907490E7B96107EC58206EE1972/'.
+[2021.05.08-23.03.17:634][  0]LogXGEController: Cleaning working directory: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.05.08-23.03.17:634][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.05.08-23.03.17:635][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.05.08-23.03.17:635][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
