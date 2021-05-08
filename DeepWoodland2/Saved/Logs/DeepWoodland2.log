@@ -6919,3 +6919,44 @@ Script call stack:
 [2021.05.08-08.24.34:062][456]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.626ms to complete.
 [2021.05.08-08.24.34:062][456]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.999
 [2021.05.08-08.24.37:259][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.05.08-09.01.31:054][382]LogSlate: Window 'NameTag' being destroyed
+[2021.05.08-09.01.31:064][382]LogSlate: Window 'NameTag' being destroyed
+[2021.05.08-09.01.31:136][382]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-09.01.31:136][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-09.01.33:132][382]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-09.01.33:133][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-09.01.33:177][382]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-09.01.33:178][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-09.01.34:781][382]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-09.01.34:781][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-09.01.34:818][382]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-09.01.34:818][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-09.01.35:979][382]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-09.01.35:980][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-09.01.36:041][382]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-09.01.36:041][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-09.17.08:405][678]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap
+[2021.05.08-09.17.36:313][329]LogSlate: Window 'ThirdPersonExampleMap' being destroyed
+[2021.05.08-09.17.36:321][329]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-09.17.36:321][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-09.17.42:078][841]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.08-09.19.33:063][602]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2021.05.08-09.19.33:069][602]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2021.05.08-09.19.33:099][602]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-09.19.33:099][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-09.20.05:141][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Sphere5)
+[2021.05.08-09.20.06:943][331]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2021.05.08-09.20.10:470][492]LogUObjectHash: Compacting FUObjectHashTables data took   8.73ms
+[2021.05.08-09.20.22:290][413]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.05.08-09.21.22:825][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Sphere4)
+[2021.05.08-09.21.23:427][864]LogEditorViewport: Clicking on Actor (LMB): BP_LuzCaseta_C (BP_LuzCaseta4)
+[2021.05.08-09.22.30:421][216]LogUObjectHash: Compacting FUObjectHashTables data took   6.69ms
+[2021.05.08-09.22.32:232][216]LogSlate: Window 'Save Content' being destroyed
+[2021.05.08-09.22.32:315][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.05.08-09.22.33:268][216]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap607FEAAA4BCAC9F9F4C1C0AC054DF384.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.08-09.22.33:332][216]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.062
+[2021.05.08-09.22.43:502][216]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData861B85CD4D2693837F502C9573A73F7E.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.08-09.22.44:075][216]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.08-09.22.44:075][216]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.05.08-09.22.44:075][216]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.05.08-09.22.59:040][431]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
