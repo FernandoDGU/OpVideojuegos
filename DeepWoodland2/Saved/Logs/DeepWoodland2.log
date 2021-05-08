@@ -6960,3 +6960,490 @@ Script call stack:
 [2021.05.08-09.22.44:075][216]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2021.05.08-09.22.44:075][216]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
 [2021.05.08-09.22.59:040][431]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.05.08-09.24.51:899][614]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.05.08-09.25.27:636][307]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.05.08-09.25.29:299][436]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2021.05.08-09.25.29:300][436]LogSlate: Window 'Color Picker' being destroyed
+[2021.05.08-09.25.42:677][521]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2021.05.08-09.25.46:494][712]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.05.08-09.25.51:223][969]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.05.08-09.25.53:374][ 92]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.05.08-09.26.02:347][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.05.08-09.26.03:217][625]LogSlate: Window 'Save Content' being destroyed
+[2021.05.08-09.26.03:276][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.05.08-09.26.03:818][625]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapBF8282514FCF933FED8A3684E7BC371C.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.08-09.26.03:846][625]LogEditorTransaction: Non zero active count in UTransBuffer::Reset
+ActiveCount : 2
+SessionName : 
+Reason      : Map Saved
+
+Purging the undo buffer...
+
+[2021.05.08-09.26.03:846][625]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.598
+[2021.05.08-09.26.07:815][625]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData41899BA143876DE9325408A9E245045D.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.08-09.26.07:866][625]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.08-09.26.07:866][625]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.05.08-09.26.07:866][625]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.05.08-09.26.12:555][897]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.08-09.26.12:596][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.08-09.26.12:675][897]PIE: New page: PIE session: ThirdPersonExampleMap (May 7, 2021, 11:26:12 PM)
+[2021.05.08-09.26.12:681][897]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.08-09.26.12:856][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.174929s)
+[2021.05.08-09.26.12:861][897]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.08-09.26.12:865][897]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020843F89600), frame # 667897
+[2021.05.08-09.26.12:867][897]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000207398B1BC0), frame # 667897
+[2021.05.08-09.26.12:869][897]LogPlayLevel: PIE: World Init took: (0.012710s)
+[2021.05.08-09.26.12:869][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.187985s)
+[2021.05.08-09.26.12:893][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.05.08-09.26.12:905][897]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.08-09.26.12:905][897]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.08-09.26.12:905][897]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.08-09.26.12:905][897]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.08-09.26.12:905][897]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.08-09.26.12:905][897]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.08-09.26.12:905][897]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.08-09.26.12:905][897]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.08-09.26.12:910][897]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.08-09.26.12:910][897]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.08-09.26.12:929][897]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.08-09.26.12:929][897]LogAudioMixer: Display: 1: FrontRight
+[2021.05.08-09.26.12:929][897]LogAudioMixer: Display: 2: FrontCenter
+[2021.05.08-09.26.12:929][897]LogAudioMixer: Display: 3: LowFrequency
+[2021.05.08-09.26.12:929][897]LogAudioMixer: Display: 4: BackLeft
+[2021.05.08-09.26.12:929][897]LogAudioMixer: Display: 5: BackRight
+[2021.05.08-09.26.12:929][897]LogAudioMixer: Display: 6: SideLeft
+[2021.05.08-09.26.12:929][897]LogAudioMixer: Display: 7: SideRight
+[2021.05.08-09.26.12:976][897]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.05.08-09.26.12:979][897]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.08-09.26.12:979][897]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.08-09.26.12:979][897]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.08-09.26.12:991][897]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.08-09.26.12:992][897]LogInit: FAudioDevice initialized.
+[2021.05.08-09.26.13:059][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.08-09.26.13:062][897]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.08-09.26.13:155][897]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.05.08-04.26.13
+[2021.05.08-09.26.13:180][897]LogWorld: Bringing up level for play took: 0.116454
+[2021.05.08-09.26.13:215][897]LogOnline: OSS: Creating online subsystem instance for: :Context_102
+[2021.05.08-09.26.13:303][897]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] 3
+[2021.05.08-09.26.13:353][897]PIE: Server logged in
+[2021.05.08-09.26.13:355][897]PIE: Play in editor total start time 0.778 seconds.
+[2021.05.08-09.26.22:591][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.08-09.26.22:591][393]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.08-09.26.22:593][393]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.08-09.26.22:599][393]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-09.26.22:608][393]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-09.26.22:625][393]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.08-09.26.22:634][393]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-09.26.22:740][393]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000207398B1BC0), frame # 668393
+[2021.05.08-09.26.22:740][393]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020843F89600), frame # 668393
+[2021.05.08-09.26.22:748][393]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.05.08-09.26.22:802][394]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2021.05.08-09.26.22:834][394]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.05.08-09.26.23:558][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RuinHouseNoBox_Cylinder8)
+[2021.05.08-09.26.23:942][481]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.05.08-09.26.30:859][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RuinHouseNoBox_Cylinder7)
+[2021.05.08-09.26.45:131][133]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.08-09.26.45:149][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.08-09.26.45:149][133]PIE: New page: PIE session: ThirdPersonExampleMap (May 7, 2021, 11:26:45 PM)
+[2021.05.08-09.26.45:149][133]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.08-09.26.45:240][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090246s)
+[2021.05.08-09.26.45:241][133]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.08-09.26.45:241][133]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002077E098C00), frame # 670133
+[2021.05.08-09.26.45:241][133]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000207DED8CF40), frame # 670133
+[2021.05.08-09.26.45:242][133]LogPlayLevel: PIE: World Init took: (0.001909s)
+[2021.05.08-09.26.45:242][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.092425s)
+[2021.05.08-09.26.45:266][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.05.08-09.26.45:283][133]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.08-09.26.45:283][133]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.08-09.26.45:283][133]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.08-09.26.45:283][133]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.08-09.26.45:283][133]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.08-09.26.45:283][133]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.08-09.26.45:283][133]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.08-09.26.45:283][133]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.08-09.26.45:284][133]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.08-09.26.45:284][133]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.08-09.26.45:286][133]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.08-09.26.45:286][133]LogAudioMixer: Display: 1: FrontRight
+[2021.05.08-09.26.45:286][133]LogAudioMixer: Display: 2: FrontCenter
+[2021.05.08-09.26.45:286][133]LogAudioMixer: Display: 3: LowFrequency
+[2021.05.08-09.26.45:286][133]LogAudioMixer: Display: 4: BackLeft
+[2021.05.08-09.26.45:286][133]LogAudioMixer: Display: 5: BackRight
+[2021.05.08-09.26.45:286][133]LogAudioMixer: Display: 6: SideLeft
+[2021.05.08-09.26.45:286][133]LogAudioMixer: Display: 7: SideRight
+[2021.05.08-09.26.45:325][133]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.05.08-09.26.45:325][133]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.08-09.26.45:325][133]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.08-09.26.45:325][133]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.08-09.26.45:325][133]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.08-09.26.45:339][133]LogInit: FAudioDevice initialized.
+[2021.05.08-09.26.45:392][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.08-09.26.45:392][133]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.08-09.26.45:435][133]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.05.08-04.26.45
+[2021.05.08-09.26.45:441][133]LogWorld: Bringing up level for play took: 0.048072
+[2021.05.08-09.26.45:441][133]LogOnline: OSS: Creating online subsystem instance for: :Context_103
+[2021.05.08-09.26.45:480][133]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] 3
+[2021.05.08-09.26.45:485][133]PIE: Server logged in
+[2021.05.08-09.26.45:487][133]PIE: Play in editor total start time 0.339 seconds.
+[2021.05.08-09.27.36:720][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.08-09.27.36:720][135]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.08-09.27.36:721][135]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.08-09.27.36:728][135]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-09.27.36:739][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-09.27.36:754][135]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.08-09.27.36:760][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-09.27.36:840][135]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000207DED8CF40), frame # 673135
+[2021.05.08-09.27.36:840][135]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002077E098C00), frame # 673135
+[2021.05.08-09.27.36:848][135]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2021.05.08-09.27.36:905][136]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2021.05.08-09.27.36:932][136]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.05.08-09.27.38:908][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Caseta)
+[2021.05.08-09.27.51:808][366]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire)
+[2021.05.08-09.29.02:370][136]MapCheck: New page: Map Check
+[2021.05.08-09.29.02:434][136]LightingResults: New page: Lighting Build - May 7, 2021, 11:29:02 PM
+[2021.05.08-09.29.02:925][136]LightingResults: Warning: InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD. Lighting on LOD 1+ may be incorrect unless lightmap UVs are the same for all LODs.
+[2021.05.08-09.29.02:925][136]LightingResults: Warning: InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD. Lighting on LOD 1+ may be incorrect unless lightmap UVs are the same for all LODs.
+[2021.05.08-09.29.02:926][136]LightingResults: Warning: InstancedFoliageActor_0 The total lightmap size for this InstancedStaticMeshComponent is large, consider reducing the component's lightmap resolution or number of mesh instances in this component
+[2021.05.08-09.29.02:934][136]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.05.08-09.29.02:950][136]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.05.08-09.29.02:961][136]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.05.08-09.29.02:982][136]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.05.08-09.29.02:982][136]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7312
+[2021.05.08-09.29.07:702][136]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2021.05.08-09.29.07:709][136]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.05.08-09.29.07:709][136]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.05.08-09.29.07:709][136]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.05.08-09.29.07:709][136]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.05.08-09.29.07:709][136]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.05.08-09.29.07:918][136]LogEditorBuildUtils: Build time 0:05
+[2021.05.08-09.29.08:097][138]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_pistolita, compiling. 
+[2021.05.08-09.29.08:126][138]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_pistolita, compiling. 
+[2021.05.08-09.29.08:157][138]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.05.08-09.29.08:157][138]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.05.08-09.29.08:162][139]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Caseta, compiling. 
+[2021.05.08-09.29.08:164][139]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Caseta, compiling. 
+[2021.05.08-09.29.08:168][139]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete, compiling. 
+[2021.05.08-09.29.08:171][139]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete, compiling. 
+[2021.05.08-09.29.08:209][139]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.05.08-09.29.08:210][139]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.05.08-09.29.08:215][140]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wood, compiling. 
+[2021.05.08-09.29.08:219][140]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wood, compiling. 
+[2021.05.08-09.29.08:225][140]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_SignalWood, compiling. 
+[2021.05.08-09.29.08:229][140]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_SignalWood, compiling. 
+[2021.05.08-09.29.08:278][141]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_SignalWolf, compiling. 
+[2021.05.08-09.29.08:281][141]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_SignalWolf, compiling. 
+[2021.05.08-09.29.08:283][141]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_AvisoLetrero, compiling. 
+[2021.05.08-09.29.08:286][141]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_AvisoLetrero, compiling. 
+[2021.05.08-09.29.08:301][142]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_TiroLetrero, compiling. 
+[2021.05.08-09.29.08:304][142]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_TiroLetrero, compiling. 
+[2021.05.08-09.29.08:308][142]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Tex_0081_1_dds, compiling. 
+[2021.05.08-09.29.08:311][142]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Tex_0081_1_dds, compiling. 
+[2021.05.08-09.29.08:320][143]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 01_-_Default, compiling. 
+[2021.05.08-09.29.08:323][143]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer 01_-_Default, compiling. 
+[2021.05.08-09.29.08:329][143]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material__0, compiling. 
+[2021.05.08-09.29.08:331][143]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material__0, compiling. 
+[2021.05.08-09.29.08:344][144]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Luz, compiling. 
+[2021.05.08-09.29.08:348][144]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Luz, compiling. 
+[2021.05.08-09.29.08:355][144]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Lamp, compiling. 
+[2021.05.08-09.29.08:361][144]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Lamp, compiling. 
+[2021.05.08-09.29.08:373][145]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Bridge, compiling. 
+[2021.05.08-09.29.08:376][145]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Bridge, compiling. 
+[2021.05.08-09.29.08:378][145]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_casetaCambio, compiling. 
+[2021.05.08-09.29.08:381][145]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_casetaCambio, compiling. 
+[2021.05.08-09.29.08:396][146]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_InstructLetrero, compiling. 
+[2021.05.08-09.29.08:400][146]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_InstructLetrero, compiling. 
+[2021.05.08-09.29.08:404][146]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_BigLetrero, compiling. 
+[2021.05.08-09.29.08:410][146]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_BigLetrero, compiling. 
+[2021.05.08-09.29.08:423][147]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_CerdoLEtrero, compiling. 
+[2021.05.08-09.29.08:426][147]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_CerdoLEtrero, compiling. 
+[2021.05.08-09.29.16:494][148]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 64
+[2021.05.08-09.29.16:494][148]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 54
+[2021.05.08-09.29.16:494][148]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 44
+[2021.05.08-09.29.16:494][148]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 34
+[2021.05.08-09.29.16:494][148]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2021.05.08-09.29.16:494][148]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2021.05.08-09.29.16:494][148]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2021.05.08-09.29.16:494][148]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2021.05.08-09.29.16:494][148]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.05.08-09.29.16:494][148]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.05.08-09.29.16:494][148]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.05.08-09.29.16:494][148]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.05.08-09.29.17:373][179]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.05.08-09.31.25:059][245]LightingResults: Warning: Lampara_mod_Sphere_002 Object has overlapping UVs.
+[2021.05.08-09.31.25:060][245]LightingResults: Lampara_mod_Sphere_002 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.27:158][340]LightingResults: Warning: Lampara_mod_Cylinder Object has overlapping UVs.
+[2021.05.08-09.31.27:158][340]LightingResults: Lampara_mod_Cylinder Lightmap UV are overlapping by 2.9%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.28:056][381]LightingResults: Warning: Lampara_mod_Sphere_012 Object has overlapping UVs.
+[2021.05.08-09.31.28:078][382]LightingResults: Lampara_mod_Sphere_012 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.28:645][408]LightingResults: Warning: Lampara_mod_Sphere_005 Object has overlapping UVs.
+[2021.05.08-09.31.28:645][408]LightingResults: Lampara_mod_Sphere_005 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.29:454][445]LightingResults: Warning: Lampara_mod_Sphere_004 Object has overlapping UVs.
+[2021.05.08-09.31.29:454][445]LightingResults: Lampara_mod_Sphere_004 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.30:130][476]LightingResults: Warning: Lampara_mod_Sphere_003 Object has overlapping UVs.
+[2021.05.08-09.31.30:130][476]LightingResults: Lampara_mod_Sphere_003 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.30:853][509]LightingResults: Warning: Lampara_mod_Sphere_002 Object has overlapping UVs.
+[2021.05.08-09.31.30:853][509]LightingResults: Lampara_mod_Sphere_002 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.31:088][520]LightingResults: Warning: Lampara_mod_Sphere_001 Object has overlapping UVs.
+[2021.05.08-09.31.31:088][520]LightingResults: Lampara_mod_Sphere_001 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.31:406][535]LightingResults: Warning: Lampara_mod_Cylinder Object has overlapping UVs.
+[2021.05.08-09.31.31:406][535]LightingResults: Lampara_mod_Cylinder Lightmap UV are overlapping by 2.9%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.32:440][581]LightingResults: Warning: Lampara_mod_Sphere_012 Object has overlapping UVs.
+[2021.05.08-09.31.32:441][581]LightingResults: Lampara_mod_Sphere_012 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.32:946][604]LightingResults: Warning: Lampara_mod_Sphere_005 Object has overlapping UVs.
+[2021.05.08-09.31.32:946][604]LightingResults: Lampara_mod_Sphere_005 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.33:871][646]LightingResults: Warning: Lampara_mod_Sphere_004 Object has overlapping UVs.
+[2021.05.08-09.31.33:871][646]LightingResults: Lampara_mod_Sphere_004 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.34:138][658]LightingResults: Warning: Lampara_mod_Sphere_003 Object has overlapping UVs.
+[2021.05.08-09.31.34:138][658]LightingResults: Lampara_mod_Sphere_003 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.35:182][706]LightingResults: Warning: Lampara_mod_Sphere_002 Object has overlapping UVs.
+[2021.05.08-09.31.35:182][706]LightingResults: Lampara_mod_Sphere_002 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.35:468][719]LightingResults: Warning: Lampara_mod_Sphere_001 Object has overlapping UVs.
+[2021.05.08-09.31.35:468][719]LightingResults: Lampara_mod_Sphere_001 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.39:894][923]LightingResults: Warning: Lampara_mod_Sphere_005 Object has overlapping UVs.
+[2021.05.08-09.31.39:894][923]LightingResults: Lampara_mod_Sphere_005 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.44:789][149]LightingResults: Warning: SignalF_pCube1 Object has overlapping UVs.
+[2021.05.08-09.31.44:789][149]LightingResults: SignalF_pCube1 Lightmap UV are overlapping by 5.7%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.49:952][386]LightingResults: Warning: LetreroGrandeSinPlano Object has overlapping UVs.
+[2021.05.08-09.31.49:952][386]LightingResults: LetreroGrandeSinPlano Lightmap UV are overlapping by 36.2%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.51:520][458]LightingResults: Warning: LetreroGrandeSinPlano Object has overlapping UVs.
+[2021.05.08-09.31.51:520][458]LightingResults: LetreroGrandeSinPlano Lightmap UV are overlapping by 36.2%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.56:751][699]LightingResults: Warning: Lampara_mod_Sphere_012 Object has overlapping UVs.
+[2021.05.08-09.31.56:751][699]LightingResults: Lampara_mod_Sphere_012 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.31.56:883][705]LightingResults: Warning: Lampara_mod_Cylinder Object has overlapping UVs.
+[2021.05.08-09.31.56:883][705]LightingResults: Lampara_mod_Cylinder Lightmap UV are overlapping by 2.9%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.33.25:740][981]LightingResults: Warning: Lampara_mod_Sphere_012 Object has overlapping UVs.
+[2021.05.08-09.33.25:740][981]LightingResults: Lampara_mod_Sphere_012 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.33.26:420][ 12]LightingResults: Warning: Lampara_mod_Sphere_005 Object has overlapping UVs.
+[2021.05.08-09.33.26:421][ 12]LightingResults: Lampara_mod_Sphere_005 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.33.26:694][ 25]LightingResults: Warning: Lampara_mod_Sphere_004 Object has overlapping UVs.
+[2021.05.08-09.33.26:694][ 25]LightingResults: Lampara_mod_Sphere_004 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.33.51:098][148]LightingResults: Warning: LetreroGrandeSinPlano Object has overlapping UVs.
+[2021.05.08-09.33.51:119][149]LightingResults: LetreroGrandeSinPlano Lightmap UV are overlapping by 36.2%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.33.51:169][151]LightingResults: Warning: SignalF_pCube1 Object has overlapping UVs.
+[2021.05.08-09.33.51:169][151]LightingResults: SignalF_pCube1 Lightmap UV are overlapping by 5.7%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.06:466][708]LightingResults: Warning: SignalF_pCube1 Object has overlapping UVs.
+[2021.05.08-09.34.06:466][708]LightingResults: SignalF_pCube1 Lightmap UV are overlapping by 5.7%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.09:487][717]LightingResults: Warning: SignalF_pCube1 Object has overlapping UVs.
+[2021.05.08-09.34.09:487][717]LightingResults: SignalF_pCube1 Lightmap UV are overlapping by 5.7%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.11:169][722]LightingResults: Warning: LetreroGrandeSinPlano Object has overlapping UVs.
+[2021.05.08-09.34.11:169][722]LightingResults: LetreroGrandeSinPlano Lightmap UV are overlapping by 36.2%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.14:517][732]LightingResults: Warning: Lampara_mod_Sphere_002 Object has overlapping UVs.
+[2021.05.08-09.34.14:517][732]LightingResults: Lampara_mod_Sphere_002 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.14:860][733]LightingResults: Warning: Lampara_mod_Cylinder Object has overlapping UVs.
+[2021.05.08-09.34.14:861][733]LightingResults: Lampara_mod_Cylinder Lightmap UV are overlapping by 2.9%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.15:518][735]LightingResults: Warning: Lampara_mod_Sphere_012 Object has overlapping UVs.
+[2021.05.08-09.34.15:518][735]LightingResults: Lampara_mod_Sphere_012 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.15:858][736]LightingResults: Warning: Lampara_mod_Sphere_005 Object has overlapping UVs.
+[2021.05.08-09.34.15:858][736]LightingResults: Lampara_mod_Sphere_005 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.16:190][737]LightingResults: Warning: Lampara_mod_Sphere_004 Object has overlapping UVs.
+[2021.05.08-09.34.16:190][737]LightingResults: Lampara_mod_Sphere_004 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.16:521][738]LightingResults: Warning: Lampara_mod_Sphere_003 Object has overlapping UVs.
+[2021.05.08-09.34.16:523][738]LightingResults: Lampara_mod_Sphere_003 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.16:863][739]LightingResults: Warning: Lampara_mod_Sphere_002 Object has overlapping UVs.
+[2021.05.08-09.34.16:863][739]LightingResults: Lampara_mod_Sphere_002 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.17:205][740]LightingResults: Warning: Lampara_mod_Sphere_001 Object has overlapping UVs.
+[2021.05.08-09.34.17:205][740]LightingResults: Lampara_mod_Sphere_001 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.17:546][741]LightingResults: Warning: Lampara_mod_Cylinder Object has overlapping UVs.
+[2021.05.08-09.34.17:546][741]LightingResults: Lampara_mod_Cylinder Lightmap UV are overlapping by 2.9%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.20:901][751]LightingResults: Warning: Lampara_mod_Sphere_005 Object has overlapping UVs.
+[2021.05.08-09.34.20:901][751]LightingResults: Lampara_mod_Sphere_005 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.21:241][752]LightingResults: Warning: Lampara_mod_Cylinder Object has overlapping UVs.
+[2021.05.08-09.34.21:241][752]LightingResults: Lampara_mod_Cylinder Lightmap UV are overlapping by 2.9%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.21:570][753]LightingResults: Warning: Lampara_mod_Sphere_003 Object has overlapping UVs.
+[2021.05.08-09.34.21:570][753]LightingResults: Lampara_mod_Sphere_003 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.21:902][754]LightingResults: Warning: Lampara_mod_Sphere_002 Object has overlapping UVs.
+[2021.05.08-09.34.21:903][754]LightingResults: Lampara_mod_Sphere_002 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.22:266][755]LightingResults: Warning: Lampara_mod_Sphere_001 Object has overlapping UVs.
+[2021.05.08-09.34.22:266][755]LightingResults: Lampara_mod_Sphere_001 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.22:266][755]LightingResults: Warning: Lampara_mod_Cylinder Object has overlapping UVs.
+[2021.05.08-09.34.22:266][755]LightingResults: Lampara_mod_Cylinder Lightmap UV are overlapping by 2.9%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.22:915][757]LightingResults: Warning: Lampara_mod_Sphere_012 Object has overlapping UVs.
+[2021.05.08-09.34.22:915][757]LightingResults: Lampara_mod_Sphere_012 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.23:246][758]LightingResults: Warning: Lampara_mod_Sphere_005 Object has overlapping UVs.
+[2021.05.08-09.34.23:246][758]LightingResults: Lampara_mod_Sphere_005 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.23:578][759]LightingResults: Warning: Lampara_mod_Sphere_004 Object has overlapping UVs.
+[2021.05.08-09.34.23:578][759]LightingResults: Lampara_mod_Sphere_004 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.23:925][760]LightingResults: Warning: Lampara_mod_Sphere_003 Object has overlapping UVs.
+[2021.05.08-09.34.23:925][760]LightingResults: Lampara_mod_Sphere_003 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.24:581][762]LightingResults: Warning: Lampara_mod_Sphere_002 Object has overlapping UVs.
+[2021.05.08-09.34.24:581][762]LightingResults: Lampara_mod_Sphere_002 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.24:581][762]LightingResults: Warning: Lampara_mod_Sphere_001 Object has overlapping UVs.
+[2021.05.08-09.34.24:581][762]LightingResults: Lampara_mod_Sphere_001 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.24:581][762]LightingResults: Warning: Lampara_mod_Cylinder Object has overlapping UVs.
+[2021.05.08-09.34.24:581][762]LightingResults: Lampara_mod_Cylinder Lightmap UV are overlapping by 2.9%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.25:260][764]LightingResults: Warning: Lampara_mod_Sphere_012 Object has overlapping UVs.
+[2021.05.08-09.34.25:260][764]LightingResults: Lampara_mod_Sphere_012 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.25:601][765]LightingResults: Warning: Lampara_mod_Sphere_005 Object has overlapping UVs.
+[2021.05.08-09.34.25:601][765]LightingResults: Lampara_mod_Sphere_005 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.25:933][766]LightingResults: Warning: Lampara_mod_Sphere_004 Object has overlapping UVs.
+[2021.05.08-09.34.25:933][766]LightingResults: Lampara_mod_Sphere_004 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.26:272][767]LightingResults: Warning: Lampara_mod_Sphere_003 Object has overlapping UVs.
+[2021.05.08-09.34.26:272][767]LightingResults: Lampara_mod_Sphere_003 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.26:600][768]LightingResults: Warning: Lampara_mod_Sphere_002 Object has overlapping UVs.
+[2021.05.08-09.34.26:600][768]LightingResults: Lampara_mod_Sphere_002 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.27:617][771]LightingResults: Warning: Lampara_mod_Sphere_012 Object has overlapping UVs.
+[2021.05.08-09.34.27:617][771]LightingResults: Lampara_mod_Sphere_012 Lightmap UV are overlapping by 43.5%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.35:307][794]LightingResults: Warning: WoodRoadSign Object has overlapping UVs.
+[2021.05.08-09.34.35:307][794]LightingResults: WoodRoadSign Lightmap UV are overlapping by 4.3%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.35:649][795]LightingResults: Warning: LetreroGrandeSinPlano Object has overlapping UVs.
+[2021.05.08-09.34.35:649][795]LightingResults: LetreroGrandeSinPlano Lightmap UV are overlapping by 36.2%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.35:981][796]LightingResults: Warning: SignalF_pCube1 Object has overlapping UVs.
+[2021.05.08-09.34.35:981][796]LightingResults: SignalF_pCube1 Lightmap UV are overlapping by 5.7%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.34.38:660][804]LightingResults: Warning: LetreroGrandeSinPlano Object has overlapping UVs.
+[2021.05.08-09.34.38:660][804]LightingResults: LetreroGrandeSinPlano Lightmap UV are overlapping by 36.2%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.35.05:902][885]LightingResults: Warning: LetreroGrandeSinPlano Object has overlapping UVs.
+[2021.05.08-09.35.05:902][885]LightingResults: LetreroGrandeSinPlano Lightmap UV are overlapping by 36.2%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.36.17:147][ 97]LightingResults: Warning: Lampara_mod_Sphere_001 Object has overlapping UVs.
+[2021.05.08-09.36.17:147][ 97]LightingResults: Lampara_mod_Sphere_001 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.36.23:196][115]LightingResults: Warning: SignalF_pCube1 Object has overlapping UVs.
+[2021.05.08-09.36.23:196][115]LightingResults: SignalF_pCube1 Lightmap UV are overlapping by 5.7%. Please adjust content - Enable Error Coloring to visualize.
+[2021.05.08-09.36.36:938][156]Job is a success!
+[2021.05.08-09.36.38:038][157]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.123s
+[2021.05.08-09.36.38:038][157]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2021.05.08-09.36.38:039][157]LogVolumetricLightmapImport:      BrickData (all levels) 0.6Mb (trimmed 4.1Mb due to 0.010000 MinBrickError)
+[2021.05.08-09.36.38:039][157]LogVolumetricLightmapImport:      Bricks at depth
+[2021.05.08-09.36.38:039][157]LogVolumetricLightmapImport:          0: 6.5% covering 100.0% of volume
+[2021.05.08-09.36.38:039][157]LogVolumetricLightmapImport:          1: 78.9% covering 18.9% of volume
+[2021.05.08-09.36.38:039][157]LogVolumetricLightmapImport:          2: 14.6% covering 0.1% of volume
+[2021.05.08-09.36.38:039][157]LogVolumetricLightmapImport:      Bricks in each level
+[2021.05.08-09.36.38:042][157]LogVolumetricLightmapImport:          ThirdPersonExampleMap 			 122 bricks 	 99.2% (Persistent Level)
+[2021.05.08-09.36.38:042][157]LogVolumetricLightmapImport:          StreamingLevel1 			 1 bricks 	 0.8%
+[2021.05.08-09.37.05:350][157]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 4096X2048)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 4096X4096)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 4096X4096)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 1024X512)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 1024X512)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 1024X512)
+[2021.05.08-09.37.05:356][157]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 1024X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: SkyOcclusion1_9 (AutoDXT, 1024X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 1024X1024)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 1024X1024)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: SkyOcclusion1_10 (AutoDXT, 512X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 512X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 512X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: SkyOcclusion1_11 (AutoDXT, 512X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 512X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 512X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: SkyOcclusion1_12 (AutoDXT, 512X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 512X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (DXT1, 512X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: SkyOcclusion1_13 (AutoDXT, 512X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 512X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 512X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: SkyOcclusion1_14 (AutoDXT, 512X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 512X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (DXT1, 512X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: SkyOcclusion1_15 (AutoDXT, 256X128)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: SkyOcclusion1_16 (AutoDXT, 256X128)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 256X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: LQ_Lightmap_1_16 (DXT1, 256X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: SkyOcclusion1_17 (AutoDXT, 256X128)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 256X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: LQ_Lightmap_1_17 (DXT1, 256X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: SkyOcclusion1_18 (AutoDXT, 512X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 512X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: LQ_Lightmap_1_18 (DXT1, 512X512)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: SkyOcclusion1_19 (AutoDXT, 256X128)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 256X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: LQ_Lightmap_1_19 (DXT1, 256X256)
+[2021.05.08-09.37.05:357][157]LogTexture: Display: Building textures: SkyOcclusion1_20 (AutoDXT, 256X128)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 256X256)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: LQ_Lightmap_1_20 (DXT1, 256X256)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: SkyOcclusion1_21 (AutoDXT, 256X128)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 256X256)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: LQ_Lightmap_1_21 (DXT1, 256X256)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: SkyOcclusion1_22 (AutoDXT, 128X64)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 128X128)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: LQ_Lightmap_1_22 (DXT1, 128X128)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: SkyOcclusion1_23 (AutoDXT, 256X128)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 256X256)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: LQ_Lightmap_1_23 (DXT1, 256X256)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: SkyOcclusion1_24 (AutoDXT, 256X128)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 256X256)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: LQ_Lightmap_1_24 (DXT1, 256X256)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: SkyOcclusion1_25 (AutoDXT, 128X64)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 128X128)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: LQ_Lightmap_1_25 (DXT1, 128X128)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: SkyOcclusion1_26 (AutoDXT, 128X64)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 128X128)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: LQ_Lightmap_1_26 (DXT1, 128X128)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: SkyOcclusion1_27 (AutoDXT, 512X256)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: HQ_Lightmap1_27 (AutoDXT, 512X512)
+[2021.05.08-09.37.05:358][157]LogTexture: Display: Building textures: LQ_Lightmap_1_27 (DXT1, 512X512)
+[2021.05.08-09.37.05:900][157]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 256X64)
+[2021.05.08-09.37.05:900][157]Lightmass on LAPTOP-NJNUEN5K: 7:47 min total, 3.48 sec importing, 9.74 sec setup, 1:15 min photons, 6:18 min processing, 0 ms extra exporting [3346/3346 mappings]. Threads: 44:11 min total, 22:49 min processing.
+[2021.05.08-09.37.05:982][157]LogStaticLightingSystem: ThirdPersonExampleMap_BuiltData storing lightmap data for 1331 meshes in 27 LightmapResourceClusters (49.3 Meshes per cluster).
+[2021.05.08-09.37.05:989][157]LogStaticLightingSystem: StreamingLevel3_BuiltData storing lightmap data for 71 meshes in 1 LightmapResourceClusters (71.0 Meshes per cluster).
+[2021.05.08-09.37.05:990][157]LogStaticLightingSystem: StreamingLevel1_BuiltData storing lightmap data for 42 meshes in 1 LightmapResourceClusters (42.0 Meshes per cluster).
+[2021.05.08-09.37.05:990][157]LogStaticLightingSystem: StreamingLevel4_BuiltData storing lightmap data for 71 meshes in 1 LightmapResourceClusters (71.0 Meshes per cluster).
+[2021.05.08-09.37.06:550][157]LogUObjectHash: Compacting FUObjectHashTables data took  45.02ms
+[2021.05.08-09.37.07:102][157]LogStaticLightingSystem: Illumination: 8:04 min (23.7 sec encoding lightmaps, 32 ms encoding shadowmaps)
+[2021.05.08-09.37.07:102][157]LogStaticLightingSystem: Lightmap texture memory:  70.1 MB (70.1 MB streaming, 0.0 MB non-streaming), 54 textures
+[2021.05.08-09.37.07:102][157]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2021.05.08-09.37.11:297][157]DumpUnbuiltLightIteractions
+[2021.05.08-09.37.11:297][157]Lights with unbuilt interactions: 0
+[2021.05.08-09.37.11:297][157]
+[2021.05.08-09.37.11:297][157]Primitives with unbuilt interactions: 0
+[2021.05.08-09.37.12:234][158]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.05.08-09.37.12:247][158]MapCheck: New page: ThirdPersonExampleMap - May 7, 2021, 11:37:12 PM
+[2021.05.08-09.37.12:311][158]MapCheck: Warning: BogMyrtleBush_01_11 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
+[2021.05.08-09.37.12:311][158]MapCheck: Warning: BogMyrtleBush_14 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
+[2021.05.08-09.37.12:311][158]MapCheck: Warning: BogMyrtleBush_17 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
+[2021.05.08-09.37.12:313][158]MapCheck: Warning: BogMyrtleBush_40 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
+[2021.05.08-09.37.12:332][158]MapCheck: Warning: BogMyrtleBush_5 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
+[2021.05.08-09.37.12:332][158]MapCheck: Warning: BogMyrtleBush_6 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
+[2021.05.08-09.37.12:333][158]MapCheck: Warning: BogMyrtleBush_7 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
+[2021.05.08-09.37.12:334][158]MapCheck: Warning: BogMyrtleBush_8 Collision enabled but StaticMesh (BogMyrtleBush_01) has no simple or complex collision. 
+[2021.05.08-09.37.12:337][158]MapCheck: Warning: SM_Lamp_Cylinder_PhysicsAsset_13 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2021.05.08-09.37.12:338][158]MapCheck: Warning: SM_Lamp_Cylinder_PhysicsAsset_13 Skeletal mesh actor has NULL SkeletalMesh property 
+[2021.05.08-09.37.12:338][158]MapCheck: Warning: SM_Lamp_Sphere_PhysicsAsset_21 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2021.05.08-09.37.12:338][158]MapCheck: Warning: SM_Lamp_Sphere_PhysicsAsset_21 Skeletal mesh actor has NULL SkeletalMesh property 
+[2021.05.08-09.37.12:338][158]MapCheck: Warning: SM_Lamp_Sphere_PhysicsAsset2_25 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2021.05.08-09.37.12:338][158]MapCheck: Warning: SM_Lamp_Sphere_PhysicsAsset2_25 Skeletal mesh actor has NULL SkeletalMesh property 
+[2021.05.08-09.37.12:338][158]MapCheck: Warning: SM_Lamp_Cylinder_PhysicsAsset2_27 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2021.05.08-09.37.12:338][158]MapCheck: Warning: SM_Lamp_Cylinder_PhysicsAsset2_27 Skeletal mesh actor has NULL SkeletalMesh property 
+[2021.05.08-09.37.12:351][158]MapCheck: Warning: BP_Agua_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2021.05.08-09.37.12:353][158]MapCheck: Map check complete: 0 Error(s), 17 Warning(s), took 115.749ms to complete.
+[2021.05.08-09.37.39:340][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.05.08-09.37.40:604][238]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_Auto6BE9E22464970D5E847D013912A785F76.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2021.05.08-09.37.40:625][238]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.310
+[2021.05.08-09.37.40:626][238]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.310
+[2021.05.08-09.37.49:718][266]LogSlate: Window 'Message Log' being destroyed
+[2021.05.08-09.37.49:723][266]LogSlate: Window 'Message Log' being destroyed
+[2021.05.08-09.37.55:080][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.05.08-09.37.59:614][689]LogSlate: Window 'Save Content' being destroyed
+[2021.05.08-09.37.59:690][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StremingLevels/StreamingLevel1_BuiltData" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/StremingLevels/StreamingLevel1_BuiltData.uasset" SILENT=true
+[2021.05.08-09.37.59:878][689]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/StreamingLevel1_BuiltData78B7001D403FF9989040A79BE5AE4422.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/StremingLevels/StreamingLevel1_BuiltData.uasset'
+[2021.05.08-09.37.59:931][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StremingLevels/StreamingLevel3_BuiltData" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/StremingLevels/StreamingLevel3_BuiltData.uasset" SILENT=true
+[2021.05.08-09.38.00:120][689]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/StreamingLevel3_BuiltData624C19AA44C8B3B2E7B4A68F0FC24F9A.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/StremingLevels/StreamingLevel3_BuiltData.uasset'
+[2021.05.08-09.38.00:129][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StremingLevels/StreamingLevel4_BuiltData" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/StremingLevels/StreamingLevel4_BuiltData.uasset" SILENT=true
+[2021.05.08-09.38.00:261][689]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/StreamingLevel4_BuiltData73B76CA84CE444493CBE50ACD23D8129.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/StremingLevels/StreamingLevel4_BuiltData.uasset'
+[2021.05.08-09.38.00:286][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.05.08-09.38.00:809][689]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap3541035142FD4F0418C37D8020CDB896.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.08-09.38.00:843][689]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.580
+[2021.05.08-09.38.11:125][689]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData5804A34B469B5363FC73A08E3C6BF9EF.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.08-09.38.11:212][689]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.08-09.38.11:212][689]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StremingLevels/StreamingLevel1_BuiltData.StreamingLevel1_BuiltData
+[2021.05.08-09.38.11:212][689]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StremingLevels/StreamingLevel3_BuiltData.StreamingLevel3_BuiltData
+[2021.05.08-09.38.11:212][689]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StremingLevels/StreamingLevel4_BuiltData.StreamingLevel4_BuiltData
+[2021.05.08-09.38.11:212][689]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.05.08-09.38.11:212][689]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
