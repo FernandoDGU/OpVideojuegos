@@ -28,7 +28,7 @@ sourceGroup000000_source : RVFileSource (1)
 	cut
 	{
 		int in = 1
-		int out = 45
+		int out = 142
 	}
 
 	group
@@ -56,7 +56,7 @@ sourceGroup000001_source : RVFileSource (1)
 	cut
 	{
 		int in = 1
-		int out = 48
+		int out = 82
 	}
 
 	group
@@ -67,6 +67,62 @@ sourceGroup000001_source : RVFileSource (1)
 	media
 	{
 		string movie = "WolveCut2.avi"
+		string shot = ""
+	}
+}
+
+sourceGroup000002 : RVSourceGroup (1)
+{
+	ui
+	{
+		string name = "WolveCut3.avi"
+	}
+}
+
+sourceGroup000002_source : RVFileSource (1)
+{
+	cut
+	{
+		int in = 1
+		int out = 138
+	}
+
+	group
+	{
+		int noMovieAudio = 1
+	}
+
+	media
+	{
+		string movie = "WolveCut3.avi"
+		string shot = ""
+	}
+}
+
+sourceGroup000003 : RVSourceGroup (1)
+{
+	ui
+	{
+		string name = "WolveCut4.avi"
+	}
+}
+
+sourceGroup000003_source : RVFileSource (1)
+{
+	cut
+	{
+		int in = 1
+		int out = 123
+	}
+
+	group
+	{
+		int noMovieAudio = 1
+	}
+
+	media
+	{
+		string movie = "WolveCut4.avi"
 		string shot = ""
 	}
 }

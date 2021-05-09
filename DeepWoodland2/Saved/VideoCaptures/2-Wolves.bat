@@ -1,1 +1,1 @@
-rv -nomb -fullscreen -noBorders -fps 30.000000 WolveCut1.avi WolveCut2.avi
+rv -nomb -fullscreen -noBorders -fps 30.000000 WolveCut1.avi WolveCut2.avi WolveCut3.avi WolveCut4.avi

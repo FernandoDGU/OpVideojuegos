@@ -787,3 +787,1501 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.09-10.21.35:121][207]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2021.05.09-10.21.35:121][207]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
 [2021.05.09-10.22.21:787][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.05.09-10.24.28:503][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.05.09-10.24.28:506][735]LogTemp: Starting movie scene capture...
+[2021.05.09-10.24.28:518][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.09-10.24.28:518][735]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2021, 12:24:28 AM)
+[2021.05.09-10.24.28:520][735]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.05.09-10.24.28:521][735]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.05.09-10.24.28:521][735]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.09-10.24.28:639][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118132s)
+[2021.05.09-10.24.28:640][735]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.09-10.24.28:640][735]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001685117FE00), frame # 66735
+[2021.05.09-10.24.28:640][735]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000167DBEB3880), frame # 66735
+[2021.05.09-10.24.28:641][735]LogPlayLevel: PIE: World Init took: (0.001718s)
+[2021.05.09-10.24.28:641][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.120116s)
+[2021.05.09-10.24.28:653][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2021.05.09-10.24.28:654][735]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.09-10.24.28:654][735]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.09-10.24.28:654][735]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.09-10.24.28:654][735]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.09-10.24.28:654][735]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.09-10.24.28:654][735]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.09-10.24.28:654][735]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.09-10.24.28:654][735]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.09-10.24.28:655][735]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.09-10.24.28:655][735]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.09-10.24.28:658][735]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.09-10.24.28:658][735]LogAudioMixer: Display: 1: FrontRight
+[2021.05.09-10.24.28:776][735]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.09-10.24.28:776][735]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.09-10.24.28:776][735]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.09-10.24.28:776][735]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.09-10.24.28:776][735]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.09-10.24.28:792][735]LogInit: FAudioDevice initialized.
+[2021.05.09-10.24.28:794][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.09-10.24.28:810][735]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.24.28:810][735]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.09-10.24.28:810][735]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2021.05.09-10.24.28:810][735]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2021.05.09-10.24.28:811][735]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.09-10.24.28:811][735]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.24.28:811][735]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.09-10.24.28:812][735]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.09-10.24.28:813][735]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2021.05.09-10.24.28:813][735]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.09-10.24.28:813][735]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.09-10.24.28:813][735]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2021.05.09-10.24.28:814][735]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:4]]
+[2021.05.09-10.24.28:815][735]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.24.28:815][735]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.09-10.24.28:815][735]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.09-10.24.28:815][735]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.24.28:815][735]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2021.05.09-10.24.28:815][735]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2021.05.09-10.24.28:815][735]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2021.05.09-10.24.28:815][735]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:1]]
+[2021.05.09-10.24.28:815][735]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:1]]
+[2021.05.09-10.24.28:815][735]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.09-10.24.28:815][735]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:1]]
+[2021.05.09-10.24.29:208][735]Final Cut Pro 7 XML Export: Warning: FCP 7 XML export expects rendered video sequences with filename format '{shot}' but most recent rendered filename format is '2daCinematics'.
+[2021.05.09-10.24.29:208][735]Final Cut Pro 7 XML Export: Warning: Section 'WolveCut2' starts on tick 113,599 which is not evenly divisible by the display rate 30.0. Enable snapping and adjust the start or edit the section properties to ensure it lands evenly on a whole frame.
+[2021.05.09-10.24.29:213][735]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.09-10.24.29:254][735]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.05.09-05.24.29
+[2021.05.09-10.24.29:256][735]LogWorld: Bringing up level for play took: 0.042306
+[2021.05.09-10.24.29:257][735]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.05.09-10.24.29:261][735]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2021.05.09-10.24.29:399][735]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] 3
+[2021.05.09-10.24.29:408][735]PIE: Server logged in
+[2021.05.09-10.24.29:410][735]PIE: Play in editor total start time 0.894 seconds.
+[2021.05.09-10.24.29:508][735]LogRenderer: Reallocating scene render targets to support 1092x340 Format 10 NumSamples 1 (Frame:0).
+[2021.05.09-10.24.29:612][735]LogRenderer: Reallocating scene render targets to support 1092x576 Format 10 NumSamples 1 (Frame:1).
+[2021.05.09-10.25.07:872][737]LogRenderer: Reallocating scene render targets to support 1092x576 Format 10 NumSamples 1 (Frame:2).
+[2021.05.09-10.25.08:233][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.05.09-10.26.10:701][221]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/StremingLevels/UEDPIE_0_StreamingLevel3 took (less than) 27.19 ms
+[2021.05.09-10.26.10:862][224]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.10:862][224]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2021.05.09-10.26.10:862][224]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2021.05.09-10.26.10:862][224]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.10:862][224]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2021.05.09-10.26.10:862][224]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.10:862][224]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2021.05.09-10.26.10:862][224]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2021.05.09-10.26.10:862][224]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.05.09-10.26.10:862][224]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2021.05.09-10.26.10:862][224]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2021.05.09-10.26.10:862][224]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2021.05.09-10.26.10:862][224]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.05.09-10.26.10:863][224]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2021.05.09-10.26.10:864][224]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2021.05.09-10.26.10:864][224]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.09-10.26.10:864][224]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2021.05.09-10.26.10:864][224]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.09-10.26.10:865][224]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.09-10.26.10:866][224]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:0]]
+[2021.05.09-10.26.10:866][224]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.10:866][224]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2021.05.09-10.26.10:866][224]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2021.05.09-10.26.10:866][224]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.10:866][224]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2021.05.09-10.26.10:866][224]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.09-10.26.10:866][224]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2021.05.09-10.26.10:866][224]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.09-10.26.10:866][224]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.09-10.26.10:866][224]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.09-10.26.10:866][224]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.09-10.26.11:199][224]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.11:199][224]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2021.05.09-10.26.11:199][224]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2021.05.09-10.26.11:199][224]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.11:199][224]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2021.05.09-10.26.11:199][224]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.11:199][224]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2021.05.09-10.26.11:199][224]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2021.05.09-10.26.11:199][224]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.05.09-10.26.11:199][224]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2021.05.09-10.26.11:200][224]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2021.05.09-10.26.11:200][224]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2021.05.09-10.26.11:201][224]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.05.09-10.26.11:201][224]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2021.05.09-10.26.11:202][224]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '400'
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.09-10.26.11:202][224]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.05.09-10.26.11:202][224]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:0]]
+[2021.05.09-10.26.11:203][224]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2021.05.09-10.26.11:203][224]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2021.05.09-10.26.11:203][224]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.09-10.26.11:204][224]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.09-10.26.11:204][224]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.09-10.26.11:204][224]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.09-10.26.11:205][224]LogRenderer: Reallocating scene render targets to support 1092x576 Format 9 NumSamples 1 (Frame:490).
+[2021.05.09-10.26.12:786][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.09-10.26.12:786][224]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.09-10.26.12:786][224]LogSlate: Window 'Movie Render - Preview' being destroyed
+[2021.05.09-10.26.12:793][224]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.09-10.26.12:802][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.09-10.26.12:803][224]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.09-10.26.12:807][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.09-10.26.12:852][224]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000167DBEB3880), frame # 67224
+[2021.05.09-10.26.12:852][224]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001685117FE00), frame # 67224
+[2021.05.09-10.26.12:856][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.05.09-10.26.12:922][224]LogTemp: Movie Capture finished. Success: 1
+[2021.05.09-10.26.14:699][225]LogMaterial: Display: Missing cached shader map for material flag_0_Mat, compiling. 
+[2021.05.09-10.26.14:767][225]LogMaterial: Display: Missing cached shader map for material flag_1_Mat, compiling. 
+[2021.05.09-10.26.16:306][225]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2021.05.09-10.26.16:306][225]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2021.05.09-10.26.16:306][225]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2021.05.09-10.26.16:306][225]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2021.05.09-10.26.16:306][225]LogMaterial: Display: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2021.05.09-10.26.16:412][225]LogMaterial: Display: Missing cached shader map for material M_CF_01_Foliage_Leaves_Master_01, compiling. 
+[2021.05.09-10.26.16:459][225]LogMaterial: Display: Missing cached shader map for material M_CF_01_Foliage_Leaves_Master_01, compiling. 
+[2021.05.09-10.26.16:507][225]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2021.05.09-10.26.16:606][225]LogMaterial: Display: Missing cached shader map for material M_terreno, compiling. 
+[2021.05.09-10.26.16:638][225]LogMaterial: Display: Missing cached shader map for material M_terreno, compiling. 
+[2021.05.09-10.26.16:666][225]LogMaterial: Display: Missing cached shader map for material M_terreno, compiling. 
+[2021.05.09-10.26.16:693][225]LogMaterial: Display: Missing cached shader map for material M_terreno, compiling. 
+[2021.05.09-10.26.16:797][225]LogMaterial: Display: Missing cached shader map for material M_terreno, compiling. 
+[2021.05.09-10.26.18:063][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2021.05.09-10.26.18:084][226]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 671
+[2021.05.09-10.26.18:092][226]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.05.09-10.26.18:189][227]LogRenderer: Reallocating scene render targets to support 1092x576 Format 9 NumSamples 1 (Frame:61110).
+[2021.05.09-10.26.18:189][227]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 661
+[2021.05.09-10.26.18:750][242]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 651
+[2021.05.09-10.26.22:044][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 641
+[2021.05.09-10.26.23:308][332]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 631
+[2021.05.09-10.26.23:350][333]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 621
+[2021.05.09-10.26.27:741][411]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 611
+[2021.05.09-10.26.28:741][431]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 601
+[2021.05.09-10.26.29:280][440]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 591
+[2021.05.09-10.26.31:533][484]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 581
+[2021.05.09-10.26.33:805][539]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 571
+[2021.05.09-10.26.34:207][548]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 561
+[2021.05.09-10.26.36:269][592]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 551
+[2021.05.09-10.26.38:575][643]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 541
+[2021.05.09-10.26.39:570][665]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 531
+[2021.05.09-10.26.42:476][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2021.05.09-10.26.44:157][855]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 521
+[2021.05.09-10.26.47:828][ 29]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 511
+[2021.05.09-10.26.49:190][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2021.05.09-10.26.49:215][100]LogTemp: Starting movie scene capture...
+[2021.05.09-10.26.49:225][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 501
+[2021.05.09-10.26.49:225][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.09-10.26.49:225][100]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2021, 12:26:49 AM)
+[2021.05.09-10.26.49:225][100]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.09-10.26.49:334][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.108204s)
+[2021.05.09-10.26.49:335][100]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.09-10.26.49:335][100]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016852DFF200), frame # 68100
+[2021.05.09-10.26.49:335][100]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016888675A80), frame # 68100
+[2021.05.09-10.26.49:335][100]LogPlayLevel: PIE: World Init took: (0.001502s)
+[2021.05.09-10.26.49:335][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.110011s)
+[2021.05.09-10.26.49:348][100]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.05.09-10.26.49:349][100]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.09-10.26.49:349][100]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.09-10.26.49:349][100]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.09-10.26.49:349][100]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.09-10.26.49:349][100]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.09-10.26.49:349][100]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.09-10.26.49:349][100]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.09-10.26.49:349][100]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.09-10.26.49:350][100]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.09-10.26.49:350][100]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.09-10.26.49:352][100]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.09-10.26.49:352][100]LogAudioMixer: Display: 1: FrontRight
+[2021.05.09-10.26.49:477][100]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.09-10.26.49:477][100]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.09-10.26.49:477][100]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.09-10.26.49:477][100]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.09-10.26.49:478][100]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.09-10.26.49:495][100]LogInit: FAudioDevice initialized.
+[2021.05.09-10.26.49:497][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.09-10.26.49:531][100]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.49:531][100]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.09-10.26.49:531][100]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2021.05.09-10.26.49:531][100]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.49:531][100]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2021.05.09-10.26.49:532][100]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.09-10.26.49:532][100]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2021.05.09-10.26.49:532][100]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.09-10.26.49:533][100]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2021.05.09-10.26.49:533][100]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.09-10.26.49:533][100]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2021.05.09-10.26.49:534][100]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2021.05.09-10.26.49:534][100]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:4]]
+[2021.05.09-10.26.49:534][100]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.49:534][100]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.09-10.26.49:534][100]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.09-10.26.49:534][100]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.26.49:534][100]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2021.05.09-10.26.49:534][100]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2021.05.09-10.26.49:534][100]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2021.05.09-10.26.49:534][100]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:1]]
+[2021.05.09-10.26.49:534][100]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:1]]
+[2021.05.09-10.26.49:534][100]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.09-10.26.49:534][100]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:1]]
+[2021.05.09-10.26.49:543][100]Final Cut Pro 7 XML Export: Warning: FCP 7 XML export expects rendered video sequences with filename format '{shot}' but most recent rendered filename format is '2daCinematics'.
+[2021.05.09-10.26.49:543][100]Final Cut Pro 7 XML Export: Warning: Section 'WolveCut2' starts on tick 113,599 which is not evenly divisible by the display rate 30.0. Enable snapping and adjust the start or edit the section properties to ensure it lands evenly on a whole frame.
+[2021.05.09-10.26.49:546][100]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.09-10.26.49:581][100]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.05.09-05.26.49
+[2021.05.09-10.26.49:583][100]LogWorld: Bringing up level for play took: 0.036414
+[2021.05.09-10.26.49:584][100]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.05.09-10.26.49:715][100]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] 3
+[2021.05.09-10.26.49:722][100]PIE: Server logged in
+[2021.05.09-10.26.49:724][100]PIE: Play in editor total start time 0.5 seconds.
+[2021.05.09-10.26.49:737][100]LogMovieSceneCapture: [68100] Waiting for 521 shaders to finish compiling...
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 491
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 481
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 471
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 461
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 451
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 441
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 431
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 421
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 411
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 401
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 391
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 381
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 371
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 361
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 351
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 341
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 331
+[2021.05.09-10.28.14:587][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 321
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 311
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 301
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 291
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 281
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 271
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 261
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 251
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 241
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 231
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 221
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 211
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 201
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 191
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 181
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 171
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 161
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 151
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 141
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 131
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 121
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 111
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 101
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 91
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 81
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 71
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 61
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 51
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 41
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 31
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2021.05.09-10.28.14:588][100]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2021.05.09-10.28.14:588][100]LogMovieSceneCapture: [68100] Done waiting for shaders to finish.
+[2021.05.09-10.28.15:060][100]LogRenderer: Reallocating scene render targets to support 1092x576 Format 10 NumSamples 1 (Frame:1).
+[2021.05.09-10.28.18:776][101]LogRenderer: Reallocating scene render targets to support 1092x576 Format 10 NumSamples 1 (Frame:1).
+[2021.05.09-10.28.19:117][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.05.09-10.29.42:061][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.05.09-10.29.58:214][329]LogTemp: Warning: Audio Recording Paused. Adding: 16.251890 seconds to GameRecording. Adding: 16.290318 seconds to Platform Recording.
+[2021.05.09-10.29.58:543][330]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2021.05.09-10.29.58:543][330]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2021.05.09-10.29.58:543][330]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2021.05.09-10.29.58:543][330]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2021.05.09-10.29.58:543][330]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2021.05.09-10.29.58:544][330]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2021.05.09-10.29.58:544][330]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.09-10.29.58:544][330]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2021.05.09-10.29.58:544][330]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2021.05.09-10.29.58:545][330]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.58:546][330]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2021.05.09-10.29.58:546][330]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.09-10.29.58:546][330]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2021.05.09-10.29.58:546][330]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.09-10.29.58:546][330]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.09-10.29.58:546][330]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.09-10.29.58:546][330]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.09-10.29.59:026][330]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.59:026][330]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2021.05.09-10.29.59:026][330]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2021.05.09-10.29.59:026][330]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.59:026][330]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2021.05.09-10.29.59:026][330]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.59:026][330]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2021.05.09-10.29.59:026][330]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2021.05.09-10.29.59:026][330]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.05.09-10.29.59:026][330]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.05.09-10.29.59:027][330]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2021.05.09-10.29.59:028][330]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '400'
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.09-10.29.59:028][330]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.09-10.29.59:029][330]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:0]]
+[2021.05.09-10.29.59:029][330]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.59:029][330]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2021.05.09-10.29.59:029][330]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2021.05.09-10.29.59:029][330]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.29.59:029][330]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2021.05.09-10.29.59:029][330]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.09-10.29.59:029][330]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2021.05.09-10.29.59:029][330]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.09-10.29.59:029][330]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.09-10.29.59:029][330]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.09-10.29.59:029][330]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.09-10.29.59:030][330]LogRenderer: Reallocating scene render targets to support 1092x576 Format 9 NumSamples 1 (Frame:490).
+[2021.05.09-10.30.00:395][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.09-10.30.00:395][330]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.09-10.30.00:396][330]LogSlate: Window 'Movie Render - Preview' being destroyed
+[2021.05.09-10.30.00:399][330]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.09-10.30.00:406][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.09-10.30.00:408][330]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.09-10.30.00:411][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.09-10.30.00:458][330]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016888675A80), frame # 69330
+[2021.05.09-10.30.00:458][330]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016852DFF200), frame # 69330
+[2021.05.09-10.30.00:462][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.05.09-10.30.00:530][330]LogTemp: Movie Capture finished. Success: 1
+[2021.05.09-10.30.00:617][331]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.05.09-10.30.00:629][331]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.05.09-10.30.00:882][333]LogRenderer: Reallocating scene render targets to support 1092x576 Format 9 NumSamples 1 (Frame:61877).
+[2021.05.09-10.30.03:614][466]LogSlate: Window 'Render Movie Settings' being destroyed
+[2021.05.09-10.30.04:818][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.05.09-10.31.27:038][572]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Cinematics/Pistol.Pistol
+[2021.05.09-10.31.46:720][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2021.05.09-10.31.47:572][698]LogSlate: Window 'Save Content' being destroyed
+[2021.05.09-10.31.47:607][698]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Pistol5D845DA14D82F85F22912A88D69BDA73.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/Pistol.uasset'
+[2021.05.09-10.31.47:621][698]AssetCheck: New page: Asset Save: Pistol
+[2021.05.09-10.31.47:621][698]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/Pistol.Pistol
+[2021.05.09-10.32.40:756][842]Cmd: TRANSACTION UNDO
+[2021.05.09-10.32.40:756][842]LogEditorTransaction: Undo Resize section
+[2021.05.09-10.32.41:298][859]Cmd: TRANSACTION UNDO
+[2021.05.09-10.32.41:298][859]LogEditorTransaction: Undo Resize section
+[2021.05.09-10.32.41:908][895]Cmd: TRANSACTION UNDO
+[2021.05.09-10.32.41:908][895]LogEditorTransaction: Undo Resize section
+[2021.05.09-10.32.51:813][471]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.05.09-10.32.52:595][471]LogSlate: Window 'Save Content' being destroyed
+[2021.05.09-10.32.52:640][471]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Pistol25D929EC480A158F675CA6840F87382D.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/Pistol.uasset'
+[2021.05.09-10.32.52:654][471]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/1-pistolBEAA91134227E15C2CE08BA4E4F711B7.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/pISTOL/1-pistol.uasset'
+[2021.05.09-10.32.54:246][471]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.09-10.32.54:246][471]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/Pistol.Pistol
+[2021.05.09-10.32.54:246][471]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/pISTOL/1-pistol.1-pistol
+[2021.05.09-10.33.35:254][569]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SoldierMasked)
+[2021.05.09-10.33.37:826][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2021.05.09-10.33.38:664][718]LogSlate: Window 'Save Content' being destroyed
+[2021.05.09-10.33.38:705][718]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/1-pistolAE30D0884490EDAE48C43C81E93EEFA5.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/pISTOL/1-pistol.uasset'
+[2021.05.09-10.33.38:723][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.05.09-10.33.40:592][718]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap227E9461404E38699AC562B5B8A7474B.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.09-10.33.40:636][718]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.928
+[2021.05.09-10.33.40:757][718]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData08B3FD734647FA768D67018222DD9C42.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.09-10.33.40:778][718]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.09-10.33.40:779][718]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/pISTOL/1-pistol.1-pistol
+[2021.05.09-10.33.40:779][718]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.05.09-10.33.40:779][718]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.05.09-10.34.39:018][163]Cmd: TRANSACTION UNDO
+[2021.05.09-10.34.39:018][163]LogEditorTransaction: Undo Resize section
+[2021.05.09-10.34.39:339][170]Cmd: TRANSACTION UNDO
+[2021.05.09-10.34.39:339][170]LogEditorTransaction: Undo Select None
+[2021.05.09-10.34.41:940][312]Cmd: TRANSACTION UNDO
+[2021.05.09-10.34.41:940][312]LogEditorTransaction: Undo Resize section
+[2021.05.09-10.34.42:822][362]Cmd: TRANSACTION UNDO
+[2021.05.09-10.34.42:822][362]LogEditorTransaction: Undo Select Actors/Components
+[2021.05.09-10.34.43:317][390]Cmd: TRANSACTION UNDO
+[2021.05.09-10.34.43:317][390]LogEditorTransaction: Undo Select None
+[2021.05.09-10.34.44:311][446]Cmd: TRANSACTION UNDO
+[2021.05.09-10.34.44:311][446]LogEditorTransaction: Undo Resize section
+[2021.05.09-10.34.45:436][512]Cmd: TRANSACTION UNDO
+[2021.05.09-10.34.45:436][512]LogEditorTransaction: Undo Select Actors/Components
+[2021.05.09-10.34.46:601][581]Cmd: TRANSACTION UNDO
+[2021.05.09-10.34.46:601][581]LogEditorTransaction: Undo Delete Sections
+[2021.05.09-10.34.52:140][901]Cmd: TRANSACTION UNDO
+[2021.05.09-10.34.52:140][901]LogEditorTransaction: Undo Move Keys or Sections
+[2021.05.09-10.35.30:792][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.05.09-10.35.31:867][160]LogSlate: Window 'Save Content' being destroyed
+[2021.05.09-10.35.31:909][160]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/1-pistol6DCFF0CA40CB4095EEF8ADB60DA70EFF.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/pISTOL/1-pistol.uasset'
+[2021.05.09-10.35.31:922][160]AssetCheck: New page: Asset Save: 1-pistol
+[2021.05.09-10.35.31:922][160]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/pISTOL/1-pistol.1-pistol
+[2021.05.09-10.35.44:783][925]LogEditorViewport: Clicking on Actor (LMB): BP_Pistol_C (BP_Pistol)
+[2021.05.09-10.36.46:754][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.05.09-10.36.47:615][623]LogSlate: Window 'Save Content' being destroyed
+[2021.05.09-10.36.47:652][623]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/1-pistolFAF51B4D41EE058949F7D196CA0D56E3.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/pISTOL/1-pistol.uasset'
+[2021.05.09-10.36.47:669][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2021.05.09-10.36.48:596][623]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap5696B8AF45D033F10340C88E8D652332.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.09-10.36.48:640][623]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.986
+[2021.05.09-10.36.48:730][623]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData7AE98EFE416035913346A58C3A6052AA.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.09-10.36.48:759][623]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.09-10.36.48:759][623]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/pISTOL/1-pistol.1-pistol
+[2021.05.09-10.36.48:759][623]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.05.09-10.36.48:759][623]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.05.09-10.37.22:929][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.05.09-10.37.23:915][641]LogSlate: Window 'Save Content' being destroyed
+[2021.05.09-10.37.23:946][641]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Pistol759818CB4A03A68A7ED39F9BDD773602.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/Pistol.uasset'
+[2021.05.09-10.37.23:957][641]AssetCheck: New page: Asset Save: Pistol
+[2021.05.09-10.37.23:957][641]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/Pistol.Pistol
+[2021.05.09-10.37.39:611][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.05.09-10.37.40:644][578]LogSlate: Window 'Save Content' being destroyed
+[2021.05.09-10.37.40:678][578]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/2-pistol6D4072EC43CEBC7A2595C7A86887AFCB.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/pISTOL/2-pistol.uasset'
+[2021.05.09-10.37.40:696][578]AssetCheck: New page: Asset Save: 2-pistol
+[2021.05.09-10.37.40:696][578]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/pISTOL/2-pistol.2-pistol
+[2021.05.09-10.37.41:820][643]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Cinematics/pISTOL/2-pistol.2-pistol
+[2021.05.09-10.37.53:877][346]Cmd: TRANSACTION UNDO
+[2021.05.09-10.37.53:877][346]LogEditorTransaction: Undo Delete Keys
+[2021.05.09-10.37.54:159][353]Cmd: TRANSACTION UNDO
+[2021.05.09-10.37.54:159][353]LogEditorTransaction: Undo Select Actors/Components
+[2021.05.09-10.37.54:774][381]Cmd: TRANSACTION UNDO
+[2021.05.09-10.37.54:774][381]LogEditorTransaction: Undo Delete Keys
+[2021.05.09-10.37.55:190][402]Cmd: TRANSACTION UNDO
+[2021.05.09-10.37.55:190][402]LogEditorTransaction: Undo Select Actors/Components
+[2021.05.09-10.37.55:541][422]Cmd: TRANSACTION UNDO
+[2021.05.09-10.37.55:541][422]LogEditorTransaction: Undo Delete Keys
+[2021.05.09-10.37.55:839][436]Cmd: TRANSACTION UNDO
+[2021.05.09-10.37.55:839][436]LogEditorTransaction: Undo Select Actors/Components
+[2021.05.09-10.37.56:106][451]Cmd: TRANSACTION UNDO
+[2021.05.09-10.37.56:106][451]LogEditorTransaction: Undo Delete Keys
+[2021.05.09-10.37.56:405][465]Cmd: TRANSACTION UNDO
+[2021.05.09-10.37.56:405][465]LogEditorTransaction: Undo Select Actors/Components
+[2021.05.09-10.37.56:707][483]Cmd: TRANSACTION UNDO
+[2021.05.09-10.37.56:707][483]LogEditorTransaction: Undo Resize section
+[2021.05.09-10.37.57:091][505]Cmd: TRANSACTION UNDO
+[2021.05.09-10.37.57:091][505]LogEditorTransaction: Undo Set Playback Range
+[2021.05.09-10.37.57:406][523]Cmd: TRANSACTION UNDO
+[2021.05.09-10.37.57:406][523]LogEditorTransaction: Undo Set Playback Range
+[2021.05.09-10.39.04:316][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2021.05.09-10.39.05:101][493]LogSlate: Window 'Save Content' being destroyed
+[2021.05.09-10.39.05:129][493]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Pistol0FD016474497E4BC234B44BD253AF474.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/Pistol.uasset'
+[2021.05.09-10.39.05:142][493]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/2-pistol5BB0C8A34133E878DA18C087F6E32ADF.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/pISTOL/2-pistol.uasset'
+[2021.05.09-10.39.05:160][493]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.09-10.39.05:160][493]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/Pistol.Pistol
+[2021.05.09-10.39.05:161][493]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/pISTOL/2-pistol.2-pistol
+[2021.05.09-10.40.24:421][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.05.09-10.40.25:307][233]LogSlate: Window 'Save Content' being destroyed
+[2021.05.09-10.40.25:351][233]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/2-pistol5AC1593945A1CE99BDC1E488474E0A43.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/pISTOL/2-pistol.uasset'
+[2021.05.09-10.40.25:365][233]AssetCheck: New page: Asset Save: 2-pistol
+[2021.05.09-10.40.25:365][233]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/pISTOL/2-pistol.2-pistol
+[2021.05.09-10.40.32:050][627]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Cinematics/Pistol.Pistol
+[2021.05.09-10.40.57:825][159]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (796b3b0283794320bc74bbccf8578115_fbx_DM25)
+[2021.05.09-10.41.58:240][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2021.05.09-10.41.59:056][762]LogSlate: Window 'Save Content' being destroyed
+[2021.05.09-10.41.59:091][762]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Pistol632E2D4F4349C72D827B2583E67AE679.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/Pistol.uasset'
+[2021.05.09-10.41.59:104][762]AssetCheck: New page: Asset Save: Pistol
+[2021.05.09-10.41.59:104][762]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/Pistol.Pistol
+[2021.05.09-10.42.16:209][752]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/3-pistol9C844E3D4CCBC6AAA59D3FA0B670FC73.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/pISTOL/3-pistol.uasset'
+[2021.05.09-10.42.16:423][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2021.05.09-10.42.16:443][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2021.05.09-10.42.16:455][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.05.09-10.42.16:713][752]AssetCheck: New page: Asset Save: 3-pistol
+[2021.05.09-10.42.16:713][752]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/pISTOL/3-pistol.3-pistol
+[2021.05.09-10.42.17:390][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.05.09-10.42.18:580][861]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Cinematics/pISTOL/3-pistol.3-pistol
+[2021.05.09-10.43.58:882][817]Cmd: TRANSACTION UNDO
+[2021.05.09-10.43.58:883][817]LogEditorTransaction: Undo Set Key Value
+[2021.05.09-10.44.17:321][890]Cmd: TRANSACTION UNDO
+[2021.05.09-10.44.17:321][890]LogEditorTransaction: Undo Set Key Value
+[2021.05.09-10.44.18:010][915]Cmd: TRANSACTION UNDO
+[2021.05.09-10.44.18:010][915]LogEditorTransaction: Undo Add Keys at Current Time
+[2021.05.09-10.44.49:061][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.05.09-10.44.49:819][763]LogSlate: Window 'Save Content' being destroyed
+[2021.05.09-10.44.50:103][763]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/3-pistolFEA8A065423CA8C65A3C849997919677.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/pISTOL/3-pistol.uasset'
+[2021.05.09-10.44.50:118][763]AssetCheck: New page: Asset Save: 3-pistol
+[2021.05.09-10.44.50:118][763]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/pISTOL/3-pistol.3-pistol
+[2021.05.09-10.44.54:724][ 34]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Cinematics/Pistol.Pistol
+[2021.05.09-10.45.18:777][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2021.05.09-10.45.19:646][450]LogSlate: Window 'Save Content' being destroyed
+[2021.05.09-10.45.19:677][450]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/PistolF13917154CE8FB084B3F7AA948A0B6EE.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/Pistol.uasset'
+[2021.05.09-10.45.19:690][450]AssetCheck: New page: Asset Save: Pistol
+[2021.05.09-10.45.19:690][450]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/Pistol.Pistol
+[2021.05.09-10.45.50:261][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.05.09-10.45.51:139][276]LogSlate: Window 'Save Content' being destroyed
+[2021.05.09-10.45.51:177][276]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Pistol41C2E7C44F981B745C79ABADA5C1CA31.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Cinematics/Pistol.uasset'
+[2021.05.09-10.45.51:189][276]AssetCheck: New page: Asset Save: Pistol
+[2021.05.09-10.45.51:189][276]LogContentValidation: Display: Validating LevelSequence /Game/Cinematics/Pistol.Pistol
+[2021.05.09-10.46.10:588][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.05.09-10.46.10:591][405]LogTemp: Starting movie scene capture...
+[2021.05.09-10.46.10:600][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.09-10.46.10:600][405]PIE: New page: PIE session: ThirdPersonExampleMap (May 9, 2021, 12:46:10 AM)
+[2021.05.09-10.46.10:600][405]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.09-10.46.10:702][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.101495s)
+[2021.05.09-10.46.10:703][405]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.09-10.46.10:703][405]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016838D4C400), frame # 121405
+[2021.05.09-10.46.10:703][405]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001675DFA3D80), frame # 121405
+[2021.05.09-10.46.10:704][405]LogPlayLevel: PIE: World Init took: (0.001687s)
+[2021.05.09-10.46.10:704][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.103458s)
+[2021.05.09-10.46.10:717][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.05.09-10.46.10:718][405]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.09-10.46.10:718][405]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.09-10.46.10:718][405]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.09-10.46.10:718][405]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.09-10.46.10:718][405]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.09-10.46.10:719][405]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.09-10.46.10:719][405]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.09-10.46.10:719][405]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.09-10.46.10:719][405]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.09-10.46.10:719][405]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.09-10.46.10:722][405]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.09-10.46.10:722][405]LogAudioMixer: Display: 1: FrontRight
+[2021.05.09-10.46.10:837][405]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.09-10.46.10:837][405]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.09-10.46.10:837][405]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.09-10.46.10:837][405]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.09-10.46.10:838][405]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.09-10.46.10:862][405]LogInit: FAudioDevice initialized.
+[2021.05.09-10.46.10:864][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.09-10.46.10:883][405]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2021.05.09-10.46.10:883][405]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2021.05.09-10.46.10:883][405]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.09-10.46.10:883][405]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.09-10.46.10:884][405]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.09-10.46.10:884][405]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.09-10.46.10:884][405]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2021.05.09-10.46.10:885][405]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:4]]
+[2021.05.09-10.46.10:885][405]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.09-10.46.10:885][405]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:1]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:1]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.09-10.46.10:885][405]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:1]]
+[2021.05.09-10.46.10:890][405]Final Cut Pro 7 XML Export: Warning: FCP 7 XML export expects rendered video sequences with filename format '{shot}' but most recent rendered filename format is '3raCinematics'.
+[2021.05.09-10.46.10:895][405]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.09-10.46.10:933][405]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.05.09-05.46.10
+[2021.05.09-10.46.10:935][405]LogWorld: Bringing up level for play took: 0.038807
+[2021.05.09-10.46.10:936][405]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.05.09-10.46.11:078][405]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] 3
+[2021.05.09-10.46.11:086][405]PIE: Server logged in
+[2021.05.09-10.46.11:087][405]PIE: Play in editor total start time 0.488 seconds.
+[2021.05.09-10.46.11:166][405]LogRenderer: Reallocating scene render targets to support 1092x576 Format 10 NumSamples 1 (Frame:0).
+[2021.05.09-10.46.15:685][406]LogRenderer: Reallocating scene render targets to support 1092x576 Format 10 NumSamples 1 (Frame:111942).
+[2021.05.09-10.46.16:291][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.05.09-10.46.31:232][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.05.09-10.46.53:065][902]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2021.05.09-10.46.53:065][902]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2021.05.09-10.46.53:065][902]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2021.05.09-10.46.53:065][902]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:065][902]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2021.05.09-10.46.53:066][902]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.09-10.46.53:066][902]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2021.05.09-10.46.53:066][902]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:0]]
+[2021.05.09-10.46.53:067][902]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:067][902]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2021.05.09-10.46.53:068][902]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2021.05.09-10.46.53:068][902]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:068][902]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2021.05.09-10.46.53:068][902]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.09-10.46.53:068][902]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2021.05.09-10.46.53:068][902]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.09-10.46.53:068][902]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.09-10.46.53:068][902]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.09-10.46.53:068][902]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.09-10.46.53:290][902]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:290][902]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2021.05.09-10.46.53:290][902]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2021.05.09-10.46.53:290][902]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:290][902]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2021.05.09-10.46.53:290][902]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:290][902]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2021.05.09-10.46.53:290][902]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.05.09-10.46.53:291][902]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2021.05.09-10.46.53:292][902]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2021.05.09-10.46.53:292][902]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '400'
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.09-10.46.53:292][902]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.05.09-10.46.53:292][902]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:0]]
+[2021.05.09-10.46.53:293][902]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:293][902]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2021.05.09-10.46.53:294][902]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2021.05.09-10.46.53:294][902]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.09-10.46.53:294][902]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2021.05.09-10.46.53:294][902]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.09-10.46.53:294][902]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2021.05.09-10.46.53:294][902]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.09-10.46.53:294][902]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.09-10.46.53:294][902]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.09-10.46.53:294][902]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.09-10.46.53:298][902]LogRenderer: Reallocating scene render targets to support 1092x576 Format 9 NumSamples 1 (Frame:498).
+[2021.05.09-10.46.54:753][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.09-10.46.54:753][902]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.09-10.46.54:754][902]LogSlate: Window 'Movie Render - Preview' being destroyed
+[2021.05.09-10.46.54:758][902]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.09-10.46.54:768][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.09-10.46.54:770][902]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.09-10.46.54:773][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.09-10.46.54:837][902]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001675DFA3D80), frame # 121902
+[2021.05.09-10.46.54:837][902]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016838D4C400), frame # 121902
+[2021.05.09-10.46.54:841][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.05.09-10.46.54:908][902]LogTemp: Movie Capture finished. Success: 1
+[2021.05.09-10.46.55:307][903]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.05.09-10.46.55:319][903]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.05.09-10.46.56:337][908]LogRenderer: Reallocating scene render targets to support 1092x576 Format 9 NumSamples 1 (Frame:111943).
+[2021.05.09-10.46.57:146][953]LogSlate: Window 'Render Movie Settings' being destroyed
+[2021.05.09-10.46.59:036][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.05.09-10.47.00:135][114]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.05.09-10.47.00:462][114]LogSlate: Window 'DeepWoodland2 - Unreal Editor' being destroyed
+[2021.05.09-10.47.00:472][114]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.05.09-10.47.00:702][115]Cmd: QUIT_EDITOR
+[2021.05.09-10.47.00:702][115]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.05.09-10.47.00:730][115]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.05.09-10.47.01:551][115]LogExit: Preparing to exit.
+[2021.05.09-10.47.03:064][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:064][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:064][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:064][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:064][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:064][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:064][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:064][115]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.05.09-10.47.03:065][115]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.09-10.47.03:588][115]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.05.09-10.47.04:368][115]LogExit: Editor shut down
+[2021.05.09-10.47.04:373][115]LogExit: Transaction tracking system shut down
+[2021.05.09-10.47.05:230][115]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000167E18DBE00), frame # 122115
+[2021.05.09-10.47.05:230][115]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000167E193DF80), frame # 122115
+[2021.05.09-10.47.06:195][115]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001674EABDBC0), frame # 122115
+[2021.05.09-10.47.06:195][115]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001674FA12AC0), frame # 122115
+[2021.05.09-10.47.06:235][115]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001674EA4E000), frame # 122115
+[2021.05.09-10.47.08:983][115]LogExit: Object subsystem successfully closed.
+[2021.05.09-10.47.09:334][115]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.05.09-10.47.11:812][115]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (804)
+[2021.05.09-10.47.11:812][115]LogModuleManager: Shutting down and abandoning module Voice (802)
+[2021.05.09-10.47.11:822][115]LogModuleManager: Shutting down and abandoning module MovieSceneCaptureDialog (800)
+[2021.05.09-10.47.11:822][115]LogModuleManager: Shutting down and abandoning module SequencerWidgets (798)
+[2021.05.09-10.47.11:822][115]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (796)
+[2021.05.09-10.47.11:822][115]LogModuleManager: Shutting down and abandoning module SceneOutliner (792)
+[2021.05.09-10.47.11:822][115]LogModuleManager: Shutting down and abandoning module AddContentDialog (790)
+[2021.05.09-10.47.11:843][115]LogModuleManager: Shutting down and abandoning module WidgetCarousel (789)
+[2021.05.09-10.47.11:843][115]LogModuleManager: Shutting down and abandoning module EditorWidgets (786)
+[2021.05.09-10.47.11:843][115]LogModuleManager: Shutting down and abandoning module CollectionManager (784)
+[2021.05.09-10.47.11:843][115]LogModuleManager: Shutting down and abandoning module StatsViewer (782)
+[2021.05.09-10.47.11:876][115]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (780)
+[2021.05.09-10.47.11:876][115]LogModuleManager: Shutting down and abandoning module FoliageEdit (778)
+[2021.05.09-10.47.11:906][115]LogModuleManager: Shutting down and abandoning module LandscapeEditor (776)
+[2021.05.09-10.47.11:966][115]LogModuleManager: Shutting down and abandoning module MeshPaintMode (774)
+[2021.05.09-10.47.11:985][115]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (772)
+[2021.05.09-10.47.11:985][115]LogModuleManager: Shutting down and abandoning module ActorPickerMode (770)
+[2021.05.09-10.47.11:985][115]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (768)
+[2021.05.09-10.47.12:045][115]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (766)
+[2021.05.09-10.47.12:059][115]LogModuleManager: Shutting down and abandoning module AutomationWorker (764)
+[2021.05.09-10.47.12:065][115]LogModuleManager: Shutting down and abandoning module SteamVREditor (762)
+[2021.05.09-10.47.12:065][115]LogModuleManager: Shutting down and abandoning module OculusMR (760)
+[2021.05.09-10.47.12:087][115]LogModuleManager: Shutting down and abandoning module GooglePADEditor (758)
+[2021.05.09-10.47.12:088][115]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (756)
+[2021.05.09-10.47.12:088][115]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (754)
+[2021.05.09-10.47.12:088][115]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (752)
+[2021.05.09-10.47.12:089][115]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (750)
+[2021.05.09-10.47.12:089][115]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (748)
+[2021.05.09-10.47.12:122][115]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (746)
+[2021.05.09-10.47.12:122][115]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (744)
+[2021.05.09-10.47.12:122][115]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (742)
+[2021.05.09-10.47.12:122][115]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (740)
+[2021.05.09-10.47.12:122][115]LogModuleManager: Shutting down and abandoning module WebMMedia (738)
+[2021.05.09-10.47.12:135][115]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (736)
+[2021.05.09-10.47.12:168][115]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (734)
+[2021.05.09-10.47.12:182][115]LogModuleManager: Shutting down and abandoning module SequenceRecorder (733)
+[2021.05.09-10.47.12:185][115]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (730)
+[2021.05.09-10.47.12:185][115]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (728)
+[2021.05.09-10.47.12:186][115]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (726)
+[2021.05.09-10.47.12:186][115]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (724)
+[2021.05.09-10.47.12:186][115]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (722)
+[2021.05.09-10.47.12:186][115]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (720)
+[2021.05.09-10.47.12:186][115]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (718)
+[2021.05.09-10.47.12:186][115]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (716)
+[2021.05.09-10.47.12:186][115]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (714)
+[2021.05.09-10.47.12:186][115]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (712)
+[2021.05.09-10.47.12:187][115]LogModuleManager: Shutting down and abandoning module PlanarCut (710)
+[2021.05.09-10.47.12:211][115]LogModuleManager: Shutting down and abandoning module CharacterAI (708)
+[2021.05.09-10.47.12:211][115]LogModuleManager: Shutting down and abandoning module TextureAlignMode (706)
+[2021.05.09-10.47.12:211][115]LogModuleManager: Shutting down and abandoning module BspMode (704)
+[2021.05.09-10.47.12:247][115]LogModuleManager: Shutting down and abandoning module PlacementMode (703)
+[2021.05.09-10.47.12:247][115]LogModuleManager: Shutting down and abandoning module GeometryMode (700)
+[2021.05.09-10.47.12:247][115]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (698)
+[2021.05.09-10.47.12:277][115]LogModuleManager: Shutting down and abandoning module SmartSnapping (696)
+[2021.05.09-10.47.12:277][115]LogModuleManager: Shutting down and abandoning module SessionServices (694)
+[2021.05.09-10.47.12:277][115]LogModuleManager: Shutting down and abandoning module MeshPaint (692)
+[2021.05.09-10.47.12:328][115]LogModuleManager: Shutting down and abandoning module ViewportSnapping (690)
+[2021.05.09-10.47.12:328][115]LogModuleManager: Shutting down and abandoning module ViewportInteraction (688)
+[2021.05.09-10.47.12:328][115]LogModuleManager: Shutting down and abandoning module ClothPainter (686)
+[2021.05.09-10.47.12:352][115]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (685)
+[2021.05.09-10.47.12:397][115]LogModuleManager: Shutting down and abandoning module LogVisualizer (682)
+[2021.05.09-10.47.12:422][115]LogModuleManager: Shutting down and abandoning module IntroTutorials (680)
+[2021.05.09-10.47.12:439][115]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (679)
+[2021.05.09-10.47.12:490][115]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (676)
+[2021.05.09-10.47.12:490][115]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (674)
+[2021.05.09-10.47.12:512][115]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (672)
+[2021.05.09-10.47.12:512][115]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (671)
+[2021.05.09-10.47.13:145][115]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (668)
+[2021.05.09-10.47.13:145][115]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (666)
+[2021.05.09-10.47.13:145][115]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (664)
+[2021.05.09-10.47.13:145][115]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (662)
+[2021.05.09-10.47.13:145][115]LogModuleManager: Shutting down and abandoning module TraceInsights (660)
+[2021.05.09-10.47.13:266][115]LogModuleManager: Shutting down and abandoning module TraceServices (659)
+[2021.05.09-10.47.13:284][115]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (656)
+[2021.05.09-10.47.13:285][115]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (654)
+[2021.05.09-10.47.13:285][115]LogModuleManager: Shutting down and abandoning module InputBindingEditor (652)
+[2021.05.09-10.47.13:350][115]LogModuleManager: Shutting down and abandoning module MergeActors (650)
+[2021.05.09-10.47.13:407][115]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (648)
+[2021.05.09-10.47.13:438][115]LogModuleManager: Shutting down and abandoning module LocalizationService (647)
+[2021.05.09-10.47.13:448][115]LogModuleManager: Shutting down and abandoning module HardwareTargeting (644)
+[2021.05.09-10.47.13:448][115]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (642)
+[2021.05.09-10.47.13:489][115]LogModuleManager: Shutting down and abandoning module UndoHistory (640)
+[2021.05.09-10.47.13:498][115]LogModuleManager: Shutting down and abandoning module XmlParser (638)
+[2021.05.09-10.47.13:498][115]LogModuleManager: Shutting down and abandoning module Blutility (636)
+[2021.05.09-10.47.13:498][115]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (634)
+[2021.05.09-10.47.13:498][115]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (633)
+[2021.05.09-10.47.13:499][115]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (630)
+[2021.05.09-10.47.13:499][115]LogModuleManager: Shutting down and abandoning module SettingsEditor (628)
+[2021.05.09-10.47.13:500][115]LogModuleManager: Shutting down and abandoning module ProjectLauncher (626)
+[2021.05.09-10.47.13:509][115]LogModuleManager: Shutting down and abandoning module SessionFrontend (624)
+[2021.05.09-10.47.13:523][115]LogModuleManager: Shutting down and abandoning module ProfilerClient (622)
+[2021.05.09-10.47.13:529][115]LogModuleManager: Shutting down and abandoning module DeviceManager (620)
+[2021.05.09-10.47.13:534][115]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (619)
+[2021.05.09-10.47.13:567][115]LogModuleManager: Shutting down and abandoning module AutomationController (616)
+[2021.05.09-10.47.13:576][115]LogModuleManager: Shutting down and abandoning module AutomationWindow (614)
+[2021.05.09-10.47.13:590][115]LogModuleManager: Shutting down and abandoning module Layers (612)
+[2021.05.09-10.47.13:606][115]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (610)
+[2021.05.09-10.47.13:606][115]LogModuleManager: Shutting down and abandoning module DetailCustomizations (608)
+[2021.05.09-10.47.13:606][115]LogModuleManager: Shutting down and abandoning module PackagesDialog (606)
+[2021.05.09-10.47.13:606][115]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (604)
+[2021.05.09-10.47.13:667][115]LogModuleManager: Shutting down and abandoning module Persona (602)
+[2021.05.09-10.47.13:683][115]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (601)
+[2021.05.09-10.47.13:683][115]LogModuleManager: Shutting down and abandoning module AnimGraph (599)
+[2021.05.09-10.47.13:684][115]LogModuleManager: Shutting down and abandoning module Kismet (596)
+[2021.05.09-10.47.13:735][115]LogModuleManager: Shutting down and abandoning module KismetWidgets (595)
+[2021.05.09-10.47.13:735][115]LogModuleManager: Shutting down and abandoning module GraphEditor (592)
+[2021.05.09-10.47.13:737][115]LogModuleManager: Shutting down and abandoning module StructViewer (590)
+[2021.05.09-10.47.13:737][115]LogModuleManager: Shutting down and abandoning module ClassViewer (588)
+[2021.05.09-10.47.13:739][115]LogModuleManager: Shutting down and abandoning module Toolbox (586)
+[2021.05.09-10.47.13:739][115]LogModuleManager: Shutting down and abandoning module ModuleUI (584)
+[2021.05.09-10.47.13:751][115]LogModuleManager: Shutting down and abandoning module OutputLog (582)
+[2021.05.09-10.47.13:804][115]LogModuleManager: Shutting down and abandoning module GammaUI (580)
+[2021.05.09-10.47.13:894][115]LogModuleManager: Shutting down and abandoning module Documentation (578)
+[2021.05.09-10.47.13:894][115]LogModuleManager: Shutting down and abandoning module LiveCoding (576)
+[2021.05.09-10.47.13:948][115]LogModuleManager: Shutting down and abandoning module LevelSequence (574)
+[2021.05.09-10.47.13:948][115]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (572)
+[2021.05.09-10.47.13:948][115]LogModuleManager: Shutting down and abandoning module MovieScene (570)
+[2021.05.09-10.47.13:948][115]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (568)
+[2021.05.09-10.47.13:983][115]LogModuleManager: Shutting down and abandoning module LauncherPlatform (566)
+[2021.05.09-10.47.13:984][115]LogModuleManager: Shutting down and abandoning module AnalyticsET (564)
+[2021.05.09-10.47.13:984][115]LogModuleManager: Shutting down and abandoning module PortalServices (562)
+[2021.05.09-10.47.13:984][115]LogModuleManager: Shutting down and abandoning module PortalRpc (560)
+[2021.05.09-10.47.13:984][115]LogModuleManager: Shutting down and abandoning module MessagingRpc (558)
+[2021.05.09-10.47.13:984][115]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (556)
+[2021.05.09-10.47.13:984][115]LogModuleManager: Shutting down and abandoning module AudioMixerCore (555)
+[2021.05.09-10.47.13:984][115]LogModuleManager: Shutting down and abandoning module AIModule (552)
+[2021.05.09-10.47.14:007][115]LogModuleManager: Shutting down and abandoning module GameplayDebugger (551)
+[2021.05.09-10.47.14:009][115]LogModuleManager: Shutting down and abandoning module AITestSuite (549)
+[2021.05.09-10.47.14:009][115]LogModuleManager: Shutting down and abandoning module NavigationSystem (547)
+[2021.05.09-10.47.14:009][115]LogModuleManager: Shutting down and abandoning module ProfilerService (544)
+[2021.05.09-10.47.14:187][115]LogModuleManager: Shutting down and abandoning module TaskGraph (542)
+[2021.05.09-10.47.14:259][115]LogModuleManager: Shutting down and abandoning module ScreenshotTools (540)
+[2021.05.09-10.47.14:259][115]LogModuleManager: Shutting down and abandoning module SynthesisEditor (538)
+[2021.05.09-10.47.14:259][115]LogModuleManager: Shutting down and abandoning module Synthesis (536)
+[2021.05.09-10.47.14:269][115]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (534)
+[2021.05.09-10.47.14:269][115]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (532)
+[2021.05.09-10.47.14:269][115]LogModuleManager: Shutting down and abandoning module OculusEditor (530)
+[2021.05.09-10.47.14:275][115]LogModuleManager: Shutting down and abandoning module OculusInput (528)
+[2021.05.09-10.47.14:275][115]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (526)
+[2021.05.09-10.47.14:275][115]LogModuleManager: Shutting down and abandoning module GooglePAD (524)
+[2021.05.09-10.47.14:275][115]LogModuleManager: Shutting down and abandoning module EditableMesh (522)
+[2021.05.09-10.47.14:285][115]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (520)
+[2021.05.09-10.47.14:285][115]LogModuleManager: Shutting down and abandoning module CableComponent (518)
+[2021.05.09-10.47.14:291][115]LogModuleManager: Shutting down and abandoning module AudioCapture (516)
+[2021.05.09-10.47.14:291][115]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (515)
+[2021.05.09-10.47.14:304][115]LogModuleManager: Shutting down and abandoning module AssetTags (512)
+[2021.05.09-10.47.14:304][115]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (510)
+[2021.05.09-10.47.14:304][115]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (508)
+[2021.05.09-10.47.14:304][115]LogModuleManager: Shutting down and abandoning module AppleImageUtils (506)
+[2021.05.09-10.47.14:304][115]LogModuleManager: Shutting down and abandoning module AndroidPermission (504)
+[2021.05.09-10.47.14:304][115]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (502)
+[2021.05.09-10.47.14:313][115]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (500)
+[2021.05.09-10.47.14:317][115]LogModuleManager: Shutting down and abandoning module TemplateSequence (498)
+[2021.05.09-10.47.14:317][115]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (496)
+[2021.05.09-10.47.14:330][115]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (494)
+[2021.05.09-10.47.14:356][115]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (492)
+[2021.05.09-10.47.14:356][115]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (490)
+[2021.05.09-10.47.14:356][115]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (489)
+[2021.05.09-10.47.14:356][115]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (486)
+[2021.05.09-10.47.14:362][115]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (484)
+[2021.05.09-10.47.14:362][115]LogModuleManager: Shutting down and abandoning module MediaCompositing (482)
+[2021.05.09-10.47.14:362][115]LogModuleManager: Shutting down and abandoning module ImgMedia (480)
+[2021.05.09-10.47.14:362][115]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (478)
+[2021.05.09-10.47.14:362][115]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (476)
+[2021.05.09-10.47.14:362][115]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (474)
+[2021.05.09-10.47.14:362][115]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (472)
+[2021.05.09-10.47.14:362][115]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (470)
+[2021.05.09-10.47.14:376][115]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (468)
+[2021.05.09-10.47.14:437][115]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (466)
+[2021.05.09-10.47.14:456][115]LogModuleManager: Shutting down and abandoning module MeshConversion (464)
+[2021.05.09-10.47.14:466][115]LogModuleManager: Shutting down and abandoning module DynamicMesh (462)
+[2021.05.09-10.47.14:478][115]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (460)
+[2021.05.09-10.47.14:484][115]LogModuleManager: Shutting down and abandoning module GeometricObjects (458)
+[2021.05.09-10.47.14:510][115]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (456)
+[2021.05.09-10.47.14:510][115]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (455)
+[2021.05.09-10.47.14:510][115]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (452)
+[2021.05.09-10.47.14:510][115]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (450)
+[2021.05.09-10.47.14:511][115]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (448)
+[2021.05.09-10.47.14:511][115]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (446)
+[2021.05.09-10.47.14:511][115]LogModuleManager: Shutting down and abandoning module ChaosNiagara (444)
+[2021.05.09-10.47.14:511][115]LogModuleManager: Shutting down and abandoning module FractureEditor (442)
+[2021.05.09-10.47.14:525][115]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (440)
+[2021.05.09-10.47.14:525][115]LogModuleManager: Shutting down and abandoning module ChaosCloth (438)
+[2021.05.09-10.47.14:531][115]LogModuleManager: Shutting down and abandoning module BackChannel (436)
+[2021.05.09-10.47.14:533][115]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (434)
+[2021.05.09-10.47.14:533][115]LogModuleManager: Shutting down and abandoning module AutomationUtils (432)
+[2021.05.09-10.47.14:533][115]LogModuleManager: Shutting down and abandoning module AlembicImporter (430)
+[2021.05.09-10.47.14:533][115]LogModuleManager: Shutting down and abandoning module AlembicLibrary (429)
+[2021.05.09-10.47.14:533][115]LogModuleManager: Shutting down and abandoning module GeometryCache (428)
+[2021.05.09-10.47.14:533][115]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (427)
+[2021.05.09-10.47.14:533][115]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (422)
+[2021.05.09-10.47.14:544][115]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (420)

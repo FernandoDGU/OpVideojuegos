@@ -1,0 +1,1 @@
+rv -nomb -fullscreen -noBorders -fps 30.000000 1-pistol.avi 2-pistol.avi 3-pistol.avi

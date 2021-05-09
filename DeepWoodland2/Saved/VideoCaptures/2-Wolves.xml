@@ -6,13 +6,13 @@
 			<clip id="masterclip-1">
 				<masterclipid>masterclip-1</masterclipid>
 				<ismasterclip>TRUE</ismasterclip>
-				<duration>45</duration>
+				<duration>142</duration>
 				<rate>
 					<timebase>30</timebase>
 					<ntsc>FALSE</ntsc>
 				</rate>
 				<in>1</in>
-				<out>45</out>
+				<out>142</out>
 				<name>WolveCut1</name>
 				<media>
 					<video>
@@ -22,13 +22,13 @@
 								<ismasterclip>TRUE</ismasterclip>
 								<name>WolveCut1</name>
 								<enabled>TRUE</enabled>
-								<duration>45</duration>
+								<duration>142</duration>
 								<rate>
 									<timebase>30</timebase>
 									<ntsc>FALSE</ntsc>
 								</rate>
 								<in>1</in>
-								<out>45</out>
+								<out>142</out>
 								<anamorphic>FALSE</anamorphic>
 								<pixelaspectratio>square</pixelaspectratio>
 								<fielddominance>lower</fielddominance>
@@ -39,7 +39,7 @@
 										<timebase>30</timebase>
 										<ntsc>FALSE</ntsc>
 									</rate>
-									<duration>45</duration>
+									<duration>142</duration>
 									<timecode>
 										<rate>
 											<timebase>30</timebase>
@@ -88,40 +88,122 @@
 			<clip id="masterclip-2">
 				<masterclipid>masterclip-2</masterclipid>
 				<ismasterclip>TRUE</ismasterclip>
-				<duration>48</duration>
+				<duration>123</duration>
 				<rate>
 					<timebase>30</timebase>
 					<ntsc>FALSE</ntsc>
 				</rate>
 				<in>1</in>
-				<out>48</out>
-				<name>WolveCut2</name>
+				<out>123</out>
+				<name>WolveCut4</name>
 				<media>
 					<video>
 						<track>
 							<clipitem id="clipitem-2">
 								<masterclipid>masterclip-2</masterclipid>
 								<ismasterclip>TRUE</ismasterclip>
-								<name>WolveCut2</name>
+								<name>WolveCut4</name>
 								<enabled>TRUE</enabled>
-								<duration>48</duration>
+								<duration>123</duration>
 								<rate>
 									<timebase>30</timebase>
 									<ntsc>FALSE</ntsc>
 								</rate>
 								<in>1</in>
-								<out>48</out>
+								<out>123</out>
 								<anamorphic>FALSE</anamorphic>
 								<pixelaspectratio>square</pixelaspectratio>
 								<fielddominance>lower</fielddominance>
 								<file id="file-2">
+									<name>WolveCut4.avi</name>
+									<pathurl>file://localhost/C%3a/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/VideoCaptures/WolveCut4.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>123</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/2-Wolves.2-Wolves:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_4][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-3">
+				<masterclipid>masterclip-3</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>82</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>82</out>
+				<name>WolveCut2</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-3">
+								<masterclipid>masterclip-3</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>WolveCut2</name>
+								<enabled>TRUE</enabled>
+								<duration>82</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>82</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-3">
 									<name>WolveCut2.avi</name>
 									<pathurl>file://localhost/C%3a/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/VideoCaptures/WolveCut2.avi</pathurl>
 									<rate>
 										<timebase>30</timebase>
 										<ntsc>FALSE</ntsc>
 									</rate>
-									<duration>48</duration>
+									<duration>82</duration>
 									<timecode>
 										<rate>
 											<timebase>30</timebase>
@@ -167,8 +249,215 @@
 					<lut2 />
 				</colorinfo>
 			</clip>
+			<clip id="masterclip-4">
+				<masterclipid>masterclip-4</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>138</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>138</out>
+				<name>WolveCut3</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-4">
+								<masterclipid>masterclip-4</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>WolveCut3</name>
+								<enabled>TRUE</enabled>
+								<duration>138</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>138</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-4">
+									<name>WolveCut3.avi</name>
+									<pathurl>file://localhost/C%3a/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/VideoCaptures/WolveCut3.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>138</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/2-Wolves.2-Wolves:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_3][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-5" explodedTracks="true">
+				<masterclipid>masterclip-5</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>4801</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>0</in>
+				<out>4801</out>
+				<name>Forest_1</name>
+				<media>
+					<audio>
+						<track>
+							<clipitem id="clipitem-5">
+								<masterclipid>masterclip-5</masterclipid>
+								<name>Forest_1</name>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<file id="file-5">
+									<name>Forest 1.wav</name>
+									<pathurl>file://localhost/C%3a/Users/TEMP.DESKTOP-DV3H2OO/Documents/Escuela/Facultad/7%20semestre/escenarios%20de%20videojuegos/sonidos/Forest%201.wav</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<duration>4801</duration>
+									<media>
+										<audio>
+											<samplecharacteristics>
+												<depth>16</depth>
+												<samplerate>44100</samplerate>
+											</samplecharacteristics>
+											<channelcount>1</channelcount>
+											<layout>stereo</layout>
+											<audiochannel>
+												<sourcechannel>1</sourcechannel>
+												<channellabel>left</channellabel>
+											</audiochannel>
+										</audio>
+										<audio>
+											<samplecharacteristics>
+												<depth>16</depth>
+												<samplerate>44100</samplerate>
+											</samplecharacteristics>
+											<channelcount>1</channelcount>
+											<layout>stereo</layout>
+											<audiochannel>
+												<sourcechannel>2</sourcechannel>
+												<channellabel>right</channellabel>
+											</audiochannel>
+										</audio>
+									</media>
+								</file>
+								<sourcetrack>
+									<mediatype>audio</mediatype>
+									<trackindex>1</trackindex>
+								</sourcetrack>
+								<link>
+									<linkclipref>clipitem-5</linkclipref>
+									<mediatype>audio</mediatype>
+									<trackindex>1</trackindex>
+									<clipindex>1</clipindex>
+									<groupindex>1</groupindex>
+								</link>
+								<link>
+									<linkclipref>clipitem-6</linkclipref>
+									<mediatype>audio</mediatype>
+									<trackindex>2</trackindex>
+									<clipindex>1</clipindex>
+									<groupindex>1</groupindex>
+								</link>
+							</clipitem>
+						</track>
+						<track>
+							<clipitem id="clipitem-6">
+								<masterclipid>masterclip-5</masterclipid>
+								<name>Forest_1</name>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<file id="file-5" />
+								<sourcetrack>
+									<mediatype>audio</mediatype>
+									<trackindex>2</trackindex>
+								</sourcetrack>
+								<link>
+									<linkclipref>clipitem-5</linkclipref>
+									<mediatype>audio</mediatype>
+									<trackindex>1</trackindex>
+									<clipindex>1</clipindex>
+									<groupindex>1</groupindex>
+								</link>
+								<link>
+									<linkclipref>clipitem-6</linkclipref>
+									<mediatype>audio</mediatype>
+									<trackindex>2</trackindex>
+									<clipindex>1</clipindex>
+									<groupindex>1</groupindex>
+								</link>
+							</clipitem>
+						</track>
+					</audio>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4SoundWave=/Game/Sonidos/Forest_1.Forest_1][UE4AudioSectionTopLevel=/Game/Cinematics/2-Wolves][UE4AudioSection=2-Wolves:MovieScene_0.MovieSceneAudioTrack_0.MovieSceneAudioSection_0]</lognote>
+				</logginginfo>
+			</clip>
 			<sequence id="sequence-1">
-				<duration>93</duration>
+				<duration>486</duration>
 				<rate>
 					<timebase>30</timebase>
 					<ntsc>FALSE</ntsc>
@@ -190,48 +479,80 @@
 							</samplecharacteristics>
 						</format>
 						<track>
-							<clipitem id="clipitem-3">
+							<clipitem id="clipitem-7">
 								<masterclipid>masterclip-2</masterclipid>
 								<ismasterclip>FALSE</ismasterclip>
-								<name>WolveCut2</name>
+								<name>WolveCut4</name>
 								<enabled>TRUE</enabled>
-								<duration>48</duration>
+								<duration>123</duration>
 								<rate>
 									<timebase>30</timebase>
 									<ntsc>FALSE</ntsc>
 								</rate>
-								<start>45</start>
-								<end>93</end>
+								<start>362</start>
+								<end>485</end>
 								<in>1</in>
-								<out>48</out>
+								<out>123</out>
 								<file id="file-2" />
+							</clipitem>
+							<clipitem id="clipitem-8">
+								<masterclipid>masterclip-3</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>WolveCut2</name>
+								<enabled>TRUE</enabled>
+								<duration>82</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>142</start>
+								<end>224</end>
+								<in>1</in>
+								<out>82</out>
+								<file id="file-3" />
 							</clipitem>
 							<enabled>TRUE</enabled>
 							<locked>FALSE</locked>
 						</track>
 						<track>
-							<clipitem id="clipitem-4">
+							<clipitem id="clipitem-9">
 								<masterclipid>masterclip-1</masterclipid>
 								<ismasterclip>FALSE</ismasterclip>
 								<name>WolveCut1</name>
 								<enabled>TRUE</enabled>
-								<duration>45</duration>
+								<duration>142</duration>
 								<rate>
 									<timebase>30</timebase>
 									<ntsc>FALSE</ntsc>
 								</rate>
 								<start>0</start>
-								<end>45</end>
+								<end>142</end>
 								<in>1</in>
-								<out>45</out>
+								<out>142</out>
 								<file id="file-1" />
+							</clipitem>
+							<clipitem id="clipitem-10">
+								<masterclipid>masterclip-4</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>WolveCut3</name>
+								<enabled>TRUE</enabled>
+								<duration>138</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>224</start>
+								<end>362</end>
+								<in>1</in>
+								<out>138</out>
+								<file id="file-4" />
 							</clipitem>
 							<enabled>TRUE</enabled>
 							<locked>FALSE</locked>
 						</track>
 					</video>
 					<audio>
-						<numOutputChannels>1</numOutputChannels>
+						<numOutputChannels>2</numOutputChannels>
 						<format>
 							<samplecharacteristics>
 								<depth>16</depth>
@@ -247,7 +568,89 @@
 									<index>1</index>
 								</channel>
 							</group>
+							<group>
+								<index>2</index>
+								<numchannels>1</numchannels>
+								<downmix>0</downmix>
+								<channel>
+									<index>2</index>
+								</channel>
+							</group>
 						</outputs>
+						<track currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+							<clipitem id="clipitem-11" premiereChannelType="stereo">
+								<masterclipid>masterclip-5</masterclipid>
+								<name>Forest_1</name>
+								<enabled>TRUE</enabled>
+								<duration>4801</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>0</start>
+								<end>4801</end>
+								<in>0</in>
+								<out>4801</out>
+								<file id="file-5" />
+								<sourcetrack>
+									<mediatype>audio</mediatype>
+									<trackindex>1</trackindex>
+								</sourcetrack>
+								<link>
+									<linkclipref>clipitem-11</linkclipref>
+									<mediatype>audio</mediatype>
+									<trackindex>1</trackindex>
+									<clipindex>1</clipindex>
+									<groupindex>1</groupindex>
+								</link>
+								<link>
+									<linkclipref>clipitem-12</linkclipref>
+									<mediatype>audio</mediatype>
+									<trackindex>2</trackindex>
+									<clipindex>1</clipindex>
+									<groupindex>1</groupindex>
+								</link>
+							</clipitem>
+							<enabled>TRUE</enabled>
+							<locked>FALSE</locked>
+						</track>
+						<track currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+							<clipitem id="clipitem-12" premiereChannelType="stereo">
+								<masterclipid>masterclip-5</masterclipid>
+								<name>Forest_1</name>
+								<enabled>TRUE</enabled>
+								<duration>4801</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>0</start>
+								<end>4801</end>
+								<in>0</in>
+								<out>4801</out>
+								<file id="file-5" />
+								<sourcetrack>
+									<mediatype>audio</mediatype>
+									<trackindex>2</trackindex>
+								</sourcetrack>
+								<link>
+									<linkclipref>clipitem-11</linkclipref>
+									<mediatype>audio</mediatype>
+									<trackindex>1</trackindex>
+									<clipindex>1</clipindex>
+									<groupindex>1</groupindex>
+								</link>
+								<link>
+									<linkclipref>clipitem-12</linkclipref>
+									<mediatype>audio</mediatype>
+									<trackindex>2</trackindex>
+									<clipindex>1</clipindex>
+									<groupindex>1</groupindex>
+								</link>
+							</clipitem>
+							<enabled>TRUE</enabled>
+							<locked>FALSE</locked>
+						</track>
 					</audio>
 				</media>
 				<timecode>
