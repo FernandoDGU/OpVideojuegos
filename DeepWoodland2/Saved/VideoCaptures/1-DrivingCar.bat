@@ -1,1 +1,1 @@
-rv -nomb -fullscreen -noBorders -fps 30.000000 DriveCut1.avi
+rv -nomb -fullscreen -noBorders -fps 30.000000 DriveCut1.avi DiverCut2.avi DiverCut3.avi

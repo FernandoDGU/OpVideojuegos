@@ -43,3 +43,59 @@ sourceGroup000000_source : RVFileSource (1)
 	}
 }
 
+sourceGroup000001 : RVSourceGroup (1)
+{
+	ui
+	{
+		string name = "DiverCut2.avi"
+	}
+}
+
+sourceGroup000001_source : RVFileSource (1)
+{
+	cut
+	{
+		int in = 1
+		int out = 93
+	}
+
+	group
+	{
+		int noMovieAudio = 1
+	}
+
+	media
+	{
+		string movie = "DiverCut2.avi"
+		string shot = ""
+	}
+}
+
+sourceGroup000002 : RVSourceGroup (1)
+{
+	ui
+	{
+		string name = "DiverCut3.avi"
+	}
+}
+
+sourceGroup000002_source : RVFileSource (1)
+{
+	cut
+	{
+		int in = 1
+		int out = 145
+	}
+
+	group
+	{
+		int noMovieAudio = 1
+	}
+
+	media
+	{
+		string movie = "DiverCut3.avi"
+		string shot = ""
+	}
+}
+
