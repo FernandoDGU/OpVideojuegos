@@ -1,0 +1,1326 @@
+﻿Log file open, 05/13/21 12:35:50
+LogInit: Display: Running engine for game: DeepWoodland2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 25.435183
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogFileManager: Warning: Error deleting file: ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Logs/DeepWoodland2-backup-2021.05.09-08.20.46.log (Error Code 5)
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.05.13-17.35.56:777][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.05.13-17.35.56:777][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.05.13-17.35.56:778][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.13-17.35.56:778][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.05.13-17.35.56:778][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.13-17.35.56:778][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.13-17.35.56:778][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.05.13-17.35.56:778][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.05.13-17.35.56:778][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.05.13-17.35.56:778][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.05.13-17.35.56:778][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.05.13-17.35.56:778][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.05.13-17.35.56:778][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.05.13-17.35.56:778][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.05.13-17.35.56:778][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.05.13-17.35.56:778][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.05.13-17.35.56:779][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.05.13-17.35.56:780][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.05.13-17.35.56:780][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.05.13-17.35.56:780][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.13-17.35.56:780][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.13-17.35.56:857][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:857][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.13-17.35.56:857][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.13-17.35.56:857][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:857][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.13-17.35.56:857][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:857][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.13-17.35.56:857][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.13-17.35.56:857][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.13-17.35.56:857][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.13-17.35.56:857][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.13-17.35.56:857][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.13-17.35.56:858][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.13-17.35.56:859][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.13-17.35.56:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.13-17.35.56:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.13-17.35.56:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.13-17.35.56:860][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.13-17.35.56:860][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.13-17.35.56:860][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.13-17.35.56:860][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.13-17.35.56:860][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.13-17.35.56:860][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:860][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.13-17.35.56:860][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.13-17.35.56:860][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.13-17.35.56:860][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.13-17.35.56:860][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.13-17.35.56:861][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.13-17.35.56:862][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.13-17.35.56:863][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:863][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.13-17.35.56:863][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.13-17.35.56:863][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:863][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.13-17.35.56:863][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.13-17.35.56:863][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.13-17.35.56:863][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.13-17.35.56:863][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.13-17.35.56:863][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.13-17.35.56:863][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.13-17.35.56:871][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.13-17.35.56:871][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.13-17.35.56:883][  0]LogHAL: Display: Platform has ~ 16 GB [17058402304 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.05.13-17.35.56:884][  0]LogInit: Going up to parent DeviceProfile []
+[2021.05.13-17.35.56:890][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:890][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2021.05.13-17.35.56:890][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2021.05.13-17.35.56:890][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:890][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2021.05.13-17.35.56:890][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:890][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2021.05.13-17.35.56:890][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2021.05.13-17.35.56:890][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2021.05.13-17.35.56:890][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2021.05.13-17.35.56:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2021.05.13-17.35.56:892][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2021.05.13-17.35.56:893][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.13-17.35.56:894][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:895][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2021.05.13-17.35.56:895][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2021.05.13-17.35.56:895][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Scalability.ini]
+[2021.05.13-17.35.56:895][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2021.05.13-17.35.56:895][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.13-17.35.56:895][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2021.05.13-17.35.56:895][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.13-17.35.56:895][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.13-17.35.56:895][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.13-17.35.56:895][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.13-17.35.56:895][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.05.13-17.35.56:912][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.05.13-17.35.56:913][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.05.13-17.35.56:913][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.05.13-17.35.56:913][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Config/Windows/Engine.ini]
+[2021.05.13-17.35.57:013][  0]LogInit: Computer: DESKTOP-DV3H2OO
+[2021.05.13-17.35.57:013][  0]LogInit: User: AlexBazaldua
+[2021.05.13-17.35.57:013][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.05.13-17.35.57:013][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.13-17.35.57:014][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.05.13-17.35.57:014][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.13-17.35.57:014][  0]LogMemory: Process Physical Memory: 115.82 MB used, 115.82 MB peak
+[2021.05.13-17.35.57:014][  0]LogMemory: Process Virtual Memory: 103.28 MB used, 103.28 MB peak
+[2021.05.13-17.35.57:015][  0]LogMemory: Physical Memory: 5964.30 MB used,  10303.86 MB free, 16268.16 MB total
+[2021.05.13-17.35.57:015][  0]LogMemory: Virtual Memory: 5137.56 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2021.05.13-17.35.57:163][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.05.13-17.35.58:771][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.05.13-17.35.58:846][  0]LogInit: Using OS detected language (en-US).
+[2021.05.13-17.35.58:846][  0]LogInit: Using OS detected locale (en-US).
+[2021.05.13-17.36.00:263][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.05.13-17.36.03:001][  0]LogInit: Setting process to per monitor DPI aware
+[2021.05.13-17.36.08:060][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.05.13-17.36.08:060][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.05.13-17.36.18:120][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.13-17.36.18:121][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.05.13-17.36.18:121][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.05.13-17.36.18:121][  0]LogD3D11RHI: D3D11 adapters:
+[2021.05.13-17.36.18:877][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2021.05.13-17.36.18:877][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2021.05.13-17.36.18:880][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.05.13-17.36.18:880][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.05.13-17.36.18:880][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.05.13-17.36.18:893][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.05.13-17.36.18:893][  0]LogD3D11RHI:     GPU DeviceId: 0x591b (for the marketing name, search the web for "GPU Device Id")
+[2021.05.13-17.36.18:893][  0]LogWindows: EnumDisplayDevices:
+[2021.05.13-17.36.18:893][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2021.05.13-17.36.18:894][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.05.13-17.36.18:894][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2021.05.13-17.36.18:895][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2021.05.13-17.36.18:895][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 630
+[2021.05.13-17.36.18:895][  0]LogD3D11RHI:   Driver Version: 23.20.16.4973 (internal:23.20.16.4973, unified:23.20.16.4973)
+[2021.05.13-17.36.18:895][  0]LogD3D11RHI:      Driver Date: 2-28-2018
+[2021.05.13-17.36.18:895][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2021.05.13-17.36.19:286][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.05.13-17.36.19:286][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.13-17.36.19:286][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.05.13-17.36.20:552][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2021.05.13-17.36.23:299][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.05.13-17.36.23:839][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.05.13-17.36.23:839][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.05.13-17.36.23:839][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.05.13-17.36.23:839][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.05.13-17.36.23:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.05.13-17.36.23:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.05.13-17.36.23:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.05.13-17.36.23:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.05.13-17.36.23:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.05.13-17.36.23:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.05.13-17.36.24:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.05.13-17.36.24:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.05.13-17.36.24:685][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.05.13-17.36.25:280][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.05.13-17.36.25:372][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.05.13-17.36.25:556][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.05.13-17.36.25:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.05.13-17.36.25:768][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.05.13-17.36.25:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.05.13-17.36.26:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.05.13-17.36.26:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.05.13-17.36.26:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.05.13-17.36.26:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.05.13-17.36.26:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.05.13-17.36.26:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.05.13-17.36.26:471][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.05.13-17.36.26:540][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.05.13-17.36.26:540][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.05.13-17.36.26:918][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.05.13-17.36.28:069][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Intermediate/Shaders/WorkingDirectory/14080/).
+[2021.05.13-17.36.28:070][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealShaderWorkingDir/B9FA5391489EB4948B25DFB02BEFB5FC/'.
+[2021.05.13-17.36.28:107][  0]LogXGEController: Cleaning working directory: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.05.13-17.36.28:108][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.05.13-17.36.28:108][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.05.13-17.36.28:108][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.05.13-17.36.41:223][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.05.13-17.36.42:545][  0]LogDerivedDataCache: Loaded boot cache 1.22s 76MB C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.13-17.36.42:545][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.05.13-17.36.42:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.13-17.36.42:545][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.13-17.36.42:546][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.13-17.36.42:546][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.05.13-17.36.42:669][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.13-17.36.42:669][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.13-17.36.42:669][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.05.13-17.36.42:737][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.13-17.36.42:737][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.05.13-17.36.42:737][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.05.13-17.36.43:101][  0]LogSlate: Using FreeType 2.10.0
+[2021.05.13-17.36.43:284][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.05.13-17.36.47:049][  0]LogAssetRegistry: FAssetRegistry took 0.0177 seconds to start up
+[2021.05.13-17.36.54:597][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.13-17.37.07:569][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.05.13-17.37.07:569][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.05.13-17.37.07:570][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.05.13-17.37.07:570][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.05.13-17.37.07:571][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.05.13-17.37.09:648][  0]LogNetVersion: DeepWoodland2 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1524458531)
+[2021.05.13-17.38.18:427][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D617DFE980), frame # 0
+[2021.05.13-17.38.18:427][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D617C6BB00), frame # 0
+[2021.05.13-17.38.18:474][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D617CBDE00), frame # 0
+[2021.05.13-17.38.23:988][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.600418 seconds
+[2021.05.13-17.38.24:026][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.05.13-17.38.24:026][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.05.13-17.38.24:026][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.13-17.38.45:672][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.05.13-17.38.45:895][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.13-17.38.48:632][  0]SourceControl: Source control is disabled
+[2021.05.13-17.38.48:649][  0]SourceControl: Source control is disabled
+[2021.05.13-17.38.49:029][  0]SourceControl: Source control is disabled
+[2021.05.13-17.38.49:527][  0]SourceControl: Source control is disabled
+[2021.05.13-17.38.50:303][  0]SourceControl: Source control is disabled
+[2021.05.13-17.39.01:184][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.13-17.39.02:507][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.13-17.39.02:507][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.13-17.39.06:122][  0]LogOcInput: OculusInput pre-init called
+[2021.05.13-17.39.06:535][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.05.13-17.39.06:535][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.05.13-17.39.09:390][  0]LogEngine: Initializing Engine...
+[2021.05.13-17.39.09:397][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.13-17.39.09:397][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.05.13-17.39.09:465][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.015 s
+[2021.05.13-17.39.10:299][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.05.13-17.39.13:340][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.05.13-17.39.13:340][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D61A28FC00), frame # 0
+[2021.05.13-17.39.13:341][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D61A310B80), frame # 0
+[2021.05.13-17.39.14:474][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.13-17.39.14:474][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.13-17.39.14:474][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.13-17.39.14:474][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.13-17.39.14:474][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.13-17.39.14:474][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.13-17.39.14:474][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.13-17.39.14:474][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.13-17.39.14:631][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.13-17.39.14:631][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.13-17.39.15:438][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.13-17.39.15:438][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.05.13-17.39.16:353][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.13-17.39.16:486][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.13-17.39.16:496][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.13-17.39.16:496][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.13-17.39.16:515][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.13-17.39.16:518][  0]LogInit: FAudioDevice initialized.
+[2021.05.13-17.39.16:557][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.05.13-17.39.18:148][  0]LogDerivedDataCache: Saved boot cache 1.59s 76MB C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.13-17.39.18:151][  0]LogInit: Texture streaming: Enabled
+[2021.05.13-17.39.18:939][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.05.13-17.39.18:939][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.05.13-17.39.20:955][  0]LogInit: Transaction tracking system initialized
+[2021.05.13-17.39.23:109][  0]BlueprintLog: New page: Editor Load
+[2021.05.13-17.39.27:427][  0]LocalizationService: Localization service is disabled
+[2021.05.13-17.39.37:132][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/' took 0.10s
+[2021.05.13-17.39.37:132][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.05.13-17.39.37:133][  0]LogCook: Display: Mobile HDR setting 1
+[2021.05.13-17.39.50:669][  0]SourceControl: Source control is disabled
+[2021.05.13-17.39.50:853][  0]LogUnrealEdMisc: Loading editor; pre map load, took 353.848
+[2021.05.13-17.39.51:863][  0]LightingResults: New page: Lighting Build
+[2021.05.13-17.39.52:950][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.13-17.39.53:386][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.13-17.39.53:638][  0]MapCheck: New page: Map Check
+[2021.05.13-17.39.53:639][  0]LightingResults: New page: Lighting Build
+[2021.05.13-17.39.54:999][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D61A28FC00), frame # 0
+[2021.05.13-17.39.54:999][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D61A310B80), frame # 0
+[2021.05.13-17.39.55:003][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.05.13-17.40.23:981][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.05.13-17.40.23:981][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.05.13-17.40.23:983][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.05.13-17.40.23:983][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.05.13-17.40.23:983][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.05.13-17.40.23:985][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.05.13-17.40.23:988][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.05.13-17.40.23:989][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.05.13-17.40.23:990][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.05.13-17.40.23:991][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.05.13-17.40.23:991][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.05.13-17.40.23:993][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.05.13-17.40.47:406][  0]LogTexture: Display: Building textures: boton_carga_partida (BGRA8, 4121X1287)
+[2021.05.13-17.40.47:407][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.05.13-17.40.47:408][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Roughness.vbwpdg0o_8K_Roughness Referenced by M_terreno_Inst
+[2021.05.13-17.40.47:408][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Roughness': Can't find file.
+[2021.05.13-17.40.47:408][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Roughness.vbwpdg0o_8K_Roughness Referenced by M_terreno_Inst
+[2021.05.13-17.40.47:408][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.05.13-17.40.47:408][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Normal.vbwpdg0o_8K_Normal Referenced by M_terreno_Inst
+[2021.05.13-17.40.47:409][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Normal': Can't find file.
+[2021.05.13-17.40.47:409][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Normal.vbwpdg0o_8K_Normal Referenced by M_terreno_Inst
+[2021.05.13-17.40.47:411][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.05.13-17.40.47:411][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Albedo.vbwpdg0o_8K_Albedo Referenced by M_terreno_Inst
+[2021.05.13-17.40.47:411][  0]LogLinker: Warning: While loading '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Materiales/M_terreno_Inst.uasset' failed to load '/Game/Texturas/vbwpdg0o_8K_Albedo': Can't find file.
+[2021.05.13-17.40.47:411][  0]LoadErrors: Failed to load /Game/Texturas/vbwpdg0o_8K_Albedo.vbwpdg0o_8K_Albedo Referenced by M_terreno_Inst
+[2021.05.13-17.41.57:700][  0]LogTexture: Display: Building textures: btn_continuar_hover (BGRA8, 4121X1287)
+[2021.05.13-17.41.57:700][  0]LogTexture: Display: Building textures: btn_continuar (BGRA8, 4121X1287)
+[2021.05.13-17.41.57:702][  0]LogTexture: Display: Building textures: banderines_icon (BGRA8, 3415X1645)
+[2021.05.13-17.41.57:702][  0]LogDerivedDataCache: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision, attempt at redundant update, OK C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/3/4/TEXTURE_564290F8998644E39A2118D5C683187B_BGRA8_A07A05704789CFF4093BA0B6FF11392__EACB479905804734D5F496C86ADFA6A1D7BE34BF.udd.
+[2021.05.13-17.41.57:702][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Intermediate/CachedAssetRegistry.bin
+[2021.05.13-17.42.23:833][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.13-17.42.23:833][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D655864200), frame # 0
+[2021.05.13-17.42.23:834][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D65564F100), frame # 0
+[2021.05.13-17.43.21:274][  0]LogDerivedDataCache: Warning: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/Common/DerivedDataCache is very slow (0.00MB/s) when accessing C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/6/2/PHYSX_PHYSXPC_VIS_CC58B9FA08AD47E3BF06976E60B693C3_8E0B1060402D769C0F433C9E918E244F.udd, consider disabling it.
+[2021.05.13-17.43.31:594][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/StremingLevels/StreamingLevel1) is flushing async loading
+[2021.05.13-17.43.31:594][  0]LogStreaming: Display: Flushing async loaders.
+[2021.05.13-17.43.34:843][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/StremingLevels/StreamingLevel3) is flushing async loading
+[2021.05.13-17.43.36:272][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/StremingLevels/StreamingLevel4) is flushing async loading
+[2021.05.13-17.43.37:025][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.13-17.43.37:776][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2021.05.13-17.43.37:778][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.13-17.43.37:895][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 115.067ms to complete.
+[2021.05.13-17.43.37:895][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 226.420
+[2021.05.13-17.43.38:915][  0]LogUnrealEdMisc: Total Editor Startup Time, took 581.909
+[2021.05.13-17.43.40:346][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.13-17.43.40:594][  0]LogCollectionManager: Loaded 0 collections in 0.012151 seconds
+[2021.05.13-17.43.40:909][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/Collections/' took 0.00s
+[2021.05.13-17.43.40:910][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Developers/AlexBazaldua/Collections/' took 0.00s
+[2021.05.13-17.43.40:910][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/Collections/' took 0.00s
+[2021.05.13-17.43.40:910][  0]LogContentBrowser: Native class hierarchy populated in 0.0402 seconds. Added 3436 classes and 826 folders.
+[2021.05.13-17.43.41:047][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2021.05.13-17.43.44:840][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2021.05.13-17.43.44:916][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 2 classes and 0 folders.
+[2021.05.13-17.43.45:212][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2021.05.13-17.43.46:834][  0]LogSlate: Took 0.022794 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.05.13-17.43.46:978][  0]LogSlate: Took 0.096960 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.05.13-17.43.47:672][  0]LogRenderer: Reallocating scene render targets to support 1092x412 Format 9 NumSamples 1 (Frame:1).
+[2021.05.13-17.43.49:196][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2021.05.13-17.43.49:196][  0]LogLoad: (Engine Initialization) Total time: 592.19 seconds
+[2021.05.13-17.43.49:196][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.05.13-17.43.50:084][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.05.13-17.43.50:095][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.05.13-17.43.51:151][  0]LogContentStreaming: Texture pool size now 400 MB
+[2021.05.13-17.43.51:840][  0]LogRenderer: Reallocating scene render targets to support 1092x424 Format 9 NumSamples 1 (Frame:3).
+[2021.05.13-17.43.51:841][  0]LogSlate: Took 0.059673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.05.13-17.43.53:311][  4]LogAssetRegistry: Asset discovery search completed in 426.2662 seconds
+[2021.05.13-17.43.53:391][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.039201 seconds (updated 0 objects)
+[2021.05.13-17.43.55:916][ 11]LogSlate: Window 'Message Log' being destroyed
+[2021.05.13-17.43.55:927][ 11]LogSlate: Window 'Message Log' being destroyed
+[2021.05.13-17.44.05:996][179]LogSlate: Took 0.052847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.05.13-17.44.07:283][179]LogSlate: Took 0.040727 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.13-17.44.11:804][236]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.13-17.44.15:321][236]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.13-17.44.16:289][236]PIE: New page: PIE session: ThirdPersonExampleMap (May 13, 2021, 7:44:15 AM)
+[2021.05.13-17.44.17:234][236]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.05.13-17.44.17:241][236]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.05.13-17.44.17:462][236]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.13-17.44.19:627][236]LogPlayLevel: PIE: StaticDuplicateObject took: (2.165217s)
+[2021.05.13-17.44.19:693][236]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.13-17.44.19:693][236]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D72DFCA600), frame # 236
+[2021.05.13-17.44.19:693][236]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D6F42FFEC0), frame # 236
+[2021.05.13-17.44.20:109][236]LogPlayLevel: PIE: World Init took: (0.480286s)
+[2021.05.13-17.44.20:111][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (2.648774s)
+[2021.05.13-17.44.20:816][236]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2021.05.13-17.44.20:831][236]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.13-17.44.20:831][236]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.13-17.44.20:831][236]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.13-17.44.20:831][236]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.13-17.44.20:831][236]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.13-17.44.20:831][236]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.13-17.44.20:831][236]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.13-17.44.20:831][236]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.13-17.44.20:833][236]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.13-17.44.20:833][236]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.13-17.44.20:840][236]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.13-17.44.20:840][236]LogAudioMixer: Display: 1: FrontRight
+[2021.05.13-17.44.21:168][236]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.13-17.44.21:168][236]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.13-17.44.21:168][236]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.13-17.44.21:168][236]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.13-17.44.21:170][236]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.13-17.44.21:216][236]LogInit: FAudioDevice initialized.
+[2021.05.13-17.44.21:430][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.13-17.44.21:995][236]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.13-17.44.24:090][236]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.05.13-12.44.24
+[2021.05.13-17.44.26:516][236]LogWorld: Bringing up level for play took: 3.442023
+[2021.05.13-17.44.26:624][236]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.05.13-17.44.31:241][236]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 20 classes and 0 folders.
+[2021.05.13-17.44.34:404][236]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] 5
+[2021.05.13-17.44.35:558][236]PIE: Server logged in
+[2021.05.13-17.44.35:584][236]PIE: Play in editor total start time 22.114 seconds.
+[2021.05.13-17.45.08:713][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2021.05.13-17.45.39:706][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.13-17.45.39:707][159]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.13-17.45.39:742][159]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.13-17.45.39:829][159]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.13-17.45.39:933][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.13-17.45.40:000][159]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.13-17.45.40:023][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.13-17.45.40:452][159]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D6F42FFEC0), frame # 2159
+[2021.05.13-17.45.40:452][159]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D72DFCA600), frame # 2159
+[2021.05.13-17.45.40:558][159]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2021.05.13-17.45.40:881][160]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.05.13-17.46.08:264][955]LogEditorViewport: Clicking on Actor (LMB): AI_BaseCharacter_C (AI_BaseCharacter2)
+[2021.05.13-17.46.20:634][267]LogEditorViewport: Clicking on Actor (LMB): Collectable_BP_C (Collectable_BP)
+[2021.05.13-17.46.28:292][495]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2021.05.13-17.46.29:148][495]LogSlate: Window 'Save Content' being destroyed
+[2021.05.13-17.46.29:196][495]LogSlate: Took 0.018803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.13-17.46.29:323][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.05.13-17.46.32:209][495]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapB603BDE342EC18A45D0E8C8AD85EEF82.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.46.32:209][495]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2021.05.13-17.46.32:711][495]LogFileManager: Error: Error deleting file '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2021.05.13-17.46.32:711][495]LogSavePackage: Error: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.46.33:059][495]EditorErrors: New page: Save Output
+[2021.05.13-17.46.33:059][495]EditorErrors: Warning: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.46.33:160][495]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.903
+[2021.05.13-17.46.38:190][495]LogSlate: Window 'Message' being destroyed
+[2021.05.13-17.46.38:201][495]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' (ThirdPersonExampleMap.umap) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2021.05.13-17.46.39:703][531]LogSlate: Window 'Message Log' being destroyed
+[2021.05.13-17.46.39:741][531]LogSlate: Window 'Message Log' being destroyed
+[2021.05.13-17.46.42:008][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.05.13-17.46.43:105][597]LogSlate: Window 'Save Content' being destroyed
+[2021.05.13-17.46.43:140][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.05.13-17.46.44:552][597]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap9C23E9A146EDE54B2AFA6189603124F1.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.46.44:552][597]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2021.05.13-17.46.45:054][597]LogFileManager: Error: Error deleting file '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2021.05.13-17.46.45:054][597]LogSavePackage: Error: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.46.45:061][597]EditorErrors: New page: Save Output
+[2021.05.13-17.46.45:061][597]EditorErrors: Warning: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.46.45:142][597]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.016
+[2021.05.13-17.46.51:796][597]LogSlate: Window 'Message' being destroyed
+[2021.05.13-17.46.51:802][597]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' (ThirdPersonExampleMap.umap) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2021.05.13-17.46.53:420][636]LogSlate: Window 'Message Log' being destroyed
+[2021.05.13-17.46.53:460][636]LogSlate: Window 'Message Log' being destroyed
+[2021.05.13-17.46.54:541][668]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.05.13-17.46.54:779][671]Cmd: TRANSACTION UNDO
+[2021.05.13-17.46.54:779][671]LogEditorTransaction: Undo Clicking on Actors
+[2021.05.13-17.46.56:850][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.05.13-17.46.57:989][739]LogSlate: Window 'Save Content' being destroyed
+[2021.05.13-17.46.58:026][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.05.13-17.46.59:432][739]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapD7BB05B843554A67012597AB83A4FD6C.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.46.59:433][739]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2021.05.13-17.46.59:934][739]LogFileManager: Error: Error deleting file '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2021.05.13-17.46.59:934][739]LogSavePackage: Error: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.46.59:941][739]EditorErrors: New page: Save Output
+[2021.05.13-17.46.59:941][739]EditorErrors: Warning: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.47.00:011][739]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.998
+[2021.05.13-17.47.03:959][739]LogSlate: Window 'Message' being destroyed
+[2021.05.13-17.47.03:964][739]Message dialog closed, result: Retry, title: Message, text: The asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' (ThirdPersonExampleMap.umap) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2021.05.13-17.47.03:982][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2021.05.13-17.47.06:058][739]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap462F56054E07F632529943B2B652D99F.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.47.06:059][739]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2021.05.13-17.47.06:560][739]LogFileManager: Error: Error deleting file '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2021.05.13-17.47.06:560][739]LogSavePackage: Error: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.47.06:568][739]EditorErrors: New page: Save Output
+[2021.05.13-17.47.06:568][739]EditorErrors: Warning: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.47.06:575][739]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.611
+[2021.05.13-17.47.10:986][739]LogSlate: Window 'Message' being destroyed
+[2021.05.13-17.47.10:992][739]Message dialog closed, result: Retry, title: Message, text: The asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' (ThirdPersonExampleMap.umap) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2021.05.13-17.47.11:009][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.05.13-17.47.12:487][739]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap8342C0B143CF8A3458FDEAA334EB3D15.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.47.12:488][739]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2021.05.13-17.47.12:989][739]LogFileManager: Error: Error deleting file '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2021.05.13-17.47.12:989][739]LogSavePackage: Error: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.47.12:996][739]EditorErrors: New page: Save Output
+[2021.05.13-17.47.12:997][739]EditorErrors: Warning: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.47.13:004][739]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.013
+[2021.05.13-17.47.14:182][739]LogSlate: Window 'Message' being destroyed
+[2021.05.13-17.47.14:188][739]Message dialog closed, result: Continue, title: Message, text: The asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' (ThirdPersonExampleMap.umap) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2021.05.13-17.47.14:634][739]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMap_BuiltData0F3EF5BC41B7CD92B6C31F9F1FEC0D16.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.13-17.47.14:634][739]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset', retrying in .5s...
+[2021.05.13-17.47.15:135][739]LogFileManager: Error: Error deleting file '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'.
+[2021.05.13-17.47.15:135][739]LogSavePackage: Error: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.13-17.47.17:147][739]LogSlate: Window 'Message' being destroyed
+[2021.05.13-17.47.17:152][739]Message dialog closed, result: Continue, title: Message, text: The asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' (ThirdPersonExampleMap_BuiltData.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2021.05.13-17.47.17:192][739]EditorErrors: New page: Save Output
+[2021.05.13-17.47.17:192][739]EditorErrors: Warning: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.05.13-17.47.18:638][739]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2021.05.13-17.47.18:643][739]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData
+[2021.05.13-17.47.23:153][891]LogSlate: Window 'Message Log' being destroyed
+[2021.05.13-17.47.23:190][891]LogSlate: Window 'Message Log' being destroyed
+[2021.05.13-17.47.24:027][916]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.13-17.47.24:053][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.13-17.47.24:053][916]PIE: New page: PIE session: ThirdPersonExampleMap (May 13, 2021, 7:47:24 AM)
+[2021.05.13-17.47.24:054][916]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.13-17.47.24:249][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.194790s)
+[2021.05.13-17.47.24:252][916]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.13-17.47.24:252][916]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D73397BE00), frame # 3916
+[2021.05.13-17.47.24:252][916]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D61127B240), frame # 3916
+[2021.05.13-17.47.24:254][916]LogPlayLevel: PIE: World Init took: (0.004105s)
+[2021.05.13-17.47.24:254][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.199386s)
+[2021.05.13-17.47.24:288][916]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.05.13-17.47.24:291][916]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.13-17.47.24:291][916]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.13-17.47.24:291][916]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.13-17.47.24:292][916]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.13-17.47.24:292][916]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.13-17.47.24:292][916]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.13-17.47.24:292][916]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.13-17.47.24:292][916]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.13-17.47.24:293][916]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.13-17.47.24:293][916]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.13-17.47.24:299][916]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.13-17.47.24:299][916]LogAudioMixer: Display: 1: FrontRight
+[2021.05.13-17.47.24:518][916]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.13-17.47.24:518][916]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.13-17.47.24:518][916]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.13-17.47.24:518][916]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.13-17.47.24:519][916]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.13-17.47.24:565][916]LogInit: FAudioDevice initialized.
+[2021.05.13-17.47.24:614][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.13-17.47.24:614][916]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.13-17.47.24:678][916]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2021.05.13-12.47.24
+[2021.05.13-17.47.24:685][916]LogWorld: Bringing up level for play took: 0.067066
+[2021.05.13-17.47.24:686][916]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.05.13-17.47.24:869][916]LogBlueprintUserMessages: [ThirdPersonGameMode_C_0] 5
+[2021.05.13-17.47.24:874][916]PIE: Server logged in
+[2021.05.13-17.47.24:876][916]PIE: Play in editor total start time 0.823 seconds.
+[2021.05.13-17.47.48:033][674]LogBlueprintUserMessages: [ThirdPersonCharacter_167] No hay balas
+[2021.05.13-17.47.57:634][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.05.13-17.48.06:206][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.05.13-17.48.46:319][746]LogBlueprintUserMessages: [ThirdPersonCharacter_167] No hay balas
+[2021.05.13-17.48.46:886][768]LogBlueprintUserMessages: [ThirdPersonCharacter_167] No hay balas
+[2021.05.13-17.48.50:138][897]LogBlueprintUserMessages: [ThirdPersonCharacter_167] No hay balas
+[2021.05.13-17.48.53:886][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.13-17.48.53:886][ 24]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.13-17.48.53:887][ 24]LogSlate: Window 'DeepWoodland2 Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.13-17.48.53:913][ 24]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.13-17.48.53:920][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.13-17.48.53:935][ 24]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.13-17.48.53:938][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.13-17.48.53:983][ 24]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D61127B240), frame # 7024
+[2021.05.13-17.48.53:983][ 24]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D73397BE00), frame # 7024
+[2021.05.13-17.48.53:987][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.05.13-17.48.54:028][ 25]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.05.13-17.48.55:244][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.05.13-17.48.56:524][ 61]LogSlate: Window 'Save Content' being destroyed
+[2021.05.13-17.48.56:578][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.05.13-17.48.59:123][ 61]LogSavePackage: Moving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Saved/ThirdPersonExampleMapECBE8B55446F76263FB2728E8CB4FE28.tmp' to '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.48.59:123][ 61]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2021.05.13-17.48.59:625][ 61]LogFileManager: Error: Error deleting file '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2021.05.13-17.48.59:625][ 61]LogSavePackage: Error: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.48.59:632][ 61]EditorErrors: New page: Save Output
+[2021.05.13-17.48.59:632][ 61]EditorErrors: Warning: Error saving '../../../../../../Users/TEMP.DESKTOP-DV3H2OO/Documents/GitHub/OptiVideo/OpVideojuegos/DeepWoodland2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.13-17.48.59:710][ 61]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.146
+[2021.05.13-17.49.06:949][ 61]LogSlate: Window 'Message' being destroyed
+[2021.05.13-17.49.06:956][ 61]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' (ThirdPersonExampleMap.umap) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2021.05.13-17.49.08:223][ 92]LogSlate: Window 'Message Log' being destroyed
+[2021.05.13-17.49.08:261][ 92]LogSlate: Window 'Message Log' being destroyed
+[2021.05.13-17.49.08:607][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.05.13-17.49.10:861][102]LogSlate: Window 'Save Content' being destroyed
+[2021.05.13-17.49.10:997][102]LogSlate: Window 'DeepWoodland2 - Unreal Editor' being destroyed
+[2021.05.13-17.49.11:428][103]Cmd: QUIT_EDITOR
+[2021.05.13-17.49.11:428][103]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.05.13-17.49.11:471][103]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.05.13-17.49.11:950][103]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.05.13-17.49.12:005][103]LogExit: Preparing to exit.
+[2021.05.13-17.49.13:068][103]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.05.13-17.49.13:438][103]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.05.13-17.49.13:591][103]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.13-17.49.13:593][103]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.13-17.49.13:593][103]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.13-17.49.13:593][103]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.13-17.49.13:593][103]LogExit: Editor shut down
+[2021.05.13-17.49.13:594][103]LogExit: Transaction tracking system shut down
+[2021.05.13-17.49.14:877][103]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001D617DFE980), frame # 7103
+[2021.05.13-17.49.14:877][103]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D617C6BB00), frame # 7103
+[2021.05.13-17.49.14:897][103]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D617CBDE00), frame # 7103
+[2021.05.13-17.49.16:118][103]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D655864200), frame # 7103
+[2021.05.13-17.49.16:118][103]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D65564F100), frame # 7103
+[2021.05.13-17.49.16:261][103]LogExit: Object subsystem successfully closed.
+[2021.05.13-17.49.16:441][103]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.05.13-17.49.17:693][103]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (800)
+[2021.05.13-17.49.17:693][103]LogModuleManager: Shutting down and abandoning module Voice (798)
+[2021.05.13-17.49.17:704][103]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (796)
+[2021.05.13-17.49.17:704][103]LogModuleManager: Shutting down and abandoning module SceneOutliner (792)
+[2021.05.13-17.49.17:704][103]LogModuleManager: Shutting down and abandoning module AddContentDialog (790)
+[2021.05.13-17.49.17:728][103]LogModuleManager: Shutting down and abandoning module WidgetCarousel (789)
+[2021.05.13-17.49.17:728][103]LogModuleManager: Shutting down and abandoning module EditorWidgets (786)
+[2021.05.13-17.49.17:728][103]LogModuleManager: Shutting down and abandoning module CollectionManager (784)
+[2021.05.13-17.49.17:742][103]LogModuleManager: Shutting down and abandoning module StatsViewer (782)
+[2021.05.13-17.49.17:795][103]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (780)
+[2021.05.13-17.49.17:796][103]LogModuleManager: Shutting down and abandoning module FoliageEdit (778)
+[2021.05.13-17.49.17:809][103]LogModuleManager: Shutting down and abandoning module LandscapeEditor (776)
+[2021.05.13-17.49.17:832][103]LogModuleManager: Shutting down and abandoning module MeshPaintMode (774)
+[2021.05.13-17.49.17:844][103]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (772)
+[2021.05.13-17.49.17:844][103]LogModuleManager: Shutting down and abandoning module ActorPickerMode (770)
+[2021.05.13-17.49.17:844][103]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (768)
+[2021.05.13-17.49.17:866][103]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (766)
+[2021.05.13-17.49.17:867][103]LogModuleManager: Shutting down and abandoning module AutomationWorker (764)
+[2021.05.13-17.49.17:880][103]LogModuleManager: Shutting down and abandoning module SteamVREditor (762)
+[2021.05.13-17.49.17:880][103]LogModuleManager: Shutting down and abandoning module OculusMR (760)
+[2021.05.13-17.49.17:891][103]LogModuleManager: Shutting down and abandoning module GooglePADEditor (758)
+[2021.05.13-17.49.17:891][103]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (756)
+[2021.05.13-17.49.17:891][103]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (754)
+[2021.05.13-17.49.17:905][103]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (752)
+[2021.05.13-17.49.17:910][103]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (750)
+[2021.05.13-17.49.17:919][103]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (748)
+[2021.05.13-17.49.17:930][103]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (746)
+[2021.05.13-17.49.17:930][103]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (744)
+[2021.05.13-17.49.17:930][103]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (742)
+[2021.05.13-17.49.17:930][103]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (740)
+[2021.05.13-17.49.17:930][103]LogModuleManager: Shutting down and abandoning module WebMMedia (738)
+[2021.05.13-17.49.17:938][103]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (736)
+[2021.05.13-17.49.17:952][103]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (734)
+[2021.05.13-17.49.17:975][103]LogModuleManager: Shutting down and abandoning module SequenceRecorder (733)
+[2021.05.13-17.49.17:982][103]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (730)
+[2021.05.13-17.49.17:982][103]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (728)
+[2021.05.13-17.49.17:982][103]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (726)
+[2021.05.13-17.49.17:982][103]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (724)
+[2021.05.13-17.49.17:982][103]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (722)
+[2021.05.13-17.49.17:982][103]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (720)
+[2021.05.13-17.49.17:982][103]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (718)
+[2021.05.13-17.49.17:982][103]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (716)
+[2021.05.13-17.49.17:982][103]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (714)
+[2021.05.13-17.49.17:982][103]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (712)
+[2021.05.13-17.49.17:982][103]LogModuleManager: Shutting down and abandoning module PlanarCut (710)
+[2021.05.13-17.49.18:096][103]LogModuleManager: Shutting down and abandoning module CharacterAI (708)
+[2021.05.13-17.49.18:096][103]LogModuleManager: Shutting down and abandoning module TextureAlignMode (706)
+[2021.05.13-17.49.18:096][103]LogModuleManager: Shutting down and abandoning module BspMode (704)
+[2021.05.13-17.49.18:107][103]LogModuleManager: Shutting down and abandoning module PlacementMode (703)
+[2021.05.13-17.49.18:107][103]LogModuleManager: Shutting down and abandoning module GeometryMode (700)
+[2021.05.13-17.49.18:107][103]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (698)
+[2021.05.13-17.49.18:123][103]LogModuleManager: Shutting down and abandoning module SmartSnapping (696)
+[2021.05.13-17.49.18:123][103]LogModuleManager: Shutting down and abandoning module SessionServices (694)
+[2021.05.13-17.49.18:123][103]LogModuleManager: Shutting down and abandoning module MeshPaint (692)
+[2021.05.13-17.49.18:157][103]LogModuleManager: Shutting down and abandoning module ViewportSnapping (690)
+[2021.05.13-17.49.18:157][103]LogModuleManager: Shutting down and abandoning module ViewportInteraction (688)
+[2021.05.13-17.49.18:157][103]LogModuleManager: Shutting down and abandoning module ClothPainter (686)
+[2021.05.13-17.49.18:172][103]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (685)
+[2021.05.13-17.49.18:195][103]LogModuleManager: Shutting down and abandoning module LogVisualizer (682)
+[2021.05.13-17.49.18:214][103]LogModuleManager: Shutting down and abandoning module IntroTutorials (680)
+[2021.05.13-17.49.18:223][103]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (679)
+[2021.05.13-17.49.18:241][103]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (676)
+[2021.05.13-17.49.18:241][103]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (674)
+[2021.05.13-17.49.18:251][103]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (672)
+[2021.05.13-17.49.18:251][103]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (671)
+[2021.05.13-17.49.19:580][103]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (668)
+[2021.05.13-17.49.19:580][103]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (666)
+[2021.05.13-17.49.19:580][103]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (664)
+[2021.05.13-17.49.19:580][103]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (662)
+[2021.05.13-17.49.19:580][103]LogModuleManager: Shutting down and abandoning module TraceInsights (660)
+[2021.05.13-17.49.19:687][103]LogModuleManager: Shutting down and abandoning module TraceServices (659)
+[2021.05.13-17.49.19:712][103]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (656)
+[2021.05.13-17.49.19:724][103]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (654)
+[2021.05.13-17.49.19:724][103]LogModuleManager: Shutting down and abandoning module InputBindingEditor (652)
+[2021.05.13-17.49.19:726][103]LogModuleManager: Shutting down and abandoning module MergeActors (650)
+[2021.05.13-17.49.19:739][103]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (648)
+[2021.05.13-17.49.19:748][103]LogModuleManager: Shutting down and abandoning module LocalizationService (647)
+[2021.05.13-17.49.19:750][103]LogModuleManager: Shutting down and abandoning module HardwareTargeting (644)
+[2021.05.13-17.49.19:750][103]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (642)
+[2021.05.13-17.49.19:756][103]LogModuleManager: Shutting down and abandoning module UndoHistory (640)
+[2021.05.13-17.49.19:764][103]LogModuleManager: Shutting down and abandoning module XmlParser (638)
+[2021.05.13-17.49.19:807][103]LogModuleManager: Shutting down and abandoning module Blutility (636)
+[2021.05.13-17.49.19:807][103]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (634)
+[2021.05.13-17.49.19:807][103]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (633)
+[2021.05.13-17.49.19:807][103]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (630)
+[2021.05.13-17.49.19:807][103]LogModuleManager: Shutting down and abandoning module SettingsEditor (628)
+[2021.05.13-17.49.19:836][103]LogModuleManager: Shutting down and abandoning module ProjectLauncher (626)
+[2021.05.13-17.49.19:842][103]LogModuleManager: Shutting down and abandoning module SessionFrontend (624)
+[2021.05.13-17.49.19:856][103]LogModuleManager: Shutting down and abandoning module ProfilerClient (622)
+[2021.05.13-17.49.19:862][103]LogModuleManager: Shutting down and abandoning module DeviceManager (620)
+[2021.05.13-17.49.19:866][103]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (619)
+[2021.05.13-17.49.19:899][103]LogModuleManager: Shutting down and abandoning module AutomationController (616)
+[2021.05.13-17.49.19:908][103]LogModuleManager: Shutting down and abandoning module AutomationWindow (614)
+[2021.05.13-17.49.19:925][103]LogModuleManager: Shutting down and abandoning module Layers (612)
+[2021.05.13-17.49.19:976][103]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (610)
+[2021.05.13-17.49.19:976][103]LogModuleManager: Shutting down and abandoning module DetailCustomizations (608)
+[2021.05.13-17.49.19:976][103]LogModuleManager: Shutting down and abandoning module PackagesDialog (606)
+[2021.05.13-17.49.19:981][103]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (604)
+[2021.05.13-17.49.20:071][103]LogModuleManager: Shutting down and abandoning module Persona (602)
+[2021.05.13-17.49.20:103][103]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (601)
+[2021.05.13-17.49.20:104][103]LogModuleManager: Shutting down and abandoning module AnimGraph (599)
+[2021.05.13-17.49.20:109][103]LogModuleManager: Shutting down and abandoning module Kismet (596)
+[2021.05.13-17.49.20:138][103]LogModuleManager: Shutting down and abandoning module KismetWidgets (595)
+[2021.05.13-17.49.20:144][103]LogModuleManager: Shutting down and abandoning module GraphEditor (592)
+[2021.05.13-17.49.20:150][103]LogModuleManager: Shutting down and abandoning module StructViewer (590)
+[2021.05.13-17.49.20:150][103]LogModuleManager: Shutting down and abandoning module ClassViewer (588)
+[2021.05.13-17.49.20:150][103]LogModuleManager: Shutting down and abandoning module Toolbox (586)
+[2021.05.13-17.49.20:150][103]LogModuleManager: Shutting down and abandoning module ModuleUI (584)
+[2021.05.13-17.49.20:160][103]LogModuleManager: Shutting down and abandoning module OutputLog (582)
+[2021.05.13-17.49.20:170][103]LogModuleManager: Shutting down and abandoning module GammaUI (580)
+[2021.05.13-17.49.20:182][103]LogModuleManager: Shutting down and abandoning module Documentation (578)
+[2021.05.13-17.49.20:182][103]LogModuleManager: Shutting down and abandoning module LiveCoding (576)
+[2021.05.13-17.49.20:204][103]LogModuleManager: Shutting down and abandoning module LevelSequence (574)
+[2021.05.13-17.49.20:204][103]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (572)
+[2021.05.13-17.49.20:204][103]LogModuleManager: Shutting down and abandoning module MovieScene (570)
+[2021.05.13-17.49.20:204][103]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (568)
+[2021.05.13-17.49.20:228][103]LogModuleManager: Shutting down and abandoning module LauncherPlatform (566)
+[2021.05.13-17.49.20:228][103]LogModuleManager: Shutting down and abandoning module AnalyticsET (564)
+[2021.05.13-17.49.20:228][103]LogModuleManager: Shutting down and abandoning module PortalServices (562)
+[2021.05.13-17.49.20:228][103]LogModuleManager: Shutting down and abandoning module PortalRpc (560)
+[2021.05.13-17.49.20:228][103]LogModuleManager: Shutting down and abandoning module MessagingRpc (558)
+[2021.05.13-17.49.20:228][103]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (556)
+[2021.05.13-17.49.20:228][103]LogModuleManager: Shutting down and abandoning module AudioMixerCore (555)
+[2021.05.13-17.49.20:228][103]LogModuleManager: Shutting down and abandoning module AIModule (552)
+[2021.05.13-17.49.20:251][103]LogModuleManager: Shutting down and abandoning module GameplayDebugger (551)
+[2021.05.13-17.49.20:300][103]LogModuleManager: Shutting down and abandoning module AITestSuite (549)
+[2021.05.13-17.49.20:300][103]LogModuleManager: Shutting down and abandoning module NavigationSystem (547)
+[2021.05.13-17.49.20:300][103]LogModuleManager: Shutting down and abandoning module ProfilerService (544)
+[2021.05.13-17.49.20:355][103]LogModuleManager: Shutting down and abandoning module TaskGraph (542)
+[2021.05.13-17.49.20:362][103]LogModuleManager: Shutting down and abandoning module ScreenshotTools (540)
+[2021.05.13-17.49.20:362][103]LogModuleManager: Shutting down and abandoning module SynthesisEditor (538)
+[2021.05.13-17.49.20:362][103]LogModuleManager: Shutting down and abandoning module Synthesis (536)
+[2021.05.13-17.49.20:377][103]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (534)
+[2021.05.13-17.49.20:377][103]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (532)
+[2021.05.13-17.49.20:377][103]LogModuleManager: Shutting down and abandoning module OculusEditor (530)
+[2021.05.13-17.49.20:387][103]LogModuleManager: Shutting down and abandoning module OculusInput (528)
+[2021.05.13-17.49.20:387][103]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (526)
+[2021.05.13-17.49.20:387][103]LogModuleManager: Shutting down and abandoning module GooglePAD (524)
+[2021.05.13-17.49.20:387][103]LogModuleManager: Shutting down and abandoning module EditableMesh (522)
+[2021.05.13-17.49.20:398][103]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (520)
+[2021.05.13-17.49.20:398][103]LogModuleManager: Shutting down and abandoning module CableComponent (518)
+[2021.05.13-17.49.20:404][103]LogModuleManager: Shutting down and abandoning module AudioCapture (516)
+[2021.05.13-17.49.20:404][103]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (515)
+[2021.05.13-17.49.20:416][103]LogModuleManager: Shutting down and abandoning module AssetTags (512)
+[2021.05.13-17.49.20:416][103]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (510)
+[2021.05.13-17.49.20:416][103]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (508)
+[2021.05.13-17.49.20:416][103]LogModuleManager: Shutting down and abandoning module AppleImageUtils (506)
+[2021.05.13-17.49.20:416][103]LogModuleManager: Shutting down and abandoning module AndroidPermission (504)
+[2021.05.13-17.49.20:416][103]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (502)
+[2021.05.13-17.49.20:426][103]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (500)
+[2021.05.13-17.49.20:429][103]LogModuleManager: Shutting down and abandoning module TemplateSequence (498)
+[2021.05.13-17.49.20:429][103]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (496)
+[2021.05.13-17.49.20:443][103]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (494)
+[2021.05.13-17.49.20:449][103]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (492)
+[2021.05.13-17.49.20:449][103]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (490)
+[2021.05.13-17.49.20:449][103]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (489)
+[2021.05.13-17.49.20:449][103]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (486)
+[2021.05.13-17.49.20:453][103]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (484)
+[2021.05.13-17.49.20:453][103]LogModuleManager: Shutting down and abandoning module MediaCompositing (482)
+[2021.05.13-17.49.20:453][103]LogModuleManager: Shutting down and abandoning module ImgMedia (480)
+[2021.05.13-17.49.20:453][103]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (478)
+[2021.05.13-17.49.20:453][103]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (476)
+[2021.05.13-17.49.20:453][103]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (474)
+[2021.05.13-17.49.20:453][103]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (472)
+[2021.05.13-17.49.20:453][103]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (470)
+[2021.05.13-17.49.20:454][103]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (468)
+[2021.05.13-17.49.20:493][103]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (466)
+[2021.05.13-17.49.20:557][103]LogModuleManager: Shutting down and abandoning module MeshConversion (464)
+[2021.05.13-17.49.20:568][103]LogModuleManager: Shutting down and abandoning module DynamicMesh (462)
+[2021.05.13-17.49.20:579][103]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (460)
+[2021.05.13-17.49.20:584][103]LogModuleManager: Shutting down and abandoning module GeometricObjects (458)
+[2021.05.13-17.49.20:589][103]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (456)
+[2021.05.13-17.49.20:589][103]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (455)
+[2021.05.13-17.49.20:589][103]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (452)
+[2021.05.13-17.49.20:590][103]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (450)
+[2021.05.13-17.49.20:590][103]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (448)
+[2021.05.13-17.49.20:590][103]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (446)
+[2021.05.13-17.49.20:590][103]LogModuleManager: Shutting down and abandoning module ChaosNiagara (444)
+[2021.05.13-17.49.20:590][103]LogModuleManager: Shutting down and abandoning module FractureEditor (442)
+[2021.05.13-17.49.20:604][103]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (440)
+[2021.05.13-17.49.20:604][103]LogModuleManager: Shutting down and abandoning module ChaosCloth (438)
+[2021.05.13-17.49.20:611][103]LogModuleManager: Shutting down and abandoning module BackChannel (436)
+[2021.05.13-17.49.20:616][103]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (434)
+[2021.05.13-17.49.20:616][103]LogModuleManager: Shutting down and abandoning module AutomationUtils (432)
+[2021.05.13-17.49.20:616][103]LogModuleManager: Shutting down and abandoning module AlembicImporter (430)
+[2021.05.13-17.49.20:616][103]LogModuleManager: Shutting down and abandoning module AlembicLibrary (429)
+[2021.05.13-17.49.20:616][103]LogModuleManager: Shutting down and abandoning module GeometryCache (428)
+[2021.05.13-17.49.20:616][103]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (427)
+[2021.05.13-17.49.20:617][103]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (422)
+[2021.05.13-17.49.20:624][103]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (420)
+[2021.05.13-17.49.20:625][103]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (418)
+[2021.05.13-17.49.20:625][103]LogModuleManager: Shutting down and abandoning module PluginBrowser (416)
+[2021.05.13-17.49.20:648][103]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (414)
+[2021.05.13-17.49.20:667][103]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (412)
+[2021.05.13-17.49.20:676][103]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (410)
+[2021.05.13-17.49.20:685][103]LogModuleManager: Shutting down and abandoning module CurveEditorTools (408)
+[2021.05.13-17.49.20:696][103]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (406)
+[2021.05.13-17.49.20:696][103]LogModuleManager: Shutting down and abandoning module CryptoKeys (404)
+[2021.05.13-17.49.20:696][103]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (402)
+[2021.05.13-17.49.20:709][103]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (400)
+[2021.05.13-17.49.20:709][103]LogModuleManager: Shutting down and abandoning module UObjectPlugin (398)
+[2021.05.13-17.49.20:709][103]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (396)
+[2021.05.13-17.49.20:738][103]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (394)
+[2021.05.13-17.49.20:738][103]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (392)
+[2021.05.13-17.49.20:777][103]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (390)
+[2021.05.13-17.49.20:801][103]LogModuleManager: Shutting down and abandoning module GitSourceControl (388)
+[2021.05.13-17.49.20:829][103]LogModuleManager: Shutting down and abandoning module SourceControl (387)
+[2021.05.13-17.49.20:841][103]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (384)
+[2021.05.13-17.49.20:841][103]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (382)
+[2021.05.13-17.49.20:841][103]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (380)
+[2021.05.13-17.49.20:841][103]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (378)
+[2021.05.13-17.49.20:841][103]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (376)
+[2021.05.13-17.49.20:841][103]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (374)
+[2021.05.13-17.49.20:841][103]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (372)
+[2021.05.13-17.49.20:841][103]LogModuleManager: Shutting down and abandoning module Paper2DEditor (370)
+[2021.05.13-17.49.20:867][103]LogModuleManager: Shutting down and abandoning module SoundFields (368)
+[2021.05.13-17.49.20:867][103]LogModuleManager: Shutting down and abandoning module SignificanceManager (366)
+[2021.05.13-17.49.20:867][103]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (364)
+[2021.05.13-17.49.20:867][103]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (362)
+[2021.05.13-17.49.20:867][103]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (358)
+[2021.05.13-17.49.20:867][103]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (356)
+[2021.05.13-17.49.20:878][103]LogModuleManager: Shutting down and abandoning module ApexDestruction (354)
+[2021.05.13-17.49.20:878][103]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2021.05.13-17.49.20:878][103]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2021.05.13-17.49.20:979][103]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2021.05.13-17.49.21:092][103]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2021.05.13-17.49.21:092][103]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2021.05.13-17.49.21:092][103]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2021.05.13-17.49.21:092][103]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2021.05.13-17.49.21:092][103]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2021.05.13-17.49.21:105][103]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.05.13-17.49.21:105][103]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2021.05.13-17.49.21:105][103]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2021.05.13-17.49.21:105][103]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2021.05.13-17.49.21:105][103]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2021.05.13-17.49.21:105][103]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2021.05.13-17.49.21:120][103]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.05.13-17.49.21:121][103]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2021.05.13-17.49.21:128][103]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2021.05.13-17.49.21:129][103]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2021.05.13-17.49.21:129][103]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2021.05.13-17.49.21:129][103]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2021.05.13-17.49.21:155][103]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2021.05.13-17.49.21:155][103]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2021.05.13-17.49.21:199][103]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2021.05.13-17.49.21:199][103]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2021.05.13-17.49.21:202][103]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2021.05.13-17.49.21:202][103]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2021.05.13-17.49.21:202][103]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2021.05.13-17.49.21:202][103]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2021.05.13-17.49.21:228][103]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2021.05.13-17.49.21:374][103]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2021.05.13-17.49.21:387][103]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2021.05.13-17.49.21:387][103]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2021.05.13-17.49.21:396][103]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2021.05.13-17.49.21:397][103]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2021.05.13-17.49.21:397][103]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2021.05.13-17.49.21:420][103]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2021.05.13-17.49.21:420][103]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2021.05.13-17.49.21:420][103]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2021.05.13-17.49.21:420][103]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2021.05.13-17.49.21:428][103]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2021.05.13-17.49.21:450][103]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2021.05.13-17.49.21:450][103]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2021.05.13-17.49.21:450][103]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2021.05.13-17.49.21:450][103]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2021.05.13-17.49.21:531][103]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2021.05.13-17.49.21:531][103]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2021.05.13-17.49.21:531][103]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2021.05.13-17.49.21:531][103]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2021.05.13-17.49.21:593][103]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2021.05.13-17.49.21:602][103]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2021.05.13-17.49.21:629][103]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2021.05.13-17.49.21:657][103]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2021.05.13-17.49.21:671][103]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2021.05.13-17.49.21:686][103]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2021.05.13-17.49.21:686][103]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2021.05.13-17.49.21:696][103]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2021.05.13-17.49.21:696][103]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2021.05.13-17.49.21:714][103]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2021.05.13-17.49.21:716][103]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2021.05.13-17.49.21:716][103]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2021.05.13-17.49.21:778][103]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2021.05.13-17.49.21:778][103]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2021.05.13-17.49.21:778][103]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2021.05.13-17.49.21:778][103]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2021.05.13-17.49.21:778][103]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2021.05.13-17.49.21:778][103]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2021.05.13-17.49.21:778][103]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2021.05.13-17.49.21:778][103]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2021.05.13-17.49.21:782][103]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2021.05.13-17.49.21:782][103]LogModuleManager: Shutting down and abandoning module Core (216)
+[2021.05.13-17.49.21:782][103]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2021.05.13-17.49.21:798][103]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2021.05.13-17.49.21:809][103]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2021.05.13-17.49.21:892][103]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2021.05.13-17.49.21:892][103]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2021.05.13-17.49.21:892][103]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2021.05.13-17.49.21:908][103]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2021.05.13-17.49.21:927][103]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2021.05.13-17.49.21:935][103]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2021.05.13-17.49.21:935][103]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2021.05.13-17.49.21:947][103]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2021.05.13-17.49.21:957][103]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2021.05.13-17.49.22:051][103]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2021.05.13-17.49.22:064][103]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2021.05.13-17.49.22:077][103]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2021.05.13-17.49.22:077][103]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2021.05.13-17.49.22:077][103]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2021.05.13-17.49.22:077][103]LogXGEController: Cleaning working directory: C:/Users/TEMP.DESKTOP-DV3H2OO/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.05.13-17.49.22:078][103]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2021.05.13-17.49.22:085][103]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2021.05.13-17.49.22:098][103]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2021.05.13-17.49.22:109][103]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2021.05.13-17.49.22:112][103]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2021.05.13-17.49.22:112][103]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2021.05.13-17.49.22:125][103]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2021.05.13-17.49.22:125][103]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2021.05.13-17.49.22:125][103]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2021.05.13-17.49.22:138][103]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2021.05.13-17.49.22:151][103]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2021.05.13-17.49.22:151][103]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2021.05.13-17.49.22:151][103]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2021.05.13-17.49.22:151][103]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2021.05.13-17.49.22:188][103]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2021.05.13-17.49.22:188][103]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2021.05.13-17.49.22:200][103]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2021.05.13-17.49.22:200][103]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2021.05.13-17.49.22:200][103]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2021.05.13-17.49.22:200][103]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2021.05.13-17.49.22:200][103]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2021.05.13-17.49.22:208][103]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.05.13-17.49.22:210][103]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.05.13-17.49.22:247][103]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.05.13-17.49.22:255][103]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.05.13-17.49.22:258][103]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.05.13-17.49.22:264][103]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.05.13-17.49.22:276][103]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.05.13-17.49.22:283][103]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.05.13-17.49.22:283][103]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.05.13-17.49.22:283][103]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.05.13-17.49.22:284][103]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.05.13-17.49.22:292][103]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.05.13-17.49.22:292][103]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.05.13-17.49.22:292][103]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.05.13-17.49.22:292][103]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.05.13-17.49.22:292][103]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.05.13-17.49.22:292][103]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.05.13-17.49.22:324][103]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.05.13-17.49.22:324][103]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.05.13-17.49.22:324][103]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.05.13-17.49.22:337][103]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.05.13-17.49.22:347][103]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.05.13-17.49.22:356][103]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.05.13-17.49.22:356][103]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.05.13-17.49.22:356][103]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.05.13-17.49.22:356][103]LogHMD: Freeing OpenVRDLLHandle.
+[2021.05.13-17.49.22:356][103]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.05.13-17.49.22:356][103]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.05.13-17.49.22:356][103]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.05.13-17.49.22:356][103]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.05.13-17.49.22:356][103]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.05.13-17.49.22:363][103]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.05.13-17.49.22:375][103]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.05.13-17.49.22:442][103]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.05.13-17.49.22:442][103]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.05.13-17.49.22:442][103]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B259E7A6E-4C35-2EED-972E-1EA2182EE5E7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=c5d0b274478d9ab3bedac89f0c53462d%7Ca9f3595f1f9a43ee9a657e1d4e7d61ea%7Cd7df89a8-7e04-48f2-8fba-96b552423cfb&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.05.13-17.49.22:472][103]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.05.13-17.49.22:475][103]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.05.13-17.49.22:495][103]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.05.13-17.49.22:497][103]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.05.13-17.49.22:497][103]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.05.13-17.49.22:502][103]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.05.13-17.49.22:502][103]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.05.13-17.49.22:502][103]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.05.13-17.49.22:502][103]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.05.13-17.49.22:502][103]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.05.13-17.49.22:519][103]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.05.13-17.49.22:532][103]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.05.13-17.49.22:532][103]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.05.13-17.49.22:532][103]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.05.13-17.49.22:554][103]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.05.13-17.49.22:572][103]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.05.13-17.49.22:594][103]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.05.13-17.49.22:594][103]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.05.13-17.49.22:594][103]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.05.13-17.49.22:594][103]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.05.13-17.49.22:608][103]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.05.13-17.49.22:634][103]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.05.13-17.49.22:634][103]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.05.13-17.49.22:634][103]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.05.13-17.49.22:643][103]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.05.13-17.49.22:643][103]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.05.13-17.49.22:643][103]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.05.13-17.49.22:659][103]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.05.13-17.49.22:659][103]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.05.13-17.49.22:663][103]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.05.13-17.49.22:693][103]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.05.13-17.49.22:694][103]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.05.13-17.49.22:712][103]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.05.13-17.49.22:761][103]LogD3D11RHI: Shutdown
+[2021.05.13-17.49.22:761][103]LogD3D11RHI: CleanupD3DDevice
+[2021.05.13-17.49.23:034][103]LogExit: Exiting.
+[2021.05.13-17.49.23:078][103]Log file closed, 05/13/21 12:49:23
