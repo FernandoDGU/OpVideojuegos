@@ -1746,3 +1746,24 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.16-07.43.31:939][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2021.05.16-07.43.31:948][796]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
 [2021.05.16-07.43.31:948][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.16-07.46.36:406][874]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/Main_Menu_Widget.Main_Menu_Widget
+[2021.05.16-07.46.44:024][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Main_Menu_Widget" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Main_Menu_Widget.uasset" SILENT=true
+[2021.05.16-07.46.44:048][275]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/Main_Menu_WidgetE6FFE54A444271C367BF05AC95A5395C.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Widgets/Main_Menu_Widget.uasset'
+[2021.05.16-07.46.44:065][275]AssetCheck: New page: Asset Save: Main_Menu_Widget
+[2021.05.16-07.46.44:065][275]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/Main_Menu_Widget.Main_Menu_Widget
+[2021.05.16-07.46.45:096][326]LogSlate: Window 'Main_Menu_Widget' being destroyed
+[2021.05.16-07.46.45:104][326]LogSlate: Window 'Main_Menu_Widget' being destroyed
+[2021.05.16-07.46.45:108][326]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2021.05.16-07.46.45:108][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.16-07.46.45:139][326]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2021.05.16-07.46.45:139][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.16-07.47.30:851][769]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2021.05.16-07.47.35:653][769]LogSlate: Window 'Save Content' being destroyed
+[2021.05.16-07.47.35:697][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texturas/LogoBitsonte2Bien" FILE="../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Texturas/LogoBitsonte2Bien.uasset" SILENT=true
+[2021.05.16-07.47.35:703][769]LogSavePackage: Moving '../../../../../Github/OpVideojuegos/DeepWoodland2/Saved/LogoBitsonte2Bien0D1951EB48F7012210DF80B0380462BE.tmp' to '../../../../../Github/OpVideojuegos/DeepWoodland2/Content/Texturas/LogoBitsonte2Bien.uasset'
+[2021.05.16-07.47.35:725][769]AssetCheck: New page: Asset Save: LogoBitsonte2Bien
+[2021.05.16-07.47.35:726][769]LogContentValidation: Display: Validating Texture2D /Game/Texturas/LogoBitsonte2Bien.LogoBitsonte2Bien
+[2021.05.16-07.47.43:969][338]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.05.16-07.47.45:095][408]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2021.05.16-07.47.45:616][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WoodRoadSign)
+[2021.05.16-07.47.46:788][524]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
