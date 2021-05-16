@@ -1731,3 +1731,18 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.16-07.40.18:970][323]AssetCheck: New page: Asset Save: multiple assets
 [2021.05.16-07.40.18:970][323]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2021.05.16-07.40.18:970][323]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.05.16-07.43.26:840][569]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Fcfm\Septimo Semestre\Optimizacion\LogoBitsonte2Bien.png)
+[2021.05.16-07.43.26:845][569]LogTexture: Display: Building textures: LogoBitsonte2Bien (AutoDXT, 256X256)
+[2021.05.16-07.43.31:613][796]LogSlate: Window 'Main_Menu_Widget' being destroyed
+[2021.05.16-07.43.31:619][796]LogSlate: Window 'Main_Menu_Widget' being destroyed
+[2021.05.16-07.43.31:628][796]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.05.16-07.43.31:628][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.16-07.43.31:675][796]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.05.16-07.43.31:675][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.16-07.43.31:825][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.16-07.43.31:825][796]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.05.16-07.43.31:825][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.16-07.43.31:939][796]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2021.05.16-07.43.31:939][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.16-07.43.31:948][796]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2021.05.16-07.43.31:948][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
